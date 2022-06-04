@@ -1,8 +1,23 @@
 -- import: fpm
 
--- fpm.package: <user_name>.github.io/<repo_name>
-zip: github.com/<user_name>/<repo_name>/archive/refs/heads/main.zip
+-- fpm.package: abrarnitk.github.io/abrark
+zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 
 -- fpm.auto-import: ds
+
+-- fpm.sitemap:
+
+# Home: /
+
+- About Me: /
+- Resume: /resume/
+- My Current Goals: /now/
+
+# Tech Stuff: /tech/
+
+## General: /tech/
+
+- Overview: /tech/
+- TIL: /til/
