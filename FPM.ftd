@@ -6,3 +6,18 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 
 -- fpm.auto-import: ds
+
+-- fpm.sitemap:
+
+# Home: /
+
+- About Me: /
+- Resume: /resume/
+- My Current Goals: /now/
+
+# Tech Stuff: /tech/
+
+## General: /tech/
+
+- Overview: /tech/
+- TIL: /til/

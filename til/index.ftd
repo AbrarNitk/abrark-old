@@ -1,0 +1,31 @@
+-- ds.page: TIL: Today I (`abrark`) learnt
+
+In this place you will find stuff I find interesting and have learnt recently.
+
+-- ds.h1: FPM.ftd has support for sitemap
+
+It's pretty cool, in a very short succinct way you can create the sitemap for a
+site. It looks something like this:
+
+-- ds.code: sitemap lives in FPM.ftd
+lang: ftd
+
+\-- fpm.sitemap:
+
+# Home: /
+
+- Home: /
+- About Me: /about/
+- Resume: /resume/
+- My Current Goals: /now/
+
+# Tech Stuff: /tech/
+
+## General: /tech/
+
+- Overview: /tech/
+- TIL: /til/
+
+-- ds.markdown:
+
+This is the sitemap of this site, and you can click around to see it in action.
