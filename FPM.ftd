@@ -1,6 +1,6 @@
 -- import: fpm
 
--- fpm.package: abrarnitk.github.io/abrark
+-- fpm.package: abrark.com
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds

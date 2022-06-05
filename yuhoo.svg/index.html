@@ -3,22 +3,19 @@
     <head>
         <meta charset="UTF-8"><base href="/abrark/">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-        <title># fpm-template
-FPM Blank Package Template Repo</title>
+        <title>yuhoo.svg.ftd</title>
         <script type="ftd" id="ftd-data">{
-  "abrark.com/README/#content@0": {
-    "value": "# fpm-template\nFPM Blank Package Template Repo",
+  "abrark.com/yuhoo.svg/#src@0": {
+    "value": {
+      "$kind$": "light",
+      "dark": "-/abrark.com/yuhoo.svg",
+      "light": "-/abrark.com/yuhoo.svg"
+    },
     "dependencies": {
       "0": [
         {
           "condition": null,
           "dependency_type": "Value",
-          "parameters": {},
-          "remaining": null
-        },
-        {
-          "condition": "$IsNotNull$",
-          "dependency_type": "Visible",
           "parameters": {},
           "remaining": null
         }
@@ -32,7 +29,27 @@ FPM Blank Package Template Repo</title>
   "ftd#dark-mode": {
     "value": false,
     "dependencies": {
-      "$value#kind$": []
+      "$value#kind$": [
+        {
+          "condition": true,
+          "dependency_type": "Variable",
+          "parameters": {
+            "abrark.com/yuhoo.svg/#src@0": {
+              "default": {
+                "important": false,
+                "reference": null,
+                "value": "light"
+              },
+              "value": {
+                "important": false,
+                "reference": null,
+                "value": "dark"
+              }
+            }
+          },
+          "remaining": null
+        }
+      ]
     }
   },
   "ftd#desktop-breakpoint": {
@@ -493,7 +510,7 @@ body.fpm-dark .ft_md a:visited code {
 }</style>
     </head>
     <body>
-        <div data-id="main:root" style="align-items: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; text-decoration: none; white-space: initial; width: 100%" ><div data-id="0:main" style="border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; text-align: left; text-decoration: none; white-space: initial" class="ft_md"><h1>fpm-template</h1> <p>FPM Blank Package Template Repo</p></div></div><style>
+        <div data-id="main:root" style="align-items: flex-start; border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: nowrap; height: 100%; justify-content: flex-start; text-decoration: none; white-space: initial; width: 100%" ><img alt="" data-id="0:main" src="-/abrark.com/yuhoo.svg" style="border-radius: 0px; border-style: solid; border-width: 0px; box-sizing: border-box; text-decoration: none; white-space: initial"></div><style>
 
 
 
