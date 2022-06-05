@@ -1,3 +1,5 @@
+-- import: abrark.com/assets
+
 -- ds.page: About Me: Abrar Khan (`abrark`), naam to suna hoga!
 
 Nahin to abhi sun lijiye. Waise aayes kaise naam nahin suna tha, juthe!
@@ -8,5 +10,6 @@ very happy when I am coding.
 I work for [FifthTry](https://www.fifthtry.com), where I am trying to change the
 way documentation is written and hopefully how the world learns.
 
-
+-- ds.image:
+src: $assets.files.ftd.png
 
