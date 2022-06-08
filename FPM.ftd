@@ -10,12 +10,17 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 -- fpm.sitemap:
 
 # Home: /
+nav-title: My Sweet Home
+data: Thank you Arpita from Section
+
+## First SubSection: /
 
 - About Me: /
 - Resume: /resume/
 - My Current Goals: /now/
 
 # Tech Stuff: /tech/
+
 
 ## General: /tech/
 

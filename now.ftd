@@ -14,3 +14,10 @@ believe more people should learn it.
 -- ds.image:
 src: $assets.files.ftd.png
 
+-- string data: hello world[Default Value]
+$processor$: get-data
+
+
+-- ds.markdown:
+
+$data
