@@ -14,6 +14,7 @@ nav-title: My Sweet Home
 data: Thank you Arpita from Section
 
 ## First SubSection: /
+skip: true
 
 - About Me: /
 - Resume: /resume/
@@ -21,6 +22,15 @@ data: Thank you Arpita from Section
 
 # Tech Stuff: /tech/
 
+## Tech First SubSection: /tech/first/
+
+- About First Tech SubSection: /tech/first
+
+- About Second Tech SubSection: /tech/second/-/abrar/
+
+## Tech Second SubSection: /tech/second
+
+- About First Tech SubSection: /tech/second
 
 ## General: /tech/
 
