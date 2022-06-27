@@ -4,6 +4,7 @@
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.auto-import: abrark.com/assets
 
 -- fpm.auto-import: ds
 
