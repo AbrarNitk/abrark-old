@@ -4,17 +4,20 @@
 
 -- ftd.row main_row:
 width: fill
+height: fill
 background-color: $fpm.color.main.background.base
 
-
---- ftd.column left-column:
-width: percent 25
-background-color: $fpm.color.main.background.base
+--- left_column:
 
 --- container: ftd.main
 
---- ftd.column right_column:
+--- right_column:
+
+-- ftd.column left_column:
+width: percent 25
+height: fill
+background-color: $fpm.color.main.custom.one
+
+-- ftd.column right_column:
+height: fill
 width: percent 75
-
-
--- ftd.text: Hey Priyanka
