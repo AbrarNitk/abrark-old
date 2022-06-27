@@ -1,4 +1,5 @@
 -- import: fpm
+-- import: abrark.com/assets
 
 -- main_row:
 
@@ -16,8 +17,72 @@ background-color: $fpm.color.main.background.base
 -- ftd.column left_column:
 width: percent 25
 height: fill
-background-color: $fpm.color.main.custom.one
+background-color: $fpm.color.main.custom.ten
+padding-top: 250
+ftd.image-src profile_image: $assets.files.static.images.profile.jpeg
+section list sections: $sections
+spacing: 10
+
+--- ftd.text: Home
+role: $fpm.type.heading-medium
+color: $fpm.color.main.text-strong
+width: fill
+text-align: center
+
+
+--- ftd.image:
+src: $profile_image
+height: 128
+width: 128
+border-radius: 100
+align: center
+
+
+--- section_loop:
+$loop$: $sections as $section
+title: $section.title
+
+-- ftd.column section_loop:
+string title:
+width: fill
+
+--- ftd.text: $title
+role: $fpm.type.heading-medium
+color: $fpm.color.main.text-strong
+width: fill
+text-align: center
+
 
 -- ftd.column right_column:
 height: fill
 width: percent 75
+
+
+
+-- record section:
+string title:
+
+
+-- section list sections:
+
+-- sections:
+title: About
+
+-- sections:
+title: Experience
+
+-- sections:
+title: Education
+
+
+-- sections:
+title: Skills
+
+
+-- sections:
+title: Interests
+
+-- sections:
+title: Awards
+
+
