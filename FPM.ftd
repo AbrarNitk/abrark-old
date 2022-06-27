@@ -13,26 +13,6 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 nav-title: My Sweet Home
 data: Thank you Arpita from Section
 
-## First SubSection: /
-skip: true
+## About: about/
 
-- About Me: /
-- Resume: /resume/
-- My Current Goals: /now/
-
-# Tech Stuff: /tech/
-
-## Tech First SubSection: /tech/first/
-
-- About First Tech SubSection: /tech/first
-
-- About Second Tech SubSection: /tech/second/-/abrar/
-
-## Tech Second SubSection: /tech/second
-
-- About First Tech SubSection: /tech/second
-
-## General: /tech/
-
-- Overview: /tech/
-- TIL: /til/
+- About Me: /about/

@@ -1,0 +1,20 @@
+-- import: fpm
+
+-- main_row:
+
+-- ftd.row main_row:
+width: fill
+background-color: $fpm.color.main.background.base
+
+
+--- ftd.column left-column:
+width: percent 25
+background-color: $fpm.color.main.background.base
+
+--- container: ftd.main
+
+--- ftd.column right_column:
+width: percent 75
+
+
+-- ftd.text: Hey Priyanka
