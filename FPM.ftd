@@ -4,10 +4,11 @@
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
--- fpm.dependency: fifthtry.github.io/resume as resume
+-- fpm.dependency: fifthtry.github.io/resume
+-- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
+-- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
 
 -- fpm.auto-import: abrark.com/assets
-
 -- fpm.auto-import: ds
 
 -- fpm.sitemap:

@@ -1,0 +1,56 @@
+-- import: fifthtry.github.io/Giggle-Presentation-Theme as theme
+
+-- library.total: 3
+
+-- presentation.presentation:
+
+-- slide.slide:
+type: 1
+title: Title 1
+subtitle: Subtitle Text Added Here
+text: Presentations Templates are communication tools that can be used as lectures, reports, and more.
+slide-number: 0
+image-1: static/pic1.jpeg
+
+-- slide.slide:
+type: 2
+title: Title 2
+subtitle: Subtitle Text Added Here
+slide-number: 1
+image-1: static/pic2.jpeg
+image-2: static/pic1.jpeg
+
+Presentations Templates are communication tools that can be used as lectures, reports, and more.
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de
+relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+
+-- slide.slide:
+type: 3
+title: Title 3
+subtitle: Subtitle Text Added Here
+slide-number: 2
+image-1: static/pic2.jpeg
+image-2: static/pic1.jpeg
+
+Presentations Templates are communication tools that can be used as lectures, reports, and more.
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de
+relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+
+
+-- slide.slide:
+type: 4
+title: Title 4
+subtitle: Subtitle Text Added Here
+slide-number: 3
+image-1: static/pic2.jpeg
+image-2: static/pic1.jpeg
+
+Presentations Templates are communication tools that can be used as lectures, reports, and more.
+
+Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de
+relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
