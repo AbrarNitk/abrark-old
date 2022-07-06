@@ -15,7 +15,9 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 # Home: /
 nav-title: My Sweet Home
-data: Thank you Arpita from Section
+data: Section Data
+
+## Resume: resume/
 
 ## About: about/
 
