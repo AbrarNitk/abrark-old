@@ -1,0 +1,180 @@
+-- import: ds
+-- import: fpm
+
+
+-- fpm.toc-item list empty-toc:
+
+-- ds.page:
+toc: $empty-toc
+toc: $empty-toc
+
+-- create-section:
+
+-- bread-crumb:
+
+--- crumb: Create a presentation
+link: /
+
+--- crumb: Pick a theme
+
+-- template-list:
+
+
+--- theme: Giggle
+link: https://github.com/FifthTry/giggle-presentation-template/generate
+image: $assets.files.static.images.giggle.png
+live_preview: https://fifthtry.github.io/Giggle-Presentation-Template/
+
+
+-- ftd.column theme:
+caption title:
+ftd.image-src image:
+optional string link: /
+optional string live_preview:
+width: 400
+height: 225
+width if $ds.is-mobile: fill
+spacing: 15
+background-image: $image
+border-radius: 4
+border-width: 1
+border-color: $fpm.color.main.text
+margin-bottom: 50
+
+--- ftd.text: $title
+anchor: parent
+top: 5
+left: 0
+background-color: $fpm.color.main.background.base
+padding-horizontal: 20
+padding-vertical: 5
+min-width: 200
+color: $fpm.color.main.text
+role: $fpm.type.heading-large
+
+--- ftd.row:
+anchor: parent
+bottom: 30
+right: 40
+id: link-row
+
+--- container: link-row
+
+--- ftd.text: Live Preview
+if: $live_preview is not null
+text-align: center
+link: $live_preview
+color: $fpm.color.main.text
+background-color: $fpm.color.main.background.base
+border-radius: 20
+padding-vertical: 5
+padding-horizontal: 20
+margin-right: 5
+role: $fpm.type.label-big
+
+--- ftd.text: Create
+text-align: center
+link: $link
+color: $fpm.color.main.text
+background-color: $fpm.color.main.background.base
+border-radius: 20
+padding-vertical: 5
+padding-horizontal: 20
+role: $fpm.type.label-big
+
+
+
+
+
+
+-- ftd.row bread-crumb:
+padding-vertical: 20
+open: true
+append-at: main-container
+
+--- ftd.row:
+spacing: 20
+id: main-container
+
+
+
+
+-- ftd.column create-section:
+width: fill
+open: true
+append-at: content-container
+padding-vertical: 30
+
+--- ftd.column:
+if: not $ds.is-mobile
+max-width: 1000
+width: fill
+align: center
+id:  content-container
+
+--- container: ftd.main
+
+--- ftd.column:
+if: $ds.is-mobile
+width: fill
+align: center
+padding-horizontal if $ds.is-mobile: 20
+id:  content-container
+
+
+
+-- ftd.row crumb:
+spacing: 20
+caption title:
+optional string link:
+
+--- ftd.text: $title
+if: $link is not null
+link: $link
+color: $fpm.color.main.text
+role: $fpm.type.label-big
+
+--- ftd.image:
+if: $link is not null
+src: $assets.files.static.images.arrow.svg
+width: 16
+
+--- container: ftd.main
+
+--- ftd.text: $title
+if: $link is null
+color: $fpm.color.main.text
+role: $fpm.type.label-small
+
+
+
+
+
+-- ftd.column template-list:
+width: fill
+open: true
+append-at: main-container
+padding-top: 20
+
+--- ftd.row:
+width: fill
+align: center
+
+--- ftd.row:
+width: fill
+if: not $ds.is-mobile
+spacing: space-between
+wrap: true
+padding-bottom: 60
+id: main-container
+
+--- container: ftd.main
+
+--- ftd.column:
+if: $ds.is-mobile
+width: fill
+padding-horizontal: 20
+spacing: space-between
+wrap: true
+padding-bottom: 40
+id: main-container
