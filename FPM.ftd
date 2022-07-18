@@ -7,9 +7,11 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 -- fpm.dependency: fifthtry.github.io/resume
 -- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
 -- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
+-- fpm.dependency: fifthtry.github.io/roboto-mono
 
 -- fpm.auto-import: abrark.com/assets
 -- fpm.auto-import: ds
+-- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
 -- fpm.sitemap:
 
