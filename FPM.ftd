@@ -15,12 +15,16 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.sitemap:
 
-# Home: /
+# Home: /index/
 nav-title: My Sweet Home
 data: Section Data
 
-## Resume: resume/
+## Resume: /resume/
 
-## About: about/
+## About: /about/
 
 - About Me: /about/
+
+# Words: /words/
+
+# Concepts: /concepts/
