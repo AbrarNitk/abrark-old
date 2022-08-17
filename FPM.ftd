@@ -18,12 +18,18 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 email: abrark.asahi@gmail.com
 
 
+-- fpm.user-group: writers
+email: abrark.asahi@gmail.com
+
+
 -- fpm.sitemap:
 
 # Home: /
 nav-title: My Sweet Home
 data: Section Data
 readers: readers
+writers: writers
+
 
 ## Resume: /resume/
 readers: readers
