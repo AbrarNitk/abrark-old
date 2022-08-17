@@ -1,11 +1,36 @@
--- ds.page: FifthTry TODOs
+-- ds.page: FifthTry TODOs Daily Work
 
 -- ds.h1: 2 Aug 2022
 
 processor, document-id related stuff
 
+-- ds.h1: Tasks
 
--- ds.page: Next Projects
+-- ds.h2: fpm auth
+
+TODO: readers everyone remaining
+TODO: Handle image referer
+
+
+-- ds.h1: `fpm auth` 17 Aug 2022
+
+- Config::can_read implementation - Done
+    - Code - Done
+    - Testing - Done
+
+How did I tested it
+`fpm serve --identities 'email: abrark.asahi@gmail.com'` and created one user
+group for readers, `/` is working and `/resume/` is also working.
+
+
+- Config::can_write implementation - Working
+    - Code
+    - Testing
+
+Note: local identities can come from identity cookies or cli parameter
+
+
+-- ds.h1: Next Projects
 
 Subscription On FifthTry
 

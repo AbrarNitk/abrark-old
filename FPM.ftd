@@ -13,13 +13,20 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
+
+-- fpm.user-group: readers
+email: abrark.asahi@gmail.com
+
+
 -- fpm.sitemap:
 
-# Home: /index/
+# Home: /
 nav-title: My Sweet Home
 data: Section Data
+readers: readers
 
 ## Resume: /resume/
+readers: readers
 
 ## About: /about/
 
@@ -28,3 +35,10 @@ data: Section Data
 # Words: /words/
 
 # Concepts: /concepts/
+
+# FifthTry
+
+## Work
+
+- Daily Work: /work/
+readers: readers
