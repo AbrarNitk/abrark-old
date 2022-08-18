@@ -8,8 +8,11 @@ processor, document-id related stuff
 
 -- ds.h2: fpm auth
 
-TODO: readers everyone remaining
-TODO: Handle image referer
+-- ds.h2: TODO
+
+-  Remote Integration
+- readers everyone remaining
+- Handle image referer
 
 
 -- ds.h1: `fpm auth` 17 Aug 2022
@@ -28,7 +31,6 @@ group for readers, `/` is working and `/resume/` is also working.
     - Testing
 
 Note: local identities can come from identity cookies or cli parameter
-
 
 -- ds.h1: Next Projects
 

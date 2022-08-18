@@ -1,0 +1,5 @@
+-- ds.page: Commands
+
+FPM build with remote feature
+
+`cargo install --path=. --features remote`
