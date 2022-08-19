@@ -11,8 +11,7 @@ processor, document-id related stuff
 -- ds.h2: TODO
 
 -  Remote Integration
-- readers everyone remaining
-- Handle image referer
+- Handle image referer - Discussion raised
 
 
 -- ds.h1: `fpm auth` 17 Aug 2022
@@ -24,6 +23,16 @@ processor, document-id related stuff
 How did I tested it
 `fpm serve --identities 'email: abrark.asahi@gmail.com'` and created one user
 group for readers, `/` is working and `/resume/` is also working.
+
+
+-- ds.h1: 19 Aug 2022
+
+TODO:
+fpm-auth: Remote Identites and API Integration
+Movie DB APP
+`term` feature video: https://www.youtube.com/watch?v=sjVJD3W8WyA
+`function` feature video: from youtube
+
 
 
 - Config::can_write implementation - Working
