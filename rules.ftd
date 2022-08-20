@@ -1,5 +1,13 @@
 -- ds.page: My Rules
 
+-- ftd.color white:
+dark: red
+light: red
+
+
+-- ftd.text: Hello
+color: $white
+
 
 -- ds.markdown:
 
@@ -27,10 +35,10 @@ they don’t care they are just happy.
 
 How to do it:
 
-Try to think I can be better in doing something.
+Try to think, How better I can perform in currently going on task.
 
-Like If you are typing so just focus on your brain actions and type the keyboard
-button.
+Like If you are typing on keyboard so just focus on your brain actions and type
+the keyboard button.
 
 While you are coding, think about how better this function can be written.
 
@@ -48,6 +56,11 @@ Example: Khayalo mein khona band kar.
 
 Uncertain thoughts make people anxious, and their not solving any problem,
 If you are thinking about reality it is infinite.
+
+
+### Rule 4
+
+
 
 # Work Related
 
