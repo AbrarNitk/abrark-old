@@ -16,7 +16,8 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 
 -- fpm.user-group: readers
 email: abrark.asahi@gmail.com
-github: AbrarNitk
+github-like: FifthTry/fpm
+/github: AbrarNitk
 
 
 -- fpm.user-group: writers
