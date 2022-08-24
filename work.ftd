@@ -1,6 +1,18 @@
 -- ds.page: FifthTry TODOs Daily Work
 
 
+
+-- ds.h1: 24 Aug 2022
+
+- Limit the authentication on abrark.com, remove auth from home page, do it asap.
+- Configurable markdown colors in ftd.
+  - https://discord.com/channels/793929082483769345/1011598189264117774
+- How to do remote testing of fpm auth, documentation.
+- FPM/FTD Feature testing discussion understanding.
+  - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
+- Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
+- Gathering of Docker/Kubernetes Learning Resources
+
 TODO: Remove actix-web and use of hyper
 
 -- ds.h1: 23 Aug 2022
