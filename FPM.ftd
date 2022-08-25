@@ -29,12 +29,11 @@ email: abrark.asahi@gmail.com
 # Home: /
 nav-title: My Sweet Home
 data: Section Data
-readers: readers
 /writers: writers
 
 
 ## Resume: /resume/
-/readers: readers
+readers: readers
 
 ## About: /about/
 
