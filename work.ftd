@@ -1,6 +1,22 @@
 -- ds.page: FifthTry TODOs Daily Work
 
 
+-- ds.h1: 24 Aug 2022
+
+- Repeat: Limit the authentication on abrark.com, remove auth from home page, do it asap.
+- Repeat: Configurable markdown colors in ftd.
+  - https://discord.com/channels/793929082483769345/1011598189264117774
+- Repeat: How to do remote testing of fpm auth, documentation.
+- FPM/FTD Feature testing discussion understanding.
+  - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
+- Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
+- Repeat: Gathering of Docker/Kubernetes Learning Resources
+- English Learning: Today spent 1 hour (reading book + vocab), 1 hour (listening + Writing)
+- World Map and Places, East West North South??
+- Medicine
+- Ayushi Bday at 6:30 today
+
+
 
 -- ds.h1: 24 Aug 2022
 
@@ -12,6 +28,8 @@
   - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
 - Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
 - Gathering of Docker/Kubernetes Learning Resources
+- English Learning: Today spent 1 hour (reading book + vocab), 1 hour (listening + Writing)
+- World Map and Places, East West North South??
 
 TODO: Remove actix-web and use of hyper
 
