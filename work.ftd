@@ -4,8 +4,13 @@
 -- ds.h1: 24 Aug 2022
 
 - Repeat: Limit the authentication on abrark.com, remove auth from home page, do it asap.
+  - Partially done
+  - Have to write about where auth is provided and how should get access of it.
+
 - Repeat: Configurable markdown colors in ftd.
   - https://discord.com/channels/793929082483769345/1011598189264117774
+  - Working on it.
+
 - Repeat: How to do remote testing of fpm auth, documentation.
 - FPM/FTD Feature testing discussion understanding.
   - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
