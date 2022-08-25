@@ -29,8 +29,9 @@ email: abrark.asahi@gmail.com
 # Home: /
 nav-title: My Sweet Home
 data: Section Data
-/writers: writers
 
+# Write Anything: /write-anything/
+writers: writers
 
 ## Resume: /resume/
 readers: readers
