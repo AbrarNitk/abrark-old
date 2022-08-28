@@ -1,8 +1,16 @@
--- ft.page: Docker Container
+-- ds.page: Docker Learn
 
--- ft.h1: Resources
+-- ds.h1: Resources
 
-https://dockerlabs.collabnix.com/beginners/README.html
+https://www.youtube.com/watch?v=3c-iBn73dDE
 
-https://docs.docker.com/get-started/resources/
+https://www.youtube.com/watch?v=zJ6WbK9zFpI
 
+Docker Lab https://dockerlabs.collabnix.com/beginners/README.html
+
+Docker Documentation https://docs.docker.com/get-started/resources/
+
+https://training.play-with-docker.com/
+https://labs.play-with-docker.com/
+
+https://docs.docker.com/reference/
