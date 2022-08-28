@@ -1,0 +1,57 @@
+-- ft.page: Hosting
+
+- I need to understand fpm-controller
+- Need to learn Docker, Nginx and K8s
+
+
+fpm in heroku.
+
+- Application deployment
+ - Auto Machine Spawning, Auto Machine Kill if no use cases.
+ - Different K8s cluster on single machine with different packages.
+ - fpm sync, fpm deploy
+
+# Durability
+
+We can omit for now
+
+# ftd
+
+- function call support
+- end
+- performance
+-
+
+
+1. Docker - 15 days
+2. Docker Compose - 5 days
+3. Docker Swam - 10 days
+- Fundamental: 50 days
+- Youtube Basic Fundamental
+
+
+- Container Deployment on Google Cloud
+Videos and Docs, Google Documentation
+From Kubernetes: Youtube
+
+
+MVP is ready, now we have to market it.
+
+-- ft.markdown:
+
+# GTM
+
+Guest Book, Email Subscriber, Shopping Card.
+
+Launch Strategy
+------
+
+- Language[Sell FTD]
+  - Course Material, Different Learning Channels, Udemy, Pluralsight, Youtube
+  - College Hackathons
+  - Teach People FTD
+
+- ftd with Django, Spring Boot, Node Js Integrations
+
+- FPM Hosting: How to use fpm with all hosting providers like AWS, GCP
+
