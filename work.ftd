@@ -1,5 +1,29 @@
 -- ds.page: FifthTry TODOs Daily Work
 
+-- ds.h1: 29 Aug 2022
+
+- Exercise done
+- breakfast done
+- English reading done
+
+- [fpm --package-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+- Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/
+- Read: What are we launching https://github.com/orgs/FifthTry/discussions/75
+- Read: discussion on nested section https://github.com/FifthTry/ftd/discussions/381
+- Read: https://github.com/FifthTry/ftd/discussions/380
+
+- Repeat: Limit the authentication on abrark.com, remove auth from home page, do it asap.
+  - Partially done
+  - Have to write about where auth is provided and how should get access of it.
+
+- Repeat: Configurable markdown colors in ftd.
+  - Status Partially Done: Arpita has to review code
+  - https://discord.com/channels/793929082483769345/1011598189264117774
+
+- Repeat: How to do remote testing of fpm auth, documentation.
+- Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
+- Repeat: [Learn Docker](/docker/)
+
 
 -- ds.h1: 24 Aug 2022
 
