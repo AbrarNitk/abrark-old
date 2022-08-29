@@ -8,7 +8,7 @@ fpm in heroku.
 
 - Application deployment
  - Auto Machine Spawning, Auto Machine Kill if no use cases.
- - Different K8s cluster on single machine with different packages.
+ - Different k8s cluster on single machine with different packages.
  - fpm sync, fpm deploy
 
 # Durability
@@ -23,17 +23,19 @@ We can omit for now
 -
 
 
+## Subhajit
+
 1. Docker - 15 days
 2. Docker Compose - 5 days
 3. Docker Swam - 10 days
 - Fundamental: 50 days
 - Youtube Basic Fundamental
 
-
 - Container Deployment on Google Cloud
 Videos and Docs, Google Documentation
 From Kubernetes: Youtube
 
+## Amitu
 
 MVP is ready, now we have to market it.
 
