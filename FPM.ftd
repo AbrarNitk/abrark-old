@@ -2,6 +2,7 @@
 
 -- fpm.package: abrark.com
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
+download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 -- fpm.dependency: fifthtry.github.io/resume
