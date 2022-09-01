@@ -1,5 +1,43 @@
 -- ds.page: FifthTry TODOs Daily Work
 
+
+-- ds.h1: 1 Sep 2022
+
+- [fpm --download-base-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+
+- Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/
+- Read: What are we launching https://github.com/orgs/FifthTry/discussions/75
+- Read: discussion on nested section https://github.com/FifthTry/ftd/discussions/381
+- Read: https://github.com/FifthTry/ftd/discussions/380
+
+- Repeat: Limit the authentication on abrark.com, remove auth from home page, do it asap.
+  - Partially done
+  - Have to write about where auth is provided and how should get access of it.
+
+
+- Mailchimp App Integration:
+  - https://github.com/orgs/FifthTry/discussions/85
+
+- Org-Mode
+  - https://whhone.com/posts/org-mode-task-management/
+  - https://www.youtube.com/watch?v=fgizHHd7nOo
+
+- Figured out Rust Benchmarking
+- Read New Parser Code
+
+- List Monk App
+  - https://listmonk.app/docs/
+
+- Call Rust from Java, JavaScript Need to figured it out.
+  For Rust
+  - https://stackoverflow.com/questions/30258427/calling-rust-from-java
+  - https://github.com/astonbitecode/j4rs-java-call-rust
+
+  For JavaScript
+  - https://blog.risingstack.com/how-to-use-rust-with-node-when-performance-matters/
+  - https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/
+  - https://www.secondstate.io/articles/getting-started-with-rust-function/
+
 -- ds.h1: 29 Aug 2022
 
 - Exercise done
@@ -17,13 +55,36 @@
   - Have to write about where auth is provided and how should get access of it.
 
 - Repeat: Configurable markdown colors in ftd.
-  - Status Partially Done: Arpita has to review code
+  - Status: Done:
   - https://discord.com/channels/793929082483769345/1011598189264117774
 
 - Repeat: How to do remote testing of fpm auth, documentation.
 - Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
 - Repeat: [Learn Docker](/docker/)
 
+
+## Discussion with Amitu
+
+### Technology + Hosting Launch
+- Kubernetes soch rhe hai
+- Bandwidth issue
+- Traffic should go to nearest center
+- Cloudflare is amazingly fast.
+
+Language is weak argument so need to give multiple features in starting.
+
+### Launch With Technology
+
+Features
+--------
+
+Auth
+Mailing list: Subscriber
+Analytics: like Page View: Integrate with doc-site, how to handle unknown url's,
+give django to fpm ui
+
+External packages:
+package: called analytics and added it to amitu.com, api[get, post] or ui.
 
 -- ds.h1: 24 Aug 2022
 
