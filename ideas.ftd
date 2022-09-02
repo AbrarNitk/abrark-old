@@ -67,27 +67,57 @@ Priority: Low, documentation is already written in blogs, books and their own si
 - [Nira blogs are amazing examples](https://nira.com/blog/)
 
 
--- ds.h1: Podcasts
+-- ds.h3: Computer Science Fundamentals
 
-Podcast for, What do you want to become? ,
-ask this from people and how did you become
+For writing about CS fundamentals, firstly I have to read more about it. Too
+much of content id already available on different sites, books, YouTube videos.
+Possibly I will end up curating content not creating.
+
+-- ds.h3: Subjects
+
+- 12th Mathematics
+- DS and Algorithms
+- Operating System
+- Networking
+- Databases
+- Programming Language[Rust or JavaScript]
+- Crypto
+- Web Programming or Internet: Html, CSS, Web Pages
+- Tools: Git, GitHub, Slack, Discord, IntelliJ, VSCode, Chrome, etc
+- Fundamentals of Cloud Services
 
 
--- ds.h1: Software Integrations
+-- ds.h1: Podcasts about Concepts
 
-Tools Slack with google like, all integration at one place, integration Software
-SDK to hai hi for code perspective.
+On whatever concept, you are creating content.
 
-- Application to Bank related Integration
-- Where companies share documentation while integrating to different companies.
-- How to do the API integration + API integration documentation
+If let's say, I will create content about postgresql Indexing, so I can create
+a small podcast on it. How to use it? What benefits you are getting? What will
+you learn? How Postgres internally implements it.
 
 
 -- ds.h1: Learning and Teaching
 
 To create videos content, documentation and make people understand about it, It
-is going to take lots of time, Because creation is not an easy task for me,
-because I do not have much knowledge about how to create video content and what
+is going to take lots of time, Because content creation is not an easy task,
+because I do not have much knowledge about how to create videos content and what
 to speak, what content to deliver to audience. So, How can I plan for it, let's
 start with documenting them, later think about creating videos or taking live
 classes.
+
+-- ds.h1: Why Videos
+
+Documents are one way consumption, if people have doubts where should they ask.
+- may be in public forum/discussions but is it valuable of time?
+- First create the content let's say about postgres indexing and have live
+sessions with bunch of people who has doubts.
+- We can create meetup for that
+
+-- ds.h1: Documentation Software Integrations with Code
+
+Tools Slack with google like, all integration at one place, integration Software
+SDK to hai hi for code perspective.
+
+- Bank related Application Integration
+- Where companies share documentation while integrating to different companies.
+- How to do the API integration + API integration documentation

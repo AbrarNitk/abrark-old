@@ -1,0 +1,8 @@
+-- ds.page: Lessons From Amitu
+
+Always use the name, do not use this or that. First figure out the name first.
+Name should be consistent, across the concept.
+Do not show false information.
+Never ever you use `_` in the urls, use hiphens `-` instead. Use `/` in urls.
+Urls is an identifier,  for a web page, Should always use urls with end slash `/`.
+Every Task should be different states, updates should be reliable.
