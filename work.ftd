@@ -12,6 +12,10 @@
 - Developer's Roadmap: https://github.com/kamranahmedse/developer-roadmap
 
 - [fpm --download-base-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+  - Status: Done
+
+- [fpm clear cache]
+  - Status: In Progress
 
 - Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/
 - Read: What are we launching https://github.com/orgs/FifthTry/discussions/75
@@ -26,7 +30,7 @@
 - Mailchimp App Integration:
   - https://github.com/orgs/FifthTry/discussions/85
 
-- Org-Mode
+- Org-Mode:
   - https://whhone.com/posts/org-mode-task-management/
   - https://www.youtube.com/watch?v=fgizHHd7nOo
 
