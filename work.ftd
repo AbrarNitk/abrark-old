@@ -3,10 +3,11 @@
 -- ds.h1: 2 Sep 2022 Friday
 
 - [fpm clear cache]
-  - New discussion in fpm
+  - New discussion in fpm about clear cache api
   - Status: In Progress
 
 - Markdown color CSS fixes
+  - Need to choose default color in markdown
 
 - Mailchimp App Integration:
   - https://github.com/orgs/FifthTry/discussions/85
