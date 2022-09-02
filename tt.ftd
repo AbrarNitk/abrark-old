@@ -1,0 +1,102 @@
+-- ds.page: Writing Idea: Planing and Execution
+
+
+-- ds.h1:
+
+Firstly I have to study fundamentals of CS and start writing about them.
+
+
+-- ds.h1: Mathematics
+
+So I can start learning Math from 8th to 12th standard
+- It will be easy for me start writing because reading these subjects will be
+easier for me understand because I know most of the concepts.
+- It will help me better understanding in CS subjects and Algorithms.
+
+Maybe, I can explore BSc Mathematics, like Discrete Mathematics, etc...
+
+-- ds.h2: 6th to 12th Standard Mathematics
+
+Note: More Topics and less content
+
+Total Days: 120 days
+
+- 6th Standard Mathematics
+  - Days: 10
+- 7th Standard Mathematics
+  - Days: 10
+- 8th Standard Mathematics
+  - Days: 10
+- 9th Standard Mathematics and Science
+  - Days: 15
+- 10th Standard Mathematics and Science
+  - Days: 15
+- 11th Standard Mathematics and Science
+  - Days: 20
+- 12th Standard Mathematics and Science
+  - Days: 20
+
+
+-- ds.h1: Computer Science Fundamentals
+
+Note: More Topics and less content
+
+Total Days:
+Daily Tracker Link: todo
+
+- Math for CS
+  - Days: 30
+  - References: MIT
+- Operating System
+  - Days: 30
+- Networking
+  - Days: 30
+- Algorithms
+  - Days: 50
+- Programming Language
+  - Days: 30
+  - References: Rust, Java, JavaScript
+- Application Development
+  - Days: 30
+  - References: todo app, movie-db, reminders app
+  - Description:
+    Overall basic application development, I can use django, actix-web, fastify,
+    spring boot as basics.
+  - Note: I will write only small documentation about django, actix-web and all.
+
+- todo: need to add more line items
+
+
+- Tools
+ - Days: 60
+ - References: git, aws, gcp, code editors, logging, and other open source tools
+ - Description:
+   basic usage of these tools and fundamentals
+   how git works and all?, what is aws, gcp?
+ - Note: Make sure do not go into deep any of these, just read and document
+   fundamentals.
+
+- todo: need to add more line items
+
+
+-- ds.h1: Writing Content About Software
+
+-- ds.h2 Software Concepts
+
+Below list is unfiltered and un-prioritized.
+
+Write about:
+- postgres
+- git
+- openssl
+- Dart, Vue, Rust, Spring Boot, Actix Web,
+- System Designs
+- Distributed System Course
+- Software Application: Implement System Designs
+- Advanced Algorithms
+- Kibana, Elastics Search and monitoring related tool, how to integrate them?
+
+
+Sources from Deepak
+mountblue.io
+https://www.goseeko.com
