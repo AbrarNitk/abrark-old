@@ -4,15 +4,18 @@
 
 - What documentation are they missing?
 - How do they build, which algorithms they have used?
-- We have CR feature, I have to encourage people to contribute in documentation.
+- We have CR(Pull Request) feature, I have to encourage people to contribute in documentation.
 - I have to choose first those applications or software, people use in daily
-basis and do not have documentation.
+basis and do not have proper documentation.
+- It is quite possible that, I have to curate content of CS fundamentals before
+jumping into development of Applications and writing about them.
+- Read more from courses/articles and learn how people write the content.
 
 -- ds.h2: What to Choose
 
 -- ds.h3: How to build Applications
 
-- How to write a Django Application with REST APIs
+- How to write a Django Application with REST APIs, Different DBs
 - How to build Spring Boot Application
 - How to build Application with Node[Express and Fastify]
 - How to build UI Application[React and Vue]
@@ -29,27 +32,39 @@ basis and do not have documentation.
 - etc, ...
 
 
--- ds.h3: How to Use Tools
+-- ds.h3: How to Use Tools and Services
+
+I have choose first those software, which are heavily used.
 
 - How to use Redis
-- How to use Docker, Already Famous Software, lots of documentation already available
+- How to use Docker
+  - Already Famous Software, lot's of documentation already available.
+- How to use K8s
 - How to use Nginx
-- How to use Postgres [Different Programming Integration]
+- How to use Postgres [with different programming integrations]
   - All sort of postgres documentation.
-  - Like indexing, table lock, row lock, mutual exclusion and all....
-- How to use IntelliJ for better developer performance.
+  - Like indexing, table lock, row lock, mutual exclusion, dirty read and all...
+- How to use IntelliJ/VSCode for better developer performance.
 - How to configure Mac for Developer.
 - How to use git and GitHub. What commands to learn.
-- How to AWS
+- How to use AWS Service, people just use them, they do not have much idea about
+them because of less documentation.
+- How to use Google Cloud Services
+-
 
 
 -- ds.h3: Different Technologies
 
-Priority: Low, documentation is already written in blogs, books and their own site
+Priority: Low, documentation is already written in blogs, books and their own sites.
 
+- Rust
 - Python
 - Java
-- Rust
+- JavaScript
+
+-- ds.h1: How to Write
+
+- [Nira blogs are amazing examples](https://nira.com/blog/)
 
 
 -- ds.h1: Podcasts
@@ -64,5 +79,15 @@ Tools Slack with google like, all integration at one place, integration Software
 SDK to hai hi for code perspective.
 
 - Application to Bank related Integration
-  - Where do they share documentation
-  - How to do the API integration + API integration documentation
+- Where companies share documentation while integrating to different companies.
+- How to do the API integration + API integration documentation
+
+
+-- ds.h1: Learning and Teaching
+
+To create videos content, documentation and make people understand about it, It
+is going to take lots of time, Because creation is not an easy task for me,
+because I do not have much knowledge about how to create video content and what
+to speak, what content to deliver to audience. So, How can I plan for it, let's
+start with documenting them, later think about creating videos or taking live
+classes.
