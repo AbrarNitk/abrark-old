@@ -1,7 +1,75 @@
--- ds.page: Writing Idea: Planing and Execution
+-- ds.page: Plan and Execution
 
 
--- ds.h1:
+-- ds.h1: Problem
+
+We have seen, there is a regular salary increment of engineers
+{on change: 30%, every year: 20%, etc...}, I am not against salary hike but
+what is the problem? Problem is, colleges are not able to produce number of
+engineers that are required in the market, We have so many colleges(todo:find numbers data)
+but students are not skilled enough to take jobs, and sometimes even if they
+are skilled enough to take jobs, so they are not able to crack interviews(I
+mean, if somebody just have to write bunch of HTTP APIs in their backend services,
+why are you asking to design best version of Kafka/Distributed Locks, in just 1 hour or so).
+
+Population vs Engineer: per country data
+
+We have so many private and government colleges but still we are unable to solve
+this problem. We have population but we do not have engineers, and they are in
+high demand and we have a big gap here.
+
+Because students are not skilled enough from many private colleges, So companies
+do not want to take risk and hire from those colleges who has best talent,
+most of the time they are only NITs and (I)IITs and some of the famous private
+colleges.
+
+Also companies are not visiting local and private colleges and I agree that
+students from private colleges are not skilled enough, but it is also not like
+that they can not be skilled.
+
+Look at me, I just studied 3 years of computers and today I am able to do my
+work in a technology startup.
+
+
+Main problem: `lack of faculties in colleges and quality is not good`.
+
+We can solve it by taking online live learning classes with their documentation.
+
+todo: describe above para more.
+
+
+Requirement:
+- Statistics from Colleges
+  - How many students coming to college every year for engineering
+  - How many are getting placed, and how many of them are getting offsite placements
+  -
+- Statistics from Companies
+  - How many engineers do they require every year
+  -
+
+-- ds.h1: How to Start Execution
+
+I can start taking classes, [It can be built as a platform for others as well]{todo: move to other document}.
+
+
+- I have to study CS Subjects again
+  - Study only those subjects which are required
+  - Even I can curate some of the content and start taking online classes
+- With my learning, I will create basic documentation for every subject
+- After that I have to find people who are willing to learn and want to get the job
+  - A basic test before start teaching them
+  - Students can be who are in 2nd, 3rd or 4th year of their graduation from amy college
+  - Need to think about timeline, when should I start taking online classes
+
+- I will start taking online classes and will teach students required subjects
+for a certain period of time.
+  - In between there will be test series
+  - Tests and Exams
+  - Mock Interviews
+  - etc...
+
+- I will visit private colleges for free sessions, by doing this students will know about me.
+
 
 Firstly I have to study fundamentals of CS and start writing about them.
 
@@ -15,6 +83,7 @@ easier for me understand because I know most of the concepts.
 
 Maybe, I can explore BSc Mathematics, like Discrete Mathematics, etc...
 
+
 -- ds.h2: 6th to 12th Standard Mathematics
 
 Note: More Topics and less content
@@ -23,12 +92,16 @@ Total Days: 120 days
 
 - 6th Standard Mathematics
   - Days: 10
+  - priority: low
 - 7th Standard Mathematics
   - Days: 10
+  - priority: low
 - 8th Standard Mathematics
   - Days: 10
+  - priority: low
 - 9th Standard Mathematics and Science
   - Days: 15
+  - priority: low
 - 10th Standard Mathematics and Science
   - Days: 15
 - 11th Standard Mathematics and Science
