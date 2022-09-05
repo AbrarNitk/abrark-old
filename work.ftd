@@ -1,5 +1,12 @@
 -- ds.page: FifthTry TODOs Daily Work
 
+-- ds.h2: 6 Sep 2022
+
+- TODO: https://github.com/FifthTry/fpm/discussions/457
+  - https://discord.com/channels/793929082483769345/1013678563641262150
+
+
+
 -- ds.h1: 5 Sep 2022
 
 - Clear Cache
@@ -25,6 +32,7 @@
   - Status: In Progress
 
 - Markdown color CSS fixes
+  - Status: Done
   - Need to choose default color in markdown
 
 - Movie DB App Discussion with Aditi and Amitu: Done
