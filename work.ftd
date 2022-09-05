@@ -1,5 +1,21 @@
 -- ds.page: FifthTry TODOs Daily Work
 
+-- ds.h1: 5 Sep 2022
+
+- Clear Cache
+  - Update discussion and Docs
+
+- Parser Code: Clear Doubts
+  - Write Parser Test Cases
+
+- Interpreter: Code understanding from Arpita
+
+- proxy method in fpm with actix
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- wasm POC
+
+
 -- ds.h1: 2 Sep 2022 Friday
 
 - [fpm clear cache]
