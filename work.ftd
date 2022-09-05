@@ -2,15 +2,31 @@
 
 -- ds.h2: 6 Sep 2022
 
+- Clear Cache
+  - Discussion Update: Done
+  - Code and Testing: In progress
+  - Documentation:
 - TODO: https://github.com/FifthTry/fpm/discussions/457
   - https://discord.com/channels/793929082483769345/1013678563641262150
+- proxy method in fpm with actix
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+- wasmtime POC
+  - https://github.com/FifthTry/fpm/discussions/468
+- Clear Cache
+  - Update discussion and Docs
+
+If Possible:
+
+- Parser Code: Clear Doubts
+  - Write Parser Test Cases
+- Interpreter: Code understanding from Arpita
 
 
 
 -- ds.h1: 5 Sep 2022
 
 - Clear Cache
-  - Update discussion and Docs
+  - Discussion Update: Done
 
 - Parser Code: Clear Doubts
   - Write Parser Test Cases
