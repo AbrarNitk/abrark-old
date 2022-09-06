@@ -1,6 +1,8 @@
 -- ds.page: September Work
 
--- ds.h2: 6 Sep 2022
+-- ds.h1: 6 Sep 2022
+
+-- ds.h2: Work
 
 - Clear Cache
   - Discussion Update: Done
@@ -27,6 +29,15 @@ If Possible:
 
 - Interpreter: Code understanding from Arpita
   - https://github.com/FifthTry/ftd/pull/404
+
+
+-- ds.h2: Learning
+
+- Go through with `tokio::fs`, `camino`
+  - Article: Pending
+
+
+-- ds.h2: Self Rating
 
 
 
