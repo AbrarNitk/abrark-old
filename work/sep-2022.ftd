@@ -2,8 +2,6 @@
 
 -- ds.h1: 6 Sep 2022
 
--- ds.h2: Work
-
 -- ds.h2: Discussions
 
 Discussion With Amitu and Shobhit
@@ -13,6 +11,7 @@ Discussion With Amitu and Shobhit
 - wasmtime as part of fpm, create non trivial application
 - Abrar has to understand code Django, Auth Code, etc...
 
+-- ds.h2: Work
 
 - Clear Cache
   - Discussion Update: Done
@@ -51,6 +50,7 @@ If Possible:
 
 - Go through with `tokio::fs`, `camino`
   - Article: Pending
+- https://www.zachleat.com/web/trailing-slash/
 
 
 -- ds.h2: Self Rating
