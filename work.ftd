@@ -4,6 +4,7 @@
 
 - Clear Cache
   - Discussion Update: Done
+    - https://github.com/FifthTry/fpm/discussions/475
   - Code and Testing: In progress
   - Documentation:
 - TODO: https://github.com/FifthTry/fpm/discussions/457
@@ -19,7 +20,9 @@ If Possible:
 
 - Parser Code: Clear Doubts
   - Write Parser Test Cases
+
 - Interpreter: Code understanding from Arpita
+  - https://github.com/FifthTry/ftd/pull/404
 
 
 
