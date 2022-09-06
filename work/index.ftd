@@ -3,3 +3,10 @@
 [Aug 2022](/work/aug-2022/)
 
 [Sep 2022](/work/sep-2022/)
+
+
+TODO:
+- Deploy Django APP on Heroku with proxy pass
+- https://github.com/FifthTry/fpm/discussions/457
+Working on
+- https://github.com/FifthTry/fpm/discussions/475
