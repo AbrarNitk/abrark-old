@@ -3,8 +3,10 @@
 Run Individual Test cases
 
 If your test is not in any mod you can simply execute like this:
-cargo test test_fn_name -- --exact
+
+`cargo test test_fn_name -- --exact`
+
 
 Otherwise you need to provide test with full namespace:
-cargo test test_mod_name::test_fn_name -- --exact
 
+`cargo test test_mod_name::test_fn_name -- --exact`

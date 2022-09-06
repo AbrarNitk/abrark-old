@@ -4,6 +4,16 @@
 
 -- ds.h2: Work
 
+-- ds.h2: Discussions
+
+Discussion With Amitu and Shobhit
+
+- Endpoint FPM URL proxy method
+- Django APP should be deployed
+- wasmtime as part of fpm, create non trivial application
+- Abrar has to understand code Django, Auth Code, etc...
+
+
 - Clear Cache
   - Discussion Update: Done
     - https://github.com/FifthTry/fpm/discussions/475
@@ -11,16 +21,22 @@
   - Documentation:
 
 - Connect with Aviral and Aditi for movie-db app
+  - Status: Pending
 
 - TODO: https://github.com/FifthTry/fpm/discussions/457
   - https://discord.com/channels/793929082483769345/1013678563641262150
 
 - proxy method in fpm with actix
   - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
 - wasmtime POC
   - https://github.com/FifthTry/fpm/discussions/468
+  - Shobhit will work on it.
+
 - Clear Cache
-  - Update discussion and Docs
+  - Code: Done
+  - Test Cases: Done
+  - Update discussion and Docs: Pending
 
 If Possible:
 
