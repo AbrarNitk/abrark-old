@@ -50,13 +50,15 @@
   - cargo crate async-lock = "2.5.0": Done
 
 
-- proxy method in fpm with actix
+- Proxy method in fpm with actix-web and hyper
   - Status: In Progress
-  - Plan: Create basic hyper server with proxy api and explore hyper
+  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Plan:
+    - Create basic implementation of hyper server with proxy api
     - Explore hyper: https://hyper.rs/
-    -
-  - https://github.com/FifthTry/fpm/discussions/462
-  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+    - Create basic implementation of actix-web server with proxy api
+    - Actix Web Proxy Implementation
+    - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 
 - Merge Pull Request
