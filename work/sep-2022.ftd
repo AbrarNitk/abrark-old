@@ -1,5 +1,36 @@
 -- ds.page: September Work
 
+-- ds.h1: 7 Sep 2022
+
+-- ds.h2: Work
+
+- Clear Cache
+  - Discussion Update: Done
+    - https://github.com/FifthTry/fpm/discussions/475
+  - Code and Testing: In progress
+  - Documentation: Done
+
+- proxy method in fpm with actix
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- wasmtime POC
+  - https://github.com/FifthTry/fpm/discussions/468
+  - https://www.assemblyscript.org/introduction.html
+  - https://github.com/FifthTry/fpm/discussions/477
+
+- Start Codechef Programming today
+  - Single Program only
+
+- What is OAuth
+  - https://www.varonis.com/blog/what-is-oauth
+  - https://www.varonis.com/blog/giving-away-your-passwords
+
+
+-- ds.h2: Learning
+
+- https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+- Terms in FPM: https://www.youtube.com/watch?v=sjVJD3W8WyA
+
 -- ds.h1: 6 Sep 2022
 
 -- ds.h2: Discussions

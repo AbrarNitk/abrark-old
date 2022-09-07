@@ -5,6 +5,12 @@
 [Sep 2022](/work/sep-2022/)
 
 
+-- ds.h1: FifthTry
+
+- Self Hosting
+  - https://github.com/orgs/FifthTry/discussions/80
+
+
 TODO:
 - Deploy Django APP on Heroku with proxy pass
 - https://github.com/FifthTry/fpm/discussions/457
