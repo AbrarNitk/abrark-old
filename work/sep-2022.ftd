@@ -1,5 +1,9 @@
 -- ds.page: September Work
 
+-- ds.h1: Daily Update
+
+- Update Discussion: fifthtry:50
+
 -- ds.h1: 7 Sep 2022
 
 -- ds.h2: Discussions
@@ -8,6 +12,7 @@
 
 - Rithik will work on deploying fpm on heroku
 - Discussion: fpm:480
+- TODO: I have to help him in deploying binary on heroku
 
 -- ds.h3: With Amitu and Shobhit About wasm stuff
 
@@ -29,8 +34,6 @@
     - https://github.com/FifthTry/fpm/discussions/475
   - Documentation: Done
 
-
-- Update Discussion: 50
 
 - Merge Pull Request
 https://github.com/FifthTry/movie-db/pull/6
