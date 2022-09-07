@@ -13,14 +13,19 @@
   - Choose Assembly Script or Rust
 - Assembly script with wasmtime, as-wasi.
 
-
 -- ds.h2: Work
 
 - Clear Cache
+  - Code and Testing: In progress
+    - Feature implementation done
+    - Security is done
+    - Parallel Read and Writes: Working
   - Discussion Update: Done
     - https://github.com/FifthTry/fpm/discussions/475
-  - Code and Testing: In progress
   - Documentation: Done
+
+- Merge Pull Request
+https://github.com/FifthTry/movie-db/pull/6
 
 - proxy method in fpm with actix
   - https://github.com/FifthTry/fpm/discussions/462
