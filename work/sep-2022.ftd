@@ -24,7 +24,6 @@
   - https://github.com/zesterer/ariadne
   - https://github.com/zesterer/tao
 
-async-lock = "2.5.0"
 -- ds.h3: With Amitu and Shobhit About wasm stuff
 
 - https://github.com/FifthTry/fpm/discussions/468
@@ -40,21 +39,28 @@ async-lock = "2.5.0"
 -- ds.h2: Work
 
 - Clear Cache
+  - Status: Done
   - Code and Testing: In progress
     - Feature implementation done
-    - Security is done
-    - Parallel Read and Writes: Working
+    - Security: Done
+    - Parallel Read and Writes: Done
   - Discussion Update: Done
     - https://github.com/FifthTry/fpm/discussions/475
   - Documentation: Done
+  - cargo crate async-lock = "2.5.0": Done
+
+
+- proxy method in fpm with actix
+  - Status: In Progress
+  - Plan: Create basic hyper server with proxy api and explore hyper
+    - Explore hyper: https://hyper.rs/
+    -
+  - https://github.com/FifthTry/fpm/discussions/462
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
 
 - Merge Pull Request
   - https://github.com/FifthTry/movie-db/pull/6
-
-- proxy method in fpm with actix
-  - Explore hyper: https://hyper.rs/
-  - https://github.com/FifthTry/fpm/discussions/462
-  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 - todo: https://github.com/orgs/FifthTry/discussions/92
  - I have to read this.
