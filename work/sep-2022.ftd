@@ -14,6 +14,13 @@
 - Discussion: fpm:480
 - TODO: I have to help him in deploying binary on heroku
 
+-- ds.h3: With Arpita
+
+- For `ftd` Interpreter we will explore
+  - https://github.com/zesterer/ariadne
+  - https://github.com/zesterer/tao
+
+async-lock = "2.5.0"
 -- ds.h3: With Amitu and Shobhit About wasm stuff
 
 - https://github.com/FifthTry/fpm/discussions/468
@@ -36,7 +43,7 @@
 
 
 - Merge Pull Request
-https://github.com/FifthTry/movie-db/pull/6
+  - https://github.com/FifthTry/movie-db/pull/6
 
 - proxy method in fpm with actix
   - Explore hyper: https://hyper.rs/
