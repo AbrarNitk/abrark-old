@@ -2,6 +2,18 @@
 
 -- ds.h1: 7 Sep 2022
 
+-- ds.h2: Discussions
+
+-- ds.h3: With Amitu and Shobhit About wasm stuff
+
+- https://github.com/FifthTry/fpm/discussions/468
+- https://github.com/FifthTry/fpm/discussions/477
+- Shobhit has to create a prototype with wasmtime
+  - Supabase: postgres endpoint
+  - Choose Assembly Script or Rust
+- Assembly script with wasmtime, as-wasi.
+
+
 -- ds.h2: Work
 
 - Clear Cache
@@ -11,6 +23,7 @@
   - Documentation: Done
 
 - proxy method in fpm with actix
+  - https://github.com/FifthTry/fpm/discussions/462
   - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 - wasmtime POC
@@ -21,6 +34,9 @@
 - Start Codechef Programming today
   - Single Program only
 
+- FifthTry Auth Login should work fine
+  - Docs + Understanding
+
 - What is OAuth
   - https://www.varonis.com/blog/what-is-oauth
   - https://www.varonis.com/blog/giving-away-your-passwords
@@ -30,6 +46,8 @@
 
 - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 - Terms in FPM: https://www.youtube.com/watch?v=sjVJD3W8WyA
+- https://jvns.ca/blog/2022/09/06/send-network-packets-python-tun-tap/
+- https://linux.die.net/man/8/pppd
 
 -- ds.h1: 6 Sep 2022
 
