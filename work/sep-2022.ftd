@@ -4,6 +4,11 @@
 
 -- ds.h2: Discussions
 
+-- ds.h3: With Rithik and Amitu
+
+- Rithik will work on deploying fpm on heroku
+- Discussion: fpm:480
+
 -- ds.h3: With Amitu and Shobhit About wasm stuff
 
 - https://github.com/FifthTry/fpm/discussions/468
@@ -24,10 +29,14 @@
     - https://github.com/FifthTry/fpm/discussions/475
   - Documentation: Done
 
+
+- Update Discussion: 50
+
 - Merge Pull Request
 https://github.com/FifthTry/movie-db/pull/6
 
 - proxy method in fpm with actix
+  - Explore hyper: https://hyper.rs/
   - https://github.com/FifthTry/fpm/discussions/462
   - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
