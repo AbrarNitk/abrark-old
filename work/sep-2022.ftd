@@ -3,8 +3,6 @@
 -- ds.h1: Monthly Learning
 
 - Rust: Actix-Web, Hyper, Heroku, tokio
--
-
 
 -- ds.h1: Month Tasks
 
@@ -15,7 +13,7 @@
 - What FifthTry is Working on
   - https://github.com/orgs/FifthTry/discussions/50
 
-- Sept Update
+- Sep Update
   - https://github.com/orgs/FifthTry/discussions/88
 
 -- ds.h1: 8th Sep 2022
@@ -48,6 +46,12 @@ Status: In Progress
 - On Click Movie Added Show Successful: On API Response
 - API is not getting called, We have to call it using fpm proxy: Abrar
 - API Integration is Pending
+
+-- ds.h2: Discussion With Arpita, Chota-Amitu, Rithik
+
+- Abrar Demo: How Auth is working
+- Arpita Demo: How Parser is working, with algorithm
+- Tomorrow: 2
 
 -- ds.h2: Work
 
@@ -124,7 +128,7 @@ Status: In Progress
     - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 
-- Merge Pull Request
+- Merge Pull Request: Done
   - https://github.com/FifthTry/movie-db/pull/6
 
 - todo: https://github.com/orgs/FifthTry/discussions/92
