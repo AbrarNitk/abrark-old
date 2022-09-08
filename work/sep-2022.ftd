@@ -14,6 +14,10 @@
 
 -- ds.h1: 8th Sep 2022
 
+-- ds.h2: Discussion with Rithik
+
+- He has to explore Heroku, how to deploy binary on Heroku and all.
+
 -- ds.h2: Work
 
 - Endpoint Support: Proxy method in fpm with actix-web and hyper
@@ -25,6 +29,13 @@
     - Create basic implementation of actix-web server with proxy api
     - Actix Web Proxy Implementation
     - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- FPM Heroku Deployment
+  - Rithik will work on deploying fpm on heroku
+  - Discussion:
+    - https://github.com/FifthTry/fpm/discussions/480
+    - https://github.com/FifthTry/fpm/discussions/457
+
 
 
 
