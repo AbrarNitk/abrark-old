@@ -26,14 +26,14 @@
 
 -- ds.h2: Discussion with Aditi
 
-movie-db:
+## Movie-db APP:
+Status: In Progress
 - Image links are broken in ftd.
 - You guys will have idea about it: Run Django service and hit APIs
 - UI is 90% done: Only Home Page UI is remaining
 - Change URL: add_movie: `_` to `-`
 - Add movie redirect: Home or Movie Page
 - Django API documentation: https://github.com/FifthTry/fpm.dev/pull/79/files#diff-cf67e6a1129660ecc38b7df89ebab76a1765b8a8514fa0076d9ebb4c7b35d280
-Status: In Progress
 
 - Error Message:
     Status: Pending
@@ -41,7 +41,7 @@ Status: In Progress
         from Django send error page, or API Response
         if error responses coming as json then update the ftd page
     Mostly: Send the error page
-    Discuss with Arpita
+    TODO: Discuss with Arpita
 
 - get-movie API call on Review Page: either or http processor?, proxy call. Need clarity from Arpita
 
