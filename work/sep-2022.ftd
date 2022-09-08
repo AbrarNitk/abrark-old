@@ -6,7 +6,27 @@
 
 -- ds.h1: Daily Update
 
-- Update Discussion: fifthtry:50
+- What FifthTry is Working on
+  - https://github.com/orgs/FifthTry/discussions/50
+
+- Sept Update
+  - https://github.com/orgs/FifthTry/discussions/88
+
+-- ds.h1: 8th Sep 2022
+
+-- ds.h2: Work
+
+- Endpoint Support: Proxy method in fpm with actix-web and hyper
+  - Status: In Progress
+  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Plan:
+    - Create basic implementation of hyper server with proxy api
+    - Explore hyper: https://hyper.rs/
+    - Create basic implementation of actix-web server with proxy api
+    - Actix Web Proxy Implementation
+    - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+
 
 -- ds.h1: 7 Sep 2022
 
@@ -15,8 +35,10 @@
 -- ds.h3: With Rithik and Amitu
 
 - Rithik will work on deploying fpm on heroku
-- Discussion: fpm:480
-- TODO: I have to help him in deploying binary on heroku
+- Discussion:
+  - https://github.com/FifthTry/fpm/discussions/480
+  - https://github.com/FifthTry/fpm/discussions/457
+  - TODO: I have to help him in deploying binary on heroku
 
 -- ds.h3: With Arpita
 
@@ -48,7 +70,6 @@
     - https://github.com/FifthTry/fpm/discussions/475
   - Documentation: Done
   - cargo crate async-lock = "2.5.0": Done
-
 
 - Proxy method in fpm with actix-web and hyper
   - Status: In Progress
