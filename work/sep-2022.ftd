@@ -1,5 +1,11 @@
 -- ds.page: September Work
 
+-- ds.h1: Monthly Learning
+
+- Rust: Actix-Web, Hyper, Heroku, tokio
+-
+
+
 -- ds.h1: Month Tasks
 
 - How to automate testing of fpm APIs
@@ -17,6 +23,31 @@
 -- ds.h2: Discussion with Rithik
 
 - He has to explore Heroku, how to deploy binary on Heroku and all.
+
+-- ds.h2: Discussion with Aditi
+
+movie-db:
+- Image links are broken in ftd.
+- You guys will have idea about it: Run Django service and hit APIs
+- UI is 90% done: Only Home Page UI is remaining
+- Change URL: add_movie: `_` to `-`
+- Add movie redirect: Home or Movie Page
+- Django API documentation: https://github.com/FifthTry/fpm.dev/pull/79/files#diff-cf67e6a1129660ecc38b7df89ebab76a1765b8a8514fa0076d9ebb4c7b35d280
+Status: In Progress
+
+- Error Message:
+    Status: Pending
+    Option 1:
+        from Django send error page, or API Response
+        if error responses coming as json then update the ftd page
+    Mostly: Send the error page
+    Discuss with Arpita
+
+- get-movie API call on Review Page: either or http processor?, proxy call. Need clarity from Arpita
+
+- On Click Movie Added Show Successful: On API Response
+- API is not getting called, We have to call it using fpm proxy: Abrar
+- API Integration is Pending
 
 -- ds.h2: Work
 
