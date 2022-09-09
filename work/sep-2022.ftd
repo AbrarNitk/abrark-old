@@ -16,6 +16,36 @@
 - Sep Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+-- ds.h1: 9th Sep 2022
+
+## Work
+
+### Movie DB APP
+
+- Aditi has to fix breaking UI
+- I has ensure everything is working fine
+  - All the pages should work fine
+  - Need to handle error response as well
+
+### Clear Cache PR Fixes
+
+- https://github.com/FifthTry/fpm/discussions/475
+
+### Update from Rithik
+
+- deploy fpm binary on heroku
+
+
+### fpm Proxy
+
+- https://github.com/FifthTry/fpm/discussions/462
+- proxy with actix
+- proxy with hyper
+
+### Discussion with team on fpm auth
+
+
+
 -- ds.h1: 8th Sep 2022
 
 -- ds.h2: Discussion with Rithik
@@ -52,6 +82,8 @@ Status: In Progress
 - Abrar Demo: How Auth is working
 - Arpita Demo: How Parser is working, with algorithm
 - Tomorrow: 2
+- How cDoc is working
+
 
 -- ds.h2: Work
 
@@ -70,8 +102,6 @@ Status: In Progress
   - Discussion:
     - https://github.com/FifthTry/fpm/discussions/480
     - https://github.com/FifthTry/fpm/discussions/457
-
-
 
 
 -- ds.h1: 7 Sep 2022
