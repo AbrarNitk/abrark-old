@@ -18,6 +18,28 @@
 
 -- ds.h1: 9th Sep 2022
 
+-- ds.h2: Discussion
+
+- todo ftd: `http` `processor` demo
+
+### Presentation
+- Historical things
+- Java 1.0, 1.1, 1.2....
+- Proxy Server: Nginx
+- Large Applicability
+- Internet works on reverse proxy server
+- JSON parser problem
+- Hiring standard problem
+  - Write a proxy server
+  - Best Proxy Server
+
+## Presentation Points
+- Decide who is taking time and how much time everyone has to take.
+- Spend some more time on presentation.
+- Presentation: Explain things which are hard in the conversation in the start
+- Presentation: Start recording these sessions
+
+
 ## Work
 
 ### fpm Proxy
@@ -38,7 +60,7 @@
   - Need to handle error response as well
 
 ### Clear Cache PR Fixes
-
+Status: Done
 - https://github.com/FifthTry/fpm/discussions/475
 
 ### Discussion with team on fpm auth
