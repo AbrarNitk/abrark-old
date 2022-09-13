@@ -30,9 +30,28 @@
 
 - Aditi has to fix breaking UI
 - I has ensure everything is working fine
-  - All the pages should work fine
-  - Need to handle error response as well
+- All the pages should work fine
+- Need to handle error response as well
 
+### term support syntax
+- Delivery: blogs, video
+
+### Auth Video
+- Delivery: blogs, video
+
+### fpm on Heroku
+- Create a repo, single file and fpm repo and deploy it on heroku
+- Clear cache: workflow file
+- Endpoint will be extra
+
+### ftd:p2:parser documentation
+
+### Content driven marketing
+- Make tutorial on how did I wrote proxy server
+- How did I wrote proxy server for production
+- How we wrote a compiler which has already 90k lines of code
+
+### Features on Hackernews, reddit, etc...
 
 -- ds.h1: 9th Sep 2022
 
