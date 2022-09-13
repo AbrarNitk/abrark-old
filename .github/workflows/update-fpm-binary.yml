@@ -1,4 +1,4 @@
-name: Deploy AbrarK on Heroku
+name: Deploy FPM on Heroku
 
 on:
   workflow_dispatch:
