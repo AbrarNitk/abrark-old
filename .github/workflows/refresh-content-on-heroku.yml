@@ -15,8 +15,5 @@ jobs:
       - name: Redeploy Heroku
         id: redeploy_heroku
         run: |
-          curl --location --request DELETE \
-          --header 'Content-Type: application/json' \
-          --header 'Accept: application/vnd.heroku+json; version=3' \
-          --header 'authorization: Bearer ${{ secrets.HEROKU_TOKEN }}' \
-          --url https://api.heroku.com/apps/abrark-app/dynos/web.1
+          curl --location --request POST \
+          --url https://abrark-app.herokuapp.com/-/clear-cache/?package=main&all-dependencies=true
