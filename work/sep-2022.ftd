@@ -16,6 +16,24 @@
 - Sep Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+-- ds.h1: 13th Sep 2022
+
+## Work
+
+### fpm Proxy
+
+- https://github.com/FifthTry/fpm/discussions/462
+- proxy with actix
+- proxy with hyper
+
+### Movie DB APP
+
+- Aditi has to fix breaking UI
+- I has ensure everything is working fine
+  - All the pages should work fine
+  - Need to handle error response as well
+
+
 -- ds.h1: 9th Sep 2022
 
 -- ds.h2: Discussion
