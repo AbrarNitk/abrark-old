@@ -43,6 +43,8 @@
 - Create a repo, single file and fpm repo and deploy it on heroku
 - Clear cache: workflow file
 - Endpoint will be extra
+- Article: https://medium.com/ki-labs-engineering/deploying-a-native-go-binary-on-heroku-6d4c955819d8
+
 
 ### ftd:p2:parser documentation
 
@@ -59,6 +61,7 @@
 
 ### try with processor
 - using http processor abrark.com/reddit/, abrark.com/twitter/
+
 
 -- ds.h1: 9th Sep 2022
 
