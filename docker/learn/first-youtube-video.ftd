@@ -1,0 +1,116 @@
+-- ft.page: Tutorial for Beginners
+
+[Youtube Video](https://www.youtube.com/watch?v=3c-iBn73dDE)
+
+-- ft.h1: Overview
+
+-- ft.h2: What is Docker
+
+- What is Container and What problem does it solve?
+- Container Repository
+- Develop Application
+- Deploy Application
+
+-- ft.markdown:
+
+# What is a Container?
+
+- A way to package application with all the necessary dependencies and configuration
+- Portable artifact, easily shared and moved around
+- Make development more easily and more efficient because everything what that need to run an
+application is packaged.
+
+E.g.
+
+Easily moved around development and operations team.
+
+# Where do Containers Live?
+
+Container Repository is a container storage.
+Many private companies stores there container's to container repository.
+DockerHub is public repository for Docker.
+
+# How containers improves the development process
+
+
+# Before Containers
+
+Every developer in the team has to install different software like postgres, redis, etc.. with
+their configurations to run an application. So installation process looks different for each OS
+environment.
+
+So each dependency to install people has to run different commands, so there could be many places
+where things wo wrong. Because, of steps require to install each service.
+
+This process of installing dependencies for each application is tedious.
+And for different operating systems is more tedious.
+
+
+# After Containers
+
+- Own Isolated Environment
+No need to install individual dependencies, download the container and run it. All thing that it
+require to run an application is packaged in container with Linux base Image and dependencies with
+their versions.
+
+- One command to install the app
+- run same app the 2 different versions.
+
+# Deployment Before Containers
+
+Developer team has to create artifacts and set of instructions and configure those artifacts on the
+server. e.g.: Application Jar file + Database setup steps.
+
+## Problem
+
+is everything need to be install on the operating system, like run an spring boot
+application we need to install java and postgres. That can lead to dependency version conflict. If
+your application need java 18 version and but installed different java version on the machine.
+
+Multiple services running on the same host, so installing different version's dependency may break
+existing running application.
+
+There could be misunderstanding between Ops and Dev team because everything is in textual guide of
+deployment. May be developer forget to mention some points in the guide. May be Ops team
+misinterprets those instructions. This can lead to back and forth communications until the
+application doesn't run successfully.
+
+# Deployment After Containers
+
+- Dev and Ops team work together to package the application in a container.
+- No environmental configuration needed on the server. - except Docker Runtime.
+
+All you need to do is pull docker image from docker repository and then run it.
+No environmental configuration needed on the server, Only need to install docker runtime on the
+server.
+
+# Technically What Container Is?
+
+- Layers of images
+- Mostly Linux Base Image, because small in size(alpine:3.10).
+- Application Image Like Postgres
+
+Example: https://hub.docker.com/_/postgres
+pull the container from it and run it `docker pull postgres:9.6`
+First it checks images locally, otherwise download all the stacked images.
+
+So If we install different version of postgres so only different layers got installed which are not
+present in the local system.
+
+## Run Container
+
+-- ft.code:
+lang: sh
+
+# Run Container
+sudo docker run -e POSTGRES_PASSWORD=12345 postgres
+# All the running containers
+sudo docker ps
+
+# Run different version of postgres
+sudo docker run -e POSTGRES_PASSWORD=12345 postgres:9.6
+
+-- ft.markdown:
+
+Docker Image: the actual package, artifact that can be moved around
+Docker Container: actually start the application, container environment is created.

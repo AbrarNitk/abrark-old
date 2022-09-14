@@ -1,0 +1,343 @@
+-- ds.page: Problem Plan and Execution
+
+
+-- ds.h1: Problem
+
+We have seen, there is a regular salary increment of engineers
+{on change: 30%, every year: 20%, etc...}, I am not against salary hike but
+what is the problem? Problem is, colleges are not able to produce number of
+engineers that are required in the market, We have so many colleges(todo:find numbers data)
+but students are not skilled enough to take jobs, and sometimes even if they
+are skilled enough to take jobs, so they are not able to crack interviews(I
+mean, if somebody just have to write bunch of HTTP APIs in their backend services,
+why are you asking to design best version of Kafka/Distributed Locks, in just 1 hour or so).
+
+Population vs Engineer: per country data
+
+We have so many private and government colleges but still we are unable to solve
+this problem. We have population but we do not have engineers, and they are in
+high demand and we have a big gap here.
+
+Because students are not skilled enough from many private colleges, So companies
+do not want to take risk and hire from those colleges who have best talent,
+most of the time they are only NITs and (I)IITs and some of the famous private
+colleges.
+
+Also companies are not visiting local and private colleges and I agree that
+students from private colleges are not skilled enough, but it is also not like
+that they can not be skilled.
+
+Even HR rejects students/developers, If she did not listen name of the
+college before.
+
+Look at me, I just studied 3 years of computers and today I am able to do my
+work in a technology startup.
+
+todo: describe above para more.
+
+Main problem: `lack of faculties in colleges and quality is not good`.
+
+
+-- ds.h1: Solution
+
+We can solve it by taking online live learning classes with their documentation.
+
+-- ds.h1: Plan and Execution
+
+Requirement:
+- Statistics from Colleges
+  - How many students coming to college every year for engineering
+  - How many are getting placed, and how many of them are getting offsite placements
+  -
+- Statistics from Companies
+  - How many engineers do they require every year
+  -
+
+-- ds.h1: How to Start Execution
+
+I can start taking classes, [It can be built as a platform for others as well]{todo: move to other document}.
+
+
+- I have to study CS Subjects again
+  - Study only those subjects which are required
+  - Even I can curate some of the content and start taking online classes
+- With my learning, I will create basic documentation for every subject
+- After that I have to find people who are willing to learn and want to get the job
+  - A basic test before start teaching them
+  - Students can be who are in 2nd, 3rd or 4th year of their graduation from amy college
+  - Need to think about timeline, when should I start taking online classes
+
+- I will start taking online classes and will teach students required subjects
+for a certain period of time.
+  - In between there will be test series
+  - Tests and Exams
+  - Mock Interviews
+  - etc...
+
+- I will visit private colleges for free sessions, by doing this students will know about me.
+
+
+Firstly I have to study fundamentals of CS and start writing about them.
+
+
+-- ds.h1: Mathematics
+
+So I can start learning Math from 8th to 12th standard
+- It will be easy for me start writing because reading these subjects will be
+easier for me understand because I know most of the concepts.
+- It will help me better understanding in CS subjects and Algorithms.
+
+Maybe, I can explore BSc Mathematics, like Discrete Mathematics, etc...
+
+
+-- ds.h2: 6th to 12th Standard Mathematics
+
+Note: More Topics and less content
+
+Total Days: 120 days
+
+- 6th Standard Mathematics
+  - Days: 10
+  - priority: low
+- 7th Standard Mathematics
+  - Days: 10
+  - priority: low
+- 8th Standard Mathematics
+  - Days: 10
+  - priority: low
+- 9th Standard Mathematics and Science
+  - Days: 15
+  - priority: low
+- 10th Standard Mathematics and Science
+  - Days: 15
+- 11th Standard Mathematics and Science
+  - Days: 20
+- 12th Standard Mathematics and Science
+  - Days: 20
+
+
+-- ds.h1: Computer Science Fundamentals
+
+Note: More Topics and less content
+
+Total Days:
+Daily Tracker Link: todo
+
+- Math for CS
+  - Days: 30
+  - References: MIT
+- Operating System
+  - Days: 30
+- Networking
+  - Days: 30
+- Algorithms
+  - Days: 50
+- Programming Language
+  - Days: 30
+  - References: Rust, Java, JavaScript
+- Application Development
+  - Days: 30
+  - References: todo app, movie-db, reminders app
+  - Description:
+    Overall basic application development, I can use django, actix-web, fastify,
+    spring boot as basics.
+  - Note: I will write only small documentation about django, actix-web and all.
+
+- todo: need to add more line items
+
+
+- Tools
+ - Days: 60
+ - References: git, aws, gcp, code editors, logging, and other open source tools
+ - Description:
+   basic usage of these tools and fundamentals
+   how git works and all?, what is aws, gcp?
+ - Note: Make sure do not go into deep any of these, just read and document
+   fundamentals.
+
+- todo: need to add more line items
+
+
+-- ds.h1: Writing Content About Software
+
+-- ds.h2 Software Concepts
+
+Below list is unfiltered and un-prioritized.
+
+Write about:
+- postgres
+- git
+- openssl
+- Dart, Vue, Rust, Spring Boot, Actix Web,
+- System Designs
+- Distributed System Course
+- Software Application: Implement System Designs
+- Advanced Algorithms
+- Kibana, Elastics Search and monitoring related tool, how to integrate them?
+
+
+Sources from Deepak
+https://mountblue.io
+https://www.goseeko.com
+
+
+-- ds.h1: Students Tracking
+
+- Progress Tracking
+- Performance Tracking
+
+
+-- ds.h2: Companies
+
+- Hire talent only for 3 or 6 month internship, check their performance and
+  then hire them for full time.
+
+
+- Study require while you are doing also.
+
+
+
+-- ds.h1: AbrarB School
+
+Padhna padhana kuch nahi hota sab samajhna hota hai.
+
+12 classes per day
+1 to 12th
+
+
+
+I can only give you resources, Padhna tum logo ki jimmedari hai.
+
+We have 1 to 12th classes
+
+Class 1 have 5 different subject or classes.
+Class 2 -> 5
+Class 3 -> 5
+Class 4 -> 6
+..
+Class 12 -> 6
+
+Total: ~ 70 hr classes in a day.
+
+One teacher can give 4 hr per day.
+
+70/4 =>
+Almost 20 Teacher Staff
+Admin Staff, Security Staff
+
+Let's say 30 Teacher
+
+Let's assume 100 per class
+
+A single teacher can handle max only 25 students in a class. No grade base selection,
+student can choose a single teacher for a topic.
+
+45 minutes to 1hr lecture
+
+How should I start
+
+For now I only should start teaching 1 to 8th as school.
+And 9th to 12th as tution
+: Need to decide tution fees and structure and all.
+
+This is only for a single village.
+
+Kharcha:
+
+12 classes
+1200 bachche in a school
+Only 8hrs in a day
+
+1 teacher can only take 4 hrs for a same class or a different class
+
+12 classes per day * 8 hrs per day => 12 * 8 hrs will happen for all the classes in a day
+
+~ 100 hrs in a day
+~ 100 hrs in day / 4 hr per teacher
+~ Max 25 faculties + 5 More => 30 faculties
+
+
+1 Lack per year => 25 Lack per year
+
+
+We can think about providing insurance to kids and all.
+
+Problem
+No Cricket ground
+No Library
+Nothing...
+
+
+1200 * 12 * 2000 => 2,88,00000
+
+Books ka kharcha: Everyone has to get everything, School will not charge anything from books.
+Faculty in the class has to take extra copies.
+Library ka kharcha:
+
+
+I can balance fees taking more by who has money.
+
+Vikas in a village.
+
+Music teacher
+Gaming teacher
+Dance teacher
+...
+
+## School Ka Kharcha
+
+## Construction One time cost
+- Zameen ka kharcha: 50 lack
+- Banane ka kharcha: 2 CR lack: Need to figure it out
+- Benches and all
+- Computers
+-
+
+## Daily Cost
+
+- Faculty
+- Transport
+- Khana: Optional
+- Cleaning
+- Stationary
+- Dress Code
+- Extra
+
+Figure out what all you need.
+
+Meet different people what are they teaching and how are they teaching, mere
+students Harvard/MIT mein kyu nahi padh sakte hain.
+
+Mere students olympics kyu nhi la sakte.
+Mere students engineers kyu nhi ban sakte.
+
+How can I bring a books library.
+
+# What to do after 12th
+: Try to run only one school, but this is gonna take time: at least years.
+Figured out all the government/private jobs.
+How can a students become more creative that they can figure out their own way.
+Upper class student will teach, lower class student, that way he will have more knowledge.
+
+Race Competition
+
+Cricket Competition
+
+Read only in School No tution required, if they need tution then why school.
+
+Remaining time is for his/her self studies and exploring games and all.
+
+## need to figure out how to earn: by selling only what is required.
+
+
+## Coaching Center
+
+- 9th, 10th, 11th, 12th class
+- 300 students * 3(PCM) subjects
+- 30 students per class
+- 10 classes per day per subject
+- 30 all classes per day
+- Per Faculty: 8 * 50k => 400000 per month
+- 1000 * 300 * 3 => 900000 per month
+
+##

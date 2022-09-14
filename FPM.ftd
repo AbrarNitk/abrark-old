@@ -2,6 +2,7 @@
 
 -- fpm.package: abrark.com
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
+download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 -- fpm.dependency: fifthtry.github.io/resume
@@ -13,13 +14,28 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
+
+-- fpm.user-group: readers
+email: abrark.asahi@gmail.com
+github-like: FifthTry/fpm
+/github: AbrarNitk
+
+
+-- fpm.user-group: writers
+email: abrark.asahi@gmail.com
+
+
 -- fpm.sitemap:
 
-# Home: /index/
+# Home: /
 nav-title: My Sweet Home
 data: Section Data
 
+# Write Anything: /write-anything/
+writers: writers
+
 ## Resume: /resume/
+readers: readers
 
 ## About: /about/
 
@@ -28,3 +44,10 @@ data: Section Data
 # Words: /words/
 
 # Concepts: /concepts/
+
+# FifthTry
+
+## Work
+
+- Daily Work: /work/
+readers: readers

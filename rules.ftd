@@ -1,4 +1,68 @@
--- ft.page: My Rules
+-- ds.page: My Rules
 
+-- ftd.color white:
+dark: red
+light: red
+
+
+-- ftd.text: Hello
+color: $white
+
+
+-- ds.markdown:
+
+Exercise:
+- Practice: Read a sentence and write it in your language, goal should be write
+as it is.
+- Practice: Read a complete para and write it.
+
+### Rule 0
+
+Repeat these rule daily, add new rules, delete rules if they are not matching
+your requirements
+
+### Rule 1
+
+Always try to focus what you are doing currently, do not think and do anything else
+
+It can be office work, learning english, reading news paper, talking to someone, etc…
+
+Example: Like ploughing fields with focus on hal.
+
+Example: It can be learn from Kids. Kids enjoy what they doing, they just get
+forgot if somebody have beaten them 5 mins ago. If they are playing in mud,
+they don’t care they are just happy.
+
+How to do it:
+
+Try to think, How better I can perform in currently going on task.
+
+Like If you are typing on keyboard so just focus on your brain actions and type
+the keyboard button.
+
+While you are coding, think about how better this function can be written.
+
+### Rule 2
+
+Do not judge yourself when you are around someone, just focus on what are doing.
+
+- Do not think like: what I am doing currently, what are people thinking about it,
+who are around me. You should not have a thread in your mind who are around you.
+
+
+### Rule 3
+Stop thinking about what is virtual.
+Example: Khayalo mein khona band kar.
+
+Uncertain thoughts make people anxious, and their not solving any problem,
+If you are thinking about reality it is infinite.
+
+
+### Rule 4
+
+While you listening, do not just listen words also visualize them with context.
+
+
+# Work Related
 
 - I should open PR while writing Documentation for Code
