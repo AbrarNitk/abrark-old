@@ -2423,7 +2423,7 @@ id: left-side
 
 --- ftd.column:
 width: fill
-id: parent
+id: parent1
 
 --- ftd.text: $awarder
 if: $awarder is not null
@@ -2451,7 +2451,7 @@ white-space: nowrap
 width: fill
 margin-top: $fpm.space.space-3
 
---- container: parent
+--- container: parent1
 
 --- ftd.text: $summary
 if: $summary is not null
@@ -2473,7 +2473,7 @@ padding-bottom: $fpm.space.space-6
 
 --- ftd.column:
 width: fill
-id: parent
+id: parent2
 
 --- ftd.text: $awarder
 if: $awarder is not null
@@ -2501,7 +2501,7 @@ white-space: nowrap
 width: fill
 margin-top: $fpm.space.space-3
 
---- container: parent
+--- container: parent2
 
 --- ftd.text: $summary
 if: $summary is not null
