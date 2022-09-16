@@ -24,7 +24,30 @@
 
 -- ds.h2: FPM proxy Endpoint implementation
 
+-- ds.h2: We have to give demo about including another package documents.
+
 https://github.com/FifthTry/fpm/discussions/462
+
+-- ds.h2: todo Update fpm-heroku docs according to new yml actions
+
+## FPM package authentication
+
+- using key or reader writer groups
+
+
+## Ganesh Demo
+
+### Blog post
+-  doc-site: https://github.com/fifthtry/doc-site
+- How can we show summary of the page on the blog, on the home page or landing page.
+- Author page: We can do query: All the posts written by Arpita, fetch the data dynamically(fpm can call the API)
+- How many people will use it? budget problem?
+- We have do iOS rendering, Figma, ???
+- Companies are taking baby towards machine learning, Microsoft, Google, etc..
+- Our language must be powerful,
+- One single click only and start writing ftd and start writing...
+- Our core is language, we will be around infra only, we will not mail software.
+
 
 
 
