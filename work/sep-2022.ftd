@@ -16,6 +16,18 @@
 - Sep Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+-- ds.h1: 16 Sept 2022
+
+-- ds.h2: Heroku deployment demo and a separate video
+
+-- ds.h2: Heroku CLI documents
+
+-- ds.h2: FPM proxy Endpoint implementation
+
+https://github.com/FifthTry/fpm/discussions/462
+
+
+
 -- ds.h1: 15 Sept 2022
 
 ### fpm proxy: Endpoint support
