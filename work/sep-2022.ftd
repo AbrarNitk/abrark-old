@@ -17,6 +17,16 @@
   - https://github.com/orgs/FifthTry/discussions/88
 
 
+-- ds.h2: 20 Sept 2022
+
+## FPM Proxy endpoint
+Status: In progress
+- https://github.com/FifthTry/fpm/discussions/462
+- I will try to complete ot end of the day
+- My target will be deliver it with django microservice(movie-db app)
+- FPM on Heroku with proxy endpoint support, demo with movie db app
+
+
 -- ds.h2: 19 Sept 2022
 
 ## FPM Proxy endpoint
