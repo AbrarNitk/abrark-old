@@ -27,6 +27,12 @@ Status: In progress
 - FPM on Heroku with proxy endpoint support, demo with movie db app
 
 
+## FTD final syntax: Have to reread it
+- https://github.com/FifthTry/ftd/discussions/429
+
+## Dump JSON
+- https://github.com/FifthTry/fpm/discussions/312
+
 -- ds.h2: 19 Sept 2022
 
 ## FPM Proxy endpoint
