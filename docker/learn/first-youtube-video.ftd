@@ -114,3 +114,26 @@ sudo docker run -e POSTGRES_PASSWORD=12345 postgres:9.6
 
 Docker Image: the actual package, artifact that can be moved around
 Docker Container: actually start the application, container environment is created.
+
+# Docker vs Virtual Machine
+
+## Overview
+
+- Docker on OS level
+- Different level of abstractions
+- Why linux-based docker containers don't run on windows
+
+Operating System have 2 layers: OS Kernel and Applications.
+
+Kernel communicates with Hardware, and the Applications run on the kernel layer.
+
+Docker and Vms both are virtualization tool, so the question is What part of Operating System
+they virtualize?
+
+### Docker
+Docker Virtualize the Application Layer, docker image contains the applications layer of the OS and
+some other applications(postgres, redis) installed on top of it and it uses the kernel of the host,
+because Docker does not have it's own kernel.
+
+### VMs
+
