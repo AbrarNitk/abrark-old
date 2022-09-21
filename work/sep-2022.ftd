@@ -17,6 +17,20 @@
   - https://github.com/orgs/FifthTry/discussions/88
 
 
+-- ds.h2: 21 Sept 2022
+
+## Demo
+- This things exists in demo
+- Implementation demo should be different
+- KT should be different
+
+## Need to discuss with Arpita, If URL is present in the sitemap or not
+- How do we know,
+-
+
+## Deploy fpm with another microservice on Heroku with Proxy Endpoint
+-
+
 -- ds.h2: 20 Sept 2022
 
 ## FPM Proxy endpoint
