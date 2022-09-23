@@ -16,6 +16,31 @@
 - September Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+-- ds.h2: 22 Sept 2022
+
+- https://github.com/AbrarNitk/django-service
+
+## Endpoint Support
+- First fix the movie-db app
+- How to call django api
+- http processor to fetch the data
+- Use movie-db app in `abrark.com`
+
+
+## Aditi: Movie Db APP
+
+- Working on /api/get-movie/?id=<movie-id>
+- PR
+
+## Rithik: Page Headings
+
+- Discussion: https://github.com/FifthTry/fpm/discussions/484
+- PR should get closed fpm:487
+
+
+## Issue
+
+- FPM fpm.dev::Development is giving 404
 
 -- ds.h2: 21 Sept 2022
 
