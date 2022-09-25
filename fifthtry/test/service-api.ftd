@@ -1,0 +1,32 @@
+-- ds.page: Service API call using `http` processor
+
+
+-- record query-data:
+string id:
+
+
+-- query-data query:
+$processor$: request-data
+
+
+-- ds.markdown:
+
+$query.id
+
+-- string query-id: $query.id
+
+-- record movie-data:
+string title:
+string release_date:
+string poster:
+string director:
+
+-- movie-data movie:
+$processor$: http
+url: http://127.0.0.1:8001/api/movie/
+method: get
+id: $query-id
+
+-- ds.markdown:
+
+$movie.title

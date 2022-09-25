@@ -15,7 +15,7 @@ download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
 -- fpm.dependency: FifthTry/movie-db
-endpoint: http://127.0.0.1:8001
+/endpoint: http://127.0.0.1:8001
 
 
 -- fpm.user-group: readers
