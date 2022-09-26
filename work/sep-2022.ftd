@@ -16,6 +16,18 @@
 - September Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+-- ds.h2: 26 Sept 2022
+
+- request-data processor
+  - Status: Done
+  - https://github.com/FifthTry/fpm/discussions/516
+
+- fpm GitHub issue resolved section while passing them processor
+  - Status: In progress
+
+- Run fpm with redirected page to /movie/?id=5
+- Next: https://github.com/FifthTry/fpm/discussions/526
+
 -- ds.h2: 22 Sept 2022
 
 - https://github.com/AbrarNitk/django-service
