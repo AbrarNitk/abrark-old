@@ -1,0 +1,39 @@
+-- ds.page: Designing a Simple Todo App
+
+
+-- ds.h1: Problem Statement
+
+This app should help user to stay focus, manage and complete their todos
+effectively.
+
+-- ds.h1: Name
+
+1. Kameri
+2.
+
+-- ds.h1: Kameri Model
+
+Kameri Model is simple
+
+1. Users get to manage todos for:
+
+- Today
+- Tomorrow
+- Someday
+
+2. Today is the main focus
+3. Todos are only valid for that day
+- If you do not complete todos for today, they are automatically deleted.
+- Just because you did not complete it today, It should not become todo for
+tomorrow or some other day.
+- This helps set priorities than trying to complete leftovers.
+
+
+So people can set their todos for today, tomorrow, and for some other day.
+They
+
+
+-- ds.h1: References
+
+- Clear Todo App
+- Google Keep
