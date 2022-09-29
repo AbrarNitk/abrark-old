@@ -29,8 +29,32 @@ tomorrow or some other day.
 - This helps set priorities than trying to complete leftovers.
 
 
+A Kameri todo will contain data:
+- title: mandatory
+- due time
+- status: default: Open
+- description
+- status update time
+- created at
+
 So people can set their todos for today, tomorrow, and for some other day.
-They
+User can add a todo, delete a todo, update a status, update description, update due time
+
+Todo Status: Open, In Progress, Done, Cancelled
+
+
+-- ds.h1: APIs
+
+-- ds.h1 Add todo
+
+There will be an Add button on home page.
+
+
+- List todos
+  - All todos via pagination, date wise descending order, default to today
+- Update status: Mark done
+- Update description
+- Update due time
 
 
 -- ds.h1: References
