@@ -16,6 +16,58 @@
 - September Update
   - https://github.com/orgs/FifthTry/discussions/88
 
+
+-- ds.h1: 30 Sep
+
+## Discussion
+
+### With Amitu and Arpita [10:30 to ]
+
+- In Rust Function macro, module macros, types macros, we don't have in ftd
+- We can write functions and macros arbitrary in Rust
+- In ftd all functions are going to be async and lazy load
+- In ftd, how will we figure out that that function call should be async or in
+  sync automatically.
+  - Reference: Microsoft Powerfx github
+- Inside expressions we also may have dollar sign
+- Block in ftd, multiline expressions
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo)
+}
+```
+
+```ftd
+-- integer x: ftd.http("http://google.com", $xpath=$foo)
+```
+
+
+- For now we are supporting this
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo) + x + y
+}
+```
+
+```ftd
+-- string foo: { x + y + "hello"}
+```
+
+- ftd discussion: [ftd#441](https://github.com/ftd-lang/ftd/discussions/441)
+
+
+### TODO App
+
+- Redirect
+- Data, error
+
+### Rithik Update
+
+- Heading completed,
+- Headings are flat now, It has to be tree based.
+
 -- ds.h2: 26 Sept 2022
 
 - request-data processor
