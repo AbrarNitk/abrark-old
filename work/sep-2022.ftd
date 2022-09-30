@@ -67,6 +67,18 @@
 
 - Heading completed,
 - Headings are flat now, It has to be tree based.
+- Discussion: https://github.com/ftd-lang/fpm/discussions/484
+
+
+### Aviral
+
+- Need to complete, Homepage API List Movies API call using http processor
+- /api/movies/
+
+### Aditi
+
+- She needs to work on add-review page, add-movie api is giving 504
+
 
 -- ds.h2: 26 Sept 2022
 
