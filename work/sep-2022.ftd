@@ -19,9 +19,19 @@
 
 -- ds.h1: 30 Sep
 
+## Demo [4 to ]
+
+### Ganesh
+
+- Color Scheme theme
+- Images and Gifs in the title
+- Footer will also be controlled by sitemap
+- We can use it with FPM or FTD
+
+
 ## Discussion
 
-### With Amitu and Arpita [10:30 to ]
+### With Amitu and Arpita [10:30 to 12PM]
 
 - In Rust Function macro, module macros, types macros, we don't have in ftd
 - We can write functions and macros arbitrary in Rust
@@ -74,10 +84,12 @@
 
 - Need to complete, Homepage API List Movies API call using http processor
 - /api/movies/
+- PR: https://github.com/FifthTry/movie-db/pull/23
 
 ### Aditi
 
 - She needs to work on add-review page, add-movie api is giving 504
+- PR: https://github.com/FifthTry/movie-db/pull/24
 
 
 -- ds.h2: 26 Sept 2022
