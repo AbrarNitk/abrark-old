@@ -29,6 +29,35 @@
 - We can use it with FPM or FTD
 
 
+### Rithik
+
+- `id` in Sitemap
+
+```ftd
+-- ft.markdown:
+id: input
+
+-- fpm.sitemap:
+
+# input ;; id of the markdown component
+
+# Title: input
+
+# Title
+  id: input
+```
+
+- `page-headings` processor
+
+```
+-- fpm.toc-item list ph:
+$processor$: page-headings
+```
+
+- Issue: It should pick all the headings, there should be auto generated `id`
+  from title.
+
+
 ## Discussion
 
 ### With Amitu and Arpita [10:30 to 12PM]
