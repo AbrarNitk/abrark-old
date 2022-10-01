@@ -10,3 +10,29 @@ Python is an interpreted language because, during execution, each line is
 interpreted to machine code on-the-go.
 
 
+-- ds.h1: The `print` Statement
+
+Using this `print` statement we can print data on terminal.
+
+-- ds.code:
+lang: py
+
+print("Hello World")
+print(10)
+print(10.10)
+print(10.10, 10, 20)
+
+-- ds.h1: Comments
+
+`#` is used for single line comment and triple quoted `"""` string is used for
+multiline comment
+
+-- ds.code:
+lang: py
+
+# Hey I am single line comment
+
+"""
+Hey,
+I am multiline comment
+"""
