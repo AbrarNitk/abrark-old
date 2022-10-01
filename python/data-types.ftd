@@ -126,3 +126,6 @@ string[0]='F' # Will throw an error
 All the strings are unicode. Older version of python till 2.x support only
 ASCII characters.
 
+-- ds.h1: String Slicing
+
+`string[start:end]`
