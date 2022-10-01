@@ -1,0 +1,12 @@
+-- ds.page: Python
+
+-- ds.h1: What is Python
+
+Python is a high level interpreted language. A high language which cannot be
+directly understood by machine. High level code gets converted into bytecode
+and then converted into machine code.
+
+Python is an interpreted language because, during execution, each line is
+interpreted to machine code on-the-go.
+
+
