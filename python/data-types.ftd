@@ -90,14 +90,14 @@ lang: py
 
 print(len("string"))
 
-- ds.h2: Indexing
+-- ds.h2: Indexing
 
 In a string, every character is given a numerical index based on its position.
 
 -- ds.h2: Access String Characters Using Indexing
 
 Each character in a string can be accessed using its index. The index must be
-closed within square brackets, [], and appended to the string.
+closed within square brackets `[]`, and appended to the string.
 
 TODO: Examples with error also
 
