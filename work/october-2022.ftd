@@ -16,6 +16,21 @@
 - Need to handle errors in ftd
 - Working On https://github.com/ftd-lang/fpm/discussions/526
 
+TODO: Need to ask from Arpita, how to invoke function on-click event
+For example how to clear error field when user click in input box
+
+## Today's todo
+- FPM Heroku Template: TODO: On push event it should call clear API
+- FPM Heroku rename APP name
+
+## For Interview
+
+- Work Show off
+- About React (Virtual DOM and all....)
+- Mostly about UI...
+- Basic Algorithms like Bubble Sort, Selection Sort, etc...
+
+
 
 
 ## Discussion with Amitu
