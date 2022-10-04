@@ -8,6 +8,53 @@
 - October Update
   - https://github.com/orgs/FifthTry/discussions/101
 
+
+-- ds.h2: 4th October
+
+## Work
+
+- Need to handle errors in ftd
+- Working On https://github.com/ftd-lang/fpm/discussions/526
+
+
+
+## Discussion with Amitu
+
+- Spotify Shared Data
+- Netflix Shared Data
+- Can create a recommendation engine
+- Need co-operative solution
+  - Netflix apps talk to only servers directly
+  - Netflix apps talk to abrark.com and then talk to netflix server
+  - `abrark.com` becomes proxy server
+  - fpm has todo app, music app, youtube integrate, and using abrark.com/spotify
+  - How to solve, auth is provided by abrark.com
+  - fpm implementation of Auth protocol
+  - Personalised tracking using authentication
+  - Request goes to amitu.com from abrark.com with unique id, and amitu.com will verify and set a token
+  - Netflix cookie will be stored at abrark.com
+- Why Opt-in?
+  - Because of co-operate
+- We can use OpenID semantics
+- ak/api/play  - proxy pass to /netflix/api/play/
+- Proxy can have rules
+  - Gandi Api  - /api/ opaque data on netflix knows about it
+  - Can log the encrypted request and response
+- Parental Control ak.com
+  - First give me parental rating
+
+- Only Single Sign On `abrark.com`
+  - /amazon/
+  - /netflix/
+  - /spotify/
+  - /todo/
+  - /mail/
+  - /youtube/
+  - /instagram/
+
+- Show only boring response
+
+
 -- ds.h2: 3rd October
 
 -- ds.h3: My Tasks
@@ -36,3 +83,5 @@
 - Goa Plan
 - Food arrangement + Accommodation
 - Motor Bikes
+- Travel from bangalore to Goa
+- Train travel is much better than bus travel
