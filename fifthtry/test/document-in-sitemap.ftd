@@ -1,0 +1,29 @@
+-- ds.page: `document` in Sitemap
+
+
+Discussion: https://github.com/ftd-lang/fpm/discussions/465
+
+-- ftd.code:
+lang: ftd
+
+\-- fpm.sitemap:
+
+# Home: /
+
+## About: /about/
+
+- About Me: /about/
+- Words: /words/
+- Books: /books/
+
+# Concepts: /concepts/
+  document: books.ftd
+
+# FifthTry: /work/
+  document: books.ftd
+
+## Work: /work/
+  document: books.ftd
+
+- Daily Work: /work/
+  document: books.ftd
