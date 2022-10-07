@@ -9,6 +9,53 @@
   - https://github.com/orgs/FifthTry/discussions/101
 
 
+-- ds.h2: 6th October(Demo Day)
+
+## Demo at 11 AM
+
+### Amitu
+
+About what we did in September month
+
+- End Syntax
+- Heroku Button using GitHub
+- Endpoint Support
+
+### Arpita
+
+About new syntax in ftd `end` and all.
+- Version 0.2 to 0.3, Not versioned control
+
+
+### Abrar
+
+- About `kameri-app` fpm aap ui is written in ftd and backend is written django.
+- kameri should be used as dependency as fpm package
+- Apps like This will be used as wasm app
+- id an app need machine and database service, ...
+- Custom Urls mapping in sitemap
+
+### Rithik
+
+- Headings in Tree fashion for `ftd.h1-7`
+
+### Aditi and Aviral
+
+- Movie Db App
+
+### Ganesh
+
+- Slides: https://github.com/fifthtry/simple-dark-slides
+- https://fifthtry.github.io/simple-dark-slides/
+- Full Screen option
+- Keyboard key to go to left and right
+- It is compatible for desktop, mobiles and different devices also
+- `-- slide.presentation` component: left and right and slide options
+- options are title, subtitle, image, font and body
+- N number themes will be there
+
+
+
 -- ds.h2: 5th October
 
 ## Work
