@@ -28,7 +28,7 @@ github-like: FifthTry/fpm
 email: abrark.asahi@gmail.com
 
 
--- fpm.sitemap:
+/-- fpm.sitemap:
 
 # Home: /
 nav-title: My Sweet Home
@@ -51,3 +51,14 @@ readers: readers
 
 - Daily Work: /work/
 readers: readers
+
+
+-- fpm.sitemap:
+
+# Home
+url: /concepts/<string:username>/<integer:age>/
+document: /concepts/
+
+
+
+When the http request come,
