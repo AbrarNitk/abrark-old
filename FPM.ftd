@@ -58,7 +58,3 @@ readers: readers
 # Home
 url: /concepts/<string:username>/<integer:age>/
 document: /concepts/
-
-
-
-When the http request come,
