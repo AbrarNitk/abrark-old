@@ -56,5 +56,5 @@ readers: readers
 -- fpm.sitemap:
 
 # Home
-url: /concepts/<string:username>/<integer:age>/
-document: /concepts/
+url: /concepts/<string:username>/foo/<integer:age>/
+document: concepts.ftd
