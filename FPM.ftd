@@ -57,4 +57,4 @@ readers: readers
 
 # Home
 url: /concepts/<string:username>/foo/<integer:age>/
-document: concepts.ftd
+document: books.ftd
