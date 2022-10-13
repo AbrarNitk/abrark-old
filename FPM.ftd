@@ -56,5 +56,18 @@ readers: readers
 -- fpm.sitemap:
 
 # Home
-url: /concepts/<string:username>/foo/<integer:age>/
+url: /<string:username>/section/<integer:age>/
 document: books.ftd
+
+## Subsection
+url: /<string:username>/subsection/<integer:age>/
+document: fifthtry.ftd
+
+
+- TOC1
+  url: /<string:username>/toc/<integer:age>/
+  document: fifthtry-things.ftd
+
+  - TOC2
+    url: /<string:username>/toc2/<integer:age>/
+    document: fifthtry-things.ftd

@@ -1,0 +1,25 @@
+
+-- ds.page: Discussion
+
+
+-- ds.code:
+lang: py
+
+\-- fpm.package: abrark.com
+
+
+\-- fpm.dependency: fifthtry.github.io/kameri-app
+mount-point: todos
+end-point: http://kameri-service.heroku-apps.com/
+
+
+http://abrark.com/-/fifthtry.github.io/kameri-app/ 301 to /todos/
+http://abrark.com/todos/
+
+
+-- ds.markdown:
+
+/-/fifthtry.github.io/kameri-app/api/add-todo/ 301 to /todos/api/add-todo/
+
+/todos/api/add-todo/
+
