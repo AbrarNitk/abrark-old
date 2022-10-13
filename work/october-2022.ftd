@@ -18,7 +18,7 @@
   - Time: 11:30 AM till night
 
 ## Team Update
-  Till: 11:45 to 12:45PM
+- Till: 11:45 to 12:45PM
 
 ### Rithik
 
@@ -36,12 +36,9 @@
 
 - Connected with Ganesh for Health Insurance: 13:30 - 14:03
 
-
 - Connected with Amitu
   - dynamic parameters in service
 
-- ftd grammar test cases
-  - Time: At least One Hour
 
 - Start Learning WebAssembly and Assembly Script
   - Time: At least One Hour
@@ -52,6 +49,15 @@
   - Time: At least One Hour
   - Status: Pending
   - Time: At least One Hour
+
+- Sit with Arpita about ftd for new codebase
+  - Status: Done
+  - Time: 7 to 8PM
+  - Look at performance wise
+  - Flame graph of all the parser function
+  - ftd grammar test cases
+    - Time: At least One Hour
+
 
 
 -- ds.h2: 12th October
