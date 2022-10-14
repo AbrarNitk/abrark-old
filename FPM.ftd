@@ -53,9 +53,16 @@ readers: readers
 readers: readers
 
 
+
+
+
+
+
+
 -- fpm.sitemap:
 
 # Home
+skip: true
 url: /<string:username>/section/<integer:age>/
 document: books.ftd
 

@@ -49,6 +49,31 @@
 
 ### Lunch Time: 2:30 to 3:30
 
+
+### Demo Friday
+
+- Time: 4:00 to 5:00
+
+#### Amitu
+
+- fpm web framework
+- fpm auth
+- fpm controller
+- can we host it for you other than self hosting
+
+#### Hrithik
+
+- Demo: Numbering in headings
+  - Demo should be usable to public
+
+#### Abrar
+
+- skip: true `has be used while using dynamic parameter syntax`
+
+#### Shobhit
+
+- Todo App using wasm, used postgrest: super awesome
+
 -- ds.h2: 13th October
 
 ## Tasks
