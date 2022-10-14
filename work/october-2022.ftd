@@ -47,50 +47,7 @@
   - Self Service
 
 
-#### Summary Discussion FifthTry Work
-
-
-## Abrar Track
-- Next: Auth
-- fpm framework
-  - endpoint and wasm(drop)
-  - auth app
-- fpm Apps
-  - Auth
-    - only fpm mein daal sakte
-    - kitna time lagta hai uske hisab see dekhte hai rust mein karna hai ya nhi
-  - Kameri App, Movie-db as demo
-
-## Arpita Track
-- ftd interpreter
- - Change all the existing fpm packages(fpm.dev, ftd.dev, fifthtry.github.io/*)
- - Abrar will write parser
-
-- flycli
-- fpm controller
-  - Rithik
-  - fpm hosting
-- Next Feature: Payment(Razorpay, stripe)
-
-
-- Till 14th November
-
-## Then Goa 💫
-
-- Arpita next work can be fpm hosting
-- ftd fix
-
-
-#### fpm apps
-
-- Bhut saare apps banane hai
-- I have to learn Shobhit's work and build an app
-- Use Endpoint only Third party apps
-- Monicahq project APIs Monica + fpm ftd-ui
-- Open Source projects apps with fpm package
-- fpm heroku deploy
-
-
+### Lunch Time: 2:30 to 3:30
 
 -- ds.h2: 13th October
 
