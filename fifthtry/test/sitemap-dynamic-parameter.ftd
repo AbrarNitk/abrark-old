@@ -1,0 +1,27 @@
+-- ds.page: Dynamic Parameters in Sitemap
+
+
+- Discussion: https://github.com/ftd-lang/fpm/discussions/311
+
+
+-- ds.code: FPM.ftd
+lang: ftd
+
+\-- fpm.sitemap:
+
+# Home
+url: /<string:username>/section/<integer:age>/
+document: books.ftd
+
+## Subsection
+url: /<string:username>/subsection/<integer:age>/
+document: fifthtry.ftd
+
+
+- TOC1
+  url: /<string:username>/toc/<integer:age>/
+  document: fifthtry-things.ftd
+
+  - TOC2
+    url: /<string:username>/toc2/<integer:age>/
+    document: fifthtry-things.ftd
