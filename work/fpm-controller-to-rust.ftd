@@ -1,0 +1,27 @@
+-- ds.page: FPM Controller to Rust
+
+
+# Random thoughts
+
+- Deploy abrark.com on fly.io
+- Deploy kameri on heroku
+
+
+# Discussion with Wasif(Amitu, Shobhit)
+
+- Simplify the architecture
+- All the keys are managed by `fifthtry.com`
+- OAuth implementation
+- Ignore the current implementation
+- OAuth working with GitHub
+- Shobhit will create a repository for auth purpose
+- How can we have multiple authentication providers at one place
+
+
+
+## Scenarios
+
+- Self Hosting `fpm`
+  - GitHub and GitLab have apps template to deploy
+- Hosted by fifthtry
+
