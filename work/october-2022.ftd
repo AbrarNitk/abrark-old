@@ -8,6 +8,24 @@
 - October Update
   - https://github.com/orgs/FifthTry/discussions/101
 
+-- ds.h2: 16th October
+
+### Current Task
+
+- https://github.com/ftd-lang/fpm/discussions/526
+- endpoint to end-point Name change
+- skip: true in case of dynamic urls, Only for current package
+  - Dynamic Parameters for dependency packages
+- Icon in sitemap processor
+  - Rithik
+- Request Data: https://github.com/ftd-lang/fpm/discussions/551
+- Mount Point: https://github.com/ftd-lang/fpm/discussions/550
+
+- Deploy abrark.com on fly.io Account is done
+- Deploy kameri on heroku
+- Remove README1.md from fpm Heroku Template
+
+
 -- ds.h2: 15th October
 
 ### Today Work
