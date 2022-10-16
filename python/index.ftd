@@ -36,3 +36,70 @@ lang: py
 Hey,
 I am multiline comment
 """
+
+-- ds.h1: 15 October Class
+
+## Operators
+
+- Arithmetic(+, -, %, etc)
+- Comparison(<, <=, >, >=, etc...)
+- assignment (age = 10 )
+- logical( or, and, xor, etc)
+- bitwise(|, &, etc...)
+- Rule: Divide Multiply Add Subtract
+
+## Conditional Statements
+
+Def: A conditional statement is a Boolean(True/False) expression that, if True,
+executes a piece of code.
+
+- Indentation should be properly handled
+
+- Conditions with logical operator
+- Nested if else example
+
+-- ds.code:
+lang: py
+
+if condition is True:
+  pass
+else:
+  pass
+
+if condition is True:
+  pass
+elif statement:
+  pass
+
+
+-- ds.markdown:
+
+## Function
+
+Def: A function is a reusable set of operations.
+ - Reusable
+ - Simple
+
+### Types of functions
+
+- Built-in function
+  - Use string examples
+- User-defined functions
+  - Arguments
+  - Creation
+  - Scope
+    - Data Life Cycle
+  - lambdas name = lambda param1, param2: param1 * param2
+  - Function as argument
+  - Recursion
+
+## Loops
+
+Def: A loop is a control structure that is used to perform a set of instructions
+for a specific number of times.
+
+
+# Tasks
+
+- Logical Gates
+- Operators
