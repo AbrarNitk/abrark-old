@@ -25,9 +25,17 @@
 
 - ftd interpreter
  - Change all the existing fpm packages(fpm.dev, ftd.dev, fifthtry.github.io/*)
- - Abrar:
+ - Abrar: 20%
    - will help to write indentation support, test cases
    - functions, events, processor, etc...
+   - Available one hour a day
+   - Benchmarking of functions, interpreter slow or parser slow
+   - Performance is my main responsibility
+   - Create many benchmark files
+     - 1000x levels on nesting
+     - 1000x args in the function
+     - Use criterion rust for benchmarking
+   - Figured out the complexities of the program(parser, interpreter, executor)
 
 - fpm controller
   - Rithik

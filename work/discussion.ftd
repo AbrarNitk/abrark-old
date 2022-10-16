@@ -1,6 +1,7 @@
 
 -- ds.page: Discussion
 
+## Discussion About Mount Point
 
 -- ds.code:
 lang: py
@@ -23,3 +24,32 @@ http://abrark.com/todos/
 
 /todos/api/add-todo/
 
+
+-- ds.markdown:
+
+- We are static typed language, that's why we need generic.
+
+
+## Arpita and Amitu
+- Time 11:00 to 12:45
+- Options: ftd, wasm, django
+- `fpm controller`: Rust + wasm
+  - We have expertise in Rust
+  - First App for fpm
+  - Minuses
+    - Can not access direct database, need postgrest
+    - Call the fly APIs
+    - Can call only postgrest
+    - Model
+
+- Every package will become an application on fly
+- User to machine mapping
+- Service high level design
+- We have to explore fly.io APIs
+- IP are fixed cost, one or 2 dollar per month
+- How much RAMs and CPU fpm chal pata hai
+- docker application layer cpu and ram allocation
+- how to put cpu and ram limit on fpm
+
+Part 1: Design, Package to Machine
+Part 2: Research Exercise on part 1: How to scale it
