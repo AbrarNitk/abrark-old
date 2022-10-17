@@ -79,5 +79,4 @@ def decreasing(number):
     decreasing(number-1)
 
 
-
 decreasing(5)
