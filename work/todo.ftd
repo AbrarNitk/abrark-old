@@ -1,0 +1,22 @@
+-- ds.page: My TODOs
+
+
+- https://github.com/ftd-lang/fpm/discussions/526
+Status: In Progress
+Start Date: 17th October
+End Date: <>
+Priority: // todo, Need to re think about this param
+
+- `endpoint` to `end-point` name change
+- skip: true in case of dynamic urls, Only for current package
+  - Dynamic Parameters for dependency packages
+- Icon in sitemap processor
+  - Rithik
+- Request Data: https://github.com/ftd-lang/fpm/discussions/551
+- Mount Point: https://github.com/ftd-lang/fpm/discussions/550
+- ftd parser: learning by taking tasks
+- Explore fly.io with fpm controller
+
+- Deploy abrark.com on fly.io Account is done
+- Deploy kameri on heroku
+- Remove README1.md from fpm Heroku Template
