@@ -17,11 +17,23 @@
 ### Current Task
 
 - https://github.com/ftd-lang/fpm/discussions/526
+- Deploy abrark on heroku
 
-- Work: 11:00 to 1:00
+### TODOs
+
+- [ ] path parameters `request-data` processor
+
+
+### Time Schedule
+
+- Work on Current Task: 11:00 to 1:00
 - Discussion(Amitu and Ganesh): time: 1:00 to 2:00
-  - Workshop planning
+  - Workshop planning [Planning](/work/october-2022)
 - Lunch 2:00 to 2:45
+- Meeting 3:00 to 30
+ - [Discussion](Wasif/Shobhit/Amitu Discussion)
+- Pr Merged: https://github.com/FifthTry/kameri-app/pull/1
+
 
 
 -- ds.h2: 17th October
