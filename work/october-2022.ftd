@@ -13,9 +13,11 @@
 -- ds.h2: FPM Controller
 
 - FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
-- Working with: Rithik and Arpita
-- Arpita did the design for basic
-- cookie passed to http processor and endpoint
+  - Working with: Rithik and Arpita
+  - Arpita did the design for basic
+
+- cookie passed to http processor and endpoint proxy
+- benchmarking ftd functions
 
 -- ds.h2: WorkShop
 
@@ -30,9 +32,9 @@ Date: 21 October
 ### Current Task
 
 - Dynamic Sitemap(for packages)
-  - dynamic sitemap for packages as well
+  - dynamic sitemap for dependency packages as well
   - https://github.com/ftd-lang/fpm/discussions/311
-  - status: pending
+  - status: in progress(will continue to tomorrow)
 
 
 ### Done Task
@@ -63,7 +65,9 @@ Date: 21 October
 - Interview Shadow [Meenu Kumari] 12:00 to 13:30
 - Lunch Time 13:30 to 2:00
 - Worked on Skip true header is done 02:00 to 03:00
-- Having bad headache going for rest
+- Having bad headache going for rest till 07:00
+- Worked on task 07:00 to 8:00
+- ending the day
 
 
 -- ds.h2: 16th October
