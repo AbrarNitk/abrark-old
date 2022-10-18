@@ -8,43 +8,58 @@
 - October Update
   - https://github.com/orgs/FifthTry/discussions/101
 
--- ds.h2: Important Tasks
+-- ds.h1: Important Tasks
+
+-- ds.h2: FPM Controller
 
 - FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
-  - Rithik and Arpita
+- Working with: Rithik and Arpita
+- Arpita did the design for basic
 
 -- ds.h2: WorkShop
 
 Date: 21 October
 [Planning](/work/workshop/)
 
--- ds
 
+-- ds.h1: Daily Updates
 
 -- ds.h2: 16th October
 
 ### Current Task
 
+- Dynamic Sitemap(skip true)
+  - skip true for dynamic urls
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: in progress
+
+- Dynamic Sitemap(for packages)
+  - dynamic sitemap for packages as well
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: in progress
+
+
+### Done Task
+
 - named url parameter support in request-data
   - https://github.com/ftd-lang/fpm/discussions/551
   - docs: https://github.com/ftd-lang/fpm.dev/pull/89
-  - status: in progress
+  - status: merged
 
 ### Work TODOs
 
-- [ ] current task
+- [x] Task 1: named url parameter
 - [ ] Dynamic Sitemap: https://github.com/ftd-lang/fpm/discussions/311
 - [ ] one hour ftd parser
 - [ ] Merge Rithik's PR for sitemap icon
-- [ ]
+
 
 
 ### Time Schedule
 
 - Start working on task at 11:30 to 12:00
-- Interview Shadow [Meenu Kumari] 12:00 to
-
-
+- Interview Shadow [Meenu Kumari] 12:00 to 13:30
+- Lunch Time 13:30 to 
 
 -- ds.h2: 16th October
 
