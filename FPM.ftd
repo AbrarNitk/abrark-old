@@ -63,7 +63,7 @@ readers: readers
 
 # Home
 skip: true
-url: /<string:username>/section/<integer:age>/
+url: /a/section/28/
 document: books.ftd
 
 ## Subsection

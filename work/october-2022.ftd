@@ -15,6 +15,7 @@
 - FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
 - Working with: Rithik and Arpita
 - Arpita did the design for basic
+- cookie passed to http processor and endpoint
 
 -- ds.h2: WorkShop
 
@@ -28,18 +29,18 @@ Date: 21 October
 
 ### Current Task
 
-- Dynamic Sitemap(skip true)
-  - skip true for dynamic urls
-  - https://github.com/ftd-lang/fpm/discussions/311
-  - status: in progress
-
 - Dynamic Sitemap(for packages)
   - dynamic sitemap for packages as well
   - https://github.com/ftd-lang/fpm/discussions/311
-  - status: in progress
+  - status: pending
 
 
 ### Done Task
+
+- Dynamic Sitemap(skip true)
+  - skip true for dynamic urls
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: merged
 
 - named url parameter support in request-data
   - https://github.com/ftd-lang/fpm/discussions/551
@@ -48,10 +49,11 @@ Date: 21 October
 
 ### Work TODOs
 
-- [x] Task 1: named url parameter
-- [ ] Dynamic Sitemap: https://github.com/ftd-lang/fpm/discussions/311
-- [ ] one hour ftd parser
-- [ ] Merge Rithik's PR for sitemap icon
+- Task 1: named url parameter request data
+- Task 2: skip header
+- Dynamic Sitemap: https://github.com/ftd-lang/fpm/discussions/311
+- one hour ftd parser
+- Merge Rithik's PR for sitemap icon
 
 
 
@@ -59,7 +61,10 @@ Date: 21 October
 
 - Start working on task at 11:30 to 12:00
 - Interview Shadow [Meenu Kumari] 12:00 to 13:30
-- Lunch Time 13:30 to 
+- Lunch Time 13:30 to 2:00
+- Worked on Skip true header is done 02:00 to 03:00
+- Having bad headache going for rest
+
 
 -- ds.h2: 16th October
 
