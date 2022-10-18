@@ -12,6 +12,30 @@
 
 [Planning](/work/october-2022)
 
+
+-- ds.h2: 16th October
+
+### Current Task
+
+- Dynamic Sitemap
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - docs
+- named url parameter support
+  - https://github.com/ftd-lang/fpm/discussions/551
+  - docs
+
+### Work TODOs
+
+- [ ] Complete current task
+- [ ] ftd parser
+
+
+### Schedule
+
+- Start working on task aat 11:30
+
+
+
 -- ds.h2: 16th October
 
 ### Current Task
@@ -22,8 +46,9 @@
 
 ### TODOs
 
-- [ ] current task: path parameters `request-data` processor
+- [x] current task: path parameters `request-data` processor
 - [ ] ftd parser
+  - Status: Did not get the time
 
 
 ### Time Schedule
@@ -43,8 +68,8 @@
 - Meeting with (Arpita/Rithik)
   - Icon in sitemap
   - Create Discussion pending on Rithik
-- Working on Current Task: 06:30 to ...
-
+- Working on Current Task: 06:30 to 9:00
+- Meeting with Arpita on fpm-controller till 9:00 to 11:30
 
 
 -- ds.h2: 17th October

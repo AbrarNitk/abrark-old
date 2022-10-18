@@ -25,3 +25,23 @@ document: fifthtry.ftd
   - TOC2
     url: /<string:username>/toc2/<integer:age>/
     document: fifthtry-things.ftd
+
+
+-- ds.page: How to access it
+
+-- ds.code:
+lang: ftd
+
+\-- record person:
+string username:
+integer age:
+
+\-- person p:
+$processor$: request-data
+
+
+\-- ftd.text: $p.username
+color: $fpm.color.main.text
+
+\-- ftd.integer: $p.age
+color: $fpm.color.main.text
