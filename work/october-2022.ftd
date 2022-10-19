@@ -27,6 +27,97 @@ Date: 21 October
 
 -- ds.h1: Daily Updates
 
+
+
+- Add it to dependency /foo/<string:username>/
+
+;; first order will be sitemap traversal
+-- fpm.sitemap:
+
+# Section
+## Subsection
+- Toc
+- no dynamic urls
+
+
+;; first order will be sitemap traversal
+-- fpm.dynamic-urls:
+
+- only toc will work
+- /foo/<string:username>/ if this is not present
+  document is necessary, document: foo.ftd
+
+
+
+- /-/fifthtry.github.io/code-block/ by default it should not happen, only
+  - create discussion about it
+- serve all the dynamic urls proxy-pass and ftd files
+- if endpoint/backend(wasm) present proxy-pass and serve ftd files
+- backend: true
+- /api/add-todo/ proxy-pass to a different server in case
+- /api/add-todo/, in that case backend: true no proxy-pass, proxy-pass to wasm
+- backend: true dynamic urls and proxy-pass /todo/
+- if endpoint: serve ftd also
+- backend: true, are equivalent feature
+
+- \-- fpm.sitemap: only for current package
+
+```ftd
+
+/amitu/-/<package-name>/add-todo/
+/amitu/todos/add-todo/
+
+-- fpm.dependency: kameri-app
+endpoint: http://127.0.0.1:8000
+mount-point: /todos/
+
+-- fpm.dependency: arpita-app(bhut kaam karti hai, khaste hue bhi kaam karti hai)
+endpoint: http://127.0.0.1:8000
+mount-point: /arpita/
+
+```
+
+- API request: api serve: /api/add-todo/
+- will not in the sitemap
+- We have to discuss dynamic-urls and all
+
+page request: ftd serve
+
+\-- fpm.dynamic-urls:
+only for those where backend is true
+at least till the mount-point
+
+fpm `dynamic-urls` from all trusted-dependencies will be served.
+
+- trusted-dependency
+  - if end-point or backend is true
+
+
+dynamic urls
+
+
+-- component foo:
+fn(x: integer, $y: integer) evt:
+
+-- ftd.text: hello
+on-click: $evt(x=10, y=20)
+
+-- end: foo
+
+-- component counter:
+fn(value: integer) on-change:
+integer $value: 0
+
+-- ftd.text: click me
+$on-click$: $value+=1
+$on-click$: $on-change($value)
+
+-- end: counter
+
+
+;; Remove above one
+
+
 -- ds.h2: 16th October
 
 ### Current Task
