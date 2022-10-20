@@ -39,28 +39,62 @@ lang: ftd
 
 ```ftd
 
-/amitu/-/<package-name>/add-todo/
+API Request: /amitu/api/add-todo/
+
+
+/amitu/-/<package-name>/api/add-todo/
 /amitu/todos/add-todo/
+
+/amitu/-/<package-name>/foo/ => /amitu/todos/foo/ redirect
 
 \-- fpm.dependency: kameri-app
 endpoint: http://127.0.0.1:8000
 mount-point: /todos/
 
 \-- fpm.dependency: arpita-app(bhut kaam karti hai, khaste hue bhi kaam karti hai)
-endpoint: http://127.0.0.1:8000
+endpoint: http://127.0.0.1:8001
 mount-point: /arpita/
+
 
 ```
 
-- API request: api serve: /api/add-todo/
+- sitemap: It will contain mapping of urls to document, It won't contain dynamic urls
+- dynamic-urls: It will contain dynamic urls mapping of the sitemap
+- New task is dynamic sitemap is fpm.ftd
+
+- API request: api serve: /todos/add-todo/,
+- fpm sequence logic
+  - sitemap mein jayega
+  - current package dynamic sitemap
+  - dependency ka dynamic sitemap(logic: based on mount point match prefix)
+  - then dependencies proxy pass (logic: only with mount point match prefix)
+  - else 404
+
 - will not in the sitemap
 - We have to discuss dynamic-urls and all
+
+;; for current package
+
+-- fpm.dynamic-url:
+
+- /<username>/foo/<age>/
+  document: person.ftd
+
+-- fpm.sitemap:
+
+# Section
+
+## Subsection
+
+- toc
+ - toc1
+   url: /foo/<string:username>/
+
 
 page request: ftd serve
 
 \-- fpm.dynamic-urls:
-only for those where backend is true
-at least till the mount-point
+only for those where backend is true or mount-point
 
 fpm `dynamic-urls` from all trusted-dependencies will be served.
 
@@ -68,7 +102,42 @@ fpm `dynamic-urls` from all trusted-dependencies will be served.
   - if end-point or backend is true
 
 
-dynamic urls
+## dynamic urls for dependencies
+
+package: b/FPM.ftd
+
+-- fpm.dynamic-urls:
+
+- /foob/<string:user>
+  document: personb.ftd
+
+
+-- fpm.sitemap:
+
+- /foob/arpita/
+
+
+package: a/FPM.ftd
+
+-- fpm.dependency: b
+endpoint: http://127.0.0.1:8000
+mount-point: /mount-b/
+
+
+-- fpm.dynamic-urls:
+
+- /foo/<string:user>
+  document: person.ftd
+
+
+-- fpm.sitemap:
+
+- /foo/arpita/
+
+- From B:
+  url: /mount-b/foob/arpita/ (It is working)
+
+request: a/mount-b/foob/abrark/
 
 
 -- component foo:

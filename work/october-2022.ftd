@@ -15,6 +15,7 @@
 - FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
   - Working with: Rithik and Arpita
   - Arpita did the design for basic
+  - docker push fpm image on github action
 
 - cookie passed to http processor and endpoint proxy
 - benchmarking ftd functions
@@ -27,9 +28,49 @@ Date: 21 October
 
 -- ds.h1: Daily Updates
 
--- ds.h2: 18th October
+-- ds.h2: 20th October
 
-### Schedule
+### Discussion with Amitu
+
+- Event guest list with auth feature
+- /~/<term> -> internal redirect or external redirect
+- wasmtime has a fature called  add_fuel
+- limit memory and consume_fuel in ftd
+- guard rails for ftd files
+- Language should be non objectionable, marketing
+- It should not be argumentative
+- Edge network,
+- Pehle cloud 2010 - 2020(aws, heroku), Now edge (cloudflare, fly, vercel, netlify) 2020 to 2030
+
+# Today
+## deploy on heroku
+
+## First API Key
+## deploy on heroku
+
+## Abrar
+- tracker-id (substitute for auth) (django and rust)
+- endpoint send cookie
+- sha(package-name) use only 6 digits _a bnake karke a send karenge
+- fpm controller
+- forget fly, only heroku
+
+## Arpita
+- http processor mein cookies pass karni padengi
+- fpm mein sari cookies send to browser
+
+
+### Schedule and Work
+
+- Deployed abrark on app
+- Deploy kameri-app on heroku
+- Deploy kameri-service on heroku
+  - Heroku will run the postgres
+- every technology is bank ka loan
+
+
+
+-- ds.h2: 19th October
 
 ### Current Task
 
@@ -44,7 +85,8 @@ Date: 21 October
 - Meeting with Amitu/Arpita end-point.ftd discussion 10:00 to 11:00
 - Interview with Aniket 11:00 to 12:00
 - Meditation 12:20 to 12:35
-- Discussion with Arpita 12:35 to ...
+- Discussion with Arpita about mount point and dynamic urls
+  - https://github.com/ftd-lang/fpm/discussions/569
 
 
 -- ds.h2: 18th October
