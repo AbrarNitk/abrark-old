@@ -42,22 +42,22 @@ Date: 21 October
 - Edge network,
 - Pehle cloud 2010 - 2020(aws, heroku), Now edge (cloudflare, fly, vercel, netlify) 2020 to 2030
 
-# Today
-## deploy on heroku
+### Today Work
 
-## First API Key
-## deploy on heroku
+- deploy kameri on heroku with the current situation
+  - with postgres
+- deploy kameri on heroku with API Key
 
-## Abrar
-- tracker-id (substitute for auth) (django and rust)
-- endpoint send cookie
-- sha(package-name) use only 6 digits _a bnake karke a send karenge
-- fpm controller
-- forget fly, only heroku
+- Abrar
+  - tracker-id (substitute for auth) (django and rust)
+  - endpoint send cookie
+  - sha(package-name) use only 6 digits _a bnake karke a send karenge
+  - fpm controller
+  - forget fly, only heroku
 
-## Arpita
-- http processor mein cookies pass karni padengi
-- fpm mein sari cookies send to browser
+- Arpita
+  - http processor mein cookies pass karni padengi
+  - fpm mein sari cookies send to browser
 
 
 ### Schedule and Work
