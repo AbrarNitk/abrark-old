@@ -55,19 +55,20 @@ Date: 21 October
 - add secrets.json in settings.py in
 - documentation about how did you deploy on fly.io
 
-### Aditi
+### Aditi and Aviral
 
 - Search button work
 - Aditi is doing Aviral's work
 - search all movies starts_with `Fifth`
   - Should update before lunch
+  - Work with Aviral
 - page_no(previous and next button) and error-handling
 
 
 ### Schedule
 
 - Working on dynamic urls
-- took aditi and rithik's udpate
+- took aditi/aviral and rithik's udpate
 
 -- ds.h2: 20th October
 
