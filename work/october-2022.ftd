@@ -30,6 +30,27 @@ Date: 21 October
 
 -- ds.h2: 20th October
 
+### Work
+
+- [ ] Dynamic Urls in current package
+  - Status: In Progress
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+- [ ] Dynamic Urls in foreign package
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+- [ ] Work One hour on FTD with/without Arpita
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+
+### Schedule
+
+- Working on dynamic urls
+
+
+-- ds.h2: 20th October
+
 ### Discussion with Amitu
 
 - Event guest list with auth feature
