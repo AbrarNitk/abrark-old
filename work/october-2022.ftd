@@ -16,9 +16,12 @@
   - Working with: Rithik and Arpita
   - Arpita did the design for basic
   - docker push fpm image on github action
+  - documentation how does it do for fly.io
 
-- cookie passed to http processor and endpoint proxy
-- benchmarking ftd functions
+- [ ] cookie passed to http processor and endpoint proxy
+  - Status: Documentation is pending
+- [ ] benchmarking ftd functions
+  - Status: pending
 
 -- ds.h2: WorkShop
 
@@ -35,6 +38,7 @@ Date: 21 October
 - [ ] Dynamic Urls in current package
   - Status: In Progress
   - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fpm/discussions/311
 
 - [ ] Dynamic Urls in foreign package
   - https://github.com/ftd-lang/fpm/discussions/569
