@@ -18,10 +18,25 @@
   - docker push fpm image on github action
   - documentation how does it do for fly.io
 
-- [ ] cookie passed to http processor and endpoint proxy
+- [ ] Event Page on discord and linkedin
+- [ ] Background Image for linkedin page
+- [x] cookie passed to http processor and endpoint proxy
   - Status: Documentation is pending
-- [ ] benchmarking ftd functions
+- [x] benchmarking ftd functions
   - Status: pending
+
+- fpm controller
+  - database support
+  - docker support
+
+
+- Idea: Code documentation
+  - For Documentation => Documentation + Code
+  - For Code => Only code
+  - Version control system from code update to last documentation update
+    - It will help to update the documentation.
+  - Less DB need for documentation docs.
+  - Literate Programming
 
 -- ds.h2: WorkShop
 
@@ -33,7 +48,18 @@ Date: 21 October
 
 -- ds.h2: 25th October
 
+### Discussion with Amit'u and Arpita
+
+- Community building
+- Build small and small communities
+- Handle chat group on discord
+- How many people are using us
+- Our primary goal is to build a community
+- New cohort, how to start?
+
 ### Today's Tasks
+
+- [x] Code refactor sitemap
 
 - [ ] Dynamic Urls in current package
   - Status: In Progress
@@ -43,7 +69,7 @@ Date: 21 October
 - [ ] Dynamic Urls in foreign package
   - https://github.com/ftd-lang/fpm/discussions/569
 
-- [ ] Work One hour on FTD with/without Arpita
+- [x] Work One hour on FTD with/without Arpita
   - Desc: start looking at the code
   - Desc: start writing the test cases
 
