@@ -33,7 +33,7 @@ Date: 21 October
 
 -- ds.h2: 20th October
 
-### Work
+### Today's Tasks
 
 - [ ] Dynamic Urls in current package
   - Status: In Progress
@@ -46,6 +46,13 @@ Date: 21 October
 - [ ] Work One hour on FTD with/without Arpita
   - Desc: start looking at the code
   - Desc: start writing the test cases
+
+
+### Rithik Update
+
+- Working on fpm-controller
+- add secrets.json in settings.py in
+- documentation about how did you deploy on fly.io
 
 
 ### Schedule
