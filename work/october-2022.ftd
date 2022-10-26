@@ -56,6 +56,13 @@ Date: 21 October
   - Status: In Progress
   - https://github.com/ftd-lang/fpm/discussions/569
   - https://github.com/ftd-lang/fpm/discussions/311
+  - [x] Define dynamic-urls type in fpm.ftd
+  - [x] Define types in rust
+  - [ ] Write parser for dynamic urls
+  - [ ] Store them in package with sitemap
+  - [ ] remove dynamic urls logic from sitemap
+  - [ ] request urls matching logic with dynamic urls
+
 
 - [ ] Dynamic Urls in foreign package
   - https://github.com/ftd-lang/fpm/discussions/569
