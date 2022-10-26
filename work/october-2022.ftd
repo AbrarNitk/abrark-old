@@ -58,9 +58,8 @@ Date: 21 October
   - https://github.com/ftd-lang/fpm/discussions/311
   - [x] Define dynamic-urls type in fpm.ftd
   - [x] Define types in rust
-  - [ ] Write parser for dynamic urls
-  - [ ] Store them in package with sitemap
-  - [ ] remove dynamic urls logic from sitemap
+  - [x] Write parser for dynamic urls
+  - [x] Store them in package with sitemap
   - [ ] request urls matching logic with dynamic urls
 
 
@@ -73,6 +72,15 @@ Date: 21 October
 
 - [ ] Start writing docs about heroku and fly deployment
 
+
+### Discussion with Amitu
+
+- RSS - XML - We should do similar things like rss xml
+-
+
+### Idea abrark/terminal abrark/terminal-py abrark/terminal-java
+
+- --download-base-url
 
 
 -- ds.h2: 25th October
