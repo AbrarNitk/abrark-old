@@ -78,3 +78,25 @@ document: fifthtry.ftd
   - TOC2
     url: /<string:username>/toc2/<integer:age>/
     document: fifthtry-things.ftd
+
+
+
+-- record dynamic-urls-rec:
+string list readers:
+string list writers:
+body dynamic-urls-body:
+
+
+-- optional dynamic-urls-rec dynamic-urls:
+
+
+-- fpm.dynamic-urls:
+
+- /person/<string:name>/
+  document: person.ftd
+  readers: readers/person
+  writers: writers/person
+- /person/<string:name>/
+  document: person.ftd
+  readers: readers/person
+  writers: writers/person

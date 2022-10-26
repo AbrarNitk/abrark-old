@@ -46,6 +46,28 @@ Date: 21 October
 
 -- ds.h1: Daily Updates
 
+
+-- ds.h2: 26th October
+
+### Today's Tasks
+
+
+- [ ] Dynamic Urls in current package
+  - Status: In Progress
+  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fpm/discussions/311
+
+- [ ] Dynamic Urls in foreign package
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+- [ ] Work One hour on FTD with/without Arpita
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+- [ ] Start writing docs about heroku and fly deployment
+
+
+
 -- ds.h2: 25th October
 
 ### Discussion with Amit'u and Arpita
@@ -60,6 +82,7 @@ Date: 21 October
 ### Today's Tasks
 
 - [x] Code refactor sitemap
+- [x] Code refactor config/package
 
 - [ ] Dynamic Urls in current package
   - Status: In Progress
