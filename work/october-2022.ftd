@@ -59,7 +59,16 @@ Date: 21 October
   - https://github.com/ftd-lang/fpm/pull/582
 
 - [ ] Rithik fly deployment testing and docs review
+  - Status: Pending
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+
+
 - [ ] Dynamic Urls in foreign package
+  - Status: Pending
+  - Description: Pehle mount-point khatam karna padega
   - https://github.com/ftd-lang/fpm/discussions/569
 
 - [ ] Work One hour on FTD with/without Arpita
