@@ -52,17 +52,25 @@ Date: 21 October
 ### Today's Tasks
 
 
+- [x] Aditi PR review and merge
+  - Reviewed it: https://github.com/FifthTry/movie-db/pull/32#pullrequestreview-1158001184
+- [x] Doc for Dynamic Urls
+  - PR Merged
+  - https://github.com/ftd-lang/fpm/pull/582
 
-- [ ] Aditi PR review and merge
-- [ ] Doc for Dynamic Urls
 - [ ] Rithik fly deployment testing and docs review
 - [ ] Dynamic Urls in foreign package
   - https://github.com/ftd-lang/fpm/discussions/569
+
 - [ ] Work One hour on FTD with/without Arpita
+  - [ ] Indentation support in ftd
   - Desc: start looking at the code
   - Desc: start writing the test cases
+
 - [ ] Start writing docs about heroku and fly deployment
-- [ ] Indentation support in ftd
+
+- [ ] Wasif code and demo
+
 
 ### Update: Rithik
 
