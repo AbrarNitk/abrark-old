@@ -47,12 +47,44 @@ Date: 21 October
 -- ds.h1: Daily Updates
 
 
--- ds.h2: 26th October
+-- ds.h2: 27th October
 
 ### Today's Tasks
 
 
-- [ ] Dynamic Urls in current package
+
+- [ ] Aditi PR review and merge
+- [ ] Doc for Dynamic Urls
+- [ ] Rithik fly deployment testing and docs review
+- [ ] Dynamic Urls in foreign package
+  - https://github.com/ftd-lang/fpm/discussions/569
+- [ ] Work One hour on FTD with/without Arpita
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+- [ ] Start writing docs about heroku and fly deployment
+- [ ] Indentation support in ftd
+
+### Update: Rithik
+
+- Documentation needs be merged
+- fpm-controller repos needs to run and tested by me
+
+
+### Update: Aditi and Aviral
+
+- page_no(previous and next button) and error-handling
+- done: Search button is working
+  - search all movies starts_with `Fifth`
+  - Should update before lunch
+  - Work with Aviral
+  - check if working: pending on me
+
+
+-- ds.h2: 26th October
+
+### Today's Tasks
+
+- [x] Dynamic Urls in current package
   - Status: In Progress
   - https://github.com/ftd-lang/fpm/discussions/569
   - https://github.com/ftd-lang/fpm/discussions/311
@@ -60,17 +92,8 @@ Date: 21 October
   - [x] Define types in rust
   - [x] Write parser for dynamic urls
   - [x] Store them in package with sitemap
-  - [ ] request urls matching logic with dynamic urls
-
-
-- [ ] Dynamic Urls in foreign package
-  - https://github.com/ftd-lang/fpm/discussions/569
-
-- [ ] Work One hour on FTD with/without Arpita
-  - Desc: start looking at the code
-  - Desc: start writing the test cases
-
-- [ ] Start writing docs about heroku and fly deployment
+  - [x] fpm.sitemap should not contain path params but fpm.dynamic-urls should contain path-params
+  - [x] request urls matching logic with dynamic urls
 
 
 ### Discussion with Amitu

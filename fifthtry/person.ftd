@@ -1,0 +1,17 @@
+-- import: fpm
+
+-- ds.page: Person Test
+
+-- record person:
+string username:
+integer age:
+
+-- person p:
+$processor$: request-data
+
+
+-- ftd.text: $p.username
+color: $fpm.color.main.text
+
+-- ftd.integer: $p.age
+color: $fpm.color.main.text

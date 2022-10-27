@@ -67,36 +67,30 @@ url: /a/section/28/
 document: books.ftd
 
 ## Subsection
-url: /<string:username>/subsection/<integer:age>/
+url: /string/
 document: fifthtry.ftd
 
 
 - TOC1
-  url: /<string:username>/toc/<integer:age>/
+  url: /string-username/
   document: fifthtry-things.ftd
 
   - TOC2
-    url: /<string:username>/toc2/<integer:age>/
+    url: /string-username/toc2/
     document: fifthtry-things.ftd
-
-
-
--- record dynamic-urls-rec:
-string list readers:
-string list writers:
-body dynamic-urls-body:
-
-
--- optional dynamic-urls-rec dynamic-urls:
 
 
 -- fpm.dynamic-urls:
 
-- /person/<string:name>/
-  document: person.ftd
+# Dynamic Urls Section
+
+- Url 1
+  url: /person/<string:username>/<integer:age>/
+  document: fifthtry/person.ftd
   readers: readers/person
   writers: writers/person
-- /person/<string:name>/
-  document: person.ftd
+- Url 2
+  url: /<string:username>/<integer:age>/
+  document: fifthtry/person.ftd
   readers: readers/person
   writers: writers/person
