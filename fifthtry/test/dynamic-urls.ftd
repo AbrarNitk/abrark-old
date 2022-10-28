@@ -7,7 +7,7 @@
 -- ds.code: FPM.ftd
 lang: ftd
 
-\-- fpm.sitemap:
+\-- fpm.dynamic-urls:
 
 # Home
 url: /<string:username>/section/<integer:age>/

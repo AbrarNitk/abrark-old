@@ -52,6 +52,31 @@ Date: 21 October
 ### Today's Tasks
 
 
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+  - Update: Update Discussion
+
+- [ ] Rithik fly deployment testing and docs review
+  - Status: Pending
+
+- [ ] Work One hour on FTD with/without Arpita
+  - [ ] Indentation support in ftd
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+- [ ] Wasif Code and demo
+  - Time: 12:30
+
+
+
+
+
+-- ds.h2: 27th October
+
+### Today's Tasks
+
+
 - [x] Aditi PR review and merge
   - Reviewed it: https://github.com/FifthTry/movie-db/pull/32#pullrequestreview-1158001184
 - [x] Doc for Dynamic Urls
@@ -64,6 +89,7 @@ Date: 21 October
 - [ ] mount-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/550
   - Status: In Progress
+  - Update: Update Discussion
 
 
 - [ ] Dynamic Urls in foreign package
