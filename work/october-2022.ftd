@@ -60,7 +60,7 @@ Date: 21 October
 - [ ] Rithik fly deployment testing and docs review
   - Status: Pending
 
-- [ ] Work One hour on FTD with/without Arpita
+- [ ] Work One hour on FTD with Arpita
   - [ ] Indentation support in ftd
   - Desc: start looking at the code
   - Desc: start writing the test cases
@@ -69,7 +69,23 @@ Date: 21 October
   - Time: 12:30
 
 
+### Rithik's Update
 
+- Documentation is ready
+- secrets.json file path from cli arguments
+- Next Rithik:
+
+### Aditi Update
+
+- Search is working fine
+- Next and previous has problem, it should be link on Next button
+- Error handling is not working
+
+### Aviral Update
+
+- Search is working
+- Error handling
+- List API is wrong, has to passed with processor using request-data
 
 
 -- ds.h2: 27th October
