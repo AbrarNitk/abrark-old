@@ -46,8 +46,41 @@ Date: 21 October
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: 31th October
 
--- ds.h2: 27th October
+### Today's Tasks
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+  - Update: Update Discussion
+
+- [ ] Rithik fly deployment testing and docs review
+  - Status: Done, pending from my side
+
+- [ ] Wasif Code and demo
+  - Time: 12:30
+
+
+### Amitu
+
+- Movie Share/File Share
+- mount-point/end-point (ten services are running)
+- Abrar Next: fpm-wasm
+- postgres + file storage while creating a package
+- putting files with encoding
+- Online folder will be managed by us
+- access file from different package(redirect to that package)
+- wasm k apps bhut saree like file sharing and all
+- endpoint is good, preferred is wasm
+- Target For Abrar is is to complete endpoint and mountpoint asap.
+- Wasm experiment on the upcoming weekend.
+- Blocker maybe, if event is ready so need to deploy fpm.dev, doc-site, presentation.
+- Arpita Next: performance
+- Observer review
+
+
+-- ds.h2: 28th October
 
 ### Today's Tasks
 
@@ -86,6 +119,12 @@ Date: 21 October
 - Search is working
 - Error handling
 - List API is wrong, has to passed with processor using request-data
+
+
+### Wasif
+
+- Code is working with GitHub OAuth
+- Task: fpm deploy with fpm-auth feature
 
 
 -- ds.h2: 27th October
