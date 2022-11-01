@@ -5,6 +5,8 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+mount-point: /ds/
+
 -- fpm.dependency: fifthtry.github.io/resume
 -- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
 -- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
@@ -16,6 +18,29 @@ download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
 -- fpm.dependency: FifthTry/movie-db
 /endpoint: http://127.0.0.1:8001
+
+-- fpm.dependency: fifthtry.github.io/todos
+endpoint: http:127.0.0.1:8001
+/endpoint: https://kameri-service.herokuapp.com
+mount-point: /todos/
+
+
+-- fpm.sitemap:
+
+# Section 1
+
+- TODOs: /todos/
+  - Add-TODO: /todos/add-todo/
+  - Update-TODO: /todos/update-todo/
+
+- DS: /ds/
+  - Add-TODO: /ds/add-todo/
+  - Update-TODO: /todos/update-todo/
+
+
+
+# Words: /words/
+  document: words.ftd
 
 
 -- fpm.user-group: readers
@@ -59,7 +84,7 @@ readers: readers
 
 
 
--- fpm.sitemap:
+/-- fpm.sitemap:
 
 # Home
 skip: true

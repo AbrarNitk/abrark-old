@@ -29,6 +29,11 @@
   - database support
   - docker support
 
+- fpm auth
+ - Status: Wasif is working on that
+ - Integration with fpm
+ - https://discord.com/channels/793929082483769345/1026089953878360065
+
 
 - Idea: Code documentation
   - For Documentation => Documentation + Code
@@ -62,6 +67,25 @@ Date: 21 October
   - Time: 12:30
 
 
+### Rithik Update
+
+- setting.json, local_settings.py
+- deployment of contoller-service on FLY using with/without docker file
+
+
+### Aviral
+
+- Form errors handling
+
+### Wasif Update
+
+- Integrate fpm with controller auth
+- abrark.com with auth demo
+- create a different auth mod
+- instead of API, call direct function from mod
+-
+
+
 ### Amitu
 
 - Movie Share/File Share
@@ -78,6 +102,12 @@ Date: 21 October
 - Blocker maybe, if event is ready so need to deploy fpm.dev, doc-site, presentation.
 - Arpita Next: performance
 - Observer review
+- Arpita:
+  - Before wasm we should solve the ftd
+  - We should solve the performance
+  - We should think according to market side, not research purpose
+  - We should optimise fpm and ftd before using wasm
+
 
 
 -- ds.h2: 28th October

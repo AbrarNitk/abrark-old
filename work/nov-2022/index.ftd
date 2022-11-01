@@ -1,0 +1,20 @@
+-- ds.page: November 2022 Work
+
+# Important Tasks
+
+- [ ] endpoint should be delivered
+- [ ] mount-point should be delivered
+- [ ] ftd should delivered
+- [ ] auth should be integrated with fpm
+- [ ] fpm-controller should be delivered
+
+
+-- ds.h1: Daily Updates
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: Work is done, merging is remaining
+
+- [ ] end-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/462
+  - Status: In Progress
