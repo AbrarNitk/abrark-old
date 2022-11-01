@@ -4,12 +4,20 @@
 
 - [ ] endpoint should be delivered
 - [ ] mount-point should be delivered
+- [ ] Django Tutorial: https://github.com/ftd-lang/fpm/discussions/526
 - [ ] ftd should delivered
 - [ ] auth should be integrated with fpm
 - [ ] fpm-controller should be delivered
 
 
 -- ds.h1: Daily Updates
+
+- [ ] kameri-app form-error is not working
+- [ ] kameri-app package name change and test, it is not working with abrark.com
+  - kameri-app.herokuapp.com package name and dependency name is same for now
+  - dependency name should be `kameri-app.herokuapp.com` because it has to download
+    the FPM.ftd file, and package name should be same as well.
+
 
 - [ ] mount-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/550
@@ -18,3 +26,6 @@
 - [ ] end-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/462
   - Status: In Progress
+
+- [x] kameri-app fixed on heroku
+- [ ] kameri-new-version deployed on heroku

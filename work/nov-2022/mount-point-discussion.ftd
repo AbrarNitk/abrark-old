@@ -1,0 +1,212 @@
+-- ds.page: `mount-point`
+
+- Q: Should all the urls served by sitemap only?
+  - sitemap is optional
+
+
+# How sitemap will look like
+
+## Without mount-point
+
+-- ftd.code:
+lang: ftd
+
+
+\-- fpm.sitemap:
+
+# Section: /
+## Subsection: /subsection/
+
+- Toc: /toc/
+  document: toc.ftd
+- Toc: /toc1/
+  document: /-/<another-package-name>/document.ftd
+- Another Package Document: /-/<another-package-name>/document/
+
+
+## With mount-point
+
+
+-- ftd.code:
+lang: ftd
+
+\-- fpm.dependency: fifthtry.github.io/todos
+mount-point: /todos/
+
+
+\-- fpm.sitemap:
+
+# Section: /
+## Subsection: /subsection/
+
+- Toc: /toc/
+  document: toc.ftd
+
+- Toc 1: /toc1/
+  document: /-/<another-package-name>/document/
+
+- Another Package Document: /-/<another-package-name>/document/
+
+- Another Package Document 2: /todos/document/
+;; In this case we may have document is current package as well /todos/document.ftd
+;; Priority should be current package or mount-point
+;; Only mount-point or end-point
+;;
+
+- Todos: /todos/
+;; This should be go to mount-point only
+;; req.url.starts_with(dep.mount-point) go to dependency sitemap
+;; all the problems should be at server starting
+;;
+
+/todos/add-todo/ => /add-todo/
+/todos/ => /
+
+Doubt: /-/<package-name>/add-todo/
+
+## Flow
+
+I have to think the flow how urls will be served, using `dynamic-urls` and
+`sitemap` with or without `mount-point`.
+
+
+Q: How request will be flow?
+
+- when request will be served from current sitemap
+  - if contains document or not
+  - It may contains document from another package
+- when request will be served from current dynamic-urls
+  - if contains document or not(It should always contain the document)
+- when request will be served from dependency package sitemap
+- when request will be served from dependency dynamic-urls
+
+
+## Tasks
+
+- package has to use the package urls
+- mount-point redirect should work for all the document
+
+# Auto link re-write
+  - from which package this is coming
+  - page k andar k urls?? for now use the complete urls
+  - other package should be work with the mount-point
+  - without this multi mount-point will not work
+
+
+# Discussion with `mount-point`
+
+Three cases are going to happen in case of mount-point
+
+1. http processor, link and, api call to another service
+
+## Case 1
+
+http processor: Direct call to service
+
+In this case it will directly call the service. Request will not be served by fpm.
+
+-- ftd.code:
+lang: ftd
+
+/-- todo list todos:
+$processor$: http
+method: get
+url: http://127.0.0.1:8001/api/todos/
+
+
+### Case 2
+
+http processor: Call with package-name
+
+In that case it will figure out the `endpoint` in FPM.ftd by using package name
+`fifthtry.github.io/todos`, and it will call the `endpoint/api/todos/`.
+
+
+-- ftd.code:
+lang: ftd
+
+/-- todo list todos:
+$processor$: http
+method: get
+url: /-/fifthtry.github.io/todos/api/todos/
+
+
+### Case 3
+
+http processor: Call with mount-point
+
+In that case it will figure out the `endpoint` in FPM.ftd by using mount-point
+prefix of the url `/todos/api/todos/`, and it will call the `endpoint/api/todos/`.
+
+Not possible: Rejected
+
+
+# Work and Tasks
+
+-- ftd.code:
+lang: ftd
+
+/-- todo list todos:
+$processor$: http
+method: get
+url: /todos/api/todos/
+
+
+## link example, which should work
+
+-- ftd.code:
+lang: ftd
+
+/-- ftd.text: Hello World
+link: /-/fifthtry.github.io/todos/add-todo/
+
+Need to check in case of dynamic parameters
+
+## http processor example, which should work
+
+-- ftd.code:
+lang: ftd
+
+/-- todo list todos:
+$processor$: http
+method: get
+url: http://127.0.0.1:8001/api/todos/
+;; this is http processor
+;; /todos/api/todos/
+;; include the link case as well
+;; url: /-/fifthtry.github.io/todos/api/todos/
+;; Ye chalna chaiye this would be
+;; happen using redirect feature
+;; url: https://kameri-service.herokuapp.com/api/sample/
+
+
+-- ftd.markdown:
+
+- Get the end-point from the package name, config.package.endpoint or dependency endpoint
+
+## object api call example, which should work
+
+-- ftd.code:
+lang: ftd
+
+/-- object add-api:
+function: http
+method: post
+url: /-/fifthtry.github.io/todos/api/add-todo/
+title: title
+status: selected-status
+description: description
+
+-- ftd.markdown:
+
+- Get the end-point from the package name, config.package.endpoint or dependency endpoint
+
+- /-/fifthtry.github.io/todos/add-todo/
+- /todos/add-todo/
+
+If request comes for the path /-/fifthtry.github.io/todos/api/add-todo/
+
+1. check if present in the package sitemap or dynamic urls
+2. if above fails
+ - get the end-point from current package or dependency package current package.
+
