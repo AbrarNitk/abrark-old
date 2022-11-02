@@ -14,9 +14,10 @@
 
 -- ds.h2: 2 Nov
 
-- [ ] working on link, processor and object with package-name.
+- [ ] working on link, processor call and object api call with package-name.
   - [x] document link without dynamic parameters
-  - [ ] document link with dynamic parameters
+  - [x] document link with package-name with dynamic parameters
+  - [ ] processor call with /-/package/api/todos/
 
 - [ ] end-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/462
