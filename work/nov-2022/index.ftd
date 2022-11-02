@@ -17,7 +17,13 @@
 - [ ] working on link, processor call and object api call with package-name.
   - [x] document link without dynamic parameters
   - [x] document link with package-name with dynamic parameters
-  - [ ] processor call with /-/package/api/todos/
+  - [ ] http-processor call with package-name /-/package/api/todos/
+    - In this case we need to fetch the end-point with package-name from FPM.ftd
+    - It will be either in the dependency or current package
+  - [ ] button api call with package-name /-/package/api/add-todo/
+    - In this case we need to fetch the end-point with package-name from FPM.ftd
+    - It will be either in the dependency or current package
+
 
 - [ ] end-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/462
