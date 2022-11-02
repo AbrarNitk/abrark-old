@@ -17,12 +17,25 @@
 - [ ] working on link, processor call and object api call with package-name.
   - [x] document link without dynamic parameters
   - [x] document link with package-name with dynamic parameters
-  - [ ] http-processor call with package-name /-/package/api/todos/
+    - http://127.0.0.1:8000/-/kameri-app/add-todo/abrark/
+    - Here `abrark` is dynamic parameter
+  - [x] http-processor call with package-name /-/kameri-app/api/todos/
     - In this case we need to fetch the end-point with package-name from FPM.ftd
     - It will be either in the dependency or current package
-  - [ ] button api call with package-name /-/package/api/add-todo/
+    - url: `/-/kameri-app/api/todos/` this is working in kameri service
+  - [x] proxy or button api call with package-name /-/kameri-app/api/add-todo/
     - In this case we need to fetch the end-point with package-name from FPM.ftd
     - It will be either in the dependency or current package
+  - [ ] kameri-app should also work with abrark.com
+  - [ ] pass headers with endpoint to processor and proxy call
+
+
+  - [ ] found error in dynamic-urls, getting failed
+    /-- fpm.dynamic-urls:
+    ;; error while calling /-/kameri-app/api/update-todo/
+    /- Add Todo
+      url: /add-todo/<string:name>
+      document: add-todo.ftd
 
 
 - [ ] end-point support in `-- fpm.dependency`
