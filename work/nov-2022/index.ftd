@@ -15,6 +15,9 @@
 -- ds.h2: 2 Nov
 
 - [ ] working on link, processor and object with package-name.
+  - [x] document link without dynamic parameters
+  - [ ] document link with dynamic parameters
+
 - [ ] end-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/462
   - Status: In Progress
