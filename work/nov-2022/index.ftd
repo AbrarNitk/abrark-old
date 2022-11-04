@@ -11,6 +11,8 @@
   - [ ] deploy fpm package
   - [ ] pricing page
 
+- [ ] Stripe Payment Discussion with Amitu and Arpita
+
 ## Abrar's Goals for this November month
 
 - [ ] auth should be integrated with fpm
@@ -20,7 +22,14 @@
   - [ ] Show to investor
 - [ ] next ftd rewrite: peace time
 
+## Rithik
 
+- [ ] Stripe Payment
+- [ ] fpm sync
+- [ ] docusorus importer
+
+
+### Discussion with Amitu and Arpita (Payment)
 
 -- ds.h1: Daily Updates
 
@@ -48,6 +57,25 @@
 - Payment pages has to discuss
 - He is working on sitemap
 
+## Discussion with Amitu and Arpita
+
+- Auth ka implementation should be better than others
+- Shape will not be compromise
+- We know the vision, but dheere dheere banayenge
+- Design awesomely, but ek week mein kya kar sakte hai wo implement karna hai
+- Read docusourus, take inspiration from them, add all the feature of them, versioning, translation
+- You will not be claiming hmara versioning better
+- Feature different hai that is the main feature to sale
+- dynamic features hai and auth hai, we have extra
+- wasm k konse features hai, jo users use mein aayenge
+  - company definition dictionary
+  - App to auto generate the code, just replace the configuration
+  - Api documentation fpm package
+  - Run a new server on a click, with the provided configuration
+- supertokens Passwordless
+- docs.dyte.io/api/
+
+
 
 -- ds.h2: 2 Nov
 
@@ -69,7 +97,7 @@
     - How to: if in proxy redirecting to / so redirect to /-/package-name/
   - [ ] redirect /-/kameri-app.herokuapp.com/add-todo/ to /todos/add-todo/
   - [ ] pass headers with endpoint to processor and proxy call
-  - [ ] auth integration with wasif
+  - [ ] auth integration with Wasif
 
 
 
