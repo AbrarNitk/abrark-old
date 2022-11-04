@@ -6,11 +6,48 @@
 - [ ] mount-point should be delivered
 - [ ] Django Tutorial: https://github.com/ftd-lang/fpm/discussions/526
 - [ ] ftd should be delivered
-- [ ] auth should be integrated with fpm
+
 - [ ] fpm-controller should be delivered
+  - [ ] deploy fpm package
+  - [ ] pricing page
+
+## Abrar's Goals for this November month
+
+- [ ] auth should be integrated with fpm
+- [ ] deliver wasm
+  - [ ] One fully working app
+  - [ ] Fully polished
+  - [ ] Show to investor
+- [ ] next ftd rewrite: peace time
+
 
 
 -- ds.h1: Daily Updates
+
+-- ds.h2: 4 Nov
+
+- [ ] working on link, processor call and object api call with package-name.
+  - [ ] redirect /-/kameri-app.herokuapp.com/add-todo/ to /todos/add-todo/
+  - [ ] redirect to package, send package after adding the todos pass redirect header
+    - send package name in the proxy get_out /-/package-name/
+    - How to: if in proxy redirecting to / so redirect to /-/package-name/
+  - [ ] pass headers with endpoint to processor and proxy call
+  - [ ] auth integration with wasif
+
+  - [ ] found error in dynamic-urls, getting failed
+    /-- fpm.dynamic-urls:
+    ;; error while calling /-/kameri-app/api/update-todo/
+    /- Add Todo
+      url: /add-todo/<string:name>
+      document: add-todo.ftd
+
+
+## Rithik Update
+
+- Deployment is working on fly.io using gunicorn
+- Payment pages has to discuss
+- He is working on sitemap
+
 
 -- ds.h2: 2 Nov
 
@@ -26,9 +63,13 @@
   - [x] proxy or button api call with package-name /-/kameri-app/api/add-todo/
     - In this case we need to fetch the end-point with package-name from FPM.ftd
     - It will be either in the dependency or current package
-  - [ ] kameri-app should also work with abrark.com
-  - [ ] redirect /-/kameri-app.heroku.com/add-todo/ to /todos/add-todo/
+  - [x] kameri-app should also work with abrark.com
+  - [ ] redirect to package, send package after adding the todos pass redirect header
+    - send package name in the proxy get_out /-/package-name/
+    - How to: if in proxy redirecting to / so redirect to /-/package-name/
+  - [ ] redirect /-/kameri-app.herokuapp.com/add-todo/ to /todos/add-todo/
   - [ ] pass headers with endpoint to processor and proxy call
+  - [ ] auth integration with wasif
 
 
 
@@ -40,7 +81,7 @@
       document: add-todo.ftd
 
 
-- [ ] end-point support in `-- fpm.dependency`
+- [x] end-point support in `-- fpm.dependency`
   - https://github.com/ftd-lang/fpm/discussions/462
   - Status: In Progress
 
