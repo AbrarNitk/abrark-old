@@ -1,4 +1,4 @@
--- import: abrark.com/assets
+/-- import: abrark.com/assets
 
 -- ds.page: About Me: Abrar Khan (`abrark`), naam to suna hoga!
 
@@ -12,5 +12,5 @@ way documentation is written and hopefully how the world learns.
 
 Arpita wants this text to be present in this file.
 
--- ds.image:
+/-- ds.image:
 src: $assets.files.ftd.png

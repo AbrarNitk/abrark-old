@@ -1,4 +1,5 @@
-.packages
+.temp-pack
 .build
 .DS_Store
 .idea
+.packages
