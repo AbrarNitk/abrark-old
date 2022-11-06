@@ -16,31 +16,11 @@ mount-point: /ds/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
--- fpm.dependency: FifthTry/movie-db
+
+-- fpm.dependency: kameri-app.herokuapp.com
+endpoint: https://kameri-service.herokuapp.com
 /endpoint: http://127.0.0.1:8001
-
--- fpm.dependency: fifthtry.github.io/todos
-endpoint: http:127.0.0.1:8001
-/endpoint: https://kameri-service.herokuapp.com
 mount-point: /todos/
-
-
--- fpm.sitemap:
-
-# Section 1
-
-- TODOs: /todos/
-  - Add-TODO: /todos/add-todo/
-  - Update-TODO: /todos/update-todo/
-
-- DS: /ds/
-  - Add-TODO: /ds/add-todo/
-  - Update-TODO: /todos/update-todo/
-
-
-
-# Words: /words/
-  document: words.ftd
 
 
 -- fpm.user-group: readers
@@ -53,7 +33,7 @@ github-like: FifthTry/fpm
 email: abrark.asahi@gmail.com
 
 
-/-- fpm.sitemap:
+-- fpm.sitemap:
 
 # Home: /
 nav-title: My Sweet Home
@@ -65,6 +45,8 @@ readers: readers
 ## About: /about/
 
 - About Me: /about/
+
+# Todos: /todos/
 
 # Words: /words/
 
@@ -105,7 +87,7 @@ document: fifthtry.ftd
     document: fifthtry-things.ftd
 
 
--- fpm.dynamic-urls:
+/-- fpm.dynamic-urls:
 
 # Dynamic Urls Section
 
