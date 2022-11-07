@@ -33,6 +33,13 @@ github-like: FifthTry/fpm
 email: abrark.asahi@gmail.com
 
 
+-- fpm.app: Todos for Family
+mount-point: /family-todos/
+package: fifthtry.github.io/kameri
+end-point: http://127.0.0.1:8000
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
 -- fpm.sitemap:
 
 # Home: /
