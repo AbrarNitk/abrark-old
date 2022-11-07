@@ -1,26 +1,27 @@
 -- ds.page: November 2022 Work
 
-# Important Tasks
+## Important Tasks
 
-- [ ] endpoint should be delivered
-- [ ] mount-point should be delivered
+- [x] endpoint should be delivered
+- [x] mount-point should be delivered
 - [ ] Django Tutorial: https://github.com/ftd-lang/fpm/discussions/526
 - [ ] ftd should be delivered
 
 - [ ] fpm-controller should be delivered
-  - [ ] deploy fpm package
+  - [x] deploy fpm package
   - [ ] pricing page
-
-- [ ] Stripe Payment Discussion with Amitu and Arpita
 
 ## Abrar's Goals for this November month
 
+- [ ] mount-point, multi-mount point and endpoint
 - [ ] auth should be integrated with fpm
 - [ ] deliver wasm
   - [ ] One fully working app
   - [ ] Fully polished
   - [ ] Show to investor
+- Subscription
 - [ ] next ftd rewrite: peace time
+
 
 ## Rithik
 
@@ -28,8 +29,10 @@
 - [ ] fpm sync
 - [ ] docusorus importer
 
+## TODOs
 
-### Discussion with Amitu and Arpita (Payment)
+- Payment Discussion with Amitu and Arpita
+- Subscription Discussion with Amitu and Arpita
 
 -- ds.h1: Daily Updates
 
@@ -37,7 +40,7 @@
 
 - [ ] multi mount-point
   - Discussion: https://github.com/ftd-lang/fpm/discussions/599
-  - Local Discussion: /multi-mount-point/
+  - Discussion: /multi-mount-point/
 
 
 -- ds.h2: 4 Nov

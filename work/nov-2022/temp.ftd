@@ -6,6 +6,7 @@
 - Stripe Payment meeting with Amitu
 - How to implement Future on a struct on .await calling poll
 - codec is a http parser, mp3 codec
+- subscription
 
 - Wasm and fpm-controller
 - Techie and writers 1000 domains

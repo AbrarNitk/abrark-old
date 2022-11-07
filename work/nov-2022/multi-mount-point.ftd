@@ -1,6 +1,9 @@
 -- ds.page: Multi mount-point
 
-fpm dependency can be added with multiple mount-point.
+As we can install multiple fpm applications in a fpm package.
+While installing application, we can also use a fpm dependency with different
+mount-point. Meaning that, same dependency can be used in multiple applications
+but with different mount-point.
 
 -- ds.code:
 lang: ftd
