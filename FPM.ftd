@@ -32,7 +32,6 @@ github-like: FifthTry/fpm
 -- fpm.user-group: writers
 email: abrark.asahi@gmail.com
 
-
 -- fpm.app: Todos for Family
 mount-point: /family-todos/
 package: fifthtry.github.io/kameri
