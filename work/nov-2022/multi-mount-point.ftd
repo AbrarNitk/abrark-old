@@ -1,0 +1,36 @@
+-- ds.page: Multi mount-point
+
+fpm dependency can be added with multiple mount-point.
+
+-- ds.code:
+lang: ftd
+
+\-- import: fpm
+\-- fpm.package: abrark.com
+
+\-- fpm.app: Todos for Family
+mount-point: /family-todos/
+package: fifthtry.github.io/kameri
+end-point: <>
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+\-- fpm.app: Word DB
+mount-point: /word-db/
+package: fifthtry.github.io/kameri
+end-point: <>
+config: db_url=$ENV.WORD_DB_DB_URL
+config: name=WordDB: Database Of Words
+
+
+-- ds.h1: Tasks
+
+- [ ] Need to implement multi mount-point
+- [ ] create one type in fpm.ftd of type `fpm.app`
+- [ ] parse that to fpm package and sitemap
+- [ ] Need to handle
+  - [ ] request url prefix may be start with fpm-app multi-mount point
+  - [ ] If it starts, than that package sitemap is going to use to serve the ftd document
+  - [ ] Similar thing is going to happen with endpoint, if urls did not match with
+    package sitemap, so send request to endpoint, if exists in the `-- fpm.app`.
+  - [ ] Have to refactor the redirect logic

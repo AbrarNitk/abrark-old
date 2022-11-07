@@ -33,6 +33,13 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: 7 Nov
+
+- [ ] multi mount-point
+  - Discussion: https://github.com/ftd-lang/fpm/discussions/599
+  - Local Discussion: /multi-mount-point/
+
+
 -- ds.h2: 4 Nov
 
 - [ ] working on link, processor call and object api call with package-name.
