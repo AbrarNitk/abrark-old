@@ -29,11 +29,15 @@ config: name=WordDB: Database Of Words
 -- ds.h1: Tasks
 
 - [ ] Need to implement multi mount-point
-- [ ] create one type in fpm.ftd of type `fpm.app`
-- [ ] parse that to fpm package and sitemap
 - [ ] Need to handle
-  - [ ] request url prefix may be start with fpm-app multi-mount point
+  - [x] request url prefix may be start with fpm-app url.
+  - [x] Have to refactor the redirect logic
+  - [x] pass package config and app config to endpoint
+
   - [ ] If it starts, than that package sitemap is going to use to serve the ftd document
-  - [ ] Similar thing is going to happen with endpoint, if urls did not match with
-    package sitemap, so send request to endpoint, if exists in the `-- fpm.app`.
-  - [ ] Have to refactor the redirect logic
+  - [ ] Similar thing is going to happen with endpoint, if url did not match with
+    package sitemap, so send request to endpoint, if endpoint exists in the `-- fpm.app`.
+  - [ ] pass package config and app config to http processor
+
+- [x] create one type in fpm.ftd of type `fpm.app`
+- [x] parse that to fpm package and sitemap

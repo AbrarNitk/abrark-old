@@ -37,6 +37,30 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: 8 Nov
+
+- [ ] multi mount-point fpm apps
+  - Discussion: https://github.com/ftd-lang/fpm/discussions/599
+  - Discussion: /multi-mount-point/
+  - terms: mount-point, url, end-point, app-name
+  - fpm-user-id header to different microservices
+  - readers writers groups in apps
+  - package mein icon
+
+- Auth integration with Wasif
+  - Need to create one fpm package with auth groups pages
+    - Possibly provide a button to deploy on Heroku
+    - So create a package from fpm-template
+
+- Payment Discussion with Amitu
+  - Database models discussion
+  - I have to read stripe payment APIs
+  - And create a small system design for Rithik
+
+- movie-db is breaking with latest fpm
+  - deploy movie-db on heroku and add another app
+  - movie-db: fixed
+
 -- ds.h2: 7 Nov
 
 - [ ] multi mount-point
@@ -47,12 +71,12 @@
 -- ds.h2: 4 Nov
 
 - [ ] working on link, processor call and object api call with package-name.
-  - [ ] redirect /-/kameri-app.herokuapp.com/add-todo/ to /todos/add-todo/
-  - [ ] redirect to package, send package after adding the todos pass redirect header
+  - [x] redirect /-/kameri-app.herokuapp.com/add-todo/ to /todos/add-todo/
+  - [x] redirect to package, send package after adding the todos pass redirect header
     - send package name in the proxy get_out /-/package-name/
     - How to: if in proxy redirecting to / so redirect to /-/package-name/
-  - [ ] pass headers with endpoint to processor and proxy call
-  - [ ] auth integration with wasif
+  - [x] pass headers with endpoint to processor and proxy call
+  - [x] auth integration with wasif
 
   - [ ] found error in dynamic-urls, getting failed
     /-- fpm.dynamic-urls:

@@ -16,8 +16,7 @@ mount-point: /ds/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
-
--- fpm.dependency: kameri-app.herokuapp.com
+/-- fpm.dependency: kameri-app.herokuapp.com
 endpoint: https://kameri-service.herokuapp.com
 /endpoint: http://127.0.0.1:8001
 mount-point: /todos/
@@ -33,11 +32,31 @@ github-like: FifthTry/fpm
 email: abrark.asahi@gmail.com
 
 -- fpm.app: Todos for Family
-mount-point: /family-todos/
-package: fifthtry.github.io/kameri
-end-point: http://127.0.0.1:8000
+mount-point: /todos/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
 config: db_url=$ENV.DB_URL
 config: name=Upadhyay Khanadan
+
+-- fpm.app: Movies
+mount-point: /movies/
+package: movie-db
+end-point: http://127.0.0.1:8001
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+
+;; /-/kameri-app.herokuapp.com/add-todo/
+;; /-/kameri-app.herokuapp.com/api/add-todo/
+;; package-name should be different
+
+-- fpm.app: Todos for Family
+mount-point: /tod123/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
 
 -- fpm.sitemap:
 
