@@ -25,7 +25,10 @@ mount-point: /todos/
 -- fpm.user-group: readers
 email: abrark.asahi@gmail.com
 github-like: FifthTry/fpm
-/github: AbrarNitk
+github: AbrarNitk
+
+-- fpm.user-group: ftd/fans
+github-starred: ftd-lang/ftd
 
 
 -- fpm.user-group: writers

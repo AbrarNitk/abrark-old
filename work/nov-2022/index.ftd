@@ -37,6 +37,22 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: 9th Nov
+
+### Tasks
+
+- Apps
+  - icon in package
+  - mount-point to url
+  - auth integration
+  - readers writers groups in apps
+  - User ID Support In App
+
+- Payment
+  - Read Stripe Payment APIs
+  - Payment System Design
+
+
 -- ds.h2: 8 Nov
 
 - [ ] multi mount-point fpm apps
@@ -51,15 +67,18 @@
   - Need to create one fpm package with auth groups pages
     - Possibly provide a button to deploy on Heroku
     - So create a package from fpm-template
+    - Status: Done
 
 - Payment Discussion with Amitu
   - Database models discussion
   - I have to read stripe payment APIs
   - And create a small system design for Rithik
+  - Status: Done, system design is pending
 
 - movie-db is breaking with latest fpm
   - deploy movie-db on heroku and add another app
   - movie-db: fixed
+  - Status: Done, working with abrark
 
 -- ds.h2: 7 Nov
 
