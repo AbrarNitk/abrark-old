@@ -27,6 +27,7 @@
 
 - [ ] Stripe Payment
   - Discussion: https://github.com/FifthTry/business/discussions/20
+  - /payment/
 - [ ] fpm sync
 - [ ] docusorus importer
 
@@ -40,6 +41,13 @@
 -- ds.h2: 9th Nov
 
 ### Tasks
+
+- Today: Auth Integration
+  - Discussion: auth
+  - Wasif PR review and integrate it with fpm
+  - login page should work
+  - readers and writers should be worked on abrark.com
+
 
 - Apps
   - icon in package
