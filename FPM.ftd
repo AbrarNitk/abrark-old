@@ -23,8 +23,8 @@ mount-point: /todos/
 
 
 -- fpm.user-group: readers
-email: abrark.asahi@gmail.com
-github-starred: FifthTry/fpm
+github-starred: ftd-lang/fpm
+/email: abrark.asahi@gmail.com
 /github: AbrarNitk
 
 -- fpm.user-group: ftd/fans
@@ -68,9 +68,9 @@ nav-title: My Sweet Home
 data: Section Data
 
 ## Resume: /resume/
-readers: readers
 
 ## About: /about/
+readers: readers
 
 - About Me: /about/
 
@@ -86,11 +86,6 @@ readers: readers
 
 - Daily Work: /work/
 readers: readers
-
-
-
-
-
 
 
 

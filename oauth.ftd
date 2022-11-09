@@ -1,0 +1,36 @@
+-- ds.page: OAuth
+
+- OAuth 2.0 and OpenID connect
+- Simple login or forms auth
+  - collect username and password via form
+  - Hash password, verify hash, look up user info, look up auth info
+  - save it to db -> Set-Cookie in the browser
+  - Downsides
+    - Security
+    - Maintenance
+
+- Identity use cases (pre-2010)
+  - Simple login (forms and cookies)
+  - Single sign-on across sites
+  - Mobile app login
+  - Delegated authorization
+    - How can I let a website access my data without giving it my password.
+
+- Delegated
+- entrust (a task or responsibility) to another person, typically one who is
+  less senior than oneself.
+- send or authorize (someone) to do something as a representative.
+
+
+- Delegated authorization with OAuth 2.0
+
+
+- I trust Gmail and I kind of trust Yelp. I want Yelp to have access to my contacts.
+
+
+Yelp.com have a button Say [connect with google] that redirects user to
+accounts.google.com, where user have to fill the email and password and then
+google will ask that this application wants to access these and these things from
+your account will you provide access, they user can choose yes or no, if user
+chooses yes then yelo.com/callback and set the cookie-token. And then
+
