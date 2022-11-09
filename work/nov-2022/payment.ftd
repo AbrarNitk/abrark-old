@@ -1,0 +1,8 @@
+-- ds.page: Payment
+
+Discussion:
+
+- [ ] Rithik has to build some wireframes for deployment and payment
+- [ ] Django models and system design
+- [ ] Django business logic and stripe integration
+- [ ] Pages in ftd

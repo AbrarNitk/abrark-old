@@ -13,13 +13,13 @@
 
 ## Abrar's Goals for this November month
 
-- [ ] mount-point, multi-mount point and endpoint
+- [x] mount-point, multi-mount point and endpoint, fpm-apps
 - [ ] auth should be integrated with fpm
 - [ ] deliver wasm
   - [ ] One fully working app
   - [ ] Fully polished
   - [ ] Show to investor
-- Subscription
+- Payment and Subscription
 - [ ] next ftd rewrite: peace time
 
 
