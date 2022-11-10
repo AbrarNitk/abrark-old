@@ -30,7 +30,7 @@ link: /auth/logout/
 role: $fpm.type.heading-large
 
 --- ftd.text: Login With Discord
-/if: not $ud.is-login
+if: not $ud.is-login
 link: /auth/login/?platform=discord
 role: $fpm.type.heading-large
 
