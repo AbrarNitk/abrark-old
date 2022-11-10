@@ -1,0 +1,17 @@
+## Rules and words and definition
+
+inline headers, block headers
+
+caption can also be single line and multi line
+
+if section header so as section then we have to put body as section.body
+
+
+State
+  - sections, line number, content, state(stack)
+
+- Complexity of the parser
+
+- next: updating the state
+
+reading block header

@@ -1,0 +1,80 @@
+-- ds.page: `mount-point` in Dependency
+
+Discussion: https://github.com/ftd-lang/fpm/discussions/550
+
+Let's say if we have packages `abrark.com` and `fifthtry.github.io/todos`.
+`abrark.com` uses `fifthtry.github.io/todos`.
+
+-- ftd.code: With mount-point
+land: ftd
+
+-- fpm.package: abrark.com
+
+-- fpm.dependency: fifthtry.github.io/todos
+end-point: https://abrark-todos.herokuapps.com
+mount-point: /todos/
+
+-- fpm.sitemap:
+
+# Home:
+- Study: /study/
+- Work: /work/
+- Todos: /todos/
+
+
+
+-- ftd.code: Without mount-point
+land: ftd
+
+-- fpm.package: abrark.com
+
+-- fpm.dependency: fifthtry.github.io/todos
+end-point: https://abrark-todos.herokuapps.com
+
+-- fpm.sitemap:
+
+# Home:
+- Study: /study/
+- Work: /work/
+- Todos: /-/fifthtry.github.io/todos/
+
+
+
+-- ftd.code: FPM.ftd
+land: ftd
+
+-- fpm.package: fifthtry.github.io/todos
+needs-end-point: true
+
+;; Apis will be
+;; /api/add-todo/
+;; /api/update-todo/
+;; /api/todos/
+
+-- fpm.sitemap:
+
+# Todos: /
+- Add Todo: /add-todo/
+- Update Todo: /update-todo/
+
+-- ds.h1: Implementation Details
+
+
+Let's if request come for url `abrark.com/todos/add-todo/`. First It will check
+if `url` prefix matches with any of dependency's `mount-point` in current
+package(abrark.com).
+
+If url prefix matches to anyone one them, so it will lookup to `mount-point`'s
+package sitemap.
+
+Here it matches with dependency `todos.com`, so now it look up in `todos.com`
+package's sitemap with removed prefix `/add-todo/`. It can also go recursive, by
+checking even `todos.com` dependencies.
+
+
+If `mount-point` is specified both `abrark.com/-/fifthtry.github.io/todos/logo.png`
+and `abrark.com/todos/logo.png` must work.
+
+For Static File Serve it, For FTD file redirect it.
+
+`abrark.com/-/fifthtry.github.io/todos/logo.png` -> `abrark.com/todos/logo.png`

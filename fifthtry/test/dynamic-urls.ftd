@@ -1,0 +1,47 @@
+-- ds.page: Dynamic Parameters in Sitemap
+
+
+- Discussion: https://github.com/ftd-lang/fpm/discussions/311
+
+
+-- ds.code: FPM.ftd
+lang: ftd
+
+\-- fpm.dynamic-urls:
+
+# Home
+url: /<string:username>/section/<integer:age>/
+document: books.ftd
+
+## Subsection
+url: /<string:username>/subsection/<integer:age>/
+document: fifthtry.ftd
+
+
+- TOC1
+  url: /<string:username>/toc/<integer:age>/
+  document: fifthtry-things.ftd
+
+  - TOC2
+    url: /<string:username>/toc2/<integer:age>/
+    document: fifthtry-things.ftd
+
+
+-- ds.page: How to access it
+
+-- ds.code:
+lang: ftd
+
+\-- record person:
+string username:
+integer age:
+
+\-- person p:
+$processor$: request-data
+
+
+\-- ftd.text: $p.username
+color: $fpm.color.main.text
+
+\-- ftd.integer: $p.age
+color: $fpm.color.main.text

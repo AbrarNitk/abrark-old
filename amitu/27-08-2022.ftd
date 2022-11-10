@@ -1,4 +1,4 @@
--- ft.page: Hosting
+-- ds.page: Hosting
 
 - I need to understand fpm-controller
 - Need to learn Docker, Nginx and K8s
@@ -57,3 +57,5 @@ Launch Strategy
 
 - FPM Hosting: How to use fpm with all hosting providers like AWS, GCP
 
+
+sudo vim /etc/systemd/system/fpm-app.service

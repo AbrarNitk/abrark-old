@@ -1,0 +1,11 @@
+-- import: fpm
+
+-- ds.page: Sorry
+
+-- ds.h1: It's in the Pipeline Coming soon...
+
+-- ftd.text: Please Login with GitHub
+link: /auth/login/?platform=github
+role: $fpm.type.heading-large
+style: bold
+/role: secondary

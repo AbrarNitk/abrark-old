@@ -1,0 +1,50 @@
+-- ds.page: Summary Discussion FifthTry Work
+
+-- ds.h1: Date - Friday 14/10/2022
+
+-- ds.h1: GTM Ready Product
+
+-- ds.h1: Abrar Track
+
+- Next: Auth, External Person possibly
+- Next: Understand wasm, and controller from Shobhit
+  - wasm is the priority
+  - Take Arpita with you as well
+- Next: ftd interpreter
+
+- fpm framework
+  - endpoint and wasm(drop)
+  - auth app
+- fpm Apps
+  - Auth
+    - only fpm mein daal sakte
+    - kitna time lagta hai uske hisab see dekhte hai rust mein karna hai ya nhi
+  - Kameri App, Movie-db as demo
+
+-- ds.h1: Arpita Track
+
+- ftd interpreter
+ - Change all the existing fpm packages(fpm.dev, ftd.dev, fifthtry.github.io/*)
+ - Abrar: 20%
+   - will help to write indentation support, test cases
+   - functions, events, processor, etc...
+   - Available one hour a day
+   - Benchmarking of functions, interpreter slow or parser slow
+   - Performance is my main responsibility
+   - Create many benchmark files
+     - 1000x levels on nesting
+     - 1000x args in the function
+     - Use criterion rust for benchmarking
+   - Figured out the complexities of the program(parser, interpreter, executor)
+
+- fpm controller
+  - Rithik
+  - fpm hosting
+  - fly.io, flycli
+- Next Feature: Payment(Razorpay, stripe)
+
+
+- Till 14th November
+
+
+-- ds.h1: GOA 💫

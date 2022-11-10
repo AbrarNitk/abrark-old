@@ -13,8 +13,307 @@
 - What FifthTry is Working on
   - https://github.com/orgs/FifthTry/discussions/50
 
-- Sep Update
+- September Update
   - https://github.com/orgs/FifthTry/discussions/88
+
+
+-- ds.h1: 30 Sep
+
+## Demo [4 to ]
+
+### Ganesh
+
+- Color Scheme theme
+- Images and Gifs in the title
+- Footer will also be controlled by sitemap
+- We can use it with FPM or FTD
+
+
+### Rithik
+
+- `id` in Sitemap
+
+```ftd
+-- ft.markdown:
+id: input1
+
+-- fpm.sitemap:
+
+# input ;; id of the markdown component
+
+# Title: input
+
+# Title
+  id: input
+
+
+- `page-headings` processor
+
+```
+
+\-- fpm.toc-item list ph:
+$processor$: page-headings
+```
+
+- Issue: It should pick all the headings, there should be auto generated `id`
+  from title.
+
+
+### Shobhit
+
+- Subscriber list
+- like on the page
+- Supabase with webassembly
+
+- Amitu: Edge Network(Request will redirected according to location)
+- Django can not run of edge
+- Wasm can run on edge
+
+### Aditi
+
+- Add Movie API is working
+- Add review should show the information about movie as well
+
+
+## Discussion
+
+### With Amitu and Arpita [10:30 to 12PM]
+
+- In Rust Function macro, module macros, types macros, we don't have in ftd
+- We can write functions and macros arbitrary in Rust
+- In ftd all functions are going to be async and lazy load
+- In ftd, how will we figure out that that function call should be async or in
+  sync automatically.
+  - Reference: Microsoft Powerfx github
+- Inside expressions we also may have dollar sign
+- Block in ftd, multiline expressions
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo)
+}
+```
+
+```ftd
+-- integer x: ftd.http("http://google.com", $xpath=$foo)
+```
+
+
+- For now we are supporting this
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo) + x + y
+}
+```
+
+```ftd
+-- string foo: { x + y + "hello"}
+```
+
+- ftd discussion: [ftd#441](https://github.com/ftd-lang/ftd/discussions/441)
+
+
+### TODO App
+
+- Redirect
+- Data, error
+
+### Rithik Update
+
+- Heading completed,
+- Headings are flat now, It has to be tree based.
+- Discussion: https://github.com/ftd-lang/fpm/discussions/484
+
+
+### Aviral
+
+- Need to complete, Homepage API List Movies API call using http processor
+- /api/movies/
+- PR: https://github.com/FifthTry/movie-db/pull/23
+
+### Aditi
+
+- She needs to work on add-review page, add-movie api is giving 504
+- PR: https://github.com/FifthTry/movie-db/pull/24
+
+
+-- ds.h2: 26 Sept 2022
+
+- request-data processor
+  - Status: Done
+  - https://github.com/FifthTry/fpm/discussions/516
+
+- fpm GitHub issue resolved section while passing them processor
+  - Status: In progress
+
+- Run fpm with redirected page to /movie/?id=5
+- Next: https://github.com/FifthTry/fpm/discussions/526
+
+-- ds.h2: 22 Sept 2022
+
+- https://github.com/AbrarNitk/django-service
+
+## Endpoint Support
+- First fix the movie-db app
+- How to call django api
+- http processor to fetch the data
+- Use movie-db app in `abrark.com`
+
+
+## Aditi: Movie Db APP
+
+- Working on /api/get-movie/?id=<movie-id>
+- PR:
+
+## Rithik: Page Headings
+
+- Discussion: https://github.com/FifthTry/fpm/discussions/484
+- PR should get closed fpm:487
+
+
+## Discussion
+
+This discussion is about discord channels and rooms
+- On which project Amitu is working on...
+- Office channel, My Desk, Meeting Rooms, People should be connected
+- Small Application in WebRTC, Hello world in JS or Rust
+
+
+## Issue
+
+- FPM fpm.dev::Development is giving 404
+
+
+-- ds.h2: 21 Sept 2022
+
+## Demo
+- This things exists in demo
+- Implementation demo should be different
+- KT should be different
+
+## Need to discuss with Arpita, If URL is present in the sitemap or not
+- How do we know,
+-
+
+## Deploy fpm with another microservice on Heroku with Proxy Endpoint
+-
+
+-- ds.h2: 20 Sept 2022
+
+## FPM Proxy endpoint
+Status: In progress
+- https://github.com/FifthTry/fpm/discussions/462
+- I will try to complete ot end of the day
+- My target will be deliver it with django microservice(movie-db app)
+- FPM on Heroku with proxy endpoint support, demo with movie db app
+
+
+## FTD final syntax: Have to reread it
+- https://github.com/FifthTry/ftd/discussions/429
+
+## Dump JSON
+- https://github.com/FifthTry/fpm/discussions/312
+
+-- ds.h2: 19 Sept 2022
+
+## FPM Proxy endpoint
+Status: In progress
+- https://github.com/FifthTry/fpm/discussions/462
+- I will try to complete ot end of the day
+- My target will be deliver it with django microservice(movie-db app)
+- FPM on Heroku with proxy endpoint support, demo with movie db app
+
+## Discussion with Aditi
+
+- She has to fix UI components
+- She has an exam tomorrow, she has to prepare for that
+
+## Discussion with Shobhit, Amitu, Arpita
+
+- From Amitu: If I am coming to know, What Abrar is doing?
+- We should have consensus how should we work together?
+- We should have meeting notes and meeting notes should not have details notes
+- There is no time limitation about updates but they should come at ay form
+
+## Discussion with Shobhit and Arpita
+
+### Tasks and Updates
+
+- Daily connect at 11:00AM(Shobhit, Arpita, Abrar)
+- Before start working on any problem, write the design
+- First check demo with Arpita and Shobhit
+- We will give demo to Amitu only
+- Update Daily on tasks
+- Documentation of problem which you solved
+
+### How to execute and update daily visibility
+
+- Daily meeting + Meeting notes
+- Discussion + Working + Notes
+- Let's do it till the end of the week
+- At every week single scheduled meeting with Amitu(About: Where do we stand?)
+
+### We should have scheduled
+
+- Slot out the time
+- Daily updates, together daily meeting
+- Take update from interns: 11
+
+
+### Actionable
+
+1. Daily Update from interns 10 - 11, update notes either discussion of either discord channel
+2. Connect at 11 - 11:30 Shobhit, Arpita and Abrar and update the meeting notes and github discussions
+3. Scheduled meeting with Amitu to calibrate once a week
+
+
+-- ds.h1: 16 Sept 2022
+
+-- ds.h2: Heroku deployment demo and a separate video
+
+-- ds.h2: Heroku CLI documents
+
+-- ds.h2: FPM proxy Endpoint implementation
+
+-- ds.h2: We have to give demo about including another package documents.
+
+https://github.com/FifthTry/fpm/discussions/462
+
+-- ds.h2: todo Update fpm-heroku docs according to new yml actions
+
+## FPM package authentication
+
+- using key or reader writer groups
+
+
+## Ganesh Demo
+
+### Blog post
+-  doc-site: https://github.com/fifthtry/doc-site
+- How can we show summary of the page on the blog, on the home page or landing page.
+- Author page: We can do query: All the posts written by Arpita, fetch the data dynamically(fpm can call the API)
+- How many people will use it? budget problem?
+- We have do iOS rendering, Figma, ???
+- Companies are taking baby towards machine learning, Microsoft, Google, etc..
+- Our language must be powerful,
+- One single click only and start writing ftd and start writing...
+- Our core is language, we will be around infra only, we will not mail software.
+
+
+
+
+-- ds.h1: 15 Sept 2022
+
+### fpm proxy: Endpoint support
+status: I have to complete it today
+Integrate it with movie-db app
+https://github.com/FifthTry/fpm/discussions/462
+
+### Tutorial for Heroku
+
+https://github.com/FifthTry/fpm/discussions/480
+
 
 -- ds.h1: 13th Sep 2022
 

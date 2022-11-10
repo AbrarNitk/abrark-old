@@ -1,0 +1,8 @@
+-- ds.page: First Day of the Class
+
+-- ds.h1: Heading 1
+
+-- ds.code:
+lang: py
+
+print("Hello")

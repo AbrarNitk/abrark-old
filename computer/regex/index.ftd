@@ -1,0 +1,69 @@
+-- ds.page: Regex
+
+-- ds.h1: From Neso Academy
+
+-  https://www.nesoacademy.org/cs/04-theory-of-computation/07-regular-expression/01-regular-expression
+
+
+- Regular Expressions are used to representing certain sets of string in an
+algebraic fashion.
+
+- Any terminal symbol i.e. sigma, empty, null are regular expressions
+- Union of two regular expression is also a regular expression
+- concat of 2 regular expression is also a regular expression
+- the iteration(or Closure) of regular expression is also a regular expression
+
+-- ds.h3: Regular Expression Examples
+
+1. {0,1,2} => 0 or 1 or 2 => R = 0 + 1 + 2
+
+2. {empty, ab} => R = empty ab
+
+3. {abb, a, b, bba} => abb or a or b or bba symbols will be accepted
+
+R =  abb + a + b + bba
+
+4. {empty, 0, 00, 000, ....}, Closure of 0 => R = 0*
+
+5. {1, 11, 111, 1111, ....} This is not the closure of 1, R = 1+
+
+-- ds.h3: Identities of RegEx
+
++ Means Union
+
+1. Empty Set + R = R
+2. EmptySet Concat R + R Concat Empty Set = Empty Set
+
+
+-- ds.h3: Designing Regular Expression - Examples
+
+- Design for the following languages over {a,b}
+
+- strings of length exactly 2
+
+L = {aa, ab, ba, bb}
+
+R = aa+ab+ba+bb => a(a+b) + b(a+b) => (a+b)(a+b)
+
+- strings of length at-least 2
+
+L = {aa, ab, ba, bb, aaa, bbb, .... infinite}
+
+R = (a+b)(a+b)(a+b)*
+
+- strings of length at-most 2
+
+L = {empty, a, b, aa, ab, ba, bb}
+
+R = empty + a + b + aa + ab + ba + bb => (empty + a + b)(empty + a + b)
+
+
+
+-- ds.h1: What is RegEx
+
+RegEx is simply a pattern matching thing
+
+- PCRE:- Perl compatible regex
+- BRE:- Basic RegEx
+- ERE:- Extended RegEx
+-

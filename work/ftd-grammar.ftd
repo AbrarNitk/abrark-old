@@ -1,0 +1,30 @@
+
+-- ds.page: Grammar Syntax
+
+-- ds.code:
+lang: ftd
+
+\-- (optional section-kind) section-name: optional caption-value
+(optional header-kind) header-name: optional header-value
+
+\-- (optional header-kind) section-name.header-name: ;; single
+;; new line is mandatory
+    <header-body>: multiline-value or another section as value
+\-- end: section-name.header-name
+
+\-- section-name.caption: ;; single line
+    ;; new line is mandatory
+    ;; multiline line
+    ;; or section
+\-- end: section-name.caption ;; only in case of section value
+\-- section-name.body:
+    ;; new line is mandatory
+    only multiline, should not be a section again
+
+
+\-- (optional section-kind) nested-section-name: optional caption-value
+;; same as section definition
+\-- end: nested-section-name
+
+\-- end: section-name
+

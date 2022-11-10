@@ -19,4 +19,4 @@ jobs:
           --header 'Content-Type: application/json' \
           --header 'Accept: application/vnd.heroku+json; version=3' \
           --header 'authorization: Bearer ${{ secrets.HEROKU_TOKEN }}' \
-          --url https://api.heroku.com/apps/abrark-app/dynos/web.1
+          --url https://api.heroku.com/apps/abrark-5thtry/dynos/web.1

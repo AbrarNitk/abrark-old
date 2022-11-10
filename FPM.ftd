@@ -5,6 +5,8 @@ zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
+mount-point: /ds/
+
 -- fpm.dependency: fifthtry.github.io/resume
 -- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
 -- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
@@ -14,15 +16,49 @@ download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
+/-- fpm.dependency: kameri-app.herokuapp.com
+endpoint: https://kameri-service.herokuapp.com
+/endpoint: http://127.0.0.1:8001
+mount-point: /todos/
+
 
 -- fpm.user-group: readers
-email: abrark.asahi@gmail.com
-github-like: FifthTry/fpm
+github-starred: ftd-lang/fpm
+/email: abrark.asahi@gmail.com
 /github: AbrarNitk
+
+-- fpm.user-group: ftd/fans
+github-starred: ftd-lang/ftd
 
 
 -- fpm.user-group: writers
 email: abrark.asahi@gmail.com
+
+/-- fpm.app: Todos for Family
+mount-point: /todos/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+/-- fpm.app: Movies
+mount-point: /movies/
+package: movie-db
+end-point: http://127.0.0.1:8001
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+
+;; /-/kameri-app.herokuapp.com/add-todo/
+;; /-/kameri-app.herokuapp.com/api/add-todo/
+;; package-name should be different
+
+/-- fpm.app: Todos for Family
+mount-point: /tod123/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
 
 
 -- fpm.sitemap:
@@ -31,15 +67,14 @@ email: abrark.asahi@gmail.com
 nav-title: My Sweet Home
 data: Section Data
 
-# Write Anything: /write-anything/
-writers: writers
-
 ## Resume: /resume/
-readers: readers
 
 ## About: /about/
+readers: readers
 
 - About Me: /about/
+
+/# Todos: /todos/
 
 # Words: /words/
 
@@ -51,3 +86,41 @@ readers: readers
 
 - Daily Work: /work/
 readers: readers
+
+
+
+/-- fpm.sitemap:
+
+# Home
+skip: true
+url: /a/section/28/
+document: books.ftd
+
+## Subsection
+url: /string/
+document: fifthtry.ftd
+
+
+- TOC1
+  url: /string-username/
+  document: fifthtry-things.ftd
+
+  - TOC2
+    url: /string-username/toc2/
+    document: fifthtry-things.ftd
+
+
+/-- fpm.dynamic-urls:
+
+# Dynamic Urls Section
+
+- Url 1
+  url: /person/<string:username>/<integer:age>/
+  document: fifthtry/person.ftd
+  readers: readers/person
+  writers: writers/person
+- Url 2
+  url: /<string:username>/<integer:age>/
+  document: fifthtry/person.ftd
+  readers: readers/person
+  writers: writers/person

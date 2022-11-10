@@ -1,0 +1,162 @@
+-- ds.page: End-Point Discussion
+
+
+- Add it to dependency /foo/<string:username>/
+
+-- ds.code:
+lang: ftd
+
+;; first order will be sitemap traversal
+\-- fpm.sitemap:
+
+# Section
+## Subsection
+- Toc
+- no dynamic urls
+
+
+;; first order will be sitemap traversal
+\-- fpm.dynamic-urls:
+
+- only toc will work
+- /foo/<string:username>/ if this is not present
+  document is necessary, document: foo.ftd
+
+
+
+- /-/fifthtry.github.io/code-block/ by default it should not happen, only
+  - create discussion about it
+- serve all the dynamic urls proxy-pass and ftd files
+- if endpoint/backend(wasm) present proxy-pass and serve ftd files
+- backend: true
+- /api/add-todo/ proxy-pass to a different server in case
+- /api/add-todo/, in that case backend: true no proxy-pass, proxy-pass to wasm
+- backend: true dynamic urls and proxy-pass /todo/
+- if endpoint: serve ftd also
+- backend: true, are equivalent feature
+
+- \-- fpm.sitemap: only for current package
+
+```ftd
+
+API Request: /amitu/api/add-todo/
+
+
+/amitu/-/<package-name>/api/add-todo/
+/amitu/todos/add-todo/
+
+/amitu/-/<package-name>/foo/ => /amitu/todos/foo/ redirect
+
+\-- fpm.dependency: kameri-app
+endpoint: http://127.0.0.1:8000
+mount-point: /todos/
+
+\-- fpm.dependency: arpita-app(bhut kaam karti hai, khaste hue bhi kaam karti hai)
+endpoint: http://127.0.0.1:8001
+mount-point: /arpita/
+
+
+```
+
+- sitemap: It will contain mapping of urls to document, It won't contain dynamic urls
+- dynamic-urls: It will contain dynamic urls mapping of the sitemap
+- New task is dynamic sitemap is fpm.ftd
+
+- API request: api serve: /todos/add-todo/,
+- fpm sequence logic
+  - sitemap mein jayega
+  - current package dynamic sitemap
+  - dependency ka dynamic sitemap(logic: based on mount point match prefix)
+  - then dependencies proxy pass (logic: only with mount point match prefix)
+  - else 404
+
+- will not in the sitemap
+- We have to discuss dynamic-urls and all
+
+;; for current package
+
+-- fpm.dynamic-url:
+
+- /<username>/foo/<age>/
+  document: person.ftd
+
+-- fpm.sitemap:
+
+# Section
+
+## Subsection
+
+- toc
+ - toc1
+   url: /foo/<string:username>/
+
+
+page request: ftd serve
+
+\-- fpm.dynamic-urls:
+only for those where backend is true or mount-point
+
+fpm `dynamic-urls` from all trusted-dependencies will be served.
+
+- trusted-dependency
+  - if end-point or backend is true
+
+
+## dynamic urls for dependencies
+
+package: b/FPM.ftd
+
+-- fpm.dynamic-urls:
+
+- /foob/<string:user>
+  document: personb.ftd
+
+
+-- fpm.sitemap:
+
+- /foob/arpita/
+
+
+package: a/FPM.ftd
+
+-- fpm.dependency: b
+endpoint: http://127.0.0.1:8000
+mount-point: /mount-b/
+
+
+-- fpm.dynamic-urls:
+
+- /foo/<string:user>
+  document: person.ftd
+
+
+-- fpm.sitemap:
+
+- /foo/arpita/
+
+- From B:
+  url: /mount-b/foob/arpita/ (It is working)
+
+request: a/mount-b/foob/abrark/
+
+
+-- component foo:
+fn(x: integer, $y: integer) evt:
+
+-- ftd.text: hello
+on-click: $evt(x=10, y=20)
+
+-- end: foo
+
+-- component counter:
+fn(value: integer) on-change:
+integer $value: 0
+
+-- ftd.text: click me
+$on-click$: $value+=1
+$on-click$: $on-change($value)
+
+-- end: counter
+
+
+;; Remove above one

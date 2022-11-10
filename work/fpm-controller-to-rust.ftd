@@ -1,0 +1,39 @@
+-- ds.page: FPM Controller to Rust
+
+
+# Random thoughts
+
+- Deploy abrark.com on fly.io
+- Deploy kameri on heroku
+- Remove README1.md from fpm Heroku Template
+
+# Discussion with Wasif(Amitu, Shobhit)
+
+- Simplify the architecture
+- All the keys are managed by `fifthtry.com`
+- OAuth implementation
+- Ignore the current implementation
+- OAuth working with GitHub
+- Shobhit will create a repository for auth purpose
+- How can we have multiple authentication providers at one place
+
+
+
+## Scenarios
+
+- Self Hosting `fpm`
+  - GitHub and GitLab have apps template to deploy
+- Hosted by fifthtry
+
+
+## Wasif/Shobhit/Amitu Discussion
+
+- Wasif figured out some oauth actix
+- He will implement oauth application now
+- It will be an standalone repo
+- To make self hosting easy
+  - Is that possible not to use database?
+  - storage will be only in the cookie
+  - It seems it is possible, using only cookies we can provide auth
+- I can create a new git branch in fpm with integrated new fpm-auth (crate)
+- Get some oauth working

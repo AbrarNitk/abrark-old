@@ -1,0 +1,20 @@
+-- ds.page: `end-point` discussion
+
+-- ftd.code:
+lang: ftd
+
+\-- todo list todos:
+$processor$: http
+method: get
+url: http://127.0.0.1:8001/api/todos/
+;; url: /-/fifthtry.github.io/todos/api/todos/ Ye chalna chaiye
+;; url: https://kameri-service.herokuapp.com/api/sample/
+
+
+-- todo list todos:
+$processor$: http
+method: get
+url: http://127.0.0.1:8001/todos/api/todos/
+;; url: /-/fifthtry.github.io/todos/api/todos/ Ye chalna chaiye this would be
+happen using redirect feature
+/url: https://kameri-service.herokuapp.com/api/sample/
