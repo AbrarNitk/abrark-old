@@ -35,7 +35,7 @@ link: /auth/login/?platform=discord
 role: $fpm.type.heading-large
 
 
---- ftd.text: Refresh Content on Heroku
+--- ftd.text: Refresh Content
 /if: $ud.is-login
 link: /-/clear-cache/
 role: $fpm.type.heading-large
