@@ -45,13 +45,14 @@ role: $fpm.type.heading-large
 
 Nahin to abhi sun lijiye. Waise aayes kaise naam nahin suna tha, juthe!
 
+Dekho bhai insaan jhuth nhi bolta par ghuma fira k bolta hai, har samay insaan
+ka bheja badalta rehta hai. To jyada tension nhi lena sirf code karne ka.
+
 I love programming. I have found my passion in solving hard problems, and I am
 very happy when I am coding.
 
 I work for [FifthTry](https://www.fifthtry.com), where I am trying to change the
 way documentation is written and hopefully how the world learns.
-
-Arpita wants this text to be present in this file.
 
 /-- ds.image:
 src: $assets.files.ftd.png
