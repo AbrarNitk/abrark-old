@@ -37,7 +37,7 @@ role: $fpm.type.heading-large
 
 --- ftd.text: Refresh Content
 /if: $ud.is-login
-link: /-/clear-cache/?package=main&all-dependencies=true&from=temp-github
+link: /-/clear-cache/?package=main&all-dependencies=true
 role: $fpm.type.heading-large
 
 
