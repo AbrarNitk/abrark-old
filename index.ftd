@@ -12,19 +12,28 @@ $always-include$: true
 $processor$: user-details
 is-login: false
 
--- ftd.text: Login
+-- ftd.color white-color:
+dark: white
+light: white
+
+-- ftd.column:
+background-color: $white-color
+
+--- ftd.text: Login With GitHub
 if: not $ud.is-login
 link: /auth/login/?platform=github
 role: $fpm.type.heading-large
-style: bold
-/role: secondary
 
--- ftd.text: Logout
+--- ftd.text: Logout
 if: $ud.is-login
 link: /auth/logout/
 role: $fpm.type.heading-large
-style: bold
-/role: secondary
+
+--- ftd.text: Login With Discord
+/if: not $ud.is-login
+link: /auth/login/?platform=discord
+role: $fpm.type.heading-large
+
 
 -- ds.markdown:
 
