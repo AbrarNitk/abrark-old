@@ -35,6 +35,12 @@ link: /auth/login/?platform=discord
 role: $fpm.type.heading-large
 
 
+--- ftd.text: Refresh Content on Heroku
+/if: $ud.is-login
+link: /-/clear-cache/
+role: $fpm.type.heading-large
+
+
 -- ds.markdown:
 
 Nahin to abhi sun lijiye. Waise aayes kaise naam nahin suna tha, juthe!
