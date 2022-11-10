@@ -38,6 +38,14 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: 10th Nov
+
+### Tasks
+
+- [x] Auth Integration with fpm and code refactor
+  - https://github.com/ftd-lang/fpm/pull/589/files
+- [x] User Details Processor
+
 -- ds.h2: 9th Nov
 
 ### Tasks
