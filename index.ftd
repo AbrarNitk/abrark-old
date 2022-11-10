@@ -4,8 +4,24 @@
 
 -- ds.page: About Me: Abrar Khan (`abrark`), naam to suna hoga!
 
+-- record user-details:
+boolean is-login:
+$always-include$: true
+
+-- user-details ud:
+$processor$: user-details
+is-login: false
+
 -- ftd.text: Login
-link: /auth/login/
+if: not $ud.is-login
+link: /auth/login/?platform=github
+role: $fpm.type.heading-large
+style: bold
+/role: secondary
+
+-- ftd.text: Logout
+if: $ud.is-login
+link: /auth/logout/
 role: $fpm.type.heading-large
 style: bold
 /role: secondary
