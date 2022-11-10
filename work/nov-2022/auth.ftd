@@ -1,0 +1,6 @@
+-- ds.page: Wasif fpm-auth
+
+- first request come to /auth/login/
+  - then it redirects user to https://github.com/login/oauth/authorize/
+  - user has to authorised an github app which rust login
+  - Then after authorizing the application github will redirect to http://127.0.0.1:8000/auth/auth/

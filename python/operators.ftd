@@ -1,0 +1,14 @@
+-- ds.page: Operator
+
+Operators are used to perform arithmetic and logical operations on data.
+
+The 5 main operator types in Python are:
+
+- arithmetic operators
+  - Addition, Subtraction, Multiplication, Division, Floor Division, Module,
+  Precedence, Parenthesis
+- comparison operators
+  - <, >, >=, <=, ==,
+- assignment operators
+- logical operators
+- bitwise operators

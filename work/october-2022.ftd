@@ -1,0 +1,783 @@
+-- ds.page: October Work
+
+-- ds.h1: Daily Update
+
+- What FifthTry is Working on
+  - https://github.com/orgs/FifthTry/discussions/50
+
+- October Update
+  - https://github.com/orgs/FifthTry/discussions/101
+
+-- ds.h1: Important Tasks
+
+-- ds.h2: FPM Controller
+
+- FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
+  - Working with: Rithik and Arpita
+  - Arpita did the design for basic
+  - docker push fpm image on github action
+  - documentation how does it do for fly.io
+
+- [ ] Event Page on discord and linkedin
+- [ ] Background Image for linkedin page
+- [x] cookie passed to http processor and endpoint proxy
+  - Status: Documentation is pending
+- [x] benchmarking ftd functions
+  - Status: pending
+
+- fpm controller
+  - database support
+  - docker support
+
+- fpm auth
+ - Status: Wasif is working on that
+ - Integration with fpm
+ - https://discord.com/channels/793929082483769345/1026089953878360065
+
+
+- Idea: Code documentation
+  - For Documentation => Documentation + Code
+  - For Code => Only code
+  - Version control system from code update to last documentation update
+    - It will help to update the documentation.
+  - Less DB need for documentation docs.
+  - Literate Programming
+
+-- ds.h2: WorkShop
+
+Date: 21 October
+[Planning](/work/workshop/)
+
+
+-- ds.h1: Daily Updates
+
+-- ds.h2: 31th October
+
+### Today's Tasks
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+  - Update: Update Discussion
+
+- [ ] Rithik fly deployment testing and docs review
+  - Status: Done, pending from my side
+
+- [ ] Wasif Code and demo
+  - Time: 12:30
+
+
+### Rithik Update
+
+- setting.json, local_settings.py
+- deployment of contoller-service on FLY using with/without docker file
+
+
+### Aviral
+
+- Form errors handling
+
+### Wasif Update
+
+- Integrate fpm with controller auth
+- abrark.com with auth demo
+- create a different auth mod
+- instead of API, call direct function from mod
+-
+
+
+### Amitu
+
+- Movie Share/File Share
+- mount-point/end-point (ten services are running)
+- Abrar Next: fpm-wasm
+- postgres + file storage while creating a package
+- putting files with encoding
+- Online folder will be managed by us
+- access file from different package(redirect to that package)
+- wasm k apps bhut saree like file sharing and all
+- endpoint is good, preferred is wasm
+- Target For Abrar is is to complete endpoint and mountpoint asap.
+- Wasm experiment on the upcoming weekend.
+- Blocker maybe, if event is ready so need to deploy fpm.dev, doc-site, presentation.
+- Arpita Next: performance
+- Observer review
+- Arpita:
+  - Before wasm we should solve the ftd
+  - We should solve the performance
+  - We should think according to market side, not research purpose
+  - We should optimise fpm and ftd before using wasm
+
+
+
+-- ds.h2: 28th October
+
+### Today's Tasks
+
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+  - Update: Update Discussion
+
+- [ ] Rithik fly deployment testing and docs review
+  - Status: Pending
+
+- [ ] Work One hour on FTD with Arpita
+  - [ ] Indentation support in ftd
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+- [ ] Wasif Code and demo
+  - Time: 12:30
+
+
+### Rithik's Update
+
+- Documentation is ready
+- secrets.json file path from cli arguments
+- Next Rithik:
+
+### Aditi Update
+
+- Search is working fine
+- Next and previous has problem, it should be link on Next button
+- Error handling is not working
+
+### Aviral Update
+
+- Search is working
+- Error handling
+- List API is wrong, has to passed with processor using request-data
+
+
+### Wasif
+
+- Code is working with GitHub OAuth
+- Task: fpm deploy with fpm-auth feature
+
+
+-- ds.h2: 27th October
+
+### Today's Tasks
+
+
+- [x] Aditi PR review and merge
+  - Reviewed it: https://github.com/FifthTry/movie-db/pull/32#pullrequestreview-1158001184
+- [x] Doc for Dynamic Urls
+  - PR Merged
+  - https://github.com/ftd-lang/fpm/pull/582
+
+- [ ] Rithik fly deployment testing and docs review
+  - Status: Pending
+
+- [ ] mount-point support in `-- fpm.dependency`
+  - https://github.com/ftd-lang/fpm/discussions/550
+  - Status: In Progress
+  - Update: Update Discussion
+
+
+- [ ] Dynamic Urls in foreign package
+  - Status: Pending
+  - Description: Pehle mount-point khatam karna padega
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+- [ ] Work One hour on FTD with/without Arpita
+  - [ ] Indentation support in ftd
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+- [ ] Start writing docs about heroku and fly deployment
+
+- [ ] Wasif code and demo
+
+
+### Update: Rithik
+
+- Documentation needs be merged
+- fpm-controller repos needs to run and tested by me
+
+
+### Update: Aditi and Aviral
+
+- page_no(previous and next button) and error-handling
+- done: Search button is working
+  - search all movies starts_with `Fifth`
+  - Should update before lunch
+  - Work with Aviral
+  - check if working: pending on me
+
+
+-- ds.h2: 26th October
+
+### Today's Tasks
+
+- [x] Dynamic Urls in current package
+  - Status: In Progress
+  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - [x] Define dynamic-urls type in fpm.ftd
+  - [x] Define types in rust
+  - [x] Write parser for dynamic urls
+  - [x] Store them in package with sitemap
+  - [x] fpm.sitemap should not contain path params but fpm.dynamic-urls should contain path-params
+  - [x] request urls matching logic with dynamic urls
+
+
+### Discussion with Amitu
+
+- RSS - XML - We should do similar things like rss xml
+-
+
+### Idea abrark/terminal abrark/terminal-py abrark/terminal-java
+
+- --download-base-url
+
+
+-- ds.h2: 25th October
+
+### Discussion with Amit'u and Arpita
+
+- Community building
+- Build small and small communities
+- Handle chat group on discord
+- How many people are using us
+- Our primary goal is to build a community
+- New cohort, how to start?
+
+### Today's Tasks
+
+- [x] Code refactor sitemap
+- [x] Code refactor config/package
+
+- [ ] Dynamic Urls in current package
+  - Status: In Progress
+  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fpm/discussions/311
+
+- [ ] Dynamic Urls in foreign package
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+- [x] Work One hour on FTD with/without Arpita
+  - Desc: start looking at the code
+  - Desc: start writing the test cases
+
+- [ ] Start writing docs about heroku and fly deployment
+
+### Rithik Update
+
+- Working on fpm-controller
+- add secrets.json in settings.py in
+- documentation about how did you deploy on fly.io
+
+### Aditi and Aviral
+
+- Search button work
+- Aditi is doing Aviral's work
+- search all movies starts_with `Fifth`
+  - Should update before lunch
+  - Work with Aviral
+- page_no(previous and next button) and error-handling
+
+
+### Schedule
+
+- Working on dynamic urls
+- took aditi/aviral and rithik's udpate
+
+-- ds.h2: 20th October
+
+### Discussion with Amitu
+
+- Event guest list with auth feature
+- /~/<term> -> internal redirect or external redirect
+- wasmtime has a fature called  add_fuel
+- limit memory and consume_fuel in ftd
+- guard rails for ftd files
+- Language should be non objectionable, marketing
+- It should not be argumentative
+- Edge network,
+- Pehle cloud 2010 - 2020(aws, heroku), Now edge (cloudflare, fly, vercel, netlify) 2020 to 2030
+
+### Today Work
+
+- deploy kameri on heroku with the current situation
+  - with postgres
+- deploy kameri on heroku with API Key
+
+- Abrar
+  - tracker-id (substitute for auth) (django and rust)
+  - endpoint send cookie
+  - sha(package-name) use only 6 digits _a bnake karke a send karenge
+  - fpm controller
+  - forget fly, only heroku
+
+- Arpita
+  - http processor mein cookies pass karni padengi
+  - fpm mein sari cookies send to browser
+
+
+### Schedule and Work
+
+- Deployed abrark on app
+- Deploy kameri-app on heroku
+- Deploy kameri-service on heroku
+  - Heroku will run the postgres
+- every technology is bank ka loan
+
+### Discussion with Amitu wasm rust host guest 12:00 to 13:20
+
+
+-- ds.h2: 19th October
+
+### Current Task
+
+- Task t1: Dynamic Sitemap(for packages)
+  - dynamic sitemap for dependency packages as well
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: in progress(will continue to tomorrow)
+
+
+
+- Start Working on Task t1: at 10:00
+- Meeting with Amitu/Arpita end-point.ftd discussion 10:00 to 11:00
+- Interview with Aniket 11:00 to 12:00
+- Meditation 12:20 to 12:35
+- Discussion with Arpita about mount point and dynamic urls
+  - https://github.com/ftd-lang/fpm/discussions/569
+
+
+-- ds.h2: 18th October
+
+### Current Task
+
+- Dynamic Sitemap(for packages)
+  - dynamic sitemap for dependency packages as well
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: in progress(will continue to tomorrow)
+
+
+### Done Task
+
+- Dynamic Sitemap(skip true)
+  - skip true for dynamic urls
+  - https://github.com/ftd-lang/fpm/discussions/311
+  - status: merged
+
+- named url parameter support in request-data
+  - https://github.com/ftd-lang/fpm/discussions/551
+  - docs: https://github.com/ftd-lang/fpm.dev/pull/89
+  - status: merged
+
+### Work TODOs
+
+- Task 1: named url parameter request data
+- Task 2: skip header
+- Dynamic Sitemap: https://github.com/ftd-lang/fpm/discussions/311
+- one hour ftd parser
+- Merge Rithik's PR for sitemap icon
+
+
+
+### Time Schedule
+
+- Start working on task at 11:30 to 12:00
+- Interview Shadow [Meenu Kumari] 12:00 to 13:30
+- Lunch Time 13:30 to 2:00
+- Worked on Skip true header is done 02:00 to 03:00
+- Having bad headache going for rest till 07:00
+- Worked on task 07:00 to 8:00
+- ending the day
+
+
+-- ds.h2: 17th October
+
+### Current Task
+
+- https://github.com/ftd-lang/fpm/discussions/526
+ - https://github.com/ftd-lang/fpm/discussions/551
+- Deploy abrark on heroku
+
+### TODOs
+
+- [x] current task: path parameters `request-data` processor
+- [ ] ftd parser
+  - Status: Did not get the time
+
+
+### Time Schedule
+
+- Work on Current Task: 11:00 to 1:00
+- Discussion(Amitu and Ganesh): time: 1:00 to 2:00
+  - Workshop planning [Planning](/work/october-2022)
+- Lunch 2:00 to 2:45
+- Meeting 3:00 to 3:30
+  - [Discussion](Wasif/Shobhit/Amitu Discussion)
+- Pr Merged: https://github.com/FifthTry/kameri-app/pull/1
+- Working on Current Task: 03:40 to 16:40
+- Meeting with Arpita: Time: 16:40 to 18:30
+  - FPM Controller on fly.io
+  - fpm-controller/discussion/15(documentation is upto Arpita)
+  - docker images with fpm inside, which will curl
+- Meeting with (Arpita/Rithik)
+  - Icon in sitemap
+  - Create Discussion pending on Rithik
+- Working on Current Task: 06:30 to 9:00
+- Meeting with Arpita on fpm-controller till 9:00 to 11:30
+
+
+-- ds.h2: 16th October
+
+### Task
+
+- https://github.com/ftd-lang/fpm/discussions/551
+- Time: 11:00 Am to till night
+
+
+-- ds.h2: 14th October
+
+## Tasks
+
+- https://github.com/ftd-lang/fpm/discussions/311
+  - Status: Task is done, documentation is pending
+  - Time: 11:30 AM till night
+
+
+## Team Update Till: 11
+
+### Rithik
+
+- He is working on `page-heading` processor
+- Numbering in title as well
+
+### Aviral-Aditi
+
+- Pending Update
+
+### Discussion with Amitu and Arpita
+- Time: 11:00 AM to 02:30 PM
+- We are not ready data wise
+- Problem:
+  - How many post written by me.
+  - Give me all the pages(How many time `ft.page` has appeared in the package)
+  - List of all the authors of the blog post
+  - etc...
+
+- We want to improve fpm db
+- fpm as web framework: Improve karte hai, and then hosting karte hai
+- fpm apps, Not now
+- Deployment issue resolve
+- fpm hosting
+  - fpm controller
+  - Instead of fly service
+  - Self Service
+
+
+### Lunch Time: 2:30 to 3:30
+
+
+### Demo Friday
+
+- Time: 4:00 to 5:00
+
+#### Amitu
+
+- fpm web framework
+- fpm auth
+- fpm controller
+- can we host it for you other than self hosting
+
+#### Hrithik
+
+- Demo: Numbering in headings
+  - Demo should be usable to public
+
+#### Abrar
+
+- skip: true `has be used while using dynamic parameter syntax`
+
+#### Shobhit
+
+- Todo App using wasm, used postgrest: super awesome
+
+-- ds.h2: 13th October
+
+## Tasks
+
+- https://github.com/ftd-lang/fpm/discussions/311
+  - Status: In progress
+  - Time: 11:30 AM till night
+
+## Team Update
+- Till: 11:45 to 12:45PM
+
+### Rithik
+
+- Component Numbering: Tentative is today
+- Numbering is coming part of title, Arpita suggestions is that number should
+  have a different field, It should be optional to show.
+
+### Aviral and Aditi
+
+- Working on Home page API for movie-db app
+- Fixed list-movie api, It is working properly
+- Now they have to implement two buttons and linking next and previous
+
+- I was working on the main task 12:45 to 13:30
+
+- Connected with Ganesh for Health Insurance: 13:30 - 14:03
+
+- I was working on the main task 02:00 to 05:30
+
+- Connected with Amitu
+  - Time: 05:30 to 18:45
+  - TODO: dynamic parameters in microservice as well with endpoint
+
+
+- Start Learning WebAssembly and Assembly Script
+  - Time: At least One Hour
+  - https://webassembly.org/
+  - https://www.assemblyscript.org/
+
+- Deploy abrark.com on fly.io with or without docker
+  - Time: At least One Hour
+  - Status: Pending
+  - Time: At least One Hour
+
+- Sit with Arpita about ftd for new codebase
+  - Status: Done
+  - Time: 7 to 8PM
+  - Look at performance wise
+  - Flame graph of all the parser function
+  - ftd grammar test cases
+    - Time: At least One Hour
+
+
+
+-- ds.h2: 12th October
+
+## Today's Work Schedule
+
+- https://github.com/ftd-lang/fpm/discussions/311
+  - Status: In progress
+  - Time: 9 AM to 6 PM
+
+- Meeting with Amitu ftd::discussion::`generic over result` till 11:45
+- I was on Lunch break from 12 to 2
+- I was working from 2 to 3:30
+- Meeting with Arpita and Amitu about Workshop 3:30 to 4:45
+  - Bring People
+  - Decide Place
+  - Build an ftd Application
+  - We explore tandem
+
+- I was working 5 to 6PM
+
+- Sit with Arpita about ftd for new codebase
+  - Status: Done
+  - Time: 6 to 8PM
+
+- end: day
+
+- Deploy abrark.com on fly.io with or without docker
+  - Status: Pending
+  - Time: 7 to 8PM
+
+
+
+-- ds.h2: 11th October
+
+## Update
+
+- Aditi/Aviral both are working on Home Page
+- Rithik is working on fixing numbering on page headings
+
+
+## Work
+
+- https://github.com/ftd-lang/fpm/discussions/311
+  - Status: In progress
+  - Time: till 6PM
+  - Meeting with Shobhit and Arpita for around 1:30hrs till 5:30
+- Sit with Arpita about ftd for new codebase
+  - Status: Pending
+  - Time: 6 to 7PM
+- Deploy abrark.com on fly.io with or without docker
+  - Status: Pending
+  - Time: 7 to 8PM
+- Regex Learning
+  - Status: Pending
+  - Time: 8 to 8:30
+  - Complete Course and write the article about it
+- Keyboard Typing practice
+  - Status: Pending
+  - Time: 8:30 to 9
+- English Listening/Writing, Reading
+  - Status: Pending
+  - Time: 9 to 10
+- Figured out a software how to record all the talking with parents and meetings
+  and how to store them somewhere
+
+## Today's Description
+
+- Time: After 10
+- Are you satisfy with today's work or not?
+- Do you fell something is missing?
+
+-- ds.h2: 6th October(Demo Day)
+
+
+## Work
+
+- https://www.youtube.com/watch?v=SdpCVTk84DM
+- https://github.com/ftd-lang/fpm/discussions/311
+
+## Demo at 11 AM
+
+### Amitu
+
+About what we did in September month
+
+- End Syntax
+- Heroku Button using GitHub
+- Endpoint Support
+
+### Arpita
+
+About new syntax in ftd `end` and all.
+- Version 0.2 to 0.3, Not versioned control
+
+
+### Abrar
+
+- About `kameri-app` fpm aap ui is written in ftd and backend is written django.
+- kameri should be used as dependency as fpm package
+- Apps like This will be used as wasm app
+- id an app need machine and database service, ...
+- Custom Urls mapping in sitemap
+
+### Rithik
+
+- Headings in Tree fashion for `ftd.h1-7`
+
+### Aditi and Aviral
+
+- Movie Db App
+
+### Ganesh
+
+- Slides: https://github.com/fifthtry/simple-dark-slides
+- https://fifthtry.github.io/simple-dark-slides/
+- Full Screen option
+- Keyboard key to go to left and right
+- It is compatible for desktop, mobiles and different devices also
+- `-- slide.presentation` component: left and right and slide options
+- options are title, subtitle, image, font and body
+- N number themes will be there
+
+
+
+-- ds.h2: 5th October
+
+## Work
+
+- https://github.com/ftd-lang/fpm/discussions/526
+
+## Discussion with Amitu
+
+- After writing code look at it
+- Figma layer named will be perfect from day 1
+- Figma layering should be perfect
+
+
+-- ds.h2: 4th October
+
+## Work
+
+- Need to handle errors in ftd
+- Working On https://github.com/ftd-lang/fpm/discussions/526
+
+TODO: Need to ask from Arpita, how to invoke function on-click event
+For example how to clear error field when user click in input box
+
+## Today's todo
+- FPM Heroku Template: TODO: On push event it should call clear API
+- FPM Heroku rename APP name
+
+## For Interview
+
+- Work Show off
+- About React (Virtual DOM and all....)
+- Mostly about UI...
+- Basic Algorithms like Bubble Sort, Selection Sort, etc...
+
+
+
+
+## Discussion with Amitu
+
+- Spotify Shared Data
+- Netflix Shared Data
+- Can create a recommendation engine
+- Need co-operative solution
+  - Netflix apps talk to only servers directly
+  - Netflix apps talk to abrark.com and then talk to netflix server
+  - `abrark.com` becomes proxy server
+  - fpm has todo app, music app, youtube integrate, and using abrark.com/spotify
+  - How to solve, auth is provided by abrark.com
+  - fpm implementation of Auth protocol
+  - Personalised tracking using authentication
+  - Request goes to amitu.com from abrark.com with unique id, and amitu.com will verify and set a token
+  - Netflix cookie will be stored at abrark.com
+- Why Opt-in?
+  - Because of co-operate
+- We can use OpenID semantics
+- ak/api/play  - proxy pass to /netflix/api/play/
+- Proxy can have rules
+  - Gandi Api  - /api/ opaque data on netflix knows about it
+  - Can log the encrypted request and response
+- Parental Control ak.com
+  - First give me parental rating
+
+- Only Single Sign On `abrark.com`
+  - /amazon/
+  - /netflix/
+  - /spotify/
+  - /todo/
+  - /mail/
+  - /youtube/
+  - /instagram/
+
+- Show only boring response
+
+
+-- ds.h2: 3rd October
+
+-- ds.h3: My Tasks
+
+- Working On https://github.com/ftd-lang/fpm/discussions/526
+
+-- ds.h3: Aditi Update
+
+- Status: Done
+- She is working on Write Review API and List Review API
+- She has to write an review API in Django and List them in ftd file
+
+-- ds.h3: Aviral's Update
+
+- Status: Pending
+
+-- ds.h3: Rithik Update
+
+- He is working on nesting heading
+
+## Discussion
+
+### With Ganesh
+
+- Plan 7 to 13 November
+- Goa Plan
+- Food arrangement + Accommodation
+- Motor Bikes
+- Travel from bangalore to Goa
+- Train travel is much better than bus travel

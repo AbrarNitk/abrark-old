@@ -1,0 +1,137 @@
+-- ds.page: Ideas
+
+-- ds.h1: Write a IntelliJ plugin for English dictionary.
+
+
+-- ds.h1: Start Writing about Software
+
+- What documentation are they missing?
+- How do they build, which algorithms they have used? how to use them.
+- I have to improve my skills jo kaam ka hai wo seekhna hai.
+- We have CR(Pull Request) feature, I have to encourage people to contribute in documentation.
+- I have to choose first those applications or software, people use in daily
+basis and do not have proper documentation.
+- It is quite possible that, I have to curate content of CS fundamentals before
+jumping into development of Applications and writing about them.
+- Read more from courses/articles and learn how people write the content.
+
+-- ds.h2: What to Choose
+
+-- ds.h3: How to build Applications
+
+- How to write a Django Application with REST APIs, Different DBs
+- How to build Spring Boot Application
+- How to build Application with Node[Express and Fastify]
+- How to build UI Application[React and Vue]
+- How to debug your Applications
+- How to do benchmarking in Rust
+- etc, ....
+
+-- ds.h4: Applications
+
+- TODO Application
+- Calendar Integration Application
+- Mail Integration with your site.
+- Payment Application Integration: Integration with PayU, Razorpay etc...
+- etc, ...
+
+
+-- ds.h3: How to Use Tools and Services
+
+I have choose first those software, which are heavily used.
+
+- How to use Redis
+- How to use Docker
+  - Already Famous Software, lot's of documentation already available.
+- How to use K8s
+- How to use Nginx
+- How to use Postgres [with different programming integrations]
+  - All sort of postgres documentation.
+  - Like indexing, table lock, row lock, mutual exclusion, dirty read and all...
+- How to use IntelliJ/VSCode for better developer performance.
+- How to configure Mac for Developer.
+- How to use git and GitHub. What commands to learn.
+- How to use AWS Service, people just use them, they do not have much idea about
+them because of less documentation.
+- How to use Google Cloud Services
+-
+
+
+-- ds.h3: Different Technologies
+
+Priority: Low, documentation is already written in blogs, books and their own sites.
+
+- Rust
+- Python
+- Java
+- JavaScript
+
+-- ds.h1: How to Write
+
+- [Nira blogs are amazing examples](https://nira.com/blog/)
+
+
+-- ds.h3: Computer Science Fundamentals
+
+For writing about CS fundamentals, firstly I have to read more about it. Too
+much of content id already available on different sites, books, YouTube videos.
+Possibly I will end up curating content not creating.
+
+-- ds.h3: Subjects
+
+- 12th Mathematics
+- DS and Algorithms
+- Operating System
+- Networking
+- Databases
+- Programming Language[Rust or JavaScript]
+- Crypto
+- Web Programming or Internet: Html, CSS, Web Pages
+- Tools: Git, GitHub, Slack, Discord, IntelliJ, VSCode, Chrome, etc
+- Fundamentals of Cloud Services
+
+
+-- ds.h1: Podcasts about Concepts
+
+On whatever concept, you are creating content.
+
+If let's say, I will create content about postgresql Indexing, so I can create
+a small podcast on it. How to use it? What benefits you are getting? What will
+you learn? How Postgres internally implements it.
+
+
+-- ds.h1: Learning and Teaching
+
+To create videos content, documentation and make people understand about it, It
+is going to take lots of time, Because content creation is not an easy task,
+because I do not have much knowledge about how to create videos content and what
+to speak, what content to deliver to audience. So, How can I plan for it, let's
+start with documenting them, later think about creating videos or taking live
+classes.
+
+-- ds.h1: Why Videos
+
+Documents are one way consumption, if people have doubts where should they ask.
+- may be in public forum/discussions but is it valuable of time?
+- First create the content let's say about postgres indexing and have live
+sessions with bunch of people who has doubts.
+- We can create meetup for that
+
+-- ds.h1: Documentation Software Integrations with Code
+
+Tools Slack with google like, all integration at one place, integration Software
+SDK to hai hi for code perspective.
+
+- Bank related Application Integration
+- Where companies share documentation while integrating to different companies.
+- How to do the API integration + API integration documentation
+
+
+I can start with
+Small videos and written content.
+
+-- ds.h1: Filter Out the Sites
+
+How to filter out the un-informative sites and pages from my search engine
+
+- https://www.gkexams.com/dictionary/english/27424-kameri-meaning-in-hindi.html

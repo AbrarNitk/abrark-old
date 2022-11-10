@@ -1,0 +1,20 @@
+-- ds.page: Rust Utils
+
+-- ds.code:
+lang: rs
+
+/// Parse argument from CLI
+/// If CLI command: fpm serve --identities a@foo.com,foo
+/// key: --identities -> output: a@foo.com,foo
+pub fn parse_from_cli(key: &str) -> Option<String> {
+    let args = std::env::args().collect::<Vec<_>>();
+    let mut index = None;
+    for (idx, arg) in args.iter().enumerate() {
+        if arg.eq(key) {
+            index = Some(idx);
+        }
+    }
+    index
+        .and_then(|idx| args.get(idx + 1))
+        .map(String::to_string)
+}

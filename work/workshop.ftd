@@ -1,0 +1,31 @@
+-- ds.page: Workshop
+
+-- ds.h1: Todo List
+time: 1:00 to 13:45
+- Workshop Page
+- Registration Page
+  - Google Form
+- People Invite
+
+- Work Code Wise
+  - mount-point and end-point
+  - tutorial: success data, form-handling, redirect, kameri django service docs
+  - powered on heroku, fpm binary will have kameri heroku
+
+- Deployment
+
+-- ds.h1: Workshop Planning
+person: Amitu
+- 10 step tutorial
+ - every step will contain 10% un complete code
+ - 10 folder
+ - kameri app(https://lu.ma/)
+
+
+-- ds.h2: kameri app steps
+
+- Monthly and weekly planning
+- every monday
+- lu.ma app
+- discuss end of the day
+- Wednesday

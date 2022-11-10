@@ -1,0 +1,9 @@
+-- ds.page: Heroku Deployment
+
+## GitHub action to redeploy heroku app
+
+Now create a github workflow and on main push, we will curl request to redeploy
+heroku app.
+
+We will put heroku access token in github secret key.
+

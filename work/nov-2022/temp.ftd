@@ -1,0 +1,30 @@
+-- ds.page: 6 Nov
+
+- Writing actix files
+- How websocket works, http 2 and http 1
+- Design of fpm from Amitu: fpm code refactor
+- Stripe Payment meeting with Amitu
+- How to implement Future on a struct on .await calling poll
+- codec is a http parser, mp3 codec
+- subscription
+
+- Wasm and fpm-controller
+- Techie and writers 1000 domains
+- medium people: more than 30 or 50 article and people they are using their own domain or not
+- Are we ready technically: asap
+- actix k saath mein wasm bnate hai
+
+
+## Tomorrow
+
+- Auth should be working
+- Subscribe to us
+- Give me your email address
+
+
+
+# Abrark add domain on heroku
+
+- heroku domains:add -a abrark-5thtry www.abrark.com
+- heroku domains:add -a abrark-5thtry abrark.com
+- and then run heroku domains https://stackoverflow.com/questions/17802951/how-to-change-a-heroku-domain-to-a-custom-domain

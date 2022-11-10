@@ -1,6 +1,41 @@
--- import: abrark.com/assets
+/-- import: abrark.com/assets
+
+-- import: fpm
 
 -- ds.page: About Me: Abrar Khan (`abrark`), naam to suna hoga!
+
+-- record user-details:
+boolean is-login:
+$always-include$: true
+
+-- user-details ud:
+$processor$: user-details
+is-login: false
+
+-- ftd.color white-color:
+dark: white
+light: white
+
+-- ftd.column:
+background-color: $white-color
+
+--- ftd.text: Login With GitHub
+if: not $ud.is-login
+link: /auth/login/?platform=github
+role: $fpm.type.heading-large
+
+--- ftd.text: Logout
+if: $ud.is-login
+link: /auth/logout/
+role: $fpm.type.heading-large
+
+--- ftd.text: Login With Discord
+if: not $ud.is-login
+link: /auth/login/?platform=discord
+role: $fpm.type.heading-large
+
+
+-- ds.markdown:
 
 Nahin to abhi sun lijiye. Waise aayes kaise naam nahin suna tha, juthe!
 
@@ -10,6 +45,7 @@ very happy when I am coding.
 I work for [FifthTry](https://www.fifthtry.com), where I am trying to change the
 way documentation is written and hopefully how the world learns.
 
--- ds.image:
-src: $assets.files.ftd.png
+Arpita wants this text to be present in this file.
 
+/-- ds.image:
+src: $assets.files.ftd.png

@@ -1,0 +1,13 @@
+-- ds.page: Rust Reverse Proxy with actix-web
+
+## Resources
+
+### Actix Web
+- https://github.com/co42/reverse-proxy/blob/main/src/main.rs
+- https://github.com/estk/soxy/blob/master/src/main.rs
+- https://github.com/DoumanAsh/actix-reverse-proxy/blob/master/src/proxy.rs
+- https://github.com/actix/actix-web/issues/1127
+
+### Article on this
+
+- https://www.vultr.com/docs/building-rest-apis-in-rust-with-actix-web/

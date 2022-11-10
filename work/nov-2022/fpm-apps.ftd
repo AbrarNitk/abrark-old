@@ -1,0 +1,48 @@
+-- ds.page: FPM Apps
+
+As we can install multiple fpm applications in a fpm package.
+While installing application, we can also use a fpm dependency with different
+mount-point. Meaning that, same dependency can be used in multiple applications
+but with different mount-point.
+
+Discussion: https://github.com/ftd-lang/fpm/discussions/599
+
+-- ds.code:
+lang: ftd
+
+\-- import: fpm
+\-- fpm.package: abrark.com
+
+\-- fpm.app: Todos for Family
+mount-point: /family-todos/
+package: fifthtry.github.io/kameri
+end-point: <>
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+\-- fpm.app: Word DB
+mount-point: /word-db/
+package: fifthtry.github.io/kameri
+end-point: <>
+config: db_url=$ENV.WORD_DB_DB_URL
+config: name=WordDB: Database Of Words
+
+
+-- ds.h1: Tasks
+
+- [ ] Need to implement multi mount-point
+- [ ] Need to handle
+  - [x] request url prefix may be start with fpm-app url.
+  - [x] Have to refactor the redirect logic
+  - [x] pass package config and app config to endpoint
+
+  - [x] If it starts, than that package sitemap is going to use to serve the ftd document
+  - [x] Similar thing is going to happen with endpoint, if url did not match with
+    package sitemap, so send request to endpoint, if endpoint exists in the `-- fpm.app`.
+  - [ ] pass package config and app config to http processor
+  - [ ] Pass auth key to django
+  - [ ] add an optional icon in package
+  - [ ] remove endpoint and mount-point from dependency
+
+- [x] create one type in fpm.ftd of type `fpm.app`
+- [x] parse that to fpm package and sitemap

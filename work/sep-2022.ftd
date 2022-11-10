@@ -1,0 +1,695 @@
+-- ds.page: September Work
+
+-- ds.h1: Monthly Learning
+
+- Rust: Actix-Web, Hyper, Heroku, tokio
+
+-- ds.h1: Month Tasks
+
+- How to automate testing of fpm APIs
+
+-- ds.h1: Daily Update
+
+- What FifthTry is Working on
+  - https://github.com/orgs/FifthTry/discussions/50
+
+- September Update
+  - https://github.com/orgs/FifthTry/discussions/88
+
+
+-- ds.h1: 30 Sep
+
+## Demo [4 to ]
+
+### Ganesh
+
+- Color Scheme theme
+- Images and Gifs in the title
+- Footer will also be controlled by sitemap
+- We can use it with FPM or FTD
+
+
+### Rithik
+
+- `id` in Sitemap
+
+```ftd
+-- ft.markdown:
+id: input1
+
+-- fpm.sitemap:
+
+# input ;; id of the markdown component
+
+# Title: input
+
+# Title
+  id: input
+
+
+- `page-headings` processor
+
+```
+
+\-- fpm.toc-item list ph:
+$processor$: page-headings
+```
+
+- Issue: It should pick all the headings, there should be auto generated `id`
+  from title.
+
+
+### Shobhit
+
+- Subscriber list
+- like on the page
+- Supabase with webassembly
+
+- Amitu: Edge Network(Request will redirected according to location)
+- Django can not run of edge
+- Wasm can run on edge
+
+### Aditi
+
+- Add Movie API is working
+- Add review should show the information about movie as well
+
+
+## Discussion
+
+### With Amitu and Arpita [10:30 to 12PM]
+
+- In Rust Function macro, module macros, types macros, we don't have in ftd
+- We can write functions and macros arbitrary in Rust
+- In ftd all functions are going to be async and lazy load
+- In ftd, how will we figure out that that function call should be async or in
+  sync automatically.
+  - Reference: Microsoft Powerfx github
+- Inside expressions we also may have dollar sign
+- Block in ftd, multiline expressions
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo)
+}
+```
+
+```ftd
+-- integer x: ftd.http("http://google.com", $xpath=$foo)
+```
+
+
+- For now we are supporting this
+
+```ftd
+-- integer x: {
+    ftd.http("http://google.com", $xpath=$foo) + x + y
+}
+```
+
+```ftd
+-- string foo: { x + y + "hello"}
+```
+
+- ftd discussion: [ftd#441](https://github.com/ftd-lang/ftd/discussions/441)
+
+
+### TODO App
+
+- Redirect
+- Data, error
+
+### Rithik Update
+
+- Heading completed,
+- Headings are flat now, It has to be tree based.
+- Discussion: https://github.com/ftd-lang/fpm/discussions/484
+
+
+### Aviral
+
+- Need to complete, Homepage API List Movies API call using http processor
+- /api/movies/
+- PR: https://github.com/FifthTry/movie-db/pull/23
+
+### Aditi
+
+- She needs to work on add-review page, add-movie api is giving 504
+- PR: https://github.com/FifthTry/movie-db/pull/24
+
+
+-- ds.h2: 26 Sept 2022
+
+- request-data processor
+  - Status: Done
+  - https://github.com/FifthTry/fpm/discussions/516
+
+- fpm GitHub issue resolved section while passing them processor
+  - Status: In progress
+
+- Run fpm with redirected page to /movie/?id=5
+- Next: https://github.com/FifthTry/fpm/discussions/526
+
+-- ds.h2: 22 Sept 2022
+
+- https://github.com/AbrarNitk/django-service
+
+## Endpoint Support
+- First fix the movie-db app
+- How to call django api
+- http processor to fetch the data
+- Use movie-db app in `abrark.com`
+
+
+## Aditi: Movie Db APP
+
+- Working on /api/get-movie/?id=<movie-id>
+- PR:
+
+## Rithik: Page Headings
+
+- Discussion: https://github.com/FifthTry/fpm/discussions/484
+- PR should get closed fpm:487
+
+
+## Discussion
+
+This discussion is about discord channels and rooms
+- On which project Amitu is working on...
+- Office channel, My Desk, Meeting Rooms, People should be connected
+- Small Application in WebRTC, Hello world in JS or Rust
+
+
+## Issue
+
+- FPM fpm.dev::Development is giving 404
+
+
+-- ds.h2: 21 Sept 2022
+
+## Demo
+- This things exists in demo
+- Implementation demo should be different
+- KT should be different
+
+## Need to discuss with Arpita, If URL is present in the sitemap or not
+- How do we know,
+-
+
+## Deploy fpm with another microservice on Heroku with Proxy Endpoint
+-
+
+-- ds.h2: 20 Sept 2022
+
+## FPM Proxy endpoint
+Status: In progress
+- https://github.com/FifthTry/fpm/discussions/462
+- I will try to complete ot end of the day
+- My target will be deliver it with django microservice(movie-db app)
+- FPM on Heroku with proxy endpoint support, demo with movie db app
+
+
+## FTD final syntax: Have to reread it
+- https://github.com/FifthTry/ftd/discussions/429
+
+## Dump JSON
+- https://github.com/FifthTry/fpm/discussions/312
+
+-- ds.h2: 19 Sept 2022
+
+## FPM Proxy endpoint
+Status: In progress
+- https://github.com/FifthTry/fpm/discussions/462
+- I will try to complete ot end of the day
+- My target will be deliver it with django microservice(movie-db app)
+- FPM on Heroku with proxy endpoint support, demo with movie db app
+
+## Discussion with Aditi
+
+- She has to fix UI components
+- She has an exam tomorrow, she has to prepare for that
+
+## Discussion with Shobhit, Amitu, Arpita
+
+- From Amitu: If I am coming to know, What Abrar is doing?
+- We should have consensus how should we work together?
+- We should have meeting notes and meeting notes should not have details notes
+- There is no time limitation about updates but they should come at ay form
+
+## Discussion with Shobhit and Arpita
+
+### Tasks and Updates
+
+- Daily connect at 11:00AM(Shobhit, Arpita, Abrar)
+- Before start working on any problem, write the design
+- First check demo with Arpita and Shobhit
+- We will give demo to Amitu only
+- Update Daily on tasks
+- Documentation of problem which you solved
+
+### How to execute and update daily visibility
+
+- Daily meeting + Meeting notes
+- Discussion + Working + Notes
+- Let's do it till the end of the week
+- At every week single scheduled meeting with Amitu(About: Where do we stand?)
+
+### We should have scheduled
+
+- Slot out the time
+- Daily updates, together daily meeting
+- Take update from interns: 11
+
+
+### Actionable
+
+1. Daily Update from interns 10 - 11, update notes either discussion of either discord channel
+2. Connect at 11 - 11:30 Shobhit, Arpita and Abrar and update the meeting notes and github discussions
+3. Scheduled meeting with Amitu to calibrate once a week
+
+
+-- ds.h1: 16 Sept 2022
+
+-- ds.h2: Heroku deployment demo and a separate video
+
+-- ds.h2: Heroku CLI documents
+
+-- ds.h2: FPM proxy Endpoint implementation
+
+-- ds.h2: We have to give demo about including another package documents.
+
+https://github.com/FifthTry/fpm/discussions/462
+
+-- ds.h2: todo Update fpm-heroku docs according to new yml actions
+
+## FPM package authentication
+
+- using key or reader writer groups
+
+
+## Ganesh Demo
+
+### Blog post
+-  doc-site: https://github.com/fifthtry/doc-site
+- How can we show summary of the page on the blog, on the home page or landing page.
+- Author page: We can do query: All the posts written by Arpita, fetch the data dynamically(fpm can call the API)
+- How many people will use it? budget problem?
+- We have do iOS rendering, Figma, ???
+- Companies are taking baby towards machine learning, Microsoft, Google, etc..
+- Our language must be powerful,
+- One single click only and start writing ftd and start writing...
+- Our core is language, we will be around infra only, we will not mail software.
+
+
+
+
+-- ds.h1: 15 Sept 2022
+
+### fpm proxy: Endpoint support
+status: I have to complete it today
+Integrate it with movie-db app
+https://github.com/FifthTry/fpm/discussions/462
+
+### Tutorial for Heroku
+
+https://github.com/FifthTry/fpm/discussions/480
+
+
+-- ds.h1: 13th Sep 2022
+
+## Work
+
+### fpm Proxy
+
+- https://github.com/FifthTry/fpm/discussions/462
+- proxy with actix
+- proxy with hyper
+
+### Movie DB APP
+
+- Aditi has to fix breaking UI
+- I has ensure everything is working fine
+- All the pages should work fine
+- Need to handle error response as well
+
+### term support syntax
+- Delivery: blogs, video
+
+### Auth Video
+- Delivery: blogs, video
+
+### fpm on Heroku
+- Create a repo, single file and fpm repo and deploy it on heroku
+- Clear cache: workflow file
+- Endpoint will be extra
+- Article: https://medium.com/ki-labs-engineering/deploying-a-native-go-binary-on-heroku-6d4c955819d8
+
+
+### ftd:p2:parser documentation
+
+### Content driven marketing
+- Make tutorial on how did I wrote proxy server
+- How did I wrote proxy server for production
+- How we wrote a compiler which has already 90k lines of code
+
+### Features on Hackernews, reddit, etc...
+
+### release opportunities
+- What can we post on reddit/hackernews/twitter, 1 or 2 weekly
+- What can we do for this week?
+
+### try with processor
+- using http processor abrark.com/reddit/, abrark.com/twitter/
+
+
+-- ds.h1: 9th Sep 2022
+
+-- ds.h2: Discussion
+
+- todo ftd: `http` `processor` demo
+
+### Presentation
+- Historical things
+- Java 1.0, 1.1, 1.2....
+- Proxy Server: Nginx
+- Large Applicability
+- Internet works on reverse proxy server
+- JSON parser problem
+- Hiring standard problem
+  - Write a proxy server
+  - Best Proxy Server
+
+## Presentation Points
+- Decide who is taking time and how much time everyone has to take.
+- Spend some more time on presentation.
+- Presentation: Explain things which are hard in the conversation in the start
+- Presentation: Start recording these sessions
+
+
+## Work
+
+### fpm Proxy
+
+- https://github.com/FifthTry/fpm/discussions/462
+- proxy with actix
+- proxy with hyper
+
+### Update from Rithik
+
+- deploy fpm binary on heroku
+
+### Movie DB APP
+
+- Aditi has to fix breaking UI
+- I has ensure everything is working fine
+  - All the pages should work fine
+  - Need to handle error response as well
+
+### Clear Cache PR Fixes
+Status: Done
+- https://github.com/FifthTry/fpm/discussions/475
+
+### Discussion with team on fpm auth
+
+
+
+-- ds.h1: 8th Sep 2022
+
+-- ds.h2: Discussion with Rithik
+
+- He has to explore Heroku, how to deploy binary on Heroku and all.
+
+-- ds.h2: Discussion with Aditi
+
+## Movie-db APP:
+Status: In Progress
+- Image links are broken in ftd.
+- You guys will have idea about it: Run Django service and hit APIs
+- UI is 90% done: Only Home Page UI is remaining
+- Change URL: add_movie: `_` to `-`
+- Add movie redirect: Home or Movie Page
+- Django API documentation: https://github.com/FifthTry/fpm.dev/pull/79/files#diff-cf67e6a1129660ecc38b7df89ebab76a1765b8a8514fa0076d9ebb4c7b35d280
+
+- Error Message:
+    Status: Pending
+    Option 1:
+        from Django send error page, or API Response
+        if error responses coming as json then update the ftd page
+    Mostly: Send the error page
+    TODO: Discuss with Arpita
+
+- get-movie API call on Review Page: either or http processor?, proxy call. Need clarity from Arpita
+
+- On Click Movie Added Show Successful: On API Response
+- API is not getting called, We have to call it using fpm proxy: Abrar
+- API Integration is Pending
+
+-- ds.h2: Discussion With Arpita, Chota-Amitu, Rithik
+
+- Abrar Demo: How Auth is working
+- Arpita Demo: How Parser is working, with algorithm
+- Tomorrow: 2
+- How cDoc is working
+
+
+-- ds.h2: Work
+
+- Endpoint Support: Proxy method in fpm with actix-web and hyper
+  - Status: In Progress
+  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Plan:
+    - Create basic implementation of hyper server with proxy api
+    - Explore hyper: https://hyper.rs/
+    - Create basic implementation of actix-web server with proxy api
+    - Actix Web Proxy Implementation
+    - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- FPM Heroku Deployment
+  - Rithik will work on deploying fpm on heroku
+  - Discussion:
+    - https://github.com/FifthTry/fpm/discussions/480
+    - https://github.com/FifthTry/fpm/discussions/457
+
+
+-- ds.h1: 7 Sep 2022
+
+-- ds.h2: Discussions
+
+-- ds.h3: With Rithik and Amitu
+
+- Rithik will work on deploying fpm on heroku
+- Discussion:
+  - https://github.com/FifthTry/fpm/discussions/480
+  - https://github.com/FifthTry/fpm/discussions/457
+  - TODO: I have to help him in deploying binary on heroku
+
+-- ds.h3: With Arpita
+
+- For `ftd` Interpreter we will explore
+  - https://github.com/zesterer/ariadne
+  - https://github.com/zesterer/tao
+
+-- ds.h3: With Amitu and Shobhit About wasm stuff
+
+- https://github.com/FifthTry/fpm/discussions/468
+- https://github.com/FifthTry/fpm/discussions/477
+- Shobhit has to create a prototype with wasmtime
+  - Supabase: postgres endpoint
+  - Choose Assembly Script or Rust
+- Assembly script with wasmtime, as-wasi.
+
+
+- What discussions Amitu has written, reading that...
+
+-- ds.h2: Work
+
+- Clear Cache
+  - Status: Done
+  - Code and Testing: In progress
+    - Feature implementation done
+    - Security: Done
+    - Parallel Read and Writes: Done
+  - Discussion Update: Done
+    - https://github.com/FifthTry/fpm/discussions/475
+  - Documentation: Done
+  - cargo crate async-lock = "2.5.0": Done
+
+- Proxy method in fpm with actix-web and hyper
+  - Status: In Progress
+  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Plan:
+    - Create basic implementation of hyper server with proxy api
+    - Explore hyper: https://hyper.rs/
+    - Create basic implementation of actix-web server with proxy api
+    - Actix Web Proxy Implementation
+    - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+
+- Merge Pull Request: Done
+  - https://github.com/FifthTry/movie-db/pull/6
+
+- todo: https://github.com/orgs/FifthTry/discussions/92
+ - I have to read this.
+
+- wasmtime POC
+  - https://github.com/FifthTry/fpm/discussions/468
+  - https://www.assemblyscript.org/introduction.html
+  - https://github.com/FifthTry/fpm/discussions/477
+
+- FifthTry Auth Login should work fine
+  - Docs + Understanding
+  - What is OAuth
+    - https://www.varonis.com/blog/what-is-oauth
+    - https://www.varonis.com/blog/giving-away-your-passwords
+
+- Start Codechef Programming Today
+  - Single Program only
+
+
+-- ds.h2: Learning
+
+- https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+- Terms in FPM: https://www.youtube.com/watch?v=sjVJD3W8WyA
+- https://jvns.ca/blog/2022/09/06/send-network-packets-python-tun-tap/
+- https://linux.die.net/man/8/pppd
+
+-- ds.h1: 6 Sep 2022
+
+-- ds.h2: Discussions
+
+Discussion With Amitu and Shobhit
+
+- Endpoint FPM URL proxy method
+- Django APP should be deployed
+- wasmtime as part of fpm, create non trivial application
+- Abrar has to understand code Django, Auth Code, etc...
+
+-- ds.h2: Work
+
+- Clear Cache
+  - Discussion Update: Done
+    - https://github.com/FifthTry/fpm/discussions/475
+  - Code and Testing: In progress
+  - Documentation:
+
+- Connect with Aviral and Aditi for movie-db app
+  - Status: Pending
+
+- TODO: https://github.com/FifthTry/fpm/discussions/457
+  - https://discord.com/channels/793929082483769345/1013678563641262150
+
+- proxy method in fpm with actix
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- wasmtime POC
+  - https://github.com/FifthTry/fpm/discussions/468
+  - Shobhit will work on it.
+
+- Clear Cache
+  - Code: Done
+  - Test Cases: Done
+  - Update discussion and Docs: Pending
+
+If Possible:
+
+- Parser Code: Clear Doubts
+  - Write Parser Test Cases
+
+- Interpreter: Code understanding from Arpita
+  - https://github.com/FifthTry/ftd/pull/404
+
+
+-- ds.h2: Learning
+
+- Go through with `tokio::fs`, `camino`
+  - Article: Pending
+- https://www.zachleat.com/web/trailing-slash/
+
+
+-- ds.h2: Self Rating
+
+
+
+-- ds.h1: 5 Sep 2022
+
+- Clear Cache
+  - Discussion Update: Done
+
+- Parser Code: Clear Doubts
+  - Write Parser Test Cases
+
+- Interpreter: Code understanding from Arpita
+
+- proxy method in fpm with actix
+  - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
+
+- wasm POC
+
+- TODO: List Tasks on Sept Discussion
+  - https://github.com/orgs/FifthTry/discussions/88
+
+-- ds.h1: 2 Sep 2022 Friday
+
+- [fpm clear cache]
+  - New discussion in fpm about clear cache api
+  - Status: In Progress
+
+- Markdown color CSS fixes
+  - Status: Done
+  - Need to choose default color in markdown
+
+- Movie DB App Discussion with Aditi and Amitu: Done
+ - https://github.com/orgs/fifthtry/discussions/90
+
+- Mailchimp App Integration:
+  - https://github.com/orgs/FifthTry/discussions/85
+
+
+-- ds.h1: 1 Sep 2022
+
+-- ds.h2: Learning TODOs
+
+- https://discord.com/channels/793929082483769345/1004332187996405770/1014752000480657448
+- https://discord.com/channels/793929082483769345/1004332187996405770/1014736009650520084
+- https://discord.com/channels/793929082483769345/1003655069595607240/1014769255666958356
+- FTD in terminal https://discord.com/channels/793929082483769345/1004332187996405770/1014752000480657448
+- Developer's Roadmap: https://github.com/kamranahmedse/developer-roadmap
+
+- [fpm --download-base-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+  - Status: Done
+
+- [fpm clear cache]
+  - Status: In Progress
+
+- Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/
+- Read: What are we launching https://github.com/orgs/FifthTry/discussions/75
+- Read: discussion on nested section https://github.com/FifthTry/ftd/discussions/381
+- Read: https://github.com/FifthTry/ftd/discussions/380
+
+- Repeat: Limit the authentication on abrark.com, remove auth from home page, do it asap.
+  - Partially done
+  - Have to write about where auth is provided and how should get access of it.
+
+
+- Mailchimp App Integration:
+  - https://github.com/orgs/FifthTry/discussions/85
+
+- Org-Mode:
+  - https://whhone.com/posts/org-mode-task-management/
+  - https://www.youtube.com/watch?v=fgizHHd7nOo
+
+- Figured out Rust Benchmarking
+- Read New Parser Code
+
+- List Monk App
+  - https://listmonk.app/docs/
+
+- Call Rust from Java, JavaScript Need to figured it out.
+  For Rust
+  - https://stackoverflow.com/questions/30258427/calling-rust-from-java
+  - https://github.com/astonbitecode/j4rs-java-call-rust
+
+  For JavaScript
+  - https://blog.risingstack.com/how-to-use-rust-with-node-when-performance-matters/
+  - https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven/
+  - https://www.secondstate.io/articles/getting-started-with-rust-function/

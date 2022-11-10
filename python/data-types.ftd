@@ -1,0 +1,131 @@
+-- ds.page: What are Data Types and Variables
+
+-- ds.h1: Data Type
+
+The `data type` of an item defines the type and the range of the values that
+item can have.
+
+
+-- ds.h1: Python's Data Type
+
+Python does not place a strong emphasis on defining the data type of an object,
+which makes a coding much simpler.
+
+The language provides three main data types:-
+
+- Numbers
+- Strings
+- Booleans
+
+-- ds.h1: Variable
+
+A variable simply a name to which a value can be assigned.
+
+Variables allow us to give meaningful names to data.
+
+A simple way to assign a value to a variable is through a `=` operator.
+
+Variables are mutable. Hence, the value of the variable can be reassigned and
+updated.
+
+-- ds.h1: Naming Convention
+
+- The name can start with upper and lower case alphabet.
+- All the names are case sensitive.
+- A number can appear in the name, but not at the beginning.
+- The _ character can appear anywhere in the name.
+- Spaces are not allowed.
+- The name of the variable should be something meaningful that describes the
+value it holds, instead of being random characters.
+
+-- ds.h1: Numbers
+
+There are three types of numbers in Python:
+
+- Integers
+- Floating Point Numbers
+- Complex Numbers
+
+
+-- ds.h2: Integers
+
+The integer data type is comprised of all the negative and positive whole
+numbers.
+
+Q: How much size does integer take in the memory?
+
+-- ds.h2: Floating Point Numbers
+
+Floating-point numbers, or floats, refer to positive and negative decimal
+numbers.
+
+Q: How much size does `float` take in the memory?
+
+-- ds.h2: Complex Numbers
+
+- Baad mein karte hai.
+
+-- ds.h1: Boolean
+
+The Boolean (also known as bool) data type allows us to choose between two
+values: true and false.
+
+In Python, we can simply use True or False to represent a bool:
+
+TODO: Examples
+
+
+-- ds.h1: Strings
+
+A string is a collection of characters closed within single, double or triple
+quotation marks.
+
+TODO: Examples, single, double and triple quote,
+
+-- ds.h2: Length of a String
+
+
+-- ds.code:
+lang: py
+
+print(len("string"))
+
+-- ds.h2: Indexing
+
+In a string, every character is given a numerical index based on its position.
+
+-- ds.h2: Access String Characters Using Indexing
+
+Each character in a string can be accessed using its index. The index must be
+closed within square brackets `[]`, and appended to the string.
+
+TODO: Examples with error also
+
+-- ds.h2: Reverse Indexing
+
+We can also change our indexing convention by using negative indices.
+
+Negative indices start from the opposite end of the string. Hence, the -1 index
+corresponds to the last character.
+
+TODO: Examples
+
+-- ds.h2: String Immutability
+
+Once we assign a value to a string, we cannot update it later.
+
+-- ds.code:
+lang: py
+
+string = "Hello World"
+string[0]='F' # Will throw an error
+
+
+-- ds.h2: ASCII vs Unicode
+
+All the strings are unicode. Older version of python till 2.x support only
+ASCII characters.
+
+-- ds.h1: String Slicing
+
+`string[start:end]`
