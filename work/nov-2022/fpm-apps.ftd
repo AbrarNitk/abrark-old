@@ -46,3 +46,38 @@ config: name=WordDB: Database Of Words
 
 - [x] create one type in fpm.ftd of type `fpm.app`
 - [x] parse that to fpm package and sitemap
+
+
+## `fpm-apps` Processor
+
+-- ds.code:
+lang: ftd
+
+\-- fpm.app-ui list apps:
+$processor$: fpm-apps
+
+
+-- record app-ui:
+optional caption name:
+string package:
+string url:
+
+/-- app-ui list apps:
+
+
+\-- fpm.app-ui list all-app:
+$processor$: fpm-apps
+
+
+\-- ftd.column print-app:
+fpm.app-ui app:
+
+\--- ftd.text: $app.name
+
+\--- ftd.text: $app.package
+
+\--- ftd.text: $app.url
+
+\-- print-app:
+$loop$: $all-app as $app
+app: $app
