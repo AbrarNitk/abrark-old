@@ -71,9 +71,9 @@ data: Section Data
 ## Resume: /resume/
 
 ## About: /about/
-readers: readers
+readers: ftd/fans
 
-## Todos /todos/
+## Todos: /todos/
 
 - About Me: /about/
 
