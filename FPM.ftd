@@ -18,7 +18,7 @@ mount-point: /ds/
 
 /-- fpm.dependency: kameri-app.herokuapp.com
 endpoint: https://kameri-service.herokuapp.com
-/endpoint: http://127.0.0.1:8001
+endpoint: http://127.0.0.1:8001
 mount-point: /todos/
 
 
@@ -38,10 +38,10 @@ email: abrark.asahi@gmail.com
 mount-point: /todos/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
-config: db_url=$ENV.DB_URL
-config: name=Upadhyay Khanadan
+/config: db_url=$ENV.DB_URL
+/config: name=Upadhyay Khanadan
 
--- fpm.app: Movies
+/-- fpm.app: Movies
 mount-point: /movies/
 package: movie-db
 end-point: http://127.0.0.1:8001
@@ -53,7 +53,7 @@ config: name=Upadhyay Khanadan
 ;; /-/kameri-app.herokuapp.com/api/add-todo/
 ;; package-name should be different
 
--- fpm.app: Todos for Family
+/-- fpm.app: Todos for Family
 mount-point: /tod123/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
