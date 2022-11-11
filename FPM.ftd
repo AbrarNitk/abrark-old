@@ -24,11 +24,11 @@ mount-point: /todos/
 
 -- fpm.user-group: readers
 github-starred: ftd-lang/fpm
-/email: abrark.asahi@gmail.com
-/github: AbrarNitk
 
 -- fpm.user-group: ftd/fans
 github-starred: ftd-lang/ftd
+/email: abrark.asahi@gmail.com
+/github: AbrarNitk
 
 
 -- fpm.user-group: writers
@@ -38,6 +38,7 @@ email: abrark.asahi@gmail.com
 mount-point: /todos/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
+readers: readers
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
