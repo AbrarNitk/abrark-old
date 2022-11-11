@@ -19,14 +19,10 @@ mount-point: /ds/
 -- fpm.user-group: readers
 github-starred: ftd-lang/fpm
 
+
 -- fpm.user-group: ftd/fans
 github-starred: ftd-lang/ftd
-/email: abrark.asahi@gmail.com
-/github: AbrarNitk
 
-
--- fpm.user-group: writers
-email: abrark.asahi@gmail.com
 
 -- fpm.app: Todos for Family
 mount-point: /todos/
@@ -35,26 +31,6 @@ end-point: https://kameri-service.herokuapp.com
 readers: readers
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
-
-/-- fpm.app: Movies
-mount-point: /movies/
-package: movie-db
-end-point: http://127.0.0.1:8001
-config: db_url=$ENV.DB_URL
-config: name=Upadhyay Khanadan
-
-
-;; /-/kameri-app.herokuapp.com/add-todo/
-;; /-/kameri-app.herokuapp.com/api/add-todo/
-;; package-name should be different
-
-/-- fpm.app: Todos for Family
-mount-point: /tod123/
-package: kameri-app.herokuapp.com
-end-point: https://kameri-service.herokuapp.com
-config: db_url=$ENV.DB_URL
-config: name=Upadhyay Khanadan
-
 
 -- fpm.sitemap:
 
@@ -69,20 +45,16 @@ readers: ftd/fans
 
 ## Todos: /todos/
 
-- About Me: /about/
 
-/# Todos: /todos/
 
-# Words: /words/
 
-# Concepts: /concepts/
 
-# FifthTry
 
-## Work
 
-- Daily Work: /work/
-readers: readers
+
+
+
+
 
 
 
@@ -126,3 +98,25 @@ document: fifthtry.ftd
 endpoint: https://kameri-service.herokuapp.com
 endpoint: http://127.0.0.1:8001
 mount-point: /todos/
+
+/-- fpm.user-group: writers
+email: abrark.asahi@gmail.com
+github: AbrarNitk
+
+;; /-/kameri-app.herokuapp.com/add-todo/
+;; /-/kameri-app.herokuapp.com/api/add-todo/
+;; package-name should be different
+
+/-- fpm.app: Todos for Family
+mount-point: /tod123/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
+
+/-- fpm.app: Movies
+mount-point: /movies/
+package: movie-db
+end-point: http://127.0.0.1:8001
+config: db_url=$ENV.DB_URL
+config: name=Upadhyay Khanadan
