@@ -11,6 +11,8 @@ $always-include$: true
 -- user-details ud:
 $processor$: user-details
 is-login: false
+;; todo: is-logged-in
+;; todo rename mount-point to url
 
 -- ftd.color white-color:
 dark: white
@@ -53,6 +55,8 @@ very happy when I am coding.
 
 I work for [FifthTry](https://www.fifthtry.com), where I am trying to change the
 way documentation is written and hopefully how the world learns.
+
+Hey Nice Demo!!!
 
 /-- ds.image:
 src: $assets.files.ftd.png
