@@ -39,7 +39,9 @@ config: name=WordDB: Database Of Words
   - [x] If it starts, than that package sitemap is going to use to serve the ftd document
   - [x] Similar thing is going to happen with endpoint, if url did not match with
     package sitemap, so send request to endpoint, if endpoint exists in the `-- fpm.app`.
-  - [ ] pass package config and app config to http processor
+  - [x] pass package config and app config to http processor
+  - [x] readers in apps
+  - [ ] writers in apps
   - [ ] Pass auth key to django
   - [ ] add an optional icon in package
   - [ ] remove endpoint and mount-point from dependency
