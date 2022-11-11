@@ -73,6 +73,8 @@ data: Section Data
 ## About: /about/
 readers: readers
 
+## Todos /todos/
+
 - About Me: /about/
 
 /# Todos: /todos/
