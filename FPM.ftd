@@ -16,12 +16,6 @@ mount-point: /ds/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
-/-- fpm.dependency: kameri-app.herokuapp.com
-endpoint: https://kameri-service.herokuapp.com
-endpoint: http://127.0.0.1:8001
-mount-point: /todos/
-
-
 -- fpm.user-group: readers
 github-starred: ftd-lang/fpm
 
@@ -127,3 +121,8 @@ document: fifthtry.ftd
   document: fifthtry/person.ftd
   readers: readers/person
   writers: writers/person
+
+/-- fpm.dependency: kameri-app.herokuapp.com
+endpoint: https://kameri-service.herokuapp.com
+endpoint: http://127.0.0.1:8001
+mount-point: /todos/
