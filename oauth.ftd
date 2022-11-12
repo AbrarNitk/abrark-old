@@ -27,10 +27,13 @@
 
 - I trust Gmail and I kind of trust Yelp. I want Yelp to have access to my contacts.
 
+## How does google OAuth works
 
 Yelp.com have a button Say [connect with google] that redirects user to
 accounts.google.com, where user have to fill the email and password and then
 google will ask that this application wants to access these and these things from
-your account will you provide access, they user can choose yes or no, if user
-chooses yes then yelo.com/callback and set the cookie-token. And then
+your account will you provide access, then user can choose yes or no, if user
+chooses yes then yelo.com/callback(by passing code) and then yelp server will
+call google server by passing this code and server secrets to get the access token
+and set this to cookie.
 

@@ -9,18 +9,17 @@
 
 - [ ] fpm-controller should be delivered
   - [x] deploy fpm package
-  - [ ] pricing page
+  - [x] pricing page
 
 ## Abrar's Goals for this November month
 
-- [x] mount-point, multi-mount point and endpoint, fpm-apps
-- [ ] auth should be integrated with fpm
 - [ ] deliver wasm
-  - [ ] One fully working app
-  - [ ] Fully polished
-  - [ ] Show to investor
-- Payment and Subscription
+  - [ ] build fully polished application that we can show to investors
+- [ ]
 - [ ] next ftd rewrite: peace time
+- [x] mount-point, multi-mount point and endpoint, fpm-apps
+- [x] auth should be integrated with fpm
+- [x] Payment and Subscription
 
 
 ## Rithik
@@ -37,6 +36,17 @@
 - Subscription Discussion with Amitu and Arpita
 
 -- ds.h1: Daily Updates
+
+-- ds.h2: 12th and 13th Nov
+
+- How OAuth works, Write an article about it.
+- how will we implement auth in fpm
+- fpm db or not?? [Check](/dev/fpm/)
+- fpm controller payment system design
+- fpm code refactor
+  - Have to optimize the can_read implementation, currently it is checking in
+  sitemap and apps in separate chunk of code. Can combine their logic together.
+  - have to fix endpoint and mount-point small issues, some renames and all.
 
 -- ds.h2: 11th Nov
 
