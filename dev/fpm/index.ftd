@@ -1,5 +1,10 @@
 -- ds.page: FPM Development
 
+-- ds.h1: Ideas
+
+- How to Update Content On Heroku Using fpm cli
+  - Like `fpm refresh heroku`
+
 -- ds.h1: Auth Implementation
 
 ## Current Implementation:

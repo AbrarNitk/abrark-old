@@ -57,7 +57,43 @@ and set this to cookie.
   - Where authorization server redirects back to after successful login or failed
 - Access Token
   - This token is used to access the data from resource server.
+  - It depends on scope what resources you can access, using this access token.
 
 -- ds.image:
 src: $assets.files.static.oauth.OAuth-2-Flow.png
 width: fill
+
+-- ds.h2: More OAuth 2.0 terminology
+
+- Scope
+  - Authorization server have list of scopes like
+    - contacts.read, contacts.update, email.read, email.delete, etc....
+  - So client have to by passing these scopes what level of data you want to
+  access and what do you want to do with the data, which apis you want to access.
+- Consent
+ - Based on that authorization server create a list of consent to the client.
+
+Note: In the above approach we have used authorization code to get the access
+token, why just we can get the access token.
+
+-- ds.h2: Even More OAuth 2.0 terminology
+
+- Back Channel(highly secured channel)
+  - If I have server which only I have a access to and If I have made a secure
+  call of my server to google server, meaning or less this is almost a secure call.
+- Front Channel(less secured channel)
+  - Like browser
+  - Browsers are safe but there are some loop holes how did they get build.
+  - People can check your cookie in the browser, can be copied and pasted.
+  - If I have stored it in javascript, then somebody can also check it with view-src.
+  - We can trust more on the our server, but not complete trust on a browser.
+  - Someone looking from your shoulder can see this, they are not total secure.
+
+Because access code comes with redirected URI's query parameters in the browser,
+using this access code then abrark.com server will call authorization server
+(accounts.google.com) to get the access token and redirect user with access-token.
+
+In that case it is more secure because access token using the highly secure
+channel. And it can also map this access token to something like it's own
+token: `some-encrypted-id`, and not passing the actual token which authorization
+server is sharing with you.
