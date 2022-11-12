@@ -16,11 +16,11 @@ mount-point: /ds/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
--- fpm.user-group: readers
+-- fpm.user-group: fpm-fans
 github-starred: ftd-lang/fpm
 
 
--- fpm.user-group: ftd/fans
+-- fpm.user-group: ftd-fans
 github-starred: ftd-lang/ftd
 
 
@@ -28,9 +28,10 @@ github-starred: ftd-lang/ftd
 mount-point: /todos/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
-readers: readers
+readers: fpm-fans
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
+
 
 -- fpm.sitemap:
 
@@ -41,7 +42,7 @@ data: Section Data
 ## Resume: /resume/
 
 ## About: /about/
-readers: ftd/fans
+readers: ftd-fans
 
 ## Todos: /todos/
 

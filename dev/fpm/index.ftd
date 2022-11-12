@@ -1,0 +1,61 @@
+-- ds.page: FPM Development
+
+
+
+-- ds.h1: Auth Implementation
+
+## Current Implementation:
+
+- User has to choose one platform like github or discord to login
+- fpm will redirect than that user to chosen platform to login
+- Than after successful login with chosen platform, platform will redirect to fpm
+  with some shared token
+- Than fpm set's the cookie-token which is fetched from the chosen platform
+
+This is how we are setting cookie.
+
+-- ftd.code:
+lang: text
+
+http header: cookie: access_token=<github-shared access token>;
+
+
+-- ds.h1: Multi platform Authentication on fpm
+
+On fpm, user can choose one authentication provider to login on one app and
+another authentication provider on another application.
+
+Let's take an example, On `todo` application user can choose google provider
+but to manage `movies` user can chose to login with discord.
+
+Question: If I have used different auth providers for different application to
+logged in. So I have to remember that I have used google to manage my todos and
+used discord to manage my movies.
+
+That becomes problematic if I have used multiple apps and different auth
+providers and have to logged in again on different browser.
+
+
+## How to store session
+
+### Without DB
+
+- data will be stored in cookie only
+- fpm instance will not use any db storage.
+- Pros:
+  - no db call to check authentication
+- Cons:
+ - sharing the authentication provider token
+ - User has to login everytime for every auth provider if it switches the
+   browser because all the information in the cookie only
+ -
+
+### With DB
+
+- data will be stored in the db(shared/global/redis)
+- single token will be stored with the session cookie
+- Cons:
+  - on every http request there will be db call to authenticate the person
+- Pros:
+  - If user logged out, all the information lost from fom server.
+  - User has to logged in again for all the application with different auth provider.

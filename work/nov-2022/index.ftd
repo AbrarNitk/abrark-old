@@ -45,8 +45,8 @@
 - [x] Payment update from Rithik
   - Stripe Payment is working as demo
   - Docs pending and PR review pending
-- [ ] fpm-apps processor
-- [ ] readers and writers support in apps
+- [x] fpm-apps processor
+- [x] readers and writers support in apps
 - [ ] pass identity to endpoint service X-FPM-USER-ID
 - [ ] django service pass API key and change kameri code according to it
 - [ ] remove mount point and end point from dependency
