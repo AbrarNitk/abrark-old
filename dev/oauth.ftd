@@ -97,3 +97,70 @@ In that case it is more secure because access token using the highly secure
 channel. And it can also map this access token to something like it's own
 token: `some-encrypted-id`, and not passing the actual token which authorization
 server is sharing with you.
+
+On the other hand, front channel, where everything will happen only on browser
+so access token will be shared with the in the query parameters.
+
+On the back channel, even if somebody steals the your access code they can not
+get the access token, because to get the access token backend server uses access
+code and secret key to get the access token.
+
+-- ds.h1: How it actually works
+
+-- ds.h2: Starting the flow
+
+On Clicking on the `Login with Google` user will be redirected to below request.
+
+This request will go the authorization server, which is google in that case.
+
+To get the client id, user has to login with google and create a client and you
+will the two things `client_id` and `client_secret`.
+
+`client_id` is not sensitive information, which is identifies the `abrark-google-auth`
+application.
+
+`client_secret` is used in the backend channel, which is used to get the access
+token from abrark.com server.
+
+
+-- ds.code:
+lang: text
+
+https://accounts.goolge.com/o/oauth2/v2/auth?
+  client_id=abc123&
+  redirect_uri=https://abrark.com/callback&
+  scope=profile&
+  response_type=code&
+  state=foobar
+
+-- ds.h2: Calling Back
+
+After google.com auth flow completed it will callback to the below URL.
+
+-- ds.code:
+lang: text
+
+https://abrark.com/callback?
+  error=access_denied&
+  error_description=The user did not consent.
+
+https://abrark.com/callback?
+  code=oMSderasfQmertivesq7&
+  state=foobar
+
+-- ds.h2: Exchange code for an access token
+
+The above redirected call will go the abarak.com server and exchange the code
+with the authorization server to get the access token.
+
+-- ds.code:
+lang: text
+
+POST www.googleapis.com/oauth2/v4/token
+Content-Type: application/x-www-form-urlencoded
+
+code=oMSderasfQmertivesq7&
+client_id=abc123&
+client_secret=secret123&
+grant_type=authorization_code
+
