@@ -40,6 +40,8 @@
 -- ds.h2: 12th and 13th Nov
 
 - How OAuth works, Write an article about it.
+  - Article on how to use GitHub OAuth with fpm and use access controlled
+  pages and apps.
 - how will we implement auth in fpm
 - fpm db or not?? [Check](/dev/fpm/)
 - fpm controller payment system design

@@ -46,11 +46,11 @@ readers: ftd-fans
 
 ## Todos: /todos/
 
+# Dev: /dev/
 
-
-
-
-
+- OAuth 2.0:
+  url: /oauth/
+  document: /dev/oauth.ftd
 
 
 
