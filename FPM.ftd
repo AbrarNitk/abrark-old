@@ -48,11 +48,11 @@ readers: ftd-fans
 
 # Dev: /dev/
 
-- OAuth 2.0:
+- OAuth 2.0
   url: /oauth/
   document: /dev/oauth.ftd
 
-- JWT:
+- JWT
   url: /jwt/
   document: /dev/jwt.ftd
 
