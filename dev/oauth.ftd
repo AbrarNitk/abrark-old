@@ -1,40 +1,37 @@
 -- ds.page: OAuth 2.0
 
-- OAuth 2.0 and OpenID connect
-- Simple login or forms auth
-  - collect username and password via form
-  - Hash password, verify hash, look up user info, look up auth info
-  - save it to db -> Set-Cookie in the browser
-  - Downsides
-    - Security
-    - Maintenance
+# Delegated Authorization with OAuth 2.0
 
-- Identity use cases (pre-2010)
-  - Simple login (forms and cookies)
-  - Single sign-on across sites
-  - Mobile app login
-  - Delegated authorization
-    - How can I let a website access my data without giving it my password.
+Let's say I trust on Google and I am also on AbrarK. I want AbrarK to access to
+my contacts.
 
-- Delegated
-- entrust (a task or responsibility) to another person, typically one who is
-  less senior than oneself.
-- send or authorize (someone) to do something as a representative.
+Note: We should not use OAuth protocol for authentication we should use it for
+authorization. OAuth designed for scopes and permissions, it is care about is your
+access token have permission to access the some particular resource, it does not
+really care about who the user is.
+
+### Problem with OAuth 2.0 for authentication
+
+- No standard way to get the user's information
+- Every implementation is little different
+- No common set of scopes
 
 
-# Delegated authorization with OAuth 2.0
+### OAuth 2.0 and OpenID Connect
 
-I trust Gmail and I kind of trust Yelp. I want Yelp to have access to my contacts.
+- OpenID Connect is for  authentication
+- OAuth 2.0 is for authorization
+
 
 ## How does google OAuth works
 
-Yelp.com have a button Say [connect with google] that redirects user to
+AbrarK.com have a button Say [connect with google] that redirects user to
 accounts.google.com, where user have to fill the email and password and then
 google will ask that this application wants to access these and these things from
 your account will you provide access, then user can choose yes or no, if user
-chooses yes then yelo.com/callback(by passing code) and then yelp server will
+chooses yes then abrark.com/callback(by passing code) and then abrark server will
 call google server by passing this code and server secrets to get the access token
-and set this to cookie.
+and set the access token to browser.
 
 ## OAuth 2.0 Terminology
 
@@ -153,7 +150,7 @@ https://abrark.com/callback?
 The above redirected call will go the abarak.com server and exchange the code
 with the authorization server to get the access token.
 
--- ds.code:
+-- ds.code: Server Request
 lang: text
 
 POST www.googleapis.com/oauth2/v4/token
@@ -164,3 +161,48 @@ client_id=abc123&
 client_secret=secret123&
 grant_type=authorization_code
 
+
+-- ds.code: Server Response
+lang: json
+
+{
+  "access_token": "fFAGRNJurlFTRs7QWEMg",
+  "expires_in": 3920,
+  "token_type": "Bearer"
+}
+
+
+-- ds.h2: Use the access token
+
+When abrark server will call this API with the access token, api server will
+validate the access token and also checks scope of the access token.
+
+-- ds.code: Calling Contacts API
+lang: text
+
+GET api.google.com/user/contact-details/
+Authorization: Bearer fFAGRNJurlFTRs7QWEMg
+
+
+-- ds.h1: Rough Work
+
+- OAuth 2.0 and OpenID connect
+- Simple login or forms auth
+  - collect username and password via form
+  - Hash password, verify hash, look up user info, look up auth info
+  - save it to db -> Set-Cookie in the browser
+  - Downsides
+    - Security
+    - Maintenance
+
+- Identity use cases (pre-2010)
+  - Simple login (forms and cookies)
+  - Single sign-on across sites
+  - Mobile app login
+  - Delegated authorization
+    - How can I let a website access my data without giving it my password.
+
+- Delegated Authorization
+- entrust (a task or responsibility) to another person, typically one who is
+  less senior than oneself.
+- send or authorize (someone) to do something as a representative.
