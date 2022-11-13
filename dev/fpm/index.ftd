@@ -66,3 +66,31 @@ providers and have to logged in again on different browser.
 - Pros:
   - If user logged out, all the information lost from fom server.
   - User has to logged in again for all the application with different auth provider.
+
+## Discussion With Amitu
+
+- We don't want to use db for authentication
+- auth supports in fpm
+- We can use multiple providers
+  - facebook, apple, google, discord, google-docs, add them to google docs to
+  access the page
+
+-- ds.code:
+lang: text
+
+github_access_token: <>
+google_access_token: <>
+tid: hash(package_name) + git
+
+-- ds.markdown:
+
+- Till here we are clear.
+- Note: We have to move github and all the auth providers to wasm.
+- Cookie for different package: cookie_name: hash(package_name) + endpoint-cookie (_tid)
+- We will remove hash(package_name) from cookie-name and send it to endpoint.
+- Browser will always keep hash(package_name) + endpoint cookie
+- /auth/login/ ==> /-/fifthtry.github.io/github/login/
+- Any number of provider can login
+- If the user is not authorize to access the page, show only title not 404
+- In sitemap: confidential: true if yes then 404, instead of showing the 404
+- If we are saying un authorized on /fire-abrar/, means we are leaking the info
