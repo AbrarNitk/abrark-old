@@ -184,6 +184,60 @@ GET api.google.com/user/contact-details/
 Authorization: Bearer fFAGRNJurlFTRs7QWEMg
 
 
+-- ds.h1: What OpenID Connect adds
+
+- ID token
+- UserInfo endpoint for getting more user information
+- Standard set of scopes
+- Standardized implementation
+
+
+-- ds.h2: OpenID connect Flow
+
+Flow is almost same as OAuth 2.0 but in OAuth while exchanging the code with
+authorization server, server get only the access token, while in OpenID connect
+server get the access token and ID token. OpenId connect protocol is ID token +
+OAuth 2.0. We can get the more user information in OpenId connect.
+
+
+-- ds.h2: Starting the Flow
+
+Requesting the authorization server, sign-in to google.com and then finally we
+get the a JSON web token as ID token.
+
+-- ds.code: Auth Request
+lang: text
+
+https://accounts.goolge.com/o/oauth2/v2/auth?
+  client_id=abc123&
+  redirect_uri=https://abrark.com/callback&
+  scope=openid&
+  response_type=id_token&
+  response_mode=fragment&
+  state=foobar
+
+-- ds.h2: The ID Token (JWT)
+
+-- ds.code:
+lang: text
+
+(Header)
+.
+{
+  "iss": "https://accounts.google.com",
+  "sub": "you@gmail.com",
+  "name": "Abrar Khan",
+  "aud": "asdfas",
+  "exp": 123456,
+  "iat": 231412,
+  "auth_time": 234123
+}
+.
+(Signature)
+
+
+
+
 -- ds.h1: Rough Work
 
 - OAuth 2.0 and OpenID connect

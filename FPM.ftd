@@ -52,7 +52,9 @@ readers: ftd-fans
   url: /oauth/
   document: /dev/oauth.ftd
 
-
+- JWT:
+  url: /jwt/
+  document: /dev/jwt.ftd
 
 
 

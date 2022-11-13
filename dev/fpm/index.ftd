@@ -38,6 +38,10 @@ used discord to manage my movies.
 That becomes problematic if I have used multiple apps and different auth
 providers and have to logged in again on different browser.
 
+- Note Points:
+  - How app will identify which auth provider to use.
+  - fpm can show all the already logged-in platforms and user just can check it.
+
 
 ## How to store session
 

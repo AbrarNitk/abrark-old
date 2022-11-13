@@ -1,0 +1,55 @@
+-- ds.page: JSON Web Token
+
+-- ds.h1: What Is JWT
+
+JWT is used for authorization not for authentication.
+
+In case of session based authentication server has to store and manage the token.
+But in case of JWT all the information is with token only so browser stores the
+user information in the cookie.
+
+-- ds.image:
+src: $assets.files.static.jwt.JWT.png
+width: fill
+
+
+-- ds.h1: How JWT Works
+
+
+-- ds.h3: Encoded Token
+
+-- ds.code: Encode String
+lang: text
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
+eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
+SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+-- ds.h3: Decoded Token
+
+-- ds.code: Header: Algo and Token Type
+lang: json
+
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+
+-- ds.code: Payload: Data
+lang: json
+
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "iat": 1516239022
+}
+
+-- ds.code: Verify Signature
+lang: text
+
+HMACSHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  your-256-bit-secret
+)
