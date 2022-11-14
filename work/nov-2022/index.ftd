@@ -1,5 +1,6 @@
 -- ds.page: November 2022 Work
 
+
 ## Important Tasks
 
 - [x] endpoint should be delivered
@@ -11,11 +12,17 @@
   - [x] deploy fpm package
   - [x] pricing page
 
+- [ ] Move FifthTry.com to heroku
+  - Deploy dotcom on heroku and used controller fpm-app in it.
+  - fpm-controller on Heroku, Hosting on fly.io via fifthtry.com
+  - fpm apps documentation
+
+
 ## Abrar's Goals for this November month
 
 - [ ] deliver wasm
   - [ ] build fully polished application that we can show to investors
-  - wasm ka infra thik karna hia
+  - wasm ka infra thik karna hai.
   - requirement: http request will go to wasm, instead of endpoint.
   - fpm auth with wasif
   - wasm
@@ -33,24 +40,13 @@
       - see the support of wasm, current fpm ka code
       - end to end support without using wit-x
     - with-Amitu: daily one hour a call for experiment
-- [ ] next ftd rewrite: peace time
+
+- [ ] Deploy fifthtry on heroku
 - [x] mount-point, multi-mount point and endpoint, fpm-apps
 - [x] auth should be integrated with fpm
 - [x] Payment and Subscription
+- [ ] next ftd rewrite: peace time
 
-
-## Rithik
-
-- [ ] Stripe Payment
-  - Discussion: https://github.com/FifthTry/business/discussions/20
-  - /payment/
-- [ ] fpm sync
-- [ ] docusorus importer
-
-## TODOs
-
-- Payment Discussion with Amitu and Arpita
-- Subscription Discussion with Amitu and Arpita
 
 -- ds.h1: Daily Updates
 

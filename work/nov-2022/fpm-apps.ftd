@@ -1,5 +1,12 @@
 -- ds.page: FPM Apps
 
+FPM Apps: https://github.com/FifthTry/business/discussions/categories/fpm-app-ideas
+Discussions:
+  - App Support: https://github.com/ftd-lang/fpm/discussions/599
+  - Auth: https://github.com/ftd-lang/fpm/discussions/585
+  - FPM Apps Auth: https://github.com/ftd-lang/fpm/discussions/621
+
+
 As we can install multiple fpm applications in a fpm package.
 While installing application, we can also use a fpm dependency with different
 mount-point. Meaning that, same dependency can be used in multiple applications
@@ -30,12 +37,18 @@ config: name=WordDB: Database Of Words
 
 -- ds.h1: Tasks
 
-- [ ] Need to implement multi mount-point
+- [ ] package icon and fpm.package
+- [ ] WASM Subscription App running on AbrarK
+- [ ] Identity support in fpm apps
+- [ ] writers support in fpm apps
+- [ ] readers support in fpm
+- [ ] remove endpoint and mount-point from dependency
+
+
 - [ ] Need to handle
   - [x] request url prefix may be start with fpm-app url.
   - [x] Have to refactor the redirect logic
   - [x] pass package config and app config to endpoint
-
   - [x] If it starts, than that package sitemap is going to use to serve the ftd document
   - [x] Similar thing is going to happen with endpoint, if url did not match with
     package sitemap, so send request to endpoint, if endpoint exists in the `-- fpm.app`.
@@ -44,10 +57,17 @@ config: name=WordDB: Database Of Words
   - [ ] writers in apps
   - [ ] Pass auth key to django
   - [ ] add an optional icon in package
-  - [ ] remove endpoint and mount-point from dependency
+
 
 - [x] create one type in fpm.ftd of type `fpm.app`
 - [x] parse that to fpm package and sitemap
+- [x] Need to implement multi mount-point
+
+-- ds.h1: Subscription App
+
+- [ ] Create a new repository for this application
+- [ ] This application will be used in fpm.app
+
 
 
 ## `fpm-apps` Processor

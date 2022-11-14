@@ -1,0 +1,26 @@
+-- ds.page: Novembers Discussions with Amitu
+
+-- ds.h1: 14th November
+
+dotcom/events/dd/2022/11.ftd
+
+- Demo Day on 18th November, what are we going to show
+- cargo like features in fpm dependencies
+- subscription wasm app
+  - How could we update the dialog content?
+  - We may want to change the subscription content globally
+  - convertkit.com
+  - Subscription dialog, Need to discuss UI with Ganesh
+  - end user will use doc-site to import the application
+  - If user is subscribed so he can access the page, for that we are creating a
+    user-group: has-cookie: is-subscribed
+  - Subscription Walling
+  - Subscription APP
+  - Through dependency or apps
+
+- wasif
+  - Next: telegram, discord, slack
+  - At-least we should one other provider
+
+- Rithik
+  -

@@ -1,0 +1,45 @@
+-- ds.page: Colleagues
+
+
+## TODOs
+
+- Payment Discussion with Amitu and Arpita
+- Subscription Discussion with Amitu and Arpita
+
+
+# Arpita
+
+# Rithik
+
+Goal: Deploy fifthtry.com on Heroku with Stripe/Payment
+Next: fpm-sync
+
+- Start doing documentation of fpm-controller
+  - Payment Django Models and APIs, Stripe, fly's apis
+
+- [ ] Stripe Payment
+  - Discussion: https://github.com/FifthTry/business/discussions/20
+- [ ] docusourus importer
+- [ ] document: Note down all the points
+- [ ] UI should be well polished
+- [ ] All the APIs should work smoothly, with error handling
+
+
+-- ds.h1: Wasif
+
+Goal: Integration of Telegram
+
+- Start integrating
+- He has to integrate GitHub APIs
+  - user-details
+  - watch
+  - follows etc...
+
+-- ds.h1: Rough
+
+
+## How To Update Social Media
+
+- We can try posting videos
+- We can try sharing videos
+- Re-share the event and video
