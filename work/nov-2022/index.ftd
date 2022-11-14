@@ -15,7 +15,25 @@
 
 - [ ] deliver wasm
   - [ ] build fully polished application that we can show to investors
-- [ ]
+  - wasm ka infra thik karna hia
+  - requirement: http request will go to wasm, instead of endpoint.
+  - fpm auth with wasif
+  - wasm
+    - see the support of wasm, current fpm ka code
+    - end to end support without using vit-x
+    - have to run an application this weekend
+    - fpm ka http web framework likhna padega
+    - existing code: wasm mein app likhna, req le rhai response send karna hai
+    - How to call the wasm code from rust fpm
+    - two wasm apps and one endpoint app
+    - how to deploy payment on fifthtry? fpm controller
+    - handle_wasm chala lo, just fixed and all
+    - wasm ka jo already likha hua uska chala hai
+    - at server run time: single engine global, module should be only at once
+    - take the ownership of the code from Shobhit
+    - learn Wasm, experiment ka readme padhlo
+    - daily one hour a call for experiment
+
 - [ ] next ftd rewrite: peace time
 - [x] mount-point, multi-mount point and endpoint, fpm-apps
 - [x] auth should be integrated with fpm

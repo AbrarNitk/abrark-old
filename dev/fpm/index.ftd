@@ -94,3 +94,24 @@ tid: hash(package_name) + git
 - If the user is not authorize to access the page, show only title not 404
 - In sitemap: confidential: true if yes then 404, instead of showing the 404
 - If we are saying un authorized on /fire-abrar/, means we are leaking the info
+
+- Payment
+  - UI Should be Polished
+  - Payment should be at working condition
+  - Workshop guys need that
+  - Single Plan Just choose it
+
+- fpm sync chalana
+  - chal rha hai ki nhi chal rhai hai
+  - adv: we don't have dep on git
+  - problem: sync requires local stage (.workspace)
+  - great for cli but bot great for CI
+  -
+
+
+
+-
+
+
+- Single User App
+  -
