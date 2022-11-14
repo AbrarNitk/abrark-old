@@ -1,5 +1,16 @@
 -- ds.page: Wasif fpm-auth
 
+Auth Tracker: https://github.com/ftd-lang/fpm/discussions/585
+
+-- ds.h1: Wasif Update
+
+- He has to integrate GitHub APIs
+  - user-details
+  - watch
+  - follows etc...
+
+-- ds.h1: Rough Page
+
 - first request come to /auth/login/
   - then it redirects user to https://github.com/login/oauth/authorize/
   - user has to authorised an github app which rust login
