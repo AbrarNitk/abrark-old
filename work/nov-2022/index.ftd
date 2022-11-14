@@ -1,6 +1,5 @@
 -- ds.page: November 2022 Work
 
-
 ## Important Tasks
 
 - [x] endpoint should be delivered
@@ -17,6 +16,8 @@
   - fpm-controller on Heroku, Hosting on fly.io via fifthtry.com
   - fpm apps documentation
 
+- fpm auth test pages with different authorization providers and with different
+  apis, whatever we are building. These pages should ideally be in fpm.dev.
 
 ## Abrar's Goals for this November month
 
@@ -46,6 +47,33 @@
 - [x] auth should be integrated with fpm
 - [x] Payment and Subscription
 - [ ] next ftd rewrite: peace time
+
+
+## 14th to 18th Week Tasks
+
+- Move FifthTry.com to Heroku
+  - on Document events/dd/2022/11.ftd I have to put authentication
+  - Using github likes or whatever
+
+- End to End FPM and Doc Site Support
+  - .icon support in fpm.package
+
+- Wasm Subscription App with Doc Site support
+  - Subscriber dialog on abrark.com, will be backed by supabase
+    - We have to give and endpoint, where it post the subscribed form data
+      to wasm endpoint: /-/package-name/subscribe/
+  - Need to run Shobhit written application
+  - And One page where we can see all the subscribers
+
+- Subscription Walling
+  - If user is subscribed then show the page otherwise not
+  - What if user is not subscribed? what to in that case, probably only title
+  - is-subscribed processor
+
+- Wall Support in sitemap
+  - processor `is_reader`
+
+- Payment: Deploy Payment with FifthTry On Heroku
 
 
 -- ds.h1: Daily Updates
