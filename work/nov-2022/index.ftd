@@ -55,9 +55,6 @@
   - on Document events/dd/2022/11.ftd I have to put authentication
   - Using github likes or whatever
 
-- End to End FPM and Doc Site Support
-  - .icon support in fpm.package
-
 - Wasm Subscription App with Doc Site support
   - Subscriber dialog on abrark.com, will be backed by supabase
     - We have to give and endpoint, where it post the subscribed form data
@@ -73,15 +70,38 @@
 - Wall Support in sitemap
   - processor `is_reader`
 
-- Payment: Deploy Payment with FifthTry On Heroku
+- [ ] Payment: Deploy Payment with FifthTry On Heroku
+- [ ] Wasif Auth Integration PR review and testing
+- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc...
+- [x] End to End FPM and Doc Site Support
+  - .icon support in fpm.package
 
-- Wasif Auth Integration PR review and testing
-
-- Small changes in the existing code of end-point and fpm.apps, sitemap, etc...
 
 -- ds.h1: Daily Updates
 
--- ds.h2: 14th
+-- ds.h2: 16th November
+
+## Tasks
+
+- [x] Fixed fpm Apps
+- [x] Fixed redirect uri in case of image
+- [ ] test and merge wasif branch for auth
+- [ ] `is_reader` processor
+- [ ] Deploy fifthtry on heroku
+
+-- ds.h2: 15th November
+
+## Tasks
+
+- Merge Wasif branches related to auth and test them.
+  - https://github.com/ftd-lang/fpm/pull/628
+  - Testing pages in fpm.dev repo, for different OAuth providers and for
+    different resources
+  - Add Telegram OAuth
+  - Add Google OAuth
+  - Add Discord OAuth
+
+-- ds.h2: 14th November
 
 ## Tasks
 

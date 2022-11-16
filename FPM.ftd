@@ -32,6 +32,15 @@ readers: fpm-fans
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
+-- fpm.app: Todos for Me
+mount-point: /me-todos/
+package: kameri-app.herokuapp.com
+end-point: https://kameri-service.herokuapp.com
+readers: fpm-fans
+/config: db_url=$ENV.DB_URL
+/config: name=Upadhyay Khanadan
+
+
 
 -- fpm.sitemap:
 
