@@ -3,6 +3,21 @@
 Auth Tracker: https://github.com/ftd-lang/fpm/discussions/585
 
 
+-- ds.h1: GitHub OAuth Integration
+
+
+-- ds.h2: GitHub Auth APIs
+
+-- ds.h2: GitHub Resources APIs
+
+
+- github-starred
+- github-watch
+- github-follows
+- github-contributor
+- github-team
+
+
 -- ds.h1: Rough Page
 
 - first request come to /auth/login/

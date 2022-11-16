@@ -17,18 +17,21 @@ mount-point: /ds/
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
 -- fpm.user-group: fpm-fans
+/github-follows: ftd-lang
 github-starred: ftd-lang/fpm
+/github-watch: ftd-lang/fpm
+/github-contributor:
+/github-team:
 
 
 -- fpm.user-group: ftd-fans
 github-starred: ftd-lang/ftd
 
-
 -- fpm.app: Todos for Family
 mount-point: /todos/
 package: kameri-app.herokuapp.com
-end-point: https://kameri-service.herokuapp.com
 readers: fpm-fans
+end-point: https://kameri-service.herokuapp.com
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 

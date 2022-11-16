@@ -72,7 +72,6 @@
 
 - [ ] Payment: Deploy Payment with FifthTry On Heroku
 - [ ] Wasif Auth Integration PR review and testing
-- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc...
 - [x] End to End FPM and Doc Site Support
   - .icon support in fpm.package
 
@@ -86,8 +85,14 @@
 - [x] Fixed fpm Apps
 - [x] Fixed redirect uri in case of image
 - [ ] test and merge wasif branch for auth
-- [ ] `is_reader` processor
 - [ ] Deploy fifthtry on heroku
+  - [ ] fifthtry-team can only host the machines only
+  - [ ] fpm controller as an app with dotcom
+- [ ] `is_reader` processor
+- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
+
+- [ ] Wasm Subscription App
+
 
 -- ds.h2: 15th November
 
