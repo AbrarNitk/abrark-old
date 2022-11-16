@@ -84,7 +84,7 @@
 
 - [x] Fixed fpm Apps
 - [x] Fixed redirect uri in case of image
-- [ ] test and merge wasif branch for auth
+- [x] test and merge wasif branch for auth
 - [ ] Deploy fifthtry on heroku
   - [ ] fifthtry-team can only host the machines only
   - [ ] fpm controller as an app with dotcom
