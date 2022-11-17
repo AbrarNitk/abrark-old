@@ -78,19 +78,31 @@
 
 -- ds.h1: Daily Updates
 
--- ds.h2: 16th November
+-- ds.h2: 17th November
 
 ## Tasks
 
 - [x] Fixed fpm Apps
 - [x] Fixed redirect uri in case of image
-- [x] test and merge wasif branch for auth
+- [x] Test and merge wasif branch for auth
+- [x] End to End App support with DocSite
 - [ ] Deploy fifthtry on heroku
-  - [ ] fifthtry-team can only host the machines only
-  - [ ] fpm controller as an app with dotcom
-- [ ] `is_reader` processor
+  - [x] Create an OAuth App
+  - [x] Deploy Using Template
+  - [x] Test Login and Logout functions
+  - [x] fpm controller as an app with dotcom
+  - [ ] Need to create an OAuth GitHub app using fifthtry account
+  - [ ] Update credentials on Heroku client_id and client secrets
+  - [ ] fifthtry-team can only host the machines on fly.io
+  - [ ] Auth document structure in fpm.dev and handle it to wasif.
+  - [ ] Need to create groups in dotcom using `fpm.user-group`
+  - [ ] Domain Mapping to fifthtry.com
 - [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
-
+- [ ] has-cookie identity support in user groups
+- [ ] Wall Support in Sitemap
+  - [ ] `is_reader` processor
+    - Problem is that should we create it or not, because if user is not ne able
+    to read the document so sitemap authentication will return 401.
 - [ ] Wasm Subscription App
 
 
