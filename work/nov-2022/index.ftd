@@ -92,19 +92,33 @@
   - [x] Test Login and Logout functions
   - [x] fpm controller as an app with dotcom
   - [ ] Need to create an OAuth GitHub app using fifthtry account
+      - Need permission to create App
   - [ ] Update credentials on Heroku client_id and client secrets
   - [ ] fifthtry-team can only host the machines on fly.io
   - [ ] Auth document structure in fpm.dev and handle it to wasif.
   - [ ] Need to create groups in dotcom using `fpm.user-group`
   - [ ] Domain Mapping to fifthtry.com
+  - [ ] abrark: fpm build pack created by Shobhit, need to test.
+  - [ ] need fpm dev environment, because now it is serving fifthtry.com
+      - later
+  - [ ] Don't have sentry integration
+      - later
+      - Abrar: Ask Wasif
 - [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
 - [ ] has-cookie identity support in user groups
 - [ ] Wall Support in Sitemap
   - [ ] `is_reader` processor
     - Problem is that should we create it or not, because if user is not ne able
     to read the document so sitemap authentication will return 401.
+    - Solution is to use confidential, `true` means current behaviour variable,
+    false means page will be loaded
 - [ ] Wasm Subscription App
 
+### Discussion With Amitu
+
+- Hosting shnt defined the button
+- implement different ui component
+- implement some of the test pages
 
 -- ds.h2: 15th November
 
