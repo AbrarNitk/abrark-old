@@ -113,12 +113,14 @@
     - Solution is to use confidential, `true` means current behaviour variable,
     false means page will be loaded
 - [ ] Wasm Subscription App
+    - Abrar: Learn Supabase
 
 ### Discussion With Amitu
 
 - Hosting shnt defined the button
 - implement different ui component
 - implement some of the test pages
+
 
 -- ds.h2: 15th November
 
