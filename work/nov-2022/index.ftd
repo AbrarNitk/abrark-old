@@ -110,7 +110,7 @@
   - [ ] `is_reader` processor
     - Problem is that should we create it or not, because if user is not ne able
     to read the document so sitemap authentication will return 401.
-    - Solution is to use confidential, `true` means current behaviour variable,
+    - Solution is to use confidential, `true` means current behaviour
     false means page will be loaded
 - [ ] Wasm Subscription App
     - Abrar: Learn Supabase

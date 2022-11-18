@@ -30,6 +30,10 @@ github-starred: ftd-lang/ftd
 -- fpm.user-group: wilderbit-admins
 github-team: wilderbit/wilderbit-admins
 
+-- fpm.user-group: abrark-fans
+github-starred: AbrarNitk/abrark
+
+
 -- fpm.app: Todos for Family
 mount-point: /todos/
 package: kameri-app.herokuapp.com
@@ -70,6 +74,13 @@ readers: ftd-fans
 - JWT
   url: /jwt/
   document: /dev/jwt.ftd
+
+- Confidential Test
+  url: /wilderbit2/
+  document: /dev/wilderbit.ftd
+  readers: abrark-fans
+  confidential: false
+
 
 - Wilderbit Admins
   url: /wilderbit/
