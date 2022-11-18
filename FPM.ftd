@@ -81,7 +81,6 @@ readers: ftd-fans
   readers: abrark-fans
   confidential: false
 
-
 - Wilderbit Admins
   url: /wilderbit/
   document: /dev/wilderbit.ftd
