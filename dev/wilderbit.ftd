@@ -1,1 +1,11 @@
 -- ds.page: Wilderbit Team Access page
+
+-- boolean is-reader:
+$processor$: is-reader
+
+
+-- ftd.text: User is Document Reader
+if: $is-reader
+
+-- ftd.text: User is not a Document Reader
+if: not $is-reader
