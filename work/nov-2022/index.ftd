@@ -78,7 +78,7 @@
 
 -- ds.h1: Daily Updates
 
--- ds.h2: 17th November
+-- ds.h2: 17th, 18th November
 
 ## Tasks
 
@@ -104,9 +104,9 @@
   - [ ] Don't have sentry integration
       - later
       - Abrar: Ask Wasif
-- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
 - [ ] has-cookie identity support in user groups
 - [ ] Wall Support in Sitemap
+  - [ ] `confidential` property in sitemap
   - [ ] `is_reader` processor
     - Problem is that should we create it or not, because if user is not ne able
     to read the document so sitemap authentication will return 401.
@@ -114,6 +114,7 @@
     false means page will be loaded
 - [ ] Wasm Subscription App
     - Abrar: Learn Supabase
+- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
 
 ### Discussion With Amitu
 
