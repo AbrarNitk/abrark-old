@@ -9,3 +9,7 @@ if: $is-reader
 
 -- ds.h1: User is not a Document Reader
 if: not $is-reader
+
+
+/-- ds.is-reader: true
+/-- ds.login-url: /auth/login?platform=github

@@ -1,0 +1,12 @@
+-- ds.page: Only Wilderbit Admins
+
+-- boolean is-reader:
+$processor$: is-reader
+
+
+-- ds.h1: Welcome To Wilderbit Admins Team
+
+-- ds.is-reader: $is-reader
+-- ds.login-url: /auth/login?platform=github
+-- ds.login-button: false
+-- ds.wall-message: Please Ask your Manage to Add you in wilderbit-admins team.

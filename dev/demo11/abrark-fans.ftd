@@ -1,0 +1,17 @@
+-- ds.page: Only AbrarK Fans
+
+
+-- boolean is-reader:
+$processor$: is-reader
+
+-- ds.is-reader: $is-reader
+-- ds.login-button: true
+-- ds.login-url: https://github.com/AbrarNitk/abrark
+-- ds.wall-message: Please give me a star on GitHub to access this page.
+
+;; Ask from Ganesh
+;; login-button-text: AbrarK Repo Link
+;; -- ds.login-button: true, not hiding button, issue
+
+
+-- ds.h1: Welcome To AbrarK Fans Club

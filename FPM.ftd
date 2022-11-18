@@ -16,22 +16,36 @@ mount-point: /ds/
 -- fpm.auto-import: ds
 -- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
 
--- fpm.user-group: fpm-fans
-/github-follows: ftd-lang
-github-starred: ftd-lang/fpm
-/github-watch: ftd-lang/fpm
-/github-contributor:
-/github-team:
-
-
--- fpm.user-group: ftd-fans
-github-starred: ftd-lang/ftd
-
 -- fpm.user-group: wilderbit-admins
 github-team: wilderbit/wilderbit-admins
 
 -- fpm.user-group: abrark-fans
 github-starred: AbrarNitk/abrark
+
+
+-- fpm.sitemap:
+
+# Home: /
+nav-title: My Sweet Home
+data: Section Data
+
+# Dev: /dev/
+confidential: false
+
+## Demo 11: /dev/demo11/
+
+- AbrarK Fans: /abrark-fans/
+  document: /dev/demo11/abrark-fans.ftd
+  readers: abrark-fans
+
+- Wilderbit Admins: /wilderbit-admins/
+  document: /dev/demo11/wilderbit-admins.ftd
+  readers: wilderbit-admins
+
+- Admins or Fans: /admin-fans/
+  document: /dev/demo11/admin-fans.ftd
+  readers: wilderbit-admins
+  readers: abrark-fans
 
 
 -- fpm.app: Todos for Family
@@ -50,42 +64,24 @@ readers: fpm-fans
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
+/-- fpm.user-group: ftd-fans
+github-starred: ftd-lang/ftd
 
 
--- fpm.sitemap:
+/## Resume: /resume/
 
-# Home: /
-nav-title: My Sweet Home
-data: Section Data
-
-## Resume: /resume/
-
-## About: /about/
+/## About: /about/
 readers: ftd-fans
 
-## Todos: /todos/
+/## Todos: /todos/
 
-# Dev: /dev/
-
-- OAuth 2.0
+/- OAuth 2.0
   url: /oauth/
   document: /dev/oauth.ftd
 
-- JWT
+/- JWT
   url: /jwt/
   document: /dev/jwt.ftd
-
-- Confidential Test
-  url: /wilderbit2/
-  document: /dev/wilderbit.ftd
-  readers: abrark-fans
-  confidential: false
-
-- Wilderbit Admins
-  url: /wilderbit/
-  document: /dev/wilderbit.ftd
-  readers: wilderbit-admins
-
 
 
 /-- fpm.sitemap:

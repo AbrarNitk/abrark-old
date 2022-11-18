@@ -1,0 +1,11 @@
+-- ds.page: Wilderbit Admin Or Fan
+
+-- boolean is-reader:
+$processor$: is-reader
+
+
+-- ds.h1: Hello AbrarK Fans Or Admin Team
+
+-- ds.is-reader: $is-reader
+-- ds.login-button: false
+-- ds.wall-message: Ask your manager to add in admin team or give a star to AbrarNitk/abrark
