@@ -106,6 +106,7 @@
   - [ ] discord: figured out all the resources APIs of and OAuth Flow of the app
 - [ ] Rithik Update on Payment
   - Discussed APIs with him
+  - Rithik: create a small document for all the apis for all the pages
 - [ ] Learn wasm, supabase and wasmtime
 - [ ] Subscription WASM App
 - [ ] Built an OAuth Application, which FifthTry will use.
