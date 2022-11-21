@@ -1,8 +1,10 @@
 -- ds.page: Only AbrarK Fans
 
-
 -- boolean is-reader:
 $processor$: is-reader
+;; confidential: true for is-reader processor
+;; User still read the page, if confidential is false
+;; confidential property is inheritable from it's parent
 
 -- ds.is-reader: $is-reader
 -- ds.login-button: true

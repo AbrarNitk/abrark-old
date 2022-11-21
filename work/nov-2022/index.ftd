@@ -19,6 +19,22 @@
 - fpm auth test pages with different authorization providers and with different
   apis, whatever we are building. These pages should ideally be in fpm.dev.
 
+- How to handle logs with FPM apps and show their logs to their sites
+- Site Logs and Site Analytics like google analytics, Monitoring
+  - Big question is that how fpm is going to handle all these things
+
+- I need proper FPM docs now
+-
+  - FPM Auth
+  - FPM Apps
+  - FPM Sitemap
+  - FPM WASM Apps
+  - FPM Logs
+  - FPM Events
+  - Sidecar pattern for logs
+
+
+
 ## Abrar's Goals for this November month
 
 - [ ] deliver wasm
@@ -77,6 +93,40 @@
 
 
 -- ds.h1: Daily Updates
+
+-- ds.h1: Monday 21 Nov
+
+- [ ] Deploy fifthtry with app and payment
+  - [ ] Change the call back URL
+  - [ ] OAuth App credentials
+- [ ] Bury Support status
+- [ ] Wasif Update on OAuth with Telegram
+  - [x] telegram: figured out all the resources APIs of and OAuth Flow of the app
+  - https://github.com/ftd-lang/fpm/discussions/648
+  - [ ] discord: figured out all the resources APIs of and OAuth Flow of the app
+- [ ] Rithik Update on Payment
+  - Discussed APIs with him
+- [ ] Learn wasm, supabase and wasmtime
+- [ ] Subscription WASM App
+- [ ] Built an OAuth Application, which FifthTry will use.
+
+## 12th Demo Day Planning
+
+- ftd certification, ftd training partners, ftd agencies
+- Telegrams and Discord should go live in this week
+- We will convert each auth providers code like github, telegram, etc.., into
+  WASM
+
+
+## Discussion About FPM Controller
+
+- Design different pages
+  - Sites, Access, Billing, Settings, etc...
+  - How Auth going to be implemented?
+  - When Are we going to create user
+  - Developer logging, monitoring, like r2d2 logging structured logging,
+    need to discuss design with Amitu
+
 
 -- ds.h2: 17th, 18th November
 
