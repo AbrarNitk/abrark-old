@@ -111,6 +111,12 @@
 - [ ] Subscription WASM App
 - [ ] Built an OAuth Application, which FifthTry will use.
 
+## Meeting with Wasif
+  - Explained telegram integration
+  - I have to write document of discord and google integration
+  - He is completing github sponsors api using graphql
+  - I have to close his PR after that
+
 ## 12th Demo Day Planning
 
 - ftd certification, ftd training partners, ftd agencies
