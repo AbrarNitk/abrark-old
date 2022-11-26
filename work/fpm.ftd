@@ -1,0 +1,14 @@
+-- ds.h1: FPM
+
+- I need proper FPM docs now
+  - FPM Auth
+  - FPM Apps
+  - FPM Sitemap
+  - FPM WASM Apps
+  - FPM Logs
+  - FPM Events
+  - Sidecar pattern for logs
+  - FTD Integration
+  - R2D2 for events and Observer(Observer in async domain)
+  - Docs and rewrite the code
+

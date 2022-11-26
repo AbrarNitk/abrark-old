@@ -51,7 +51,7 @@ confidential: false
 -- fpm.app: Todos for Family
 mount-point: /todos/
 package: kameri-app.herokuapp.com
-readers: fpm-fans
+readers: abrark-fans
 end-point: https://kameri-service.herokuapp.com
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
