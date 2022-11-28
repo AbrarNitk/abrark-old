@@ -1,0 +1,102 @@
+-- ds.page: FPM Controller Design
+
+Discussion: https://github.com/FifthTry/business/discussions/20
+
+# Users: Dynamic
+
+## Model
+- id: user id
+- name: Name of the User
+- created_at
+- update_at
+- is_active
+
+# Teams: Dynamic
+
+## Model
+- name: Name of the team
+- owner: Owner Of the team
+- description: Description of the team
+- plan: current plan of the team, todo: Not sure yet
+- billing: billing of the team, todo: not sure yet
+
+
+## APIs
+- create team
+- invite/add a member to the team
+- delete team
+- remove member from the team
+- get team details
+
+
+# TeamMembers: Dynamic
+
+## Model
+- FK - User:
+- FK - Team:
+- Role: Role based on permissions
+
+# TeamMemberPermissions: Auto Dynamic
+- team: FK of TeamMember
+- permission: FK to Permission
+
+# Permissions: Static
+- name: Permission Name (view, deploy, operate, manage)
+- active: is permission active or not
+- created_at
+- update_at: No update
+
+# Sites: Dynamic
+
+## Model
+- owner: FK to Team
+- name: Name of the site
+- domain: Domain of the site
+- settings: environment variables and all
+
+## APIs
+
+- create site
+- get sites by team
+- update config vars
+- restart site
+- add a member to app
+- remove a member from app
+- delete site
+- update app member permission
+
+# SiteMembers: Dynamic
+
+## Model
+- FK - User:
+- FK - Team:
+- Role: Role based on permissions
+
+# SiteMemberPermissions
+
+## Model
+- site: FK of Site
+- permission: FK to Permission
+
+# InstanceType: Static
+
+## Model
+
+- name:
+
+
+# Plan: Static
+
+- name: Name of the plan (Eco, Standard, Performance, Private)
+- description: description of the plan
+- pricing_per_hour: Per hour instance price
+- monthly_max_price: Monthly maximum price
+- active: Is plan Active or not
+- created_at
+- update_at
+
+## APIs
+
+- create plan
+- Clone the plan: later
+
