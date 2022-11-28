@@ -84,6 +84,37 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: Monday 28 Nov
+
+- [ ] Discussion with Rithik
+  - Status: Done
+  - User data: email, token
+
+- [ ] Update with Wasif
+  - Status: Pending
+- [ ] Wasm subscription App code review
+  - Status: Pending
+- [ ] fifthtry.com domain mapping and client-id and client-secrets
+
+
+-- ds.h3: Demo day Planning
+
+- FTD Arpita:
+  - or-type, styles, doc-site,
+  - layout-stuff
+    - flexbox
+    - autolayout figma
+- Rithik: FPM Controller
+  - login pages
+  - Show it working with dotcom also
+  - Do db only backend without integration
+- Abrar: WASM Subscription App
+- Ganesh: Sublime like design
+- Ganesh: Bury Support
+- Abrar: Auth Providers Telegram
+- Ganesh: API documentation, OpenApi Spec Documentation
+
+
 -- ds.h2: Tuesday 22 Nov
 
 - [x] Update from Rithik
