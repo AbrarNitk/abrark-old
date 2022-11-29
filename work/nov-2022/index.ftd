@@ -106,8 +106,9 @@
   - [x] Pr Review
   - Next: Discord or Google Integration
 - Meeting with Rithik
-   - Agenda: How much has been implemented
-   - Feedback: Should break your work into tasks and merge your PR daily
+  - Status: Done
+  - Agenda: How much has been implemented
+  - Feedback: Should break your work into tasks and merge your PR daily
 - [ ] Wasm experiments
   - Status: Pending
 
