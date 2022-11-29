@@ -2,6 +2,8 @@
 
 Auth Tracker: https://github.com/ftd-lang/fpm/discussions/585
 
+All auth providers: https://github.com/bk-rs/oauth2-rs/tree/main/providers
+
 
 -- ds.h1: GitHub OAuth Integration
 
