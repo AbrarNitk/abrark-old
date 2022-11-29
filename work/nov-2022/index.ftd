@@ -84,16 +84,30 @@
 
 -- ds.h1: Daily Updates
 
+-- ds.h2: Tuesday 29 Nov
+
+- [x] Discord Discussion
+  - Status: Pending
+- [x] Take with Wasif
+  - Status: Done
+  - Agenda: Telegram Integration
+  - [ ] Pr Review
+  - Next: Discord or Google Integration
+- [ ] Wasm experiments
+  - Status: Pending
+
+
+
+
 -- ds.h2: Monday 28 Nov
 
-- [ ] Discussion with Rithik
+- [x] Discussion with Rithik
   - Status: Done
   - User data: email, token
-
-- [ ] Update with Wasif
-  - Status: Pending
-- [ ] Wasm subscription App code review
-  - Status: Pending
+- [x] Update with Wasif
+  - Status: Done
+- [x] Wasm subscription App code review
+  - Status: Done
 - [ ] fifthtry.com domain mapping and client-id and client-secrets
 - [ ] Discord OAuth Discussion: On Me
 
