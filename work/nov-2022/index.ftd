@@ -88,8 +88,10 @@
 
 
 - [ ] Wasif Telegram PR merging
-- [ ] Rithik Models PR merging for FPM controller Service
+  - Status: Pending
   - Wasif should next pick the discord integration
+- [ ] Rithik Models PR merging for FPM controller Service
+  - Status: Pending
 - [ ] Documentation for how to GitHub identities and GitHub OAuth Apps
   - I have to provide an example to the Wasif how should we write the documents
 - [ ] I have to explore more about the wastime with rust host and guest
@@ -104,6 +106,39 @@
   - Agenda: Telegram Integration
 - Meeting with Rithik
   - Agenda FPM Controller
+
+### One On One with Amitu
+  - Success is hard, same as company building is hard
+  - What is a company?
+  - India does not have a culture of company building
+  - Shopkeeper are not able to scale themselves
+  - Starbucks, MacD, and all...
+  - It's more like running family business
+  - Why do we use/build software?
+  - If anything is repeatable, so upgrade hoga pakka se
+  - Software has a versioning....
+  - PR is like how should I improve the software
+  - Software is most elegant way to follow the process
+  - So in the company we have to follow the processes
+  - Lot of people will reject the idea, everyone has to follow the similar rules
+  - Company should be uniformly work
+  - part 1: make them better, part 2: telling/selling about them
+  - Discussion: How to make them better, and how do we promote it, how to sell them
+  - Q: How to build better company?
+  - Source code of the company runs on the people
+  - Dealing with humans are hard but dealing with Software is easy
+  - Divide people insiders(with in the company) and outsiders
+  - We have to build the routines, and follow the routines
+  - Rule: Follow always the main branch, no new PR
+  - Better documentation, how to use the ftd?
+  - If people break the rule, people go to the jail
+  - We should have our own IPC rules, exceptions should be in the rules itself
+  - One thing that, everyone has to follow
+  - Power of the alignment, power of being one, act like one
+  - One human being is one percent charge
+  - Find all the rules that agreed on the 99% percent of the things
+  - Find all the agreements
+
 
 
 -- ds.h2: Tuesday 29 Nov
