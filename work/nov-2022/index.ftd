@@ -86,6 +86,16 @@
 
 -- ds.h2: Wednesday 20 Nov
 
+
+- [ ] Wasif Telegram PR merging
+- [ ] Rithik Models PR merging for FPM controller Service
+  - Wasif should next pick the discord integration
+- [ ] Documentation for how to GitHub identities and GitHub OAuth Apps
+  - I have to provide an example to the Wasif how should we write the documents
+- [ ] I have to explore more about the wastime with rust host and guest
+- [ ] Today for learning flex-box
+  - https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
 - Todo create a template for posting things on social media platforms
   - Twitter
   - LinkedIn
