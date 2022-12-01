@@ -8,15 +8,15 @@ virtual machine. Wasm is designed as a portable compilation target for
 programming languages, enabling deployment on the web for client and server
 applications.
 
-[WebAssembly Org](https://webassembly.org/)
-[Mozilla WebAssembly Docs](https://developer.mozilla.org/en-US/docs/WebAssembly)
+- [WebAssembly Org](https://webassembly.org/)
+- [Mozilla WebAssembly Docs](https://developer.mozilla.org/en-US/docs/WebAssembly)
 
 -- ds.h2: Stack Based Virtual Machine
 
-[Article 1](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-1/)
-[Article 2](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-2/)
-[Wikipedia Page For Stack based virtual Machines](https://en.wikipedia.org/wiki/Stack_machine)
-[Comparison of Common VMs](https://en.wikipedia.org/wiki/Comparison_of_application_virtualization_software)
+- [Article 1](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-1/)
+- [Article 2](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-2/)
+- [Wikipedia Page For Stack based virtual Machines](https://en.wikipedia.org/wiki/Stack_machine)
+- [Comparison of Common VMs](https://en.wikipedia.org/wiki/Comparison_of_application_virtualization_software)
 
 
 -- ds.h2: FAQs
@@ -162,6 +162,160 @@ similar to dlopen).
 [Dynamic Linking APIs Docs](https://github.com/WebAssembly/tool-conventions/blob/main/DynamicLinking.md)
 [Sbrk system call](https://en.wikipedia.org/wiki/Sbrk)
 [dlopen](https://tldp.org/HOWTO/html_single/C++-dlopen/)
+
+
+
+-- ds.h1: APIs for Interacting with WebAssembly
+
+- [Core Spec](https://www.w3.org/TR/wasm-core/)
+- [Web JS Interface](https://www.w3.org/TR/wasm-js-api/)
+- [Wasm Web API](https://www.w3.org/TR/wasm-web-api/)
+
+
+
+-- ds.h2: Sample API Usage
+
+Note: Important to read
+
+-- ds.code: demo.wasm
+lang: txt
+
+(module
+    (import "js" "import1" (func $i1))
+    (import "js" "import2" (func $i2))
+    (func $main (call $i1))
+    (start $main)
+    (func (export "f") (call $i2))
+)
+
+-- ds.markdown:
+
+and the following JavaScript, run in a browser:
+
+-- ds.code: JavaScript
+lang: js
+
+var importObj = {js: {
+    import1: () => console.log("hello,"),
+    import2: () => console.log("world!")
+}};
+fetch('demo.wasm').then(response =>
+    response.arrayBuffer()
+).then(buffer =>
+    WebAssembly.instantiate(buffer, importObj)
+).then(({module, instance}) =>
+    instance.exports.f()
+);
+
+-- ds.h2: Internal Storage
+
+-- ds.h3: Interaction of the WebAssembly Store with JavaScript
+
+Note: WebAssembly semantics are defined in terms of an abstract store,
+representing the state of the WebAssembly abstract machine. WebAssembly
+operations take a store and return an updated store.
+
+
+Elements of the WebAssembly store may be identified with JavaScript values.
+In particular, each WebAssembly memory instance with a corresponding Memory(https://webassembly.github.io/spec/js-api/#memory)
+object is identified with a JavaScript Data Block; modifications to this
+Data Block(https://tc39.github.io/ecma262/#sec-data-blocks) are identified to
+updating the agent’s store to a store which reflects those changes, and vice versa.
+
+[More...](https://webassembly.github.io/spec/js-api/#webassembly-storage)
+
+-- ds.h3: The WebAssembly Namespace
+
+-- ds.code:
+lang: js
+
+dictionary WebAssemblyInstantiatedSource {
+    required Module module;
+    required Instance instance;
+};
+
+[Exposed=(Window,Worker,Worklet)]
+namespace WebAssembly {
+    boolean validate(BufferSource bytes);
+    Promise<Module> compile(BufferSource bytes);
+
+    Promise<WebAssemblyInstantiatedSource> instantiate(
+        BufferSource bytes, optional object importObject);
+
+    Promise<Instance> instantiate(
+        Module moduleObject, optional object importObject);
+};
+
+
+-- ds.h3: Modules
+
+-- ds.code: Modules
+lang: js
+
+enum ImportExportKind {
+  "function",
+  "table",
+  "memory",
+  "global"
+};
+
+dictionary ModuleExportDescriptor {
+  required USVString name;
+  required ImportExportKind kind;
+  // Note: Other fields such as signature may be added in the future.
+};
+
+dictionary ModuleImportDescriptor {
+  required USVString module;
+  required USVString name;
+  required ImportExportKind kind;
+};
+
+[LegacyNamespace=WebAssembly, Exposed=(Window,Worker,Worklet)]
+interface Module {
+  constructor(BufferSource bytes);
+  static sequence<ModuleExportDescriptor> exports(Module moduleObject);
+  static sequence<ModuleImportDescriptor> imports(Module moduleObject);
+  static sequence<ArrayBuffer> customSections(Module moduleObject, DOMString sectionName);
+};
+
+
+-- ds.h3: Instance
+
+-- ds.code:
+lang: js
+
+
+[LegacyNamespace=WebAssembly, Exposed=(Window,Worker,Worklet)]
+interface Instance {
+  constructor(Module module, optional object importObject);
+  readonly attribute object exports;
+};
+
+-- ds.h3: Memories
+
+A Memory object represents a single memory instance which can be simultaneously
+referenced by multiple Instance objects. Each Memory object has the following
+internal slots:
+
+Memory: [A Memory Address](https://webassembly.github.io/spec/core/exec/runtime.html#syntax-memaddr)
+BufferObject: [ArrayBuffer](https://tc39.es/ecma262/#sec-arraybuffer-objects)
+
+
+-- ds.code:
+lang: js
+
+dictionary MemoryDescriptor {
+  required [EnforceRange] unsigned long initial;
+  [EnforceRange] unsigned long maximum;
+};
+
+[LegacyNamespace=WebAssembly, Exposed=(Window,Worker,Worklet)]
+interface Memory {
+  constructor(MemoryDescriptor descriptor);
+  unsigned long grow([EnforceRange] unsigned long delta);
+  readonly attribute ArrayBuffer buffer;
+};
 
 
 -- ds.h1: Wasmtime
