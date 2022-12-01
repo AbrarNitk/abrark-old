@@ -10,6 +10,10 @@ applications.
 
 - [WebAssembly Org](https://webassembly.org/)
 - [Mozilla WebAssembly Docs](https://developer.mozilla.org/en-US/docs/WebAssembly)
+- [Awesome Wasm](https://github.com/mbasso/awesome-wasm)
+- [Reddit](https://www.reddit.com/r/WebAssembly/)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/webassembly)
+- [News Letter](https://wasmweekly.news/)
 
 -- ds.h2: Stack Based Virtual Machine
 
@@ -320,9 +324,12 @@ interface Memory {
 
 -- ds.h1: Wasmtime
 
-https://wasmtime.dev/
-
 A Fast and secure runtime for WebAssembly, A Bytecode Alliance project.
+
+
+[wasm runtime](https://wasmtime.dev/)
+[wasmtime rust crate](https://github.com/bytecodealliance/wasmtime/tree/main/crates/wasmtime)
+[wasmtime docs](https://docs.rs/wasmtime/0.26.1/wasmtime/index.html)
 
 -- ds.h2: About the Bytecode Alliance
 
@@ -332,3 +339,96 @@ The Bytecode Alliance is a nonprofit organization dedicated to creating secure
 new software foundations, building on standards such as WebAssembly and
 WebAssembly System Interface (WASI).
 
+-- ds.h2: Wasmtime's Rust embedding API
+
+This crate contains an API used to interact with WebAssembly modules. For
+example you can compile modules, instantiate them, call them, etc. As an
+embedder of WebAssembly you can also provide WebAssembly modules functionality
+from the host by creating host-defined functions, memories, globals, etc, which
+can do things that WebAssembly cannot (such as print to the screen).
+
+
+An example of using Wasmtime looks like:
+
+-- ds.code:
+lang: rs
+
+use anyhow::Result;
+use wasmtime::*;
+
+fn main() -> Result<()> {
+    // Modules can be compiled through either the text or binary format
+    let engine = Engine::default();
+    let wat = r#"
+        (module
+            (import "host" "hello" (func $host_hello (param i32)))
+
+            (func (export "hello")
+                i32.const 3
+                call $host_hello)
+        )
+    "#;
+    let module = Module::new(&engine, wat)?;
+
+    // All wasm objects operate within the context of a "store". Each
+    // `Store` has a type parameter to store host-specific data, which in
+    // this case we're using `4` for.
+    let mut store = Store::new(&engine, 4);
+    let host_hello = Func::wrap(&mut store, |caller: Caller<'_, u32>, param: i32| {
+        println!("Got {} from WebAssembly", param);
+        println!("my host state is: {}", caller.data());
+    });
+
+    // Instantiation of a module requires specifying its imports and then
+    // afterwards we can fetch exports by name, as well as asserting the
+    // type signature of the function with `get_typed_func`.
+    let instance = Instance::new(&mut store, &module, &[host_hello.into()])?;
+    let hello = instance.get_typed_func::<(), (), _>(&mut store, "hello")?;
+
+    // And finally we can call the wasm!
+    hello.call(&mut store, ())?;
+
+    Ok(())
+}
+
+-- ds.h2: Core Concepts
+
+
+There are a number of core types and concepts that are important to be aware of
+when using the wasmtime crate:
+
+- [Engine](https://docs.rs/wasmtime/latest/wasmtime/struct.Engine.html):- a
+  global compilation environment for WebAssembly. An Engine is an object that
+  can be shared concurrently across threads and is created with a Config to
+  tweak various settings. Compilation of any WebAssembly requires first
+  configuring and creating an Engine.
+
+- [Module](https://docs.rs/wasmtime/latest/wasmtime/struct.Module.html):- - a
+  compiled WebAssembly module. This structure represents in-memory JIT code
+  which is ready to execute after being instantiated. It’s often important to
+  cache instances of a Module because creation (compilation) can be expensive.
+  Note that Module is safe to share across threads, and can be created from a
+  WebAssembly binary and an Engine with Module::new. Caching can either happen
+  with `Engine::precompile_module` or `Module::serialize`, feeding those bytes back
+  into `Module::deserialize`.
+
+- [Store](https://docs.rs/wasmtime/latest/wasmtime/struct.Store.html):- container
+  for all information related to WebAssembly objects such as functions,
+  instances, memories, etc. A Store<T> allows customization of the T to store
+  arbitrary host data within a Store. This host data can be accessed through
+  host functions via the Caller function parameter in host-defined functions.
+  A Store is required for all WebAssembly operations, such as calling a wasm
+  function. The Store is passed in as a “context” to methods like Func::call.
+  Dropping a Store will deallocate all memory associated with WebAssembly
+  objects within the Store.
+
+- [Instance](https://docs.rs/wasmtime/latest/wasmtime/struct.Instance.html):-
+  Instance - an instantiated WebAssembly module. An instance is where you can
+  actually acquire a Func from, for example, to call.
+
+- [Func](https://docs.rs/wasmtime/latest/wasmtime/struct.Func.html):- a
+  WebAssembly (or host) function. This can be acquired as the export of an
+  Instance to call WebAssembly functions, or it can be created via functions
+  like Func::wrap to wrap host-defined functionality and give it to WebAssembly.
+
+[More...](https://docs.rs/wasmtime/latest/wasmtime/index.html#core-concepts)
