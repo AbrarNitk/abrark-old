@@ -87,14 +87,15 @@
 -- ds.h2: Wednesday 20 Nov
 
 
-- [ ] Wasif Telegram PR merging
+- [x] Wasif Telegram PR merging
   - Status: Pending
   - Wasif should next pick the discord integration
-- [ ] Rithik Models PR merging for FPM controller Service
+- [x] Rithik Models PR merging for FPM controller Service
   - Status: Pending
+- [ ] I have to explore more about the wastime with rust host and guest
 - [ ] Documentation for how to GitHub identities and GitHub OAuth Apps
   - I have to provide an example to the Wasif how should we write the documents
-- [ ] I have to explore more about the wastime with rust host and guest
+- [ ] Redeploy dotcom and abrark with new fpm binary
 - [ ] Today for learning flex-box
   - https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 

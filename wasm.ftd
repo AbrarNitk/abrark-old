@@ -1,0 +1,180 @@
+-- ds.page: Wasm
+
+-- ds.h1: WebAssembly
+
+
+WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based
+virtual machine. Wasm is designed as a portable compilation target for
+programming languages, enabling deployment on the web for client and server
+applications.
+
+[WebAssembly Org](https://webassembly.org/)
+[Mozilla WebAssembly Docs](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
+-- ds.h2: Stack Based Virtual Machine
+
+[Article 1](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-1/)
+[Article 2](https://andreabergia.com/blog/2015/03/stack-based-virtual-machines-2/)
+[Wikipedia Page For Stack based virtual Machines](https://en.wikipedia.org/wiki/Stack_machine)
+[Comparison of Common VMs](https://en.wikipedia.org/wiki/Comparison_of_application_virtualization_software)
+
+
+-- ds.h2: FAQs
+
+Why create a new standard when there is already asm.js?
+
+There are two main benefits WebAssembly provides:
+
+1. The kind of binary format being considered for WebAseembly can be natively
+decoded much faster than JS can be parsed(experiments shows 20x faster)
+
+2. By avoiding the simutaneous asm.js constraints AOT-compilability and good
+performance even on engines without ....
+
+WebAssembly minimizes costs by having a design that allows a browser to implement
+WebAssembly inside its existing JavaScript engine (thereby reusing the JavaScript
+engine's existing compiler backend, ES6 module loading frontend, security,
+sanboxing mechanism and other supporting VM components). Thus, in cost, wasm
+should comparable to a big new JavaScript feature, not a fundamental extension
+to the browser model.
+
+[More...](https://webassembly.org/docs/faq/)
+
+-- ds.h2: High Level Goals
+
+- Define a portable, size- and load-time-efficient binary format to serve as a
+compilation target which can be compiled to execute at native speed.
+- Design to execute within and integrate well with the existing Web platform
+- Design to support non-browser embeddings as well.
+
+[More..](https://webassembly.org/docs/high-level-goals/)
+
+-- ds.h2: What are WebAssembly's Use Cases
+
+-- ds.h3: Inside the browser
+
+- Image and Video editing
+- Music Applications(streaming and caching)
+- Image Recognition
+- Local Web Server
+- [More...](https://webassembly.org/docs/use-cases/)
+
+
+-- ds.h3: Outside the browser
+
+- Game distribution service (portable and secure).
+- Server-side compute of untrusted code.
+- Server-side application.
+- Hybrid native apps on mobile devices.
+- Symmetric computations across multiple nodes.
+
+
+-- ds.h2: Portability
+
+WebAssembly’s binary format is designed to be executable efficiently on a
+variety of operating systems and instruction set architectures, on the Web and
+off the Web.
+
+-- ds.h3: Assumptions for Efficient Execution
+
+WebAssembly portability assumes that execution environments offer the following
+characteristics:
+
+- 8-bit bytes.
+- Addressable at a byte memory granularity.
+- Support unaligned memory accesses or reliable trapping that allows software
+emulation thereof.
+- Two’s complement signed integers in 32 bits and optionally 64 bits.
+- IEEE 754-2008 32-bit and 64-bit floating point, except for a few exceptions.
+- Little-endian byte ordering.
+- Memory regions which can be efficiently addressed with 32-bit pointers or indices.
+- wasm64 additionally supports linear memory bigger than 4 GiB with 64-bit
+pointers or indices.
+- Enforce secure isolation between WebAssembly modules and other modules or
+processes executing on the same machine.
+- An execution environment which offers forward progress guarantees to all
+threads of execution (even when executing in a non-parallel manner).
+- Availability of lock-free atomic memory operators, when naturally aligned,
+for 8- 16- and 32-bit accesses. At a minimum this must include an atomic
+compare-and-exchange operator (or equivalent load-linked/store-conditional).
+- wasm64 additionally requires lock-free atomic memory operators, when naturally
+aligned, for 64-bit accesses.
+
+
+-- ds.h3: API
+
+WebAssembly does not specify any APIs or syscalls, only an import mechanism
+where the set of available imports is defined by the host environment.
+
+
+-- ds.h2: Security
+
+The security model of WebAssembly has two important goals: (1) protect users
+from buggy or malicious modules, and (2) provide developers with useful primitives
+and mitigations for developing safe applications, within the constraints of (1).
+
+-- ds.h3: Users
+
+Each WebAssembly module executes within a sandboxed environment separated from
+the host runtime using fault isolation techniques. This implies:
+
+- Applications execute independently, and can’t escape the sandbox without
+going through appropriate APIs.
+
+[More...](https://webassembly.org/docs/security/)
+
+[WebAssembly Structure](https://webassembly.github.io/spec/core/syntax/index.html)
+
+- Applications generally execute deterministically with limited exceptions.
+
+-- ds.h2: Web Embedding
+
+Unsurprisingly, one of WebAssembly’s primary purposes is to run on the Web, for
+example embedded in Web browsers (though this is not its only purpose).
+
+TODO: Have to explore this later
+
+[More...](https://webassembly.org/docs/web/)
+
+[JavaScript API](https://webassembly.org/docs/js/)
+
+-- ds.h2: Non-Web Embedding
+
+While WebAssembly is designed to run on the Web, it is also desirable for it to
+be able to execute well in other environments, including everything from minimal
+shells for testing to full-blown application environments e.g. on servers in
+datacenters, on IoT devices, or mobile/desktop apps. It may even be desirable
+to execute WebAssembly embedded within larger programs.
+
+Non-Web environments may include JavaScript VMs (e.g. node.js), however
+WebAssembly is also being designed to be capable of being executed without a
+JavaScript VM present.
+
+
+The WebAssembly spec itself will not try to define any large portable libc-like
+library. However, certain features that are core to WebAssembly semantics
+that are similar to functions found in native libc would be part of the core
+WebAssembly spec as primitive operators (e.g., the grow_memory operator, which
+is similar to the sbrk function on many systems, and in the future, operators
+similar to dlopen).
+
+
+[Dynamic Linking APIs Docs](https://github.com/WebAssembly/tool-conventions/blob/main/DynamicLinking.md)
+[Sbrk system call](https://en.wikipedia.org/wiki/Sbrk)
+[dlopen](https://tldp.org/HOWTO/html_single/C++-dlopen/)
+
+
+-- ds.h1: Wasmtime
+
+https://wasmtime.dev/
+
+A Fast and secure runtime for WebAssembly, A Bytecode Alliance project.
+
+-- ds.h2: About the Bytecode Alliance
+
+https://bytecodealliance.org/
+
+The Bytecode Alliance is a nonprofit organization dedicated to creating secure
+new software foundations, building on standards such as WebAssembly and
+WebAssembly System Interface (WASI).
+

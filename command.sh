@@ -9,6 +9,6 @@ function ac() {
   git commit -m "$(git branch --show-current): $1"
 }
 
-function foo() {
-  echo $1
+function gp() {
+
 }
