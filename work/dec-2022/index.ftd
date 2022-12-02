@@ -18,13 +18,12 @@
 ## Topic: Rithik's Update
 - Agenda: Update for FPM-Controller Service
 - Status: Done
-- Time: 12:00 to 12:20
+- Time: 12:00 to 12:30
 
 ### Details and Meeting Notes
 - I have to update latest ftd in fpm
 - He almost completed all the APIs
 - We will do the Mac Setup Together
-
 
 ## Topic: Wasif's Update
 - Agenda: Telegram Integration
@@ -32,12 +31,15 @@
 - Time: 12:30 to 1:00
 
 ### Details and Meeting Notes
-
+- Telegram widgets rendering as iframe
+  - Problem with that is user has to use two login button ftd one and telegram
+  widget one
+- Today he is going to complete telegram-family api and show the demo
+- I have to do some refactoration for FPM Auth and cookies
 
 
 -- ds.h2: 1 Thursday
 
-
-- [ ] Explore wasm(wastime) with rust
+- [x] Explore wasm(wastime) with rust
   - Experiments for passing arguments from both the sides
 
