@@ -24,6 +24,37 @@
 - Weekly Demo Day Planning at 11
 - Documentation for How to use GitHub OAuth with FPM
   - Need to write a document in fpm.dev repository
+- FPM static image performance
+
+-- ds.h3: Demo Day Planning
+
+- Agenda: What are we doing this week
+- Time: 11 to 11:40
+- Discord Support
+  - Owner: Wasif
+- FPM Controller
+  - Owner: Rithik
+  - How do we invite team mate
+  - X-FPM-USER-ID support in FPM
+  - service-api-key support
+  - Need Fly support back
+  - Run it on FifthTry
+- WASM support in FPM
+  - Owner: Abrar
+  - Subscription APP
+
+-- ds.h3: Meeting with Rithik
+
+- Agenda: PRs and Old code merging and bring back the fly integration
+- Status: Pending
+- Time: 11:40 to 12:00
+- Discussion
+  - All the old prs merging
+  - For GitHub user team and access, a person has to add the github name the
+  github team and controller service as well.
+  - He is going to merge his own PRs
+  - Run controller service as fpm app
+  - use fly.io on controller service
 
 
 
