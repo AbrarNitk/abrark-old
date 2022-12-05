@@ -3,6 +3,24 @@
 -- ds.h1: Monthly Update
 
 
+-- ds.h2: 3rd December Monday
+
+-- ds.h3: My Tasks
+
+- Fifthtry and Abrark deployment
+  - Status: In Progress
+  - Build new FPM binary
+  - Change the FPM Auth Configuration callback url
+  - /auth/github/callback/
+  - Time: 10: 00 to in progress
+
+- Wasm experiments
+- Wasif Telegram PR merging
+- Rithik FOM Controller PR merging
+- Weekly Demo Day Planning at 11
+
+
+
 -- ds.h2: 2 Thursday
 
 ## My Tasks
