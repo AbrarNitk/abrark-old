@@ -43,7 +43,7 @@
   - Owner: Abrar
   - Subscription APP
 
--- ds.h3: Meeting with Rithik
+-- ds.h3: Meeting With Rithik
 
 - Agenda: PRs and Old code merging and bring back the fly integration
 - Status: Pending
@@ -56,7 +56,11 @@
   - Run controller service as fpm app
   - use fly.io on controller service
 
+-- ds.h3: Meeting With Wasif
 
+- Agenda: Telegram and Discord Integration
+  - AbrarK: Testing and telegram pr merging
+  - Wasif: Has to start Discord Integration
 
 -- ds.h2: 2 Thursday
 
