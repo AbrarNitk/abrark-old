@@ -15,10 +15,10 @@
   - Time: 10: 00 to in progress
 
 - Wasm experiments
-  - Request passing request at least
+  - Passing the request and returning response
 - Wasif Telegram PR merging
   - Review and merge the PR
-- Rithik FOM Controller PR merging
+- Rithik FPM Controller PR merging
   - Review and merge the PR
   - Take update from Rithik
 - Weekly Demo Day Planning at 11
