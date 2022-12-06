@@ -14,6 +14,8 @@ applications.
 - [Reddit](https://www.reddit.com/r/WebAssembly/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/webassembly)
 - [News Letter](https://wasmweekly.news/)
+- [Experiments Repo](https://github.com/ZuInnoTe/rust-wasm-dynamic-module-study)
+- [A Good Blog From Radu](https://radu-matei.com/blog/practical-guide-to-wasm-memory/)
 
 -- ds.h2: Stack Based Virtual Machine
 

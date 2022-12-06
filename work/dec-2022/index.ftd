@@ -3,16 +3,27 @@
 -- ds.h1: Monthly Update
 
 
--- ds.h2: 3rd December Monday
+-- ds.h2: 6th Dec Tuesday
+
+- Wasm experiments
+  - Passing string from wasm to rust
+  - returning string from rust to wasm
+  - returning string from wasm to rust
+- Docs for hot to use GitHub
+- Docs for next integration Twitter
+- Docs for connecting with ChatGPT3
+- Video of how did I build wasm experiments
+
+-- ds.h2: 5th Dec Monday
 
 -- ds.h3: My Tasks
 
 - Fifthtry and Abrark deployment
-  - Status: In Progress
+  - Status: In Done
   - Build new FPM binary
   - Change the FPM Auth Configuration callback url
   - /auth/github/callback/
-  - Time: 10: 00 to in progress
+  - Time: 10:00 to 1:00
 
 - Wasm experiments
   - Passing the request and returning response
