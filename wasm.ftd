@@ -16,6 +16,8 @@ applications.
 - [News Letter](https://wasmweekly.news/)
 - [Experiments Repo](https://github.com/ZuInnoTe/rust-wasm-dynamic-module-study)
 - [A Good Blog From Radu](https://radu-matei.com/blog/practical-guide-to-wasm-memory/)
+- [Article 1](https://adlrocha.substack.com/p/adlrocha-playing-with-wasmtime-and)
+- [WebAssembly Memory By OReilly](https://www.oreilly.com/library/view/webassembly-the-definitive/9781492089834/ch04.html)
 
 -- ds.h2: Stack Based Virtual Machine
 

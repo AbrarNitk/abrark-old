@@ -1,9 +1,30 @@
 -- ds.page: December 2022 Work
 
+- Daily Exercise
+  - Read an article twice or thrice and write about it.
+
+
 -- ds.h1: Monthly Update
 
+-- ds.h2: 7th Dec Wed
 
--- ds.h2: 6th Dec Tuesday
+- Wasm experiments(Have to stop after discussion with Amitu)
+
+- [ ] Take download from Arpita, how to integrate FTD into FPM
+  - Time:
+  - Status: Pending
+  - Agenda: How can I work with import, processors and foreign variables
+
+- [ ] Meeting with Wasif
+  - Time:
+  - Status: Pending
+  - Agenda: Discord Integration
+- [ ] Meeting with Rithik
+  - Time:
+  - Status: Pending
+  - Agenda: About FPM Controller Hosting Part
+
+-- ds.h2: 6th Dec Tue
 
 - Wasm experiments
   - Passing string from wasm to rust
@@ -13,6 +34,17 @@
 - Docs for next integration Twitter
 - Docs for connecting with ChatGPT3
 - Video of how did I build wasm experiments
+
+- Need to think about it
+  - FPM Apps documentation
+  - How to provide the package name while using the FPM apps
+
+
+-- ds.h3: Meeting with Rithik
+
+- Agenda: Controller as app is not working
+- Host that package to github
+
 
 -- ds.h2: 5th Dec Monday
 
