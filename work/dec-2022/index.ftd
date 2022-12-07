@@ -9,20 +9,27 @@
 -- ds.h2: 7th Dec Wed
 
 - Wasm experiments(Have to stop after discussion with Amitu)
+- Pass the logged in user-id to proxy services
+- Pass the service api key, hopping already done, by passing from the env variables
+- Ask Amitu to provide the OAuth app credentials
 
 - [ ] Take download from Arpita, how to integrate FTD into FPM
   - Time:
   - Status: Pending
   - Agenda: How can I work with import, processors and foreign variables
 
-- [ ] Meeting with Wasif
-  - Time:
+- [x] Meeting with Wasif
+  - Time: 13:15 to 13:25
   - Status: Pending
   - Agenda: Discord Integration
-- [ ] Meeting with Rithik
-  - Time:
+  - Discussion: We have discussed about what he has to change in his PR
+- [x] Meeting with Rithik
+  - Time: 12:15 to 12:40
   - Status: Pending
   - Agenda: About FPM Controller Hosting Part
+  - Discussion: FPM proxy request is not going to fly.io, there is some issue
+  for passing the
+  - On Local host it os working fine
 
 -- ds.h2: 6th Dec Tue
 
