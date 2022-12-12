@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function fi() {
   CD=$(pwd)
   cd ~/github/fpm/
@@ -10,7 +12,39 @@ function ac() {
 }
 
 
-function download_songs() {
+download_songs() {
+  rm files.txt
+  touch files.txt
+  echo "Called"
+  eval "local songs_to_download=(\"\${$1[@]}\")"
+  i=0
+  array_length=${#songs_to_download[@]}
+  while [ $i -lt "$array_length" ]; do
+    echo "$i"
+    echo "Element at index $i ${songs_to_download[i]} ${songs_to_download[i+1]} ${songs_to_download[i+2]} $((i/3))"
+    youtube-dl --extract-audio --prefer-ffmpeg --audio-format mp3 -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=${songs_to_download[i+2]}"
+    ffmpeg -ss "${songs_to_download[i]}" -t "${songs_to_download[i+1]}" -i "${songs_to_download[i+2]}.mp3" -acodec copy "${songs_to_download[i+2]}-o.mp3"
+    echo file "'${songs_to_download[i+2]}-o.mp3'" >> files.txt
+    i=$((i+3))
+  done
+
+  ffmpeg -safe 0 -f concat -i files.txt -c copy final_song.mp3
+}
+
+declare -a youtube_songs=()
+# Mere Khwabon Mein
+youtube_songs+=("00:01:31" 52 "Zxgvob1Ew0c")
+# Deewana Hai Dekho Full
+youtube_songs+=("00:02:05" 60 "avuWWztS-6k")
+# Yeh Ishq Hai
+youtube_songs+=("00:01:24" 51 "b_sCZbYyuO4")
+# Saiyaan Superstar
+youtube_songs+=("00:00:10" 42 "R6iovtWNKo4")
+
+download_songs youtube_songs
+
+
+function download_songs_temp() {
   # Mere Khwabon Mein
   youtube-dl --extract-audio --prefer-ffmpeg --audio-format mp3 -o "1.%(ext)s" "https://www.youtube.com/watch?v=Zxgvob1Ew0c"
 
@@ -60,6 +94,9 @@ function download_songs() {
 
   # This Worked
   ffmpeg -i 1-o.mp3 -i 2-o.mp3 -filter_complex "[0:a][1:a]concat=n=2:a=1:v=0" output.mp3
+
+  # This also worked
+  ffmpeg -safe 0 -f concat -i videos.txt -c copy output.mp3
 
   # file '<file-path>'
 
