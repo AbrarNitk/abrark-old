@@ -8,3 +8,4 @@ secrets
 tmp/test/*
 !tmp/test/index.ftd
 .env
+temp/
