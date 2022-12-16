@@ -21,23 +21,31 @@ download_songs() {
   while [ $i -lt "$array_length" ]; do
     echo "$i"
     echo "Element at index $i ${songs_to_download[i]} ${songs_to_download[i+1]} ${songs_to_download[i+2]} $((i/3))"
-    youtube-dl --extract-audio --prefer-ffmpeg --audio-format mp3 -o "%(id)s.%(ext)s" \
-    "https://www.youtube.com/watch?v=${songs_to_download[i+2]}"
+    if [ ! -f "${songs_to_download[i+2]}.mp3" ]; then
+        echo "$FILE does not exist."
+        youtube-dl --extract-audio --prefer-ffmpeg --audio-format mp3 -o "%(id)s.%(ext)s" \
+        "https://www.youtube.com/watch?v=${songs_to_download[i+2]}"
+    fi
     ffmpeg -ss "${songs_to_download[i]}" -t "${songs_to_download[i+1]}" -i \
     "${songs_to_download[i+2]}.mp3" -acodec copy "${songs_to_download[i+2]}-o.mp3"
     echo file "'${songs_to_download[i+2]}-o.mp3'" >> files.txt
     i=$((i+3))
   done
   ffmpeg -safe 0 -f concat -i files.txt -c copy final_song.mp3
-  find ./ -name "*.mp3" -not -name "final_song.mp3" -exec rm {} \;
+#  find ./ -name "*.mp3" -not -name "final_song.mp3" -exec rm {} \;
 }
 
 declare -a youtube_songs=()
 # Passing Start Time of the video, total seconds to cut, and youtube video id
-youtube_songs+=("00:01:31" 52 "Zxgvob1Ew0c") # Mere Khwabon Mein
-youtube_songs+=("00:02:05" 60 "avuWWztS-6k") # Deewana Hai Dekho Full
-youtube_songs+=("00:01:24" 51 "b_sCZbYyuO4") # Yeh Ishq Hai
-youtube_songs+=("00:00:10" 42 "R6iovtWNKo4") # Saiyaan Superstar
+youtube_songs+=("00:00:11" 90 "RVRlV53TjzY") # Bezubaan
+youtube_songs+=("00:00:06" 74 "tkvAU0fsFIw") # Atrangi Yaari
+youtube_songs+=("00:00:57" 83 "v_Gq5Gtd9V4") # Jaane Is Dil Ka Haal
+youtube_songs+=("00:00:00" 20 "9dcBy2uXL7E") # Tere Jaisa Yaar Kha
+youtube_songs+=("00:00:20" 68 "xC1cj9zhh6k") # Wo Din
+
+
+#youtube_songs+=("00:01:24" 51 "b_sCZbYyuO4") # Yeh Ishq Hai
+#youtube_songs+=("00:00:10" 42 "R6iovtWNKo4") # Saiyaan Superstar
 download_songs youtube_songs
 
 
