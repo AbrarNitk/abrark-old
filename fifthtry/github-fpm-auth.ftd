@@ -1,0 +1,79 @@
+-- ds.page: FPM Auth with GitHub OAuth Protocol
+
+-- ds.h1: How Common Auth System Works
+
+So In common authentication system developers has to provide /register/
+and /login/ api for registering and authenticate the user. And then for role
+base access control, developer has to create role base system. So it can be
+done by creating role say `admin` by adding lt say 4 people in it. So if a
+logged in user is part of the `admin` role, user will be able to access `/admin/`
+page.
+
+-- ds.h3: Register Page
+
+-- ds.h3: Login Page
+
+-- ds.h3: Register and Login API
+
+- /register/
+- /login/
+
+-- ds.h3: Create Role(Dev Team)
+
+- Role Base Access Control
+- Create a Role /admin/ and 5 users in a role
+- Create a role /hr/ and have 5 users in this role
+
+Now if request come for /admin/ or /hr/ so now you can check whether user
+has permission to access this page or not.
+
+- Need one table to maintain all the roles.
+
+
+-- ds.h1: FPM with GitHub OAuth
+
+-- ds.h2: What is FPM?
+
+FPM is a webserver which interpret FTD files into html, or you can say it as who
+serves the FTD files.
+
+-- ds.h2: Why GitHub OAuth
+
+If you have a website and you want to put an authorization like if a user is a
+part of my github team, so user have access otherwise not.
+
+Another example could be if a user like my repository so he should be able to
+access this page/route otherwise not.
+
+-- ds.h2: What is GitHub OAuth
+
+Here user will be logged in with GitHub OAuth and GitHub will provide you token
+to access the user information based on provided scopes.
+
+
+-- ds.h2: Create an OAuth APP
+
+By creating an OAuth App you has to ask scopes from user, which resources you
+want to access using his token.
+
+- Create an OAuth Application
+- Get the client id and secret key set them into the fpm
+
+
+-- ds.h2: Create the User Groups in FPM
+
+-- ftd.code: User Group
+lang: ftd
+
+\-- fpm.user-group: admin
+github-team: admin
+
+
+-- ds.h2: Set User Group to A Route
+
+-- fpm.sitemap:
+
+- /admin/
+  reader: admin
+
+-- ds.h2: How did I Implement it
