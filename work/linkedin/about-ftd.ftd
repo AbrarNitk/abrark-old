@@ -1,29 +1,59 @@
--- (optional section-kind) section-name: optional caption-value
+-- ds.page: What is FTD
+
+In @FifthTry we have build a new programming language for UI, I have noted down
+some key point why build it.
+
+- FTD is a programming language specifically designed for building user
+interfaces for web applications.
+
+- FTD has a simple and easy-to-learn syntax, which makes it accessible to
+people who are new to programming.
+[Check image: if you know this, you know almost 90% FTD(current syntax)].
+
+- It is a strongly typed language, which can help to make the code more robust
+and reliable.
+
+- It provides a set of components for creating interactive and responsive user
+interfaces using a variety of techniques, such as you can do with HTML, CSS,
+and JavaScript.
+
+- FTD allows developers to style components and handle events at runtime, giving
+them a high degree of control over the look and behavior of their web applications.
+- It is a user-friendly tool that is suitable for developers of all skill levels.
+
+
+-- ftd.code:
+lang: ftd
+
+\-- (optional section-kind) section-name: optional caption-value
 (optional header-kind) header-name: optional header-value
 
--- (optional header-kind) section-name.header-name: ;; single line value
+\-- (optional header-kind) section-name.header-name: ;; single line value
 ;; new line is mandatory
     <header-body>: multiline string value or another section as value
     ;; it can be list of sections as well
--- end: section-name.header-name
+\-- end: section-name.header-name
 
--- section-name.caption: ;; single line value
+\-- section-name.caption: ;; single line value
     ;; new line is mandatory
     ;; multiline string value or list of sections
 
--- end: section-name.caption ;; only in case of if caption is a section as value
+\-- end: section-name.caption ;; only in case of if caption is a section as value
 
--- section-name.body:
+\-- section-name.body:
     ;; new line is mandatory
     ;; only multiline string or single line string, should not be a section again
 
 ;; subsections of a section which is list of sections
--- (optional section-kind) nested-section-name: optional caption-value
+\-- (optional section-kind) nested-section-name: optional caption-value
 ;; same as section definition
--- end: nested-section-name
--- end: section-name
+\-- end: nested-section-name
+\-- end: section-name
 
 
+-- ds.markdown:
+
+Hello
 ;; section-kind example:
 ;; header-kind example:
 ;; caption example:
