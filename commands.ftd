@@ -3,3 +3,35 @@
 FPM build with remote feature
 
 `cargo install --path=. --features remote`
+
+
+-- ds.h1: `cloc`
+
+Count the line of code
+
+`cloc $(git ls-files)`
+
+`cloc --read-lang-def=my_definitions.txt $(git ls-files)`
+
+Repo: https://github.com/AlDanial/cloc
+
+-- ds.h1: xargs
+
+xargs is a command-line utility that reads space-separated arguments from
+standard input and executes a specified command with those arguments. It is
+often used in combination with other commands, such as find, to perform an
+operation on a large number of files or items.
+
+To delete all files with the .tmp extension in the current directory and its
+subdirectories:
+
+`$ find . -name "*.tmp" | xargs rm`
+
+To compress all files with the .log extension in the current directory and its
+subdirectories:
+
+`$ find . -name "*.log" | xargs gzip`
+
+To rename all files with the .bak extension to have a .backup extension:
+
+`$ find . -name "*.bak" | xargs rename 's/.bak/.backup/'`
