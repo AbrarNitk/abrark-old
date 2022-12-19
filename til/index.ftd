@@ -1,5 +1,18 @@
 -- ds.page: TIL: Today I (`abrark`) learnt
 
+-- ds.h1: 19th Dec
+
+- Some commands added in the [commands](/commands/) file.
+- ChatGPT Desktop Version
+  - https://github.com/lencx/ChatGPT
+- Spotifyd: Spotify deamon
+  - https://github.com/Spotifyd/spotifyd
+- redis-rs redis client in Rust: https://github.com/redis-rs/redis-rs
+
+
+
+
+
 In this place you will find stuff I find interesting and have learnt recently.
 
 -- ds.h1: FPM.ftd has support for sitemap
