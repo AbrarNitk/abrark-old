@@ -1,5 +1,38 @@
 -- ds.page: GitHub Commands
 
+-- ds.h1: Git Clone
+
+-- ds.code:
+lang: sh
+
+# It will create a folder same as GitHUb have
+git clone git@github.com:AbrarNitk/abrark.git
+
+
+-- ds.code: Git Add
+lang: sh
+
+git add .
+
+
+-- ds.code: Git Status
+lang: sh
+
+git status
+
+
+-- ds.code: Git Commit
+lang: sh
+
+git commit -m "<message>"
+
+
+-- ds.code: Git Push
+lang: sh
+
+git push
+
+
 -- ds.h1: Count The Number Of Commits
 
 `git rev-list --count HEAD --since="Dec 1 2021" --before="Jan 3 2022"`
