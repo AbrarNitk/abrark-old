@@ -10,19 +10,40 @@
 -- ds.h2: Demo Day
 
 ## My Responsibilities
-- Link: https://github.com/FifthTry/dotcom/blob/main/events/dd/2022/15.ftd
-- Twitter OAuth with Wasif
-- GitHub Documentation with Wasif
-- FTD styling properties
-- Rithik Deploy hostn
-- Social Media Post with Ajit
-  - Business Review
-  - 5hrs video with Ajit
-  - Calls with Schools
 
-- I have to maintain /m/ with Amitu
-  - Daily add talking points for different accounts
-  - Daily add documentation according to talking points
+- Link: https://github.com/FifthTry/dotcom/blob/main/events/dd/2022/15.ftd
+
+- With Wasif
+  - Twitter OAuth with Wasif
+  - GitHub Documentation with Wasif
+  - Telegram, Discord and Twitter Testing
+
+- With Arpita
+  - Add styling properties in FTD
+
+- With Rithik
+  - Deploy hostn
+
+- With Ajit
+  - Social Media Post
+  - Business Review Meeting
+  - 5hrs video in this week
+  - Calls with Schools and Colleges
+
+- With Amitu
+  - I have to maintain /m/ with Amitu
+    - Daily add talking points for different accounts
+    - Daily add documentation according to talking points
+
+- Note down all the points from all the demos and add them into /m/
+  - List down all the features that we did the the demos
+  - fpm-auth, fpm-apps, fpm-sitemap, fpm-dependencies, fpm-package
+  - fpm-auth is better than others
+  - fpm-sitemap is comparable with Django
+
+- Move fpm.dev fastn
+  - After ftd 0.3
+
 
 -- ds.h2: Wed 21th
 
