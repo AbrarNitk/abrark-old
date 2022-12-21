@@ -6,17 +6,61 @@
 
 -- ds.h1: Monthly Update
 
+-- ds.h2: Wed 21th
+
+I started late today: around 11:30, not feeling well.
+
+- Meeting with Ajit
+  - time: 11:30 to 12:00
+  - He was facing issues with ftd errors
+
+- Meeting with Wasif
+  - time: 12:30 to 01:00
+  - status: Pending
+  - GitHub OAuth Documentation
+  - Twitter, Telegram, Discord testing pending on me
+  - Merge Twitter branch
+
+- Meeting with Rithik
+  - status: Done
+  - time: 12:00 to 12:30
+  - Discussion:
+    - He is done with passing X-FPM-USER-ID
+    - If user is not available, so create new user in Django
+    - Deploy on Fly for now and map to hostn.com
+    - Status: should be completed by EOD
+
+- FTD Tasks need to add more ftd styles
+
+-- ds.h2: Tue 20th
+
+- Meeting with Ajit
+  - About marketing points and all
+
+- Meeting with Amitu
+  - Amitu added points in /m/ folder
+
+- Meeting with Arpita
+  - She told me about the how to add style and type in ftd
+
+- Added overflow style in ftd
+  - `overflow: scroll, auto, hidden, visible` https://github.com/ftd-lang/ftd/pull/489
+  - `overflow-x: scroll, auto, hidden, visible` https://github.com/ftd-lang/ftd/pull/494
+  - `overflow-y: scroll, auto, hidden, visible` https://github.com/ftd-lang/ftd/pull/495
+  - Horizontal and Vertical Resizing renamed to height and width
+    - https://github.com/ftd-lang/ftd/pull/493
+
 -- ds.h2: Mon 19th
 
 - Meeting With Rithik
-  - Status: Pending
+  - Status: Done
   - Need to give him clarity about passing GitHub User ID to FPM APP Service.
 
 - Meeting With Wasif
-  - Status: Pending
-  - Twitter Testing
-  - Discord Testing
-  - Telegram Testing
+  - Status: pending
+  - Twitter Testing - pending
+  - Discord Testing - pending
+  - Telegram Testing - pending
   - GitHub Integration Documentation
   - Wasif will complete the remaining documentation
 
