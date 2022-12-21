@@ -16,12 +16,27 @@
   - Twitter OAuth with Wasif
   - GitHub Documentation with Wasif
   - Telegram, Discord and Twitter Testing
+- Wasif Next: Importer
 
 - With Arpita
   - Add styling properties in FTD
 
 - With Rithik
   - Deploy hostn
+- Rithik Next: Indexer
+
+
+- All possible projects that are their to implement next
+  - note: put it on business say fifthtry projects /p/
+  - sql-queries in ftd
+    - Create a todo app using the sqlite file
+  - indexer
+    - why? because of full stack framework
+  - importer
+  - wasm
+  - etc...
+
+
 
 - With Ajit
   - Social Media Post: Two for this week wed and friday
@@ -33,7 +48,6 @@
     - Time?, Send email in the team
     - Post on Social Media also
   - 5 Calls with Colleges
-
 
 
 - With Amitu
@@ -50,6 +64,7 @@
 
 - Move fpm.dev fastn
   - After ftd 0.3
+
 
 
 -- ds.h2: Wed 21th
