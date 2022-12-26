@@ -1,0 +1,42 @@
+-- ds.page: LinkedIn Post
+
+Hey Guys, I would like to tell you about FPM, In FifthTry we are building a
+CLI tool that has so many features in it for building and managing websites.
+
+- As a static site generator, FPM allows users to create HTML pages from FTD
+files and data sources, without the need for a dynamic server-side language
+like PHP or Ruby.
+
+- FPM also serves as a package manager for FTD, a programming language
+specifically designed for building user interfaces.
+
+- In addition to being a package manager, FPM can also act as an HTTP server
+for serving FTD files.
+
+- FPM includes a sitemap feature that allows users to map URLs to specific FTD
+documents and handle dynamic URL mapping.
+
+- With its processors feature, FPM allows users to retrieve data from HTTP
+requests, Databases, Rust functions within FTD files.
+
+- FPM can also act as a reverse proxy, forwarding HTTP requests to other servers
+and returning the response to the original client.
+
+- FPM offers authentication capabilities, including the ability to log in using
+OAuth with various providers such as GitHub, Discord, Twitter, and Telegram.
+
+- FPM also allows users to install applications as separate FPM packages, which
+are folders containing FTD files for the application.
+
+If you're looking for a comprehensive tool to help you build and manage your
+website, consider giving FPM a try. It's a command-line interface tool that
+offers a range of features, including static site generation, package management
+for FTD files, and a built-in HTTP server. It also has a sitemap for mapping
+URLs to specific documents, processors for retrieving data, and authentication
+capabilities. Plus, it's easy to install and use, and you can even add
+applications as separate FPM packages.
+
+FPM Source: https://lnkd.in/gQ83jkcs
+FPM Docs: https://fpm.dev/
+
+FifthTry is an open source company, join us on Discord: https://lnkd.in/gY8se38Z
