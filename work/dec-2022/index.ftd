@@ -40,12 +40,15 @@
   - I have to make plan and meet with her regarding fastn.
 
 - meeting with rithik
-  - time: 30 mins
+  - time: 12:30 to 01:00
+  - status: in progress
   - hostn and request-data
   - discussion-points:
   - did you get the clarity?
   - do you any problem in the problem statement about request-data and hostn
   using controller as an app?
+  - doubts:
+  - user-id in `fpm.app`
 
 
 - meeting with amitu on observer
