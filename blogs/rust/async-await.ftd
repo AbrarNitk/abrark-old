@@ -1,0 +1,97 @@
+-- ds.page: Async And Await In Rust
+
+
+Async/await is simpler syntax for Future in Rust.
+
+A Future represents a value that will exists sometime in the Future.
+
+-- ds.h2: A timer future
+
+- Mutex around a boolean
+- Spins up a new thread that sleeps for some amount of the time
+- When the thread wakes up, it sets the boolean to true and wakes up the future
+- Calls to poll check the boolean to see if we are done
+
+
+-- ds.code: `trait Future`
+lang: rs
+
+pub trait Future {
+    type Output;
+    fn poll(self: Pin<&mut Self>, cx: &mut Context) -> Poll<Self::Output>;
+}
+
+-- ds.code: `enum Poll`
+lang: rs
+
+
+pub enum Poll<T> {
+    Ready(T),
+    Pending,
+}
+
+-- ds.code: `struct TimerFuture`
+lang: rs
+
+pub struct TimerFuture {
+    shared_state: Arc<Mutex<SharedState>>
+}
+
+struct SharedState {
+    /// Whether or not the sleep time has elapsed
+    completed: bool
+    /// "waker" to wake up the future
+    waker: Option<Waker>
+}
+
+
+-- ds.code: `impl Future for TimerFuture`
+lang: rs
+
+impl Future for TimerFuture {
+    type Output = ();
+    fn poll(self: Pin<&mut Self>, cx: &mut Context) -> Poll<Self::Output> {
+        let mut stared_state = self.shared_state.lock().unwrap();
+        if shared_state.completed {
+            Poll::Ready(())
+        } else {
+            shared_state.waker = Some(cx.waker.clone());
+            Poll::Pending
+        }
+    }
+}
+
+-- ds.code: `impl TimerFuture`
+lang: rs
+
+impl TimerFuture {
+    pub fn new(duration: Duration) -> Self {
+        let shared_state = Arc:new(Mutex::new(SharedState {
+            completed: false,
+            waker: None,
+        }));
+
+        let thread_shared_state = shared_state.clone();
+        thread::spawn(move || {
+            thread::sleep(duration);
+            let mut shared_state = thread_shared_state.lock().unwrap();
+
+            shared_state.completed = true;
+
+            if let Some(waker) = shared_state.waker.take() {
+                waker.wake()
+            }
+        });
+    }
+}
+
+
+-- ds.h2: Four Rules
+
+
+
+
+-- ds.h1: References
+
+- [Talk From Steve Klab](https://www.youtube.com/watch?v=NNwK5ZPAJCk)
+
