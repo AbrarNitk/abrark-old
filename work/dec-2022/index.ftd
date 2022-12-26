@@ -47,8 +47,10 @@
   - did you get the clarity?
   - do you any problem in the problem statement about request-data and hostn
   using controller as an app?
-  - doubts:
-  - user-id in `fpm.app`
+  - doubts and clarity:
+  - user-id in `fpm.app`, it is configuration part
+  - create one hostn repo and used controller an as app in it.
+  - request-data processor, priority goes to url query params -> dynamic -> body
 
 
 - meeting with amitu on observer
