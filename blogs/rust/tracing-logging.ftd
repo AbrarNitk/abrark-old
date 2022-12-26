@@ -111,8 +111,122 @@ things you could improve.
 There are several libraries to work with tracing. Find in the tracing [docs](https://crates.io/crates/tracing).
 
 
+-- ds.h1: `tracing` explained
+
+-- ds.h2: Core Concepts
+
+The core of tracing’s API is composed of spans, events and subscribers. We’ll
+cover these in turn.
+
+-- ds.h2: Spans
+
+To record the flow of execution through a program, tracing introduces the
+concept of spans. Unlike a log line that represents a moment in time, a span
+represents a period of time with a beginning and an end. When a program begins
+executing in a context or performing a unit of work, it enters that context’s
+span, and when it stops executing in that context, it exits the span. The span
+in which a thread is currently executing is referred to as that thread’s current
+span.
+
+
+-- ds.code:
+lang: rs
+
+use tracing::{span, Level};
+let span = span!(Level::TRACE, "my_span");
+// `enter` returns a RAII guard which, when dropped, exits the span. this
+// indicates that we are in the span for the current lexical scope.
+let _enter = span.enter();
+// perform some work in the context of `my_span`...
+
+-- ds.h2: Events
+
+An Event represents a moment in time. It signifies something that happened
+while a trace was being recorded. Events are comparable to the log records
+emitted by unstructured logging code, but unlike a typical log line, an Event
+may occur within the context of a span.
+
+-- ds.code:
+lang: rs
+
+use tracing::{event, span, Level};
+
+// records an event outside of any span context:
+event!(Level::INFO, "something happened");
+
+let span = span!(Level::INFO, "my_span");
+let _guard = span.enter();
+
+// records an event within "my_span".
+event!(Level::DEBUG, "something happened inside my_span");
+
+-- ds.h2: Subscribers
+
+As Spans and Events occur, they are recorded or aggregated by implementations of
+the Subscriber trait. Subscribers are notified when an Event takes place and
+when a Span is entered or exited. These notifications are represented by the
+following Subscriber trait methods:
+
+- `event`, called when an Event takes place,
+- `enter`, called when execution enters a Span,
+- `exit`, called when execution exits a Span
+
+
+In addition, subscribers may implement the `enabled` function to filter the
+notifications they receive based on metadata describing each Span or Event. If a
+call to Subscriber::enabled returns false for a given set of metadata, that
+Subscriber will not be notified about the corresponding Span or Event. For
+performance reasons, if no currently active subscribers express interest in a
+given set of metadata by returning true, then the corresponding Span or Event
+will never be constructed.
+
+-- ds.h2: Usage
+
+-- ds.h3: Span
+
+The span! macro expands to a Span struct which is used to record a span.
+The Span::enter method on that struct records that the span has been entered,
+and returns a RAII guard object, which will exit the span when dropped.
+
+For example:
+
+-- ds.code:
+lang: rs
+
+use tracing::{span, Level};
+// Construct a new span named "my span" with trace log level.
+let span = span!(Level::TRACE, "my span");
+
+// Enter the span, returning a guard object.
+let _enter = span.enter();
+
+// Any trace events that occur before the guard is dropped will occur
+// within the span.
+
+// Dropping the guard will exit the span.
+
+-- ds.markdown:
+
+The `#[instrument]` attribute provides an easy way to add tracing spans to
+functions. A function annotated with `#[instrument]` will create and enter a span
+with that function’s name every time the function is called, with arguments to
+that function will be recorded as fields using fmt::Debug.
+
+-- ds.code:
+lang: rs
+
+use tracing::{Level, event, instrument};
+
+#[instrument]
+pub fn my_function(my_arg: usize) {
+    // This event will be recorded inside a span named `my_function` with the
+    // field `my_arg`.
+    event!(Level::INFO, "inside my_function!");
+    // ...
+}
 
 -- ds.h1: Reference
+
 
 - [Article](https://blog.logrocket.com/comparing-logging-tracing-rust/)
 - [Rust Log Trait](https://crates.io/crates/log)
