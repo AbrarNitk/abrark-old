@@ -41,7 +41,7 @@
 
 - meeting with rithik
   - time: 12:30 to 01:00
-  - status: in progress
+  - status: done
   - hostn and request-data
   - discussion-points:
   - did you get the clarity?
@@ -51,6 +51,15 @@
   - user-id in `fpm.app`, it is configuration part
   - create one hostn repo and used controller an as app in it.
   - request-data processor, priority goes to url query params -> dynamic -> body
+
+- meeting with wasif on github docs
+  - time: 30 mins(01:00 to)
+  - status: in process
+  - discussion:
+  - What is the update on github docs?
+  - He is writing docs for github and discord
+  - github docs should be complete by eod
+  - What is next after docs, importers docusourus to ftd, md to ftd
 
 
 - meeting with amitu on observer
@@ -63,14 +72,6 @@
   - discussion:
   - what are the actionable for this week?
 
-- meeting with wasif on github docs
-  - time: 30 mins(01:00 to)
-  - status: in process
-  - discussion:
-  - What is the update on github docs?
-  - He is writing docs for github and discord
-  - He will complete
-  - What is next after docs, importers.
 
 - plan for fastn
   - after plan discuss with arpita
