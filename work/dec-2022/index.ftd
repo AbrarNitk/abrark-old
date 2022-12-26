@@ -32,22 +32,44 @@
 
 -- ds.h2: 26 Dec Monday
 
-- meeting with amitu on observer
-- meeting with ajit and amitu on marketing
-- meeting with rithik
-  - hostn
-  - request-data
-- meeting with wasif on github docs
 - meeting with arpita on different points
+  - time: 30 mins
   - discussion:
   - ftd stack overflow problem in p2
   - We have to figure out problem what is happening
+  - I have to make plan and meet with her regarding fastn.
+
+- meeting with rithik
+  - time: 30 mins
+  - hostn and request-data
+  - discussion-points:
+  - did you get the clarity?
+  - do you any problem in the problem statement about request-data and hostn
+  using controller as an app?
+
+
+- meeting with amitu on observer
+  - time: 30 mins
+  - status: pending
+
+- meeting with ajit and amitu on marketing
+  - status: pending
+  - time: 1hr
+  - discussion:
+  - what are the actionable for this week?
+
+- meeting with wasif on github docs
+  - time: 30 mins
+  - status: pending
+  - discussion:
+  - What is the update on github docs?
+  - What is next after docs, importers.
 
 - plan for fastn
+  - after plan discuss with arpita
   - github repo rename
   - rename the cli
   - change the domain fpm.dev to fastn
-
 
 
 -- ds.h2: Demo Day
