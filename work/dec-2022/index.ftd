@@ -6,10 +6,9 @@
 
 -- ds.h1: Monthly Update
 
+-- ds.h2: Demo 15th Week
 
--- ds.h2: Demo Day
-
--- ds.h3: Time Divide for this week
+-- ds.h3: Time Divide For This Week
 
 - 2hrs for daily meetings and update
   - Amitu, Arpita, Wasif, Rithik and Ajit
@@ -19,7 +18,7 @@
   - Self Contribution in the code and design
 
 
--- ds.h3: My Responsibilities
+-- ds.h3: Responsibilities for This Demo
 
 - async observer (main responsibility)
 - fpm to fastn
@@ -41,6 +40,28 @@
 
 
 -- ds.h2: 26 Dec Monday
+
+- meeting with amitu on observer
+  - time: 1hr
+  - status: pending
+
+- meeting with amitu on marketing content
+  - time: 1hr
+  - status: pending
+
+- plan for fastn
+  - github repo rename fpm.dev and fpm to fast.dev and fastn
+  - rename fpm to fastn for cli
+  - check all the scripts and github actions that are using fpm as cli
+  - change the domain fpm.dev to fastn.com
+  - todo: more points to gather
+  - inform on channel(team, social media) about the update
+  - note:
+  - after plan discuss with arpita and amitu
+
+- explore observer and tracing
+  - how to use tracing subscribers
+  - how can we use async LocalKey for storing the data in the observer
 
 - meeting with arpita on different points
   - time: 30 mins
@@ -79,34 +100,14 @@
   - what are the actionable for this week?
   - How can I help you?
   - discussion:
-  - Creating video related to ftd fundamental
-  - Two videos on the topics
-  - Have to create multiple videos
+  - Creating video related to ftd fundamental [video ref](https://www.youtube.com/watch?v=UjlyL3b0eNo)
+  - today goal: two videos on this
+  - ajit have to create multiple videos in this week ftd
 
 
-- meeting with amitu on observer
-  - time: 1hr
-  - status: pending
+-- ds.h2: Demo 14th Week
 
-- meeting with amitu on marketing content
-  - time: 1hr
-  - status: pending
-
-
-- plan for fastn
-  - after plan discuss with arpita
-  - github repo rename
-  - rename the cli
-  - change the domain fpm.dev to fastn
-
-- explore observer and tracing
-  - how to use tracing subscribers
-  - how can we use async LocalKey for storing the data in the observer
-
-
--- ds.h2: Demo Day
-
-## My Responsibilities
+-- ds.h2: My Responsibilities
 
 - Link: https://github.com/FifthTry/dotcom/blob/main/events/dd/2022/15.ftd
 
