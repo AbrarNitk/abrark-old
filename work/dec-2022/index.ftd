@@ -9,7 +9,17 @@
 
 -- ds.h2: Demo Day
 
-## My Responsibilities
+-- ds.h3: Time Divide for this week
+
+- 2hrs for daily meetings and update
+  - Amitu, Arpita, Wasif, Rithik and Ajit
+- 2hrs for marketing related content
+  - With and Without Amitu
+- 4hrs for self work
+  - Self Contribution in the code and design
+
+
+-- ds.h3: My Responsibilities
 
 - async observer (main responsibility)
 - fpm to fastn
@@ -34,10 +44,11 @@
 
 - meeting with arpita on different points
   - time: 30 mins
+  - status: done
   - discussion:
   - ftd stack overflow problem in p2
   - We have to figure out problem what is happening
-  - I have to make plan and meet with her regarding fastn.
+  - I have to make plan and meet with her about fastn.
 
 - meeting with rithik
   - time: 12:30 to 01:00
@@ -61,13 +72,8 @@
   - github docs should be complete by eod
   - What is next after docs, importers docusourus to ftd, md to ftd
 
-
-- meeting with amitu on observer
-  - time: 30 mins
-  - status: pending
-
-- meeting with ajit and amitu on marketing
-  - status: pending
+- meeting with ajit
+  - status: done
   - time: 30 min(01:40 to 01:50)
   - discussion:
   - what are the actionable for this week?
@@ -78,11 +84,24 @@
   - Have to create multiple videos
 
 
+- meeting with amitu on observer
+  - time: 1hr
+  - status: pending
+
+- meeting with amitu on marketing content
+  - time: 1hr
+  - status: pending
+
+
 - plan for fastn
   - after plan discuss with arpita
   - github repo rename
   - rename the cli
   - change the domain fpm.dev to fastn
+
+- explore observer and tracing
+  - how to use tracing subscribers
+  - how can we use async LocalKey for storing the data in the observer
 
 
 -- ds.h2: Demo Day
