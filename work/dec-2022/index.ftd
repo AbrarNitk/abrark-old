@@ -9,7 +9,7 @@
 
 -- ds.h2: Demo Day
 
-## My Responsibility
+## My Responsibilities
 
 - observer (Big Responsibility)
 - fpm to fastn
@@ -26,15 +26,22 @@
 - post body data in request-data processor
 - better error messages in ftd
 
-
-
 -- ds.h2: 26 Dec Monday
 
 - meeting with amitu on observer
 - meeting with ajit and amitu on marketing
-- meeting with rithik for hostn
+- meeting with rithik
+  - hostn
+  - request-data
 - meeting with wasif on github docs
 - meeting with arpita on different points
+
+- plan for fastn
+  - github repo rename
+  - rename the cli
+  - change the domain fpm.dev to fastn
+
+
 
 -- ds.h2: Demo Day
 
