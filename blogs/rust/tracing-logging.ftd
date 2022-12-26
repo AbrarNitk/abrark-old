@@ -1,0 +1,121 @@
+-- ds.page: Tracing Logging
+
+As a web developer we have to deal with errors, warnings, events that are
+occurring in software system.
+
+-- ds.h1: Why TO Log
+
+Imagine that you have 50K users on your website and everything is working fine,
+suddenly your working code start breaking. It was well tested but it is start
+breaking. So that means software can't be perfect, they can break.
+
+So, how do know what happened? If you had placed some more code in your
+application to do errors and logging, you would have easily referred to that
+data, and figured out what message was recorded before stop the application.
+
+In Rust, there is log library to do this job, check the below example this is
+how we can do the logging.
+
+-- ds.code:
+lang: rs
+
+use log::{ info, warn, error, debug, };
+
+debug!("Something weird occured: {}", someDebugVariable);
+error!("{}", "And error occured");
+info!("{:?}", "Take note");
+warn!("{:#?}", "This is important");
+
+-- ds.code:
+lang: sh
+
+RUST_LOG=info cargo run
+
+-- ds.code: Example
+lang: rs
+
+use log::{ info, error, debug, warn };
+fn main() {
+    // Initialize the env_logger before using the logs macro
+    env_logger::init();
+    error!("{}", "And error occured");
+    warn!("{:#?}", "This is important");
+    info!("{:?}", "Take note");
+    debug!("Something weird occured: {}", "Error");
+}
+
+
+-- ds.h1: `log`
+
+A lightweight logging facade.
+
+The log crate provides a single logging API that abstracts over the actual
+logging implementation.
+
+A log request consists of a target, a level, and a body. A target is a string
+which defaults to the module path of the location of the log request, though
+that default may be overridden. Logger implementations typically use the target
+to filter requests based on some user configuration.
+
+-- ds.h2: `Usage`
+
+The basic use of the log crate is through the five logging macros: error!,
+warn!, info!, debug! and trace! where error! represents the highest-priority
+log messages and trace! the lowest. The log messages are filtered by configuring
+the log level to exclude messages with a lower priority. Each of these macros
+accept format strings similarly to println!.
+
+
+
+-- ds.h1: `env_logger`
+
+simple logger that can be configured via environment variables, for use with
+the logging facade exposed by the log crate.
+
+[More...](https://docs.rs/env_logger/latest/env_logger/)
+[Example](https://github.com/rust-cli/env_logger/tree/main/examples)
+
+-- ds.h1: `log4rs`
+
+[Docs](https://docs.rs/log4rs/1.2.0/log4rs/)
+
+
+-- ds.h1: Tracing in Rust
+
+In software engineering, tracing involves a specialized use of logging to record
+information about the program execution. - Wiki
+
+Tracing involves monitoring your code from starting to finish during the
+execution process. So if you are designing the large application where too many
+things could go wrong and debugging could be a pain; tracing gives a you
+systematic overview of the activities in your code.
+
+So Rust tracing library leverages tracing and provides devs with a full scale
+framework that allow you collect structured, event-based diagnostic information
+from your Rust program.
+
+Code tracing involves three different stages:
+
+- Instrumentation: This is where you add tracing code to your source code
+application.
+
+- Actual Tracing: at this point during execution, the activities written to the
+target platform for analysis.
+
+- Analysis: the stage where you analyze and evaluate the information your
+tracing system has gathered to find and understand problem in the application.
+This is also allows where you can plug in tools like LogRocket, Sentry, or Grafana
+to allow you to visualize your entire system workflow, performance, errors, and
+things you could improve.
+
+There are several libraries to work with tracing. Find in the tracing [docs](https://crates.io/crates/tracing).
+
+t
+
+
+
+-- ds.h1: Reference
+
+- [Article](https://blog.logrocket.com/comparing-logging-tracing-rust/)
+- [Rust Log Trait](https://crates.io/crates/log)
+- [Rust Tracing Trait](https://crates.io/crates/tracing)

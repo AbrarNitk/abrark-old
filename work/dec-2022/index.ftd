@@ -46,6 +46,12 @@
 - meeting with amitu on observer
   - time: 1hr
   - status: pending
+  - discussion:
+  - crate tracing-actix-web
+  - explore opentelemetry and tracing and their documentation
+  - performance should go to some cloud
+  - tracing-newrelic
+
 
 - meeting with amitu on marketing content
   - time: 1hr
@@ -54,6 +60,7 @@
 ;;-- project: Move To Fastn
 
 - plan for fastn
+  - status: discussion done
   - source code change
   - github repo rename fpm.dev and fpm to fastn.io and fastn
   - rename fpm to fastn for cli
@@ -67,6 +74,7 @@
 - explore observer and tracing
   - how to use tracing subscribers
   - how can we use async LocalKey for storing the data in the observer
+  - creates experiments in fpm with tracing and opentelemetry
 
 - meeting with arpita on different points
   - time: 30 mins

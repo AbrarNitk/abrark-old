@@ -1,0 +1,10 @@
+-- ds.page: Async Observer
+
+-- ds.h1: tracing crate
+
+- crate tracing-actix-web
+- opentelemetry
+- performance should go to some cloud
+- tracing-newrelic
+-
+
