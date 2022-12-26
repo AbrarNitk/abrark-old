@@ -11,20 +11,24 @@
 
 ## My Responsibilities
 
-- observer (Big Responsibility)
+- async observer (main responsibility)
 - fpm to fastn
 - hostn deployment track with rithik
 - github auth docs with wasif
 - marketing meeting with amitu and ajit
-- ftd properties
 - remove endpoint from package
 - auth testing on some sites for testing probably on heroku
   - auth-test.fifthtry.com
-- subscription app using django
 - All demos features
 - `request-data` processor docs
-- post body data in request-data processor
+  - post body data in request-data processor
+- ftd properties
 - better error messages in ftd
+- subscription app using django
+- performance
+  - async observer using tracing library
+- problem in p1: stackoverflow problem
+
 
 -- ds.h2: 26 Dec Monday
 
@@ -35,6 +39,9 @@
   - request-data
 - meeting with wasif on github docs
 - meeting with arpita on different points
+  - discussion:
+  - ftd stack overflow problem in p2
+  - We have to figure out problem what is happening
 
 - plan for fastn
   - github repo rename
