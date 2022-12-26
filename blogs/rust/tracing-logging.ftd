@@ -110,8 +110,6 @@ things you could improve.
 
 There are several libraries to work with tracing. Find in the tracing [docs](https://crates.io/crates/tracing).
 
-t
-
 
 
 -- ds.h1: Reference
@@ -119,3 +117,4 @@ t
 - [Article](https://blog.logrocket.com/comparing-logging-tracing-rust/)
 - [Rust Log Trait](https://crates.io/crates/log)
 - [Rust Tracing Trait](https://crates.io/crates/tracing)
+- [Open Telemetry](https://crates.io/crates/opentelemetry)
