@@ -50,10 +50,11 @@
   - status: pending
 
 - plan for fastn
-  - github repo rename fpm.dev and fpm to fast.dev and fastn
+  - source code change
+  - github repo rename fpm.dev and fpm to fastn.io and fastn
   - rename fpm to fastn for cli
   - check all the scripts and github actions that are using fpm as cli
-  - change the domain fpm.dev to fastn.com
+  - change the domain fpm.dev to fastn.io
   - todo: more points to gather
   - inform on channel(team, social media) about the update
   - note:
