@@ -39,25 +39,68 @@
 - problem in p1: stackoverflow problem
 
 
--- ds.h2: 26 Dec Monday
+-- ds.h2: 27 Dec Tue
 
-;;-- daily.update: 26 Dec Monday
+- meeting with rithik
+  - time: 30 min
+  - status: pending
+  - hostn and request-data processor
+  - discussion-points:
+  - are you able to pass user-id to endpoint?
+  - did you create a hostn repo and used fpm.app: controller
+  - what is the update on request-data processor for body
+  - meeting-notes:
+  - todo
+
+- meeting with amitu on marketing content
+  - time: 1hr
+  - status: pending
+  - discussion-points:
+  - What to write today?
+
+- plan execution for fastn
+  - time: 2hrs
+  - status: pending
+  - notes: have to complete this today
+
+- explore observer and tracing
+  - time: 2hrs
+  - status: pending
+  - notes: have to explore it today
+
+
+- meeting with wasif on auth docs
+  - time: 30 mins(01:00 to 01:40)
+  - status: pending
+  - discussion-points:
+  - update on auth docs about github, twitter discord
+  - What is next after docs, importers docusourus to ftd, md to ftd
+  - meeting-notes:
+
+- meeting with ajit
+  - status: pending
+  - time: 30 min
+  - discussion-points:
+  - what are the actionable for this week and today?
+  - How can I help you?
+  - yesterday goal: two videos on ftd and have to create many videos
+  - meeting-notes:
+
+
+-- ds.h2: 26 Dec Monday
 
 - meeting with amitu on observer
   - time: 1hr
-  - status: pending
+  - status: done
   - discussion:
   - crate tracing-actix-web
   - explore opentelemetry and tracing and their documentation
   - performance should go to some cloud
   - tracing-newrelic
 
-
 - meeting with amitu on marketing content
   - time: 1hr
   - status: pending
-
-;;-- project: Move To Fastn
 
 - plan for fastn
   - status: discussion done
