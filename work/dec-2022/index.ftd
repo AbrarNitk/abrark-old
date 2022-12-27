@@ -66,7 +66,11 @@
 - explore observer and tracing
   - time: 2hrs
   - status: pending
-  - notes: have to explore it today
+  - notes:
+  - yesterday i have explored how to configure tracing with actix server
+  - today have to explore tracing-subscribers and it's different options
+  - span, event, body and subscribers all four
+
 
 
 - meeting with wasif on auth docs
