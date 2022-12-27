@@ -41,6 +41,14 @@
 
 -- ds.h2: 27 Dec Tue
 
+- plan execution for fastn
+  - time: 2hrs
+  - status: pending
+  - notes: have to complete this today
+  - meeting-ganesh:
+  - all the packages has to be changed, replace fpm with fastn
+  - FPM to fastn everywhere
+
 - meeting with ajit
   - status: done
   - time: 30 min
@@ -86,13 +94,6 @@ config: $ENV.DBURL
   - status: pending
   - discussion-points:
   - What to write today?
-
-- plan execution for fastn
-  - time: 2hrs
-  - status: pending
-  - notes: have to complete this today
-  - meeting-ganesh:
-  - all the packages has to be changed, replace fpm with fastn
 
 - explore observer and tracing
   - time: 2hrs
