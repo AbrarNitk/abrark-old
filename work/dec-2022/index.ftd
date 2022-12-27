@@ -66,6 +66,8 @@
   - meeting-notes:
   - add the user-id in the Rust app, and pass the header accordingly
   - X-FPM-USER-ID: get_from_cookie(req, github-username)
+  - PR reviewed: https://github.com/ftd-lang/fpm/pull/680/
+  - query next should be handled for all the providers, need to connect with wasif for this
 
 -- ds.code:
 lang: ftd
@@ -89,6 +91,8 @@ config: $ENV.DBURL
   - time: 2hrs
   - status: pending
   - notes: have to complete this today
+  - meeting-ganesh:
+  - all the packages has to be changed, replace fpm with fastn
 
 - explore observer and tracing
   - time: 2hrs
