@@ -41,9 +41,23 @@
 
 -- ds.h2: 27 Dec Tue
 
+- meeting with ajit
+  - status: done
+  - time: 30 min
+  - discussion-points:
+  - what are the actionable for this week and today?
+  - How can I help you?
+  - yesterday goal: two videos on ftd and have to create many videos
+  - meeting-notes:
+  - one video has created https://www.youtube.com/watch?v=AsNEPZ0g6u4
+  - one more project where amitu will create the videos
+  - ajit has to create another video with amitu
+  - have you tried movavi, it is paid, tried with free trial
+
+
 - meeting with rithik
   - time: 30 min
-  - status: pending
+  - status: done
   - hostn and request-data processor
   - discussion-points:
   - are you able to pass user-id to endpoint?
@@ -51,7 +65,7 @@
   - what is the update on request-data processor for body
   - meeting-notes:
   - add the user-id in the Rust app, and pass the header accordingly
-  -
+  - X-FPM-USER-ID: get_from_cookie(req, github-username)
 
 -- ds.code:
 lang: ftd
@@ -62,9 +76,6 @@ user-id: github-username or <platform-id>
 endpoint: <>
 package: <>
 config: $ENV.DBURL
-
-X-FPM-USER-ID: get_from_cookie(req, github-username)
-
 
 -- ds.markdown:
 
@@ -93,15 +104,6 @@ X-FPM-USER-ID: get_from_cookie(req, github-username)
   - discussion-points:
   - update on auth docs about github, twitter discord
   - What is next after docs, importers docusourus to ftd, md to ftd
-  - meeting-notes:
-
-- meeting with ajit
-  - status: pending
-  - time: 30 min
-  - discussion-points:
-  - what are the actionable for this week and today?
-  - How can I help you?
-  - yesterday goal: two videos on ftd and have to create many videos
   - meeting-notes:
 
 
