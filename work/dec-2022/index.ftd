@@ -50,7 +50,23 @@
   - did you create a hostn repo and used fpm.app: controller
   - what is the update on request-data processor for body
   - meeting-notes:
-  - todo
+  - add the user-id in the Rust app, and pass the header accordingly
+  -
+
+-- ds.code:
+lang: ftd
+
+\-- fpm.app: Controller
+mount-point: /hosting/
+user-id: github-username or <platform-id>
+endpoint: <>
+package: <>
+config: $ENV.DBURL
+
+X-FPM-USER-ID: get_from_cookie(req, github-username)
+
+
+-- ds.markdown:
 
 - meeting with amitu on marketing content
   - time: 1hr
@@ -70,8 +86,6 @@
   - yesterday i have explored how to configure tracing with actix server
   - today have to explore tracing-subscribers and it's different options
   - span, event, body and subscribers all four
-
-
 
 - meeting with wasif on auth docs
   - time: 30 mins(01:00 to 01:40)
