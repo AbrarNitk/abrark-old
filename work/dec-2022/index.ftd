@@ -43,11 +43,16 @@
 
 - plan execution for fastn
   - time: 2hrs
-  - status: pending
+  - status: in progress
   - notes: have to complete this today
-  - meeting-ganesh:
+  - meeting-ganesh: done
   - all the packages has to be changed, replace fpm with fastn
   - FPM to fastn everywhere
+  - meeting-arpita: done
+  - woff file is getting failed
+  - she wrote a blog about the rust, i have to explore it
+  - closed unnecessary prs
+  -
 
 - meeting with ajit
   - status: done
@@ -110,6 +115,8 @@ config: $ENV.DBURL
   - update on auth docs about github, twitter discord
   - What is next after docs, importers docusourus to ftd, md to ftd
   - meeting-notes:
+  - wasif: documentation is the main thing
+  -
 
 
 -- ds.h2: 26 Dec Monday

@@ -1,0 +1,1671 @@
+### Server Started ###
+Go to: http://127.0.0.1:8000
+### Configured tracing ###
+[1;32mINFO    [0m ｉ [info]: Starting 8 workers
+[1;32mINFO    [0m ｉ [info]: Tokio runtime found; starting in existing Tokio runtime
+GET / started
+[1;32mINFO    [0m get_file [ 7.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs"
+[1;32mINFO    [0m get_file [ 38.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sorry.ftd"
+[1;32mINFO    [0m get_file [ 4.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker"
+[1;32mINFO    [0m get_file [ 4.54µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn"
+[1;32mINFO    [0m get_file [ 5.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python"
+[1;32mINFO    [0m get_file [ 4.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry"
+[1;32mINFO    [0m get_file [ 4.50µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test"
+[1;32mINFO    [0m get_file [ 122ms | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs.txt"
+[1;32mINFO    [0m get_file [ 4.71µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh"
+[1;32mINFO    [0m get_file [ 5.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu"
+[1;32mINFO    [0m get_file [ 4.17µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search"
+[1;32mINFO    [0m get_file [ 7.54µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls"
+[1;32mINFO    [0m get_file [ 33.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/todo.ftd"
+[1;32mINFO    [0m get_file [ 4.50µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til"
+[1;32mINFO    [0m get_file [ 4.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static"
+[1;32mINFO    [0m get_file [ 5.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt"
+[1;32mINFO    [0m get_file [ 5.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth"
+[1;32mINFO    [0m get_file [ 4.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images"
+[1;32mINFO    [0m get_file [ 4.83µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work"
+[1;32mINFO    [0m get_file [ 103µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ideas.ftd"
+[1;32mINFO    [0m get_file [ 6.25µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022"
+[1;32mINFO    [0m get_file [ 4.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts"
+[1;32mINFO    [0m get_file [ 6.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022"
+[1;32mINFO    [0m get_file [ 6.96µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin"
+[1;32mINFO    [0m get_file [ 29.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/docker-learn.ftd"
+[1;32mINFO    [0m get_file [ 4.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts"
+[1;32mINFO    [0m get_file [ 7.12µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev"
+[1;32mINFO    [0m get_file [ 4.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11"
+[1;32mINFO    [0m get_file [ 4.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust"
+[1;32mINFO    [0m get_file [ 5.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm"
+[1;32mINFO    [0m get_file [ 6.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho"
+[1;32mINFO    [0m get_file [ 53.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/questions.ftd"
+[1;32mINFO    [0m get_file [ 5.25µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer"
+[1;32mINFO    [0m get_file [ 35.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network"
+[1;32mINFO    [0m get_file [ 4.38µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex"
+[1;32mINFO    [0m get_file [ 4.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech"
+[1;32mINFO    [0m get_file [ 4.42µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp"
+[1;32mINFO    [0m get_file [ 4.42µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test"
+[1;32mINFO    [0m get_file [ 57.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/index.ftd"
+[1;32mINFO    [0m get_file [ 25.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/index.ftd"
+[1;32mINFO    [0m get_file [ 29.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todo.ftd"
+[1;32mINFO    [0m get_file [ 30.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/books.ftd"
+[1;32mINFO    [0m get_file [ 39.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/reverse-proxy.ftd"
+[1;32mINFO    [0m get_file [ 34.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn/first-youtube-video.ftd"
+[1;32mINFO    [0m get_file [ 28.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/data-types.ftd"
+[1;32mINFO    [0m get_file [ 27.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/CNAME"
+[1;32mINFO    [0m get_file [ 24.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/resume.ftd"
+[1;32mINFO    [0m get_file [ 25.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/teaching.ftd"
+[1;32mINFO    [0m get_file [ 30.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/demo.ftd"
+[1;32mINFO    [0m get_file [ 54.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 30.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tokio.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation.ftd"
+[1;32mINFO    [0m get_file [ 24.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/person.ftd"
+[1;32mINFO    [0m get_file [ 29.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/index.ftd"
+[1;32mINFO    [0m get_file [ 38.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tracing-logging.ftd"
+[1;32mINFO    [0m get_file [ 31.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/async-await.ftd"
+[1;32mINFO    [0m get_file [ 66.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/document-in-sitemap.ftd"
+[1;32mINFO    [0m get_file [ 33.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/index.ftd"
+[1;32mINFO    [0m get_file [ 29.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/github.ftd"
+[1;32mINFO    [0m get_file [ 26.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/index.ftd"
+[1;32mINFO    [0m get_file [ 27.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/operators.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/recursion.py"
+[1;32mINFO    [0m get_file [ 109µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/apps.ftd"
+[1;32mINFO    [0m get_file [ 56.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/service-api.ftd"
+[1;32mINFO    [0m get_file [ 27.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/dynamic-urls.ftd"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/index.ftd"
+[1;32mINFO    [0m get_file [ 21.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/heroku.ftd"
+[1;32mINFO    [0m get_file [ 22.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/september-2022.ftd"
+[1;32mINFO    [0m get_file [ 22.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/lessons.ftd"
+[1;32mINFO    [0m get_file [ 21.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/27-08-2022.ftd"
+[1;32mINFO    [0m get_file [ 22.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/discussions.ftd"
+[1;32mINFO    [0m get_file [ 34.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh/auto.sh"
+[1;32mINFO    [0m get_file [ 24.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/daily-discussions.ftd"
+[1;32mINFO    [0m get_file [ 24.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sample-data.ftd"
+[1;32mINFO    [0m get_file [ 21.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-dark.png"
+[1;32mINFO    [0m get_file [ 22.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation-new.ftd"
+[1;32mINFO    [0m get_file [ 27.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tt.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/what-i-have-to-do.ftd"
+[1;32mINFO    [0m get_file [ 46.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/g"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/concepts.ftd"
+[1;32mINFO    [0m get_file [ 79.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/github-fpm-auth.ftd"
+[1;32mINFO    [0m get_file [ 27.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/health.ftd"
+[1;32mINFO    [0m get_file [ 19.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/rules.ftd"
+[1;32mINFO    [0m get_file [ 113µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/git-commands.ftd"
+[1;32mINFO    [0m get_file [ 38.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls/random.ftd"
+[1;32mINFO    [0m get_file [ 21.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry.ftd"
+[1;32mINFO    [0m get_file [ 20.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs"
+[1;32mINFO    [0m get_file [ 22.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/README.md"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech.ftd"
+[1;32mINFO    [0m get_file [ 37.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todos.ftd"
+[1;32mINFO    [0m get_file [ 18.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/now.ftd"
+[1;32mINFO    [0m get_file [ 23.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til/index.ftd"
+[1;32mINFO    [0m get_file [ 37.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth/OAuth-2-Flow.png"
+[1;32mINFO    [0m get_file [ 22.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/wasm.ftd"
+[1;32mINFO    [0m get_file [ 24.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/my_definitions.txt"
+[1;32mINFO    [0m get_file [ 36.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/arrow.svg"
+[1;32mINFO    [0m get_file [ 29.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt/JWT.png"
+[1;32mINFO    [0m get_file [ 36.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/arpita.ftd"
+[1;32mINFO    [0m get_file [ 29.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/giggle.png"
+[1;32mINFO    [0m get_file [ 20.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/index.ftd"
+[1;32mINFO    [0m get_file [ 24.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-controller-to-rust.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/payment.ftd"
+[1;32mINFO    [0m get_file [ 44.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/temp.ftd"
+[1;32mINFO    [0m get_file [ 25.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/ftd-grammar.ftd"
+[1;32mINFO    [0m get_file [ 62.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/workshop.ftd"
+[1;32mINFO    [0m get_file [ 26.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/goa-plan.ftd"
+[1;32mINFO    [0m get_file [ 27.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/todo.ftd"
+[1;32mINFO    [0m get_file [ 33.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/colleagues.ftd"
+[1;32mINFO    [0m get_file [ 24.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/t.ftd"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/endpoint-discussion.ftd"
+[1;32mINFO    [0m get_file [ 23.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/weekends.ftd"
+[1;32mINFO    [0m get_file [ 1.06ms | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile-new.jpg"
+[1;32mINFO    [0m get_file [ 35.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/october-2022.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/aug-2022.ftd"
+[1;32mINFO    [0m get_file [ 37.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile.jpeg"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-apps.ftd"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts/index.ftd"
+[1;32mINFO    [0m get_file [ 23.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/discussion.ftd"
+[1;32mINFO    [0m get_file [ 126µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/sep-2022.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/learning.ftd"
+[1;32mINFO    [0m get_file [ 94.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm.ftd"
+[1;32mINFO    [0m get_file [ 22.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/end-point.ftd"
+[1;32mINFO    [0m get_file [ 21.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fifthtry-track.ftd"
+[1;32mINFO    [0m get_file [ 23.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-apps-ideas.ftd"
+[1;32mINFO    [0m get_file [ 48.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-controller.ftd"
+[1;32mINFO    [0m get_file [ 22.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/amitu.ftd"
+[1;32mINFO    [0m get_file [ 24.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/auth.ftd"
+[1;32mINFO    [0m get_file [ 47.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/discussion.ftd"
+[1;32mINFO    [0m get_file [ 28.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/marketing.ftd"
+[1;32mINFO    [0m get_file [ 27.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/github-integration.ftd"
+[1;32mINFO    [0m get_file [ 79.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/observer-discussion.ftd"
+[1;32mINFO    [0m get_file [ 27.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/discord-integration.ftd"
+[1;32mINFO    [0m get_file [ 30.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/26-dec-linkedin.ftd"
+[1;32mINFO    [0m get_file [ 71.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/toml.ftd"
+[1;32mINFO    [0m get_file [ 23.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/about.ftd"
+[1;32mINFO    [0m get_file [ 39.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts/download-songs.sh"
+[1;32mINFO    [0m get_file [ 115µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/about-ftd.ftd"
+[1;32mINFO    [0m get_file [ 30.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/yuhoo.svg"
+[1;32mINFO    [0m get_file [ 23.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/thoughts.ftd"
+[1;32mINFO    [0m get_file [ 23.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/command.sh"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/self-improvement.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/index.ftd"
+[1;32mINFO    [0m get_file [ 26.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/wilderbit-admins.ftd"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/abrark-fans.ftd"
+[1;32mINFO    [0m get_file [ 22.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/index.ftd"
+[1;32mINFO    [0m get_file [ 21.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/oauth.ftd"
+[1;32mINFO    [0m get_file [ 29.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/admin-fans.ftd"
+[1;32mINFO    [0m get_file [ 38.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust/utils.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm/index.ftd"
+[1;32mINFO    [0m get_file [ 22.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/listening.ftd"
+[1;32mINFO    [0m get_file [ 77.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/jwt.ftd"
+[1;32mINFO    [0m get_file [ 22.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/dhayan.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/be-responsible.ftd"
+[1;32mINFO    [0m get_file [ 43.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/words.ftd"
+[1;32mINFO    [0m get_file [ 20.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/wilderbit.ftd"
+[1;32mINFO    [0m get_file [ 23.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho.ftd"
+[1;32mINFO    [0m get_file [ 19.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/stories.ftd"
+[1;32mINFO    [0m get_file [ 21.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/cargo.ftd"
+[1;32mINFO    [0m get_file [ 40.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/index.ftd"
+[1;32mINFO    [0m get_file [ 21.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/articles.ftd"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-discussion.ftd"
+[1;32mINFO    [0m get_file [ 31.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random-urls.ftd"
+[1;32mINFO    [0m get_file [ 19.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/things-i-do.ftd"
+[1;32mINFO    [0m get_file [ 26.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network/internet.ftd"
+[1;32mINFO    [0m get_file [ 19.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry-things.ftd"
+[1;32mINFO    [0m get_file [ 41.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex/index.ftd"
+[1;32mINFO    [0m get_file [ 21.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd.png"
+[1;32mINFO    [0m get_file [ 24.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test/index.ftd"
+[1;32mINFO    [0m get_file [ 39.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/index.ftd"
+[1;32mINFO    [0m get_file [ 16.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/FPM.ftd"
+[1;32mINFO    [0m get_file [ 19.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/read-concepts.ftd"
+[1;32mINFO    [0m get_file [ 19.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/words.ftd"
+[1;32mINFO    [0m get_file [ 20.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/second.ftd"
+[1;32mINFO    [0m get_file [ 17.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random.ftd"
+[1;32mINFO    [0m get_file [ 19.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/quotes.ftd"
+[1;32mINFO    [0m get_file [ 23.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/first.ftd"
+[1;32mINFO    [0m get_file [ 17.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/commands.ftd"
+Config::read() in 139.060625ms
+parser2 in 494.26425ms
+to_rt() in 47.468041ms
+replace_markers in 2.487041ms
+GET / in 686.844041ms
+[1;32mINFO    [0m route [ 528ms | 0.02% / 100.00% ]
+[1;32mINFO    [0m ┝━ ｉ [info]:  | http.uri: "/" | http.method: "GET"
+[1;32mINFO    [0m ┕━ serve [ 528ms | 0.04% / 99.98% ]
+[1;32mINFO    [0m    ┝━ read [ 9.52ms | 1.57% / 1.80% ]
+[1;32mINFO    [0m    │  ┝━ resolve_package [ 1.23ms | 0.23% ]
+[1;32mINFO    [0m    │  │  ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    │  ┕━ resolve_package [ 2.46µs | 0.00% ]
+[1;32mINFO    [0m    │     ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    ┕━ serve_file [ 518ms | 88.89% / 98.14% ]
+[1;32mINFO    [0m       ┝━ get_file_and_package_by_id [ 120µs | 0.00% / 0.02% ]
+[1;32mINFO    [0m       │  ┝━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       │  ┝━ get_mountpoint_sanitized_path [ 2.75µs | 0.00% ]
+[1;32mINFO    [0m       │  │  ┕━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       │  ┝━ resolve_document [ 4.29µs | 0.00% ]
+[1;32mINFO    [0m       │  │  ┕━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       │  ┝━ get_file_path_and_resolve [ 62.8µs | 0.00% / 0.01% ]
+[1;32mINFO    [0m       │  │  ┝━ ｉ [info]:  | id: "/"
+[1;32mINFO    [0m       │  │  ┕━ get_file_and_resolve [ 59.4µs | 0.01% / 0.01% ]
+[1;32mINFO    [0m       │  │     ┝━ find_package_by_id [ 15.3µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  │     │  ┝━ ｉ [info]:  | id: "/"
+[1;32mINFO    [0m       │  │     │  ┕━ get_mountpoint_sanitized_path [ 458ns | 0.00% ]
+[1;32mINFO    [0m       │  │     │     ┕━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       │  │     ┝━ resolve_package [ 3.88µs | 0.00% ]
+[1;32mINFO    [0m       │  │     │  ┕━ ｉ [info]:  | package: "abrark.com"
+[1;32mINFO    [0m       │  │     ┕━ resolve_by_id [ 13.6µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  │        ┕━ fs_fetch_by_id [ 10.7µs | 0.00% ]
+[1;32mINFO    [0m       │  ┝━ find_package_by_id [ 9.29µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  │  ┝━ ｉ [info]:  | id: "/"
+[1;32mINFO    [0m       │  │  ┕━ get_mountpoint_sanitized_path [ 916ns | 0.00% ]
+[1;32mINFO    [0m       │  │     ┕━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       │  ┕━ get_file [ 27.2µs | 0.01% ]
+[1;32mINFO    [0m       │     ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/index.ftd"
+[1;32mINFO    [0m       ┝━ get_mountpoint_sanitized_path [ 750ns | 0.00% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | path: "/"
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.30ms | 0.25% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/doc-site"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 11.6µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 8.25µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 2.31ms | 0.44% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/typography"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 25.7µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 19.6µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.21ms | 0.23% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/package-doc"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 13.6µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 11.1µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 7.62µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 6.04µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 21.5µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 17.1µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 20.8µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 16.9µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 9.17µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 6.87µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 28.0µs | 0.00% / 0.01% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 21.1µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 176µs | 0.00% / 0.03% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 171µs | 0.03% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 18.8µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 15.0µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 32.7µs | 0.00% / 0.01% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 25.6µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 2.50ms | 0.47% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/code-block"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 21.7µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 18.0µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 4.03ms | 0.76% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/header"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 33.2µs | 0.00% / 0.01% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 26.9µs | 0.01% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.38ms | 0.26% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/dark-mode-switcher"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 14.3µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 11.3µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.76ms | 0.33% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/language-switcher"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 24.0µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 17.1µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.39ms | 0.26% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/product-switcher"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 31.0µs | 0.00% / 0.01% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 21.8µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 11.4ms | 2.16% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/inter"
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.23ms | 0.23% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/toc"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 10.5µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 8.08µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 18.5ms | 3.50% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/roboto-mono"
+[1;32mINFO    [0m       ┝━ resolve_by_id [ 22.2µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m       │  ┕━ fs_fetch_by_id [ 17.1µs | 0.00% ]
+[1;32mINFO    [0m       ┝━ resolve_package [ 1.21ms | 0.23% ]
+[1;32mINFO    [0m       │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/app-switcher"
+[1;32mINFO    [0m       ┕━ resolve_by_id [ 6.87µs | 0.00% / 0.00% ]
+[1;32mINFO    [0m          ┕━ fs_fetch_by_id [ 5.42µs | 0.00% ]
+GET /-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg started
+[1;32mINFO    [0m get_file [ 7.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark"
+[1;32mINFO    [0m get_file [ 4.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs"
+[1;32mINFO    [0m get_file [ 4.25µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust"
+[1;32mINFO    [0m get_file [ 4.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker"
+[1;32mINFO    [0m get_file [ 4.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn"
+[1;32mINFO    [0m get_file [ 3.96µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python"
+[1;32mINFO    [0m get_file [ 31.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sorry.ftd"
+[1;32mINFO    [0m get_file [ 4.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry"
+[1;32mINFO    [0m get_file [ 5.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc"
+[1;32mINFO    [0m get_file [ 7.12µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh"
+[1;32mINFO    [0m get_file [ 4.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu"
+[1;32mINFO    [0m get_file [ 22.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ideas.ftd"
+[1;32mINFO    [0m get_file [ 4.50µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search"
+[1;32mINFO    [0m get_file [ 6.54µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls"
+[1;32mINFO    [0m get_file [ 4.38µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static"
+[1;32mINFO    [0m get_file [ 4.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt"
+[1;32mINFO    [0m get_file [ 5.12µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth"
+[1;32mINFO    [0m get_file [ 5.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images"
+[1;32mINFO    [0m get_file [ 5.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work"
+[1;32mINFO    [0m get_file [ 23.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/todo.ftd"
+[1;32mINFO    [0m get_file [ 6.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022"
+[1;32mINFO    [0m get_file [ 6.17µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts"
+[1;32mINFO    [0m get_file [ 5.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022"
+[1;32mINFO    [0m get_file [ 29.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs.txt"
+[1;32mINFO    [0m get_file [ 5.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin"
+[1;32mINFO    [0m get_file [ 5.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev"
+[1;32mINFO    [0m get_file [ 5.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11"
+[1;32mINFO    [0m get_file [ 5.17µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust"
+[1;32mINFO    [0m get_file [ 4.83µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm"
+[1;32mINFO    [0m get_file [ 5.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho"
+[1;32mINFO    [0m get_file [ 21.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/questions.ftd"
+[1;32mINFO    [0m get_file [ 6.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer"
+[1;32mINFO    [0m get_file [ 18.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network"
+[1;32mINFO    [0m get_file [ 5.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex"
+[1;32mINFO    [0m get_file [ 6.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech"
+[1;32mINFO    [0m get_file [ 5.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp"
+[1;32mINFO    [0m get_file [ 5.33µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test"
+[1;32mINFO    [0m get_file [ 24.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/index.ftd"
+[1;32mINFO    [0m get_file [ 28.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/reverse-proxy.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/async-await.ftd"
+[1;32mINFO    [0m get_file [ 28.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tokio.ftd"
+[1;32mINFO    [0m get_file [ 28.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tracing-logging.ftd"
+[1;32mINFO    [0m get_file [ 20.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/resume.ftd"
+[1;32mINFO    [0m get_file [ 22.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todo.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/docker-learn.ftd"
+[1;32mINFO    [0m get_file [ 28.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn/first-youtube-video.ftd"
+[1;32mINFO    [0m get_file [ 21.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/books.ftd"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/index.ftd"
+[1;32mINFO    [0m get_file [ 26.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/data-types.ftd"
+[1;32mINFO    [0m get_file [ 28.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/index.ftd"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/operators.ftd"
+[1;32mINFO    [0m get_file [ 37.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/demo.ftd"
+[1;32mINFO    [0m get_file [ 22.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/recursion.py"
+[1;32mINFO    [0m get_file [ 27.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/CNAME"
+[1;32mINFO    [0m get_file [ 22.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/teaching.ftd"
+[1;32mINFO    [0m get_file [ 22.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/github.ftd"
+[1;32mINFO    [0m get_file [ 26.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/index.ftd"
+[1;32mINFO    [0m get_file [ 41.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/person.ftd"
+[1;32mINFO    [0m get_file [ 33.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/apps.ftd"
+[1;32mINFO    [0m get_file [ 28.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/index.ftd"
+[1;32mINFO    [0m get_file [ 32.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/document-in-sitemap.ftd"
+[1;32mINFO    [0m get_file [ 29.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/service-api.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/github-fpm-auth.ftd"
+[1;32mINFO    [0m get_file [ 40.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/dynamic-urls.ftd"
+[1;32mINFO    [0m get_file [ 21.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/heroku.ftd"
+[1;32mINFO    [0m get_file [ 21.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/health.ftd"
+[1;32mINFO    [0m get_file [ 21.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tt.ftd"
+[1;32mINFO    [0m get_file [ 31.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh/auto.sh"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/discussions.ftd"
+[1;32mINFO    [0m get_file [ 23.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/september-2022.ftd"
+[1;32mINFO    [0m get_file [ 25.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/daily-discussions.ftd"
+[1;32mINFO    [0m get_file [ 24.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/27-08-2022.ftd"
+[1;32mINFO    [0m get_file [ 21.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation-new.ftd"
+[1;32mINFO    [0m get_file [ 20.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/g"
+[1;32mINFO    [0m get_file [ 23.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/lessons.ftd"
+[1;32mINFO    [0m get_file [ 22.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-dark.png"
+[1;32mINFO    [0m get_file [ 21.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sample-data.ftd"
+[1;32mINFO    [0m get_file [ 21.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/git-commands.ftd"
+[1;32mINFO    [0m get_file [ 21.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/what-i-have-to-do.ftd"
+[1;32mINFO    [0m get_file [ 23.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/concepts.ftd"
+[1;32mINFO    [0m get_file [ 20.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/rules.ftd"
+[1;32mINFO    [0m get_file [ 21.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/README.md"
+[1;32mINFO    [0m get_file [ 28.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls/random.ftd"
+[1;32mINFO    [0m get_file [ 20.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech.ftd"
+[1;32mINFO    [0m get_file [ 21.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry.ftd"
+[1;32mINFO    [0m get_file [ 21.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs"
+[1;32mINFO    [0m get_file [ 21.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/wasm.ftd"
+[1;32mINFO    [0m get_file [ 20.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todos.ftd"
+[1;32mINFO    [0m get_file [ 19.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/now.ftd"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til/index.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/my_definitions.txt"
+[1;32mINFO    [0m get_file [ 29.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt/JWT.png"
+[1;32mINFO    [0m get_file [ 43.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth/OAuth-2-Flow.png"
+[1;32mINFO    [0m get_file [ 32.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile.jpeg"
+[1;32mINFO    [0m get_file [ 33.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/arrow.svg"
+[1;32mINFO    [0m get_file [ 34.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile-new.jpg"
+[1;32mINFO    [0m get_file [ 22.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/t.ftd"
+[1;32mINFO    [0m get_file [ 29.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/todo.ftd"
+[1;32mINFO    [0m get_file [ 107µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/workshop.ftd"
+[1;32mINFO    [0m get_file [ 26.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/aug-2022.ftd"
+[1;32mINFO    [0m get_file [ 28.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/end-point.ftd"
+[1;32mINFO    [0m get_file [ 28.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/discussion.ftd"
+[1;32mINFO    [0m get_file [ 25.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/index.ftd"
+[1;32mINFO    [0m get_file [ 28.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fifthtry-track.ftd"
+[1;32mINFO    [0m get_file [ 26.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-controller-to-rust.ftd"
+[1;32mINFO    [0m get_file [ 49.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-apps-ideas.ftd"
+[1;32mINFO    [0m get_file [ 43.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/ftd-grammar.ftd"
+[1;32mINFO    [0m get_file [ 35.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-apps.ftd"
+[1;32mINFO    [0m get_file [ 32.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/amitu.ftd"
+[1;32mINFO    [0m get_file [ 30.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/payment.ftd"
+[1;32mINFO    [0m get_file [ 29.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 33.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/giggle.png"
+[1;32mINFO    [0m get_file [ 31.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/endpoint-discussion.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/goa-plan.ftd"
+[1;32mINFO    [0m get_file [ 29.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/learning.ftd"
+[1;32mINFO    [0m get_file [ 29.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/auth.ftd"
+[1;32mINFO    [0m get_file [ 31.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-controller.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 31.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/temp.ftd"
+[1;32mINFO    [0m get_file [ 30.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/arpita.ftd"
+[1;32mINFO    [0m get_file [ 46.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/colleagues.ftd"
+[1;32mINFO    [0m get_file [ 28.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/weekends.ftd"
+[1;32mINFO    [0m get_file [ 28.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/marketing.ftd"
+[1;32mINFO    [0m get_file [ 38.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts/index.ftd"
+[1;32mINFO    [0m get_file [ 26.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/october-2022.ftd"
+[1;32mINFO    [0m get_file [ 26.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/sep-2022.ftd"
+[1;32mINFO    [0m get_file [ 30.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/discussion.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 31.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/observer-discussion.ftd"
+[1;32mINFO    [0m get_file [ 30.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/26-dec-linkedin.ftd"
+[1;32mINFO    [0m get_file [ 29.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/github-integration.ftd"
+[1;32mINFO    [0m get_file [ 31.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/about-ftd.ftd"
+[1;32mINFO    [0m get_file [ 21.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/toml.ftd"
+[1;32mINFO    [0m get_file [ 29.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/discord-integration.ftd"
+[1;32mINFO    [0m get_file [ 30.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts/download-songs.sh"
+[1;32mINFO    [0m get_file [ 23.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/about.ftd"
+[1;32mINFO    [0m get_file [ 22.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/self-improvement.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/yuhoo.svg"
+[1;32mINFO    [0m get_file [ 23.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/command.sh"
+[1;32mINFO    [0m get_file [ 23.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/thoughts.ftd"
+[1;32mINFO    [0m get_file [ 30.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/wilderbit-admins.ftd"
+[1;32mINFO    [0m get_file [ 29.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/index.ftd"
+[1;32mINFO    [0m get_file [ 29.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/admin-fans.ftd"
+[1;32mINFO    [0m get_file [ 28.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/abrark-fans.ftd"
+[1;32mINFO    [0m get_file [ 25.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/oauth.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/index.ftd"
+[1;32mINFO    [0m get_file [ 27.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust/utils.ftd"
+[1;32mINFO    [0m get_file [ 27.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm/index.ftd"
+[1;32mINFO    [0m get_file [ 25.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/jwt.ftd"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/wilderbit.ftd"
+[1;32mINFO    [0m get_file [ 22.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/stories.ftd"
+[1;32mINFO    [0m get_file [ 25.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/dhayan.ftd"
+[1;32mINFO    [0m get_file [ 26.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/listening.ftd"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/index.ftd"
+[1;32mINFO    [0m get_file [ 26.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/be-responsible.ftd"
+[1;32mINFO    [0m get_file [ 22.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho.ftd"
+[1;32mINFO    [0m get_file [ 24.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/words.ftd"
+[1;32mINFO    [0m get_file [ 23.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/cargo.ftd"
+[1;32mINFO    [0m get_file [ 20.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random-urls.ftd"
+[1;32mINFO    [0m get_file [ 20.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/things-i-do.ftd"
+[1;32mINFO    [0m get_file [ 437µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/articles.ftd"
+[1;32mINFO    [0m get_file [ 33.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-discussion.ftd"
+[1;32mINFO    [0m get_file [ 41.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network/internet.ftd"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry-things.ftd"
+[1;32mINFO    [0m get_file [ 47.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd.png"
+[1;32mINFO    [0m get_file [ 36.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex/index.ftd"
+[1;32mINFO    [0m get_file [ 28.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/index.ftd"
+[1;32mINFO    [0m get_file [ 26.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/first.ftd"
+[1;32mINFO    [0m get_file [ 25.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/second.ftd"
+[1;32mINFO    [0m get_file [ 38.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test/index.ftd"
+[1;32mINFO    [0m get_file [ 30.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/index.ftd"
+[1;32mINFO    [0m get_file [ 22.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/words.ftd"
+[1;32mINFO    [0m get_file [ 36.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/commands.ftd"
+[1;32mINFO    [0m get_file [ 26.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/FPM.ftd"
+[1;32mINFO    [0m get_file [ 24.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/quotes.ftd"
+[1;32mINFO    [0m get_file [ 23.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/read-concepts.ftd"
+[1;32mINFO    [0m get_file [ 22.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random.ftd"
+GET /-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg in 21.559791ms
+[1;32mINFO    [0m route [ 11.4ms | 0.35% / 100.00% ]
+[1;32mINFO    [0m ┝━ ｉ [info]:  | http.uri: "/-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg" | http.method: "GET"
+[1;32mINFO    [0m ┕━ serve [ 11.4ms | 0.68% / 99.65% ]
+[1;32mINFO    [0m    ┝━ read [ 9.77ms | 72.55% / 85.47% ]
+[1;32mINFO    [0m    │  ┝━ resolve_package [ 1.47ms | 12.89% ]
+[1;32mINFO    [0m    │  │  ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    │  ┕━ resolve_package [ 3.88µs | 0.03% ]
+[1;32mINFO    [0m    │     ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    ┕━ serve_file [ 1.54ms | 0.09% / 13.50% ]
+[1;32mINFO    [0m       ┕━ get_file_and_package_by_id [ 1.53ms | 0.09% / 13.41% ]
+[1;32mINFO    [0m          ┝━ ｉ [info]:  | path: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          ┝━ get_file_path_and_resolve [ 1.45ms | 0.03% / 12.67% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          │  ┕━ get_file_and_resolve [ 1.44ms | 0.12% / 12.64% ]
+[1;32mINFO    [0m          │     ┝━ find_package_by_id [ 1.42ms | 12.39% / 12.40% ]
+[1;32mINFO    [0m          │     │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          │     │  ┕━ get_mountpoint_sanitized_path [ 1.92µs | 0.02% ]
+[1;32mINFO    [0m          │     │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          │     ┝━ resolve_package [ 3.00µs | 0.03% ]
+[1;32mINFO    [0m          │     │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/app-switcher"
+[1;32mINFO    [0m          │     ┕━ resolve_by_id [ 10.2µs | 0.02% / 0.09% ]
+[1;32mINFO    [0m          │        ┕━ fs_fetch_by_id [ 7.62µs | 0.07% ]
+[1;32mINFO    [0m          ┝━ find_package_by_id [ 8.38µs | 0.05% / 0.07% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          │  ┕━ get_mountpoint_sanitized_path [ 2.29µs | 0.02% ]
+[1;32mINFO    [0m          │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/app-switcher/images/app-switcher-mobile.svg"
+[1;32mINFO    [0m          ┕━ get_file [ 66.9µs | 0.58% ]
+[1;32mINFO    [0m             ┕━ ｉ [info]:  | package: "fifthtry.github.io/app-switcher" | doc_path: "/Users/wilderbit/github/abrark/.packages/fifthtry.github.io/app-switcher//images/app-switcher-mobile.svg"
+GET /-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2 started
+GET /-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2 started
+[1;32mINFO    [0m get_file [ 8.79µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark"
+[1;32mINFO    [0m get_file [ 9.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark"
+[1;32mINFO    [0m get_file [ 33.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sorry.ftd"
+[1;32mINFO    [0m get_file [ 5.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs"
+[1;32mINFO    [0m get_file [ 5.96µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs"
+[1;32mINFO    [0m get_file [ 7.79µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust"
+[1;32mINFO    [0m get_file [ 5.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust"
+[1;32mINFO    [0m get_file [ 6.42µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker"
+[1;32mINFO    [0m get_file [ 4.79µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker"
+[1;32mINFO    [0m get_file [ 6.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn"
+[1;32mINFO    [0m get_file [ 5.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn"
+[1;32mINFO    [0m get_file [ 5.38µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python"
+[1;32mINFO    [0m get_file [ 5.21µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python"
+[1;32mINFO    [0m get_file [ 34.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sorry.ftd"
+[1;32mINFO    [0m get_file [ 6.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry"
+[1;32mINFO    [0m get_file [ 4.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs.txt"
+[1;32mINFO    [0m get_file [ 8.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test"
+[1;32mINFO    [0m get_file [ 5.12µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test"
+[1;32mINFO    [0m get_file [ 6.29µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc"
+[1;32mINFO    [0m get_file [ 5.29µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh"
+[1;32mINFO    [0m get_file [ 5.25µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc"
+[1;32mINFO    [0m get_file [ 5.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu"
+[1;32mINFO    [0m get_file [ 4.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu"
+[1;32mINFO    [0m get_file [ 32.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ideas.ftd"
+[1;32mINFO    [0m get_file [ 7.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search"
+[1;32mINFO    [0m get_file [ 54.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ideas.ftd"
+[1;32mINFO    [0m get_file [ 4.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls"
+[1;32mINFO    [0m get_file [ 4.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search"
+[1;32mINFO    [0m get_file [ 6.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls"
+[1;32mINFO    [0m get_file [ 6.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til"
+[1;32mINFO    [0m get_file [ 6.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til"
+[1;32mINFO    [0m get_file [ 5.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static"
+[1;32mINFO    [0m get_file [ 6.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static"
+[1;32mINFO    [0m get_file [ 6.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt"
+[1;32mINFO    [0m get_file [ 6.42µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt"
+[1;32mINFO    [0m get_file [ 4.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth"
+[1;32mINFO    [0m get_file [ 4.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images"
+[1;32mINFO    [0m get_file [ 6.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images"
+[1;32mINFO    [0m get_file [ 5.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work"
+[1;32mINFO    [0m get_file [ 6.71µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work"
+[1;32mINFO    [0m get_file [ 30.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/todo.ftd"
+[1;32mINFO    [0m get_file [ 46.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/todo.ftd"
+[1;32mINFO    [0m get_file [ 5.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022"
+[1;32mINFO    [0m get_file [ 7.50µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022"
+[1;32mINFO    [0m get_file [ 6.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts"
+[1;32mINFO    [0m get_file [ 5.25µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts"
+[1;32mINFO    [0m get_file [ 6.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022"
+[1;32mINFO    [0m get_file [ 6.54µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs.txt"
+[1;32mINFO    [0m get_file [ 5.83µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin"
+[1;32mINFO    [0m get_file [ 5.17µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin"
+[1;32mINFO    [0m get_file [ 27.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/questions.ftd"
+[1;32mINFO    [0m get_file [ 5.79µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts"
+[1;32mINFO    [0m get_file [ 5.04µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts"
+[1;32mINFO    [0m get_file [ 5.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev"
+[1;32mINFO    [0m get_file [ 6.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev"
+[1;32mINFO    [0m get_file [ 6.58µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11"
+[1;32mINFO    [0m get_file [ 5.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11"
+[1;32mINFO    [0m get_file [ 5.00µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust"
+[1;32mINFO    [0m get_file [ 5.29µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust"
+[1;32mINFO    [0m get_file [ 4.96µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm"
+[1;32mINFO    [0m get_file [ 4.75µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm"
+[1;32mINFO    [0m get_file [ 4.71µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho"
+[1;32mINFO    [0m get_file [ 4.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/questions.ftd"
+[1;32mINFO    [0m get_file [ 36.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/index.ftd"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer"
+[1;32mINFO    [0m get_file [ 4.92µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer"
+[1;32mINFO    [0m get_file [ 5.38µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network"
+[1;32mINFO    [0m get_file [ 4.88µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex"
+[1;32mINFO    [0m get_file [ 5.08µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex"
+[1;32mINFO    [0m get_file [ 4.67µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech"
+[1;32mINFO    [0m get_file [ 4.62µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech"
+[1;32mINFO    [0m get_file [ 4.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp"
+[1;32mINFO    [0m get_file [ 4.71µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp"
+[1;32mINFO    [0m get_file [ 4.83µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test"
+[1;32mINFO    [0m get_file [ 4.46µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test"
+[1;32mINFO    [0m get_file [ 36.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/index.ftd"
+[1;32mINFO    [0m get_file [ 41.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/reverse-proxy.ftd"
+[1;32mINFO    [0m get_file [ 93.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/docker-learn.ftd"
+[1;32mINFO    [0m get_file [ 42.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tokio.ftd"
+[1;32mINFO    [0m get_file [ 46.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/async-await.ftd"
+[1;32mINFO    [0m get_file [ 42.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tracing-logging.ftd"
+[1;32mINFO    [0m get_file [ 36.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todo.ftd"
+[1;32mINFO    [0m get_file [ 33.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/resume.ftd"
+[1;32mINFO    [0m get_file [ 39.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn/first-youtube-video.ftd"
+[1;32mINFO    [0m get_file [ 41.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/reverse-proxy.ftd"
+[1;32mINFO    [0m get_file [ 41.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/index.ftd"
+[1;32mINFO    [0m get_file [ 73.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tokio.ftd"
+[1;32mINFO    [0m get_file [ 36.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/books.ftd"
+[1;32mINFO    [0m get_file [ 46.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/async-await.ftd"
+[1;32mINFO    [0m get_file [ 38.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/demo.ftd"
+[1;32mINFO    [0m get_file [ 40.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/blogs/rust/tracing-logging.ftd"
+[1;32mINFO    [0m get_file [ 38.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/index.ftd"
+[1;32mINFO    [0m get_file [ 35.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/resume.ftd"
+[1;32mINFO    [0m get_file [ 34.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/data-types.ftd"
+[1;32mINFO    [0m get_file [ 28.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/operators.ftd"
+[1;32mINFO    [0m get_file [ 43.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/recursion.py"
+[1;32mINFO    [0m get_file [ 32.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation.ftd"
+[1;32mINFO    [0m get_file [ 40.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/github.ftd"
+[1;32mINFO    [0m get_file [ 43.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/teaching.ftd"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/CNAME"
+[1;32mINFO    [0m get_file [ 25.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/index.ftd"
+[1;32mINFO    [0m get_file [ 24.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/person.ftd"
+[1;32mINFO    [0m get_file [ 37.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/document-in-sitemap.ftd"
+[1;32mINFO    [0m get_file [ 31.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 38.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/index.ftd"
+[1;32mINFO    [0m get_file [ 32.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/apps.ftd"
+[1;32mINFO    [0m get_file [ 32.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todo.ftd"
+[1;32mINFO    [0m get_file [ 37.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/dynamic-urls.ftd"
+[1;32mINFO    [0m get_file [ 43.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/service-api.ftd"
+[1;32mINFO    [0m get_file [ 35.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/docker-learn.ftd"
+[1;32mINFO    [0m get_file [ 34.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/github-fpm-auth.ftd"
+[1;32mINFO    [0m get_file [ 31.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/learn/first-youtube-video.ftd"
+[1;32mINFO    [0m get_file [ 32.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/health.ftd"
+[1;32mINFO    [0m get_file [ 30.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/docker/index.ftd"
+[1;32mINFO    [0m get_file [ 27.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/heroku.ftd"
+[1;32mINFO    [0m get_file [ 29.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/books.ftd"
+[1;32mINFO    [0m get_file [ 29.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tt.ftd"
+[1;32mINFO    [0m get_file [ 34.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh/auto.sh"
+[1;32mINFO    [0m get_file [ 27.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/daily-discussions.ftd"
+[1;32mINFO    [0m get_file [ 28.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/27-08-2022.ftd"
+[1;32mINFO    [0m get_file [ 33.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/demo.ftd"
+[1;32mINFO    [0m get_file [ 31.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/september-2022.ftd"
+[1;32mINFO    [0m get_file [ 36.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/index.ftd"
+[1;32mINFO    [0m get_file [ 27.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/discussions.ftd"
+[1;32mINFO    [0m get_file [ 38.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/data-types.ftd"
+[1;32mINFO    [0m get_file [ 31.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-dark.png"
+[1;32mINFO    [0m get_file [ 36.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/operators.ftd"
+[1;32mINFO    [0m get_file [ 43.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/lessons.ftd"
+[1;32mINFO    [0m get_file [ 27.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation.ftd"
+[1;32mINFO    [0m get_file [ 42.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sample-data.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/github.ftd"
+[1;32mINFO    [0m get_file [ 36.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/what-i-have-to-do.ftd"
+[1;32mINFO    [0m get_file [ 30.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation-new.ftd"
+[1;32mINFO    [0m get_file [ 27.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/teaching.ftd"
+[1;32mINFO    [0m get_file [ 37.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/git-commands.ftd"
+[1;32mINFO    [0m get_file [ 33.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/python/recursion.py"
+[1;32mINFO    [0m get_file [ 31.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/concepts.ftd"
+[1;32mINFO    [0m get_file [ 26.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/CNAME"
+[1;32mINFO    [0m get_file [ 28.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/g"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/rules.ftd"
+[1;32mINFO    [0m get_file [ 28.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls/random.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/index.ftd"
+[1;32mINFO    [0m get_file [ 76.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/person.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/README.md"
+[1;32mINFO    [0m get_file [ 44.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 48.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry.ftd"
+[1;32mINFO    [0m get_file [ 41.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/document-in-sitemap.ftd"
+[1;32mINFO    [0m get_file [ 61.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech.ftd"
+[1;32mINFO    [0m get_file [ 41.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/index.ftd"
+[1;32mINFO    [0m get_file [ 31.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs"
+[1;32mINFO    [0m get_file [ 33.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/apps.ftd"
+[1;32mINFO    [0m get_file [ 32.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/wasm.ftd"
+[1;32mINFO    [0m get_file [ 43.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/service-api.ftd"
+[1;32mINFO    [0m get_file [ 39.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todos.ftd"
+[1;32mINFO    [0m get_file [ 40.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/test/dynamic-urls.ftd"
+[1;32mINFO    [0m get_file [ 33.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/now.ftd"
+[1;32mINFO    [0m get_file [ 27.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/heroku.ftd"
+[1;32mINFO    [0m get_file [ 27.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til/index.ftd"
+[1;32mINFO    [0m get_file [ 37.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry/github-fpm-auth.ftd"
+[1;32mINFO    [0m get_file [ 34.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/my_definitions.txt"
+[1;32mINFO    [0m get_file [ 31.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/health.ftd"
+[1;32mINFO    [0m get_file [ 31.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tt.ftd"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/etc/zsh/auto.sh"
+[1;32mINFO    [0m get_file [ 34.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/27-08-2022.ftd"
+[1;32mINFO    [0m get_file [ 28.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/daily-discussions.ftd"
+[1;32mINFO    [0m get_file [ 34.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt/JWT.png"
+[1;32mINFO    [0m get_file [ 29.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/september-2022.ftd"
+[1;32mINFO    [0m get_file [ 39.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth/OAuth-2-Flow.png"
+[1;32mINFO    [0m get_file [ 35.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/discussions.ftd"
+[1;32mINFO    [0m get_file [ 79.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/arrow.svg"
+[1;32mINFO    [0m get_file [ 34.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/amitu/lessons.ftd"
+[1;32mINFO    [0m get_file [ 32.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/t.ftd"
+[1;32mINFO    [0m get_file [ 35.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-dark.png"
+[1;32mINFO    [0m get_file [ 37.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/todo.ftd"
+[1;32mINFO    [0m get_file [ 30.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/sample-data.ftd"
+[1;32mINFO    [0m get_file [ 39.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/workshop.ftd"
+[1;32mINFO    [0m get_file [ 46.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile.jpeg"
+[1;32mINFO    [0m get_file [ 35.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/what-i-have-to-do.ftd"
+[1;32mINFO    [0m get_file [ 76.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/discussion.ftd"
+[1;32mINFO    [0m get_file [ 34.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/presentation-new.ftd"
+[1;32mINFO    [0m get_file [ 49.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile-new.jpg"
+[1;32mINFO    [0m get_file [ 40.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/aug-2022.ftd"
+[1;32mINFO    [0m get_file [ 29.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/g"
+[1;32mINFO    [0m get_file [ 35.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/end-point.ftd"
+[1;32mINFO    [0m get_file [ 37.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/git-commands.ftd"
+[1;32mINFO    [0m get_file [ 43.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-controller-to-rust.ftd"
+[1;32mINFO    [0m get_file [ 35.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/index.ftd"
+[1;32mINFO    [0m get_file [ 39.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fifthtry-track.ftd"
+[1;32mINFO    [0m get_file [ 30.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/concepts.ftd"
+[1;32mINFO    [0m get_file [ 38.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-apps-ideas.ftd"
+[1;32mINFO    [0m get_file [ 30.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/rules.ftd"
+[1;32mINFO    [0m get_file [ 41.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/ftd-grammar.ftd"
+[1;32mINFO    [0m get_file [ 36.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/search/urls/random.ftd"
+[1;32mINFO    [0m get_file [ 229µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-apps.ftd"
+[1;32mINFO    [0m get_file [ 37.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/README.md"
+[1;32mINFO    [0m get_file [ 49.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/amitu.ftd"
+[1;32mINFO    [0m get_file [ 25.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry.ftd"
+[1;32mINFO    [0m get_file [ 38.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/payment.ftd"
+[1;32mINFO    [0m get_file [ 34.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech.ftd"
+[1;32mINFO    [0m get_file [ 44.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 31.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/logs"
+[1;32mINFO    [0m get_file [ 46.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-controller.ftd"
+[1;32mINFO    [0m get_file [ 28.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/wasm.ftd"
+[1;32mINFO    [0m get_file [ 43.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 41.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/giggle.png"
+[1;32mINFO    [0m get_file [ 35.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/learning-todos.ftd"
+[1;32mINFO    [0m get_file [ 42.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/auth.ftd"
+[1;32mINFO    [0m get_file [ 42.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/goa-plan.ftd"
+[1;32mINFO    [0m get_file [ 39.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/endpoint-discussion.ftd"
+[1;32mINFO    [0m get_file [ 40.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/learning.ftd"
+[1;32mINFO    [0m get_file [ 31.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/now.ftd"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/temp.ftd"
+[1;32mINFO    [0m get_file [ 31.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/til/index.ftd"
+[1;32mINFO    [0m get_file [ 41.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/arpita.ftd"
+[1;32mINFO    [0m get_file [ 39.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/colleagues.ftd"
+[1;32mINFO    [0m get_file [ 34.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/my_definitions.txt"
+[1;32mINFO    [0m get_file [ 32.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/weekends.ftd"
+[1;32mINFO    [0m get_file [ 31.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts/index.ftd"
+[1;32mINFO    [0m get_file [ 30.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/marketing.ftd"
+[1;32mINFO    [0m get_file [ 31.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/october-2022.ftd"
+[1;32mINFO    [0m get_file [ 28.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm.ftd"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/jwt/JWT.png"
+[1;32mINFO    [0m get_file [ 40.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/sep-2022.ftd"
+[1;32mINFO    [0m get_file [ 37.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/oauth/OAuth-2-Flow.png"
+[1;32mINFO    [0m get_file [ 33.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/discussion.ftd"
+[1;32mINFO    [0m get_file [ 38.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 40.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/observer-discussion.ftd"
+[1;32mINFO    [0m get_file [ 33.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/26-dec-linkedin.ftd"
+[1;32mINFO    [0m get_file [ 37.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/github-integration.ftd"
+[1;32mINFO    [0m get_file [ 42.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/arrow.svg"
+[1;32mINFO    [0m get_file [ 48.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/about-ftd.ftd"
+[1;32mINFO    [0m get_file [ 29.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/toml.ftd"
+[1;32mINFO    [0m get_file [ 41.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/discord-integration.ftd"
+[1;32mINFO    [0m get_file [ 28.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/about.ftd"
+[1;32mINFO    [0m get_file [ 37.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts/download-songs.sh"
+[1;32mINFO    [0m get_file [ 37.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/t.ftd"
+[1;32mINFO    [0m get_file [ 30.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/yuhoo.svg"
+[1;32mINFO    [0m get_file [ 32.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/todo.ftd"
+[1;32mINFO    [0m get_file [ 30.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/self-improvement.ftd"
+[1;32mINFO    [0m get_file [ 40.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/workshop.ftd"
+[1;32mINFO    [0m get_file [ 27.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/command.sh"
+[1;32mINFO    [0m get_file [ 31.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/thoughts.ftd"
+[1;32mINFO    [0m get_file [ 30.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/wilderbit-admins.ftd"
+[1;32mINFO    [0m get_file [ 31.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/index.ftd"
+[1;32mINFO    [0m get_file [ 31.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/admin-fans.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/abrark-fans.ftd"
+[1;32mINFO    [0m get_file [ 26.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/oauth.ftd"
+[1;32mINFO    [0m get_file [ 27.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/index.ftd"
+[1;32mINFO    [0m get_file [ 30.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust/utils.ftd"
+[1;32mINFO    [0m get_file [ 44.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile.jpeg"
+[1;32mINFO    [0m get_file [ 30.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm/index.ftd"
+[1;32mINFO    [0m get_file [ 41.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/discussion.ftd"
+[1;32mINFO    [0m get_file [ 26.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/jwt.ftd"
+[1;32mINFO    [0m get_file [ 43.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/profile-new.jpg"
+[1;32mINFO    [0m get_file [ 27.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/wilderbit.ftd"
+[1;32mINFO    [0m get_file [ 44.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/aug-2022.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/stories.ftd"
+[1;32mINFO    [0m get_file [ 141µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/end-point.ftd"
+[1;32mINFO    [0m get_file [ 42.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-controller-to-rust.ftd"
+[1;32mINFO    [0m get_file [ 39.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/index.ftd"
+[1;32mINFO    [0m get_file [ 39.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fifthtry-track.ftd"
+[1;32mINFO    [0m get_file [ 41.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm-apps-ideas.ftd"
+[1;32mINFO    [0m get_file [ 35.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/static/images/giggle.png"
+[1;32mINFO    [0m get_file [ 24.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/listening.ftd"
+[1;32mINFO    [0m get_file [ 35.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/ftd-grammar.ftd"
+[1;32mINFO    [0m get_file [ 26.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/dhayan.ftd"
+[1;32mINFO    [0m get_file [ 26.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/index.ftd"
+[1;32mINFO    [0m get_file [ 27.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/be-responsible.ftd"
+[1;32mINFO    [0m get_file [ 26.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/words.ftd"
+[1;32mINFO    [0m get_file [ 24.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho.ftd"
+[1;32mINFO    [0m get_file [ 24.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/cargo.ftd"
+[1;32mINFO    [0m get_file [ 34.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/amitu.ftd"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random-urls.ftd"
+[1;32mINFO    [0m get_file [ 43.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-apps.ftd"
+[1;32mINFO    [0m get_file [ 24.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/things-i-do.ftd"
+[1;32mINFO    [0m get_file [ 53.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/payment.ftd"
+[1;32mINFO    [0m get_file [ 24.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/articles.ftd"
+[1;32mINFO    [0m get_file [ 139µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/mount-point.ftd"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-discussion.ftd"
+[1;32mINFO    [0m get_file [ 55.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/fpm-controller.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network/internet.ftd"
+[1;32mINFO    [0m get_file [ 46.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 30.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex/index.ftd"
+[1;32mINFO    [0m get_file [ 43.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/auth.ftd"
+[1;32mINFO    [0m get_file [ 24.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd.png"
+[1;32mINFO    [0m get_file [ 47.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/goa-plan.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry-things.ftd"
+[1;32mINFO    [0m get_file [ 47.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/endpoint-discussion.ftd"
+[1;32mINFO    [0m get_file [ 39.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/learning.ftd"
+[1;32mINFO    [0m get_file [ 40.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/temp.ftd"
+[1;32mINFO    [0m get_file [ 33.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/arpita.ftd"
+[1;32mINFO    [0m get_file [ 25.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/index.ftd"
+[1;32mINFO    [0m get_file [ 29.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/first.ftd"
+[1;32mINFO    [0m get_file [ 42.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/nov-2022/colleagues.ftd"
+[1;32mINFO    [0m get_file [ 26.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/second.ftd"
+[1;32mINFO    [0m get_file [ 36.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/weekends.ftd"
+[1;32mINFO    [0m get_file [ 29.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test/index.ftd"
+[1;32mINFO    [0m get_file [ 33.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/thoughts/index.ftd"
+[1;32mINFO    [0m get_file [ 27.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/index.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/words.ftd"
+[1;32mINFO    [0m get_file [ 27.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/marketing.ftd"
+[1;32mINFO    [0m get_file [ 22.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/commands.ftd"
+[1;32mINFO    [0m get_file [ 32.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/october-2022.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/FPM.ftd"
+[1;32mINFO    [0m get_file [ 35.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/fpm.ftd"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/quotes.ftd"
+[1;32mINFO    [0m get_file [ 26.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/read-concepts.ftd"
+[1;32mINFO    [0m get_file [ 36.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/sep-2022.ftd"
+[1;32mINFO    [0m get_file [ 21.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random.ftd"
+[1;32mINFO    [0m get_file [ 39.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/discussion.ftd"
+[1;32mINFO    [0m get_file [ 41.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/index.ftd"
+[1;32mINFO    [0m get_file [ 41.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/dec-2022/observer-discussion.ftd"
+[1;32mINFO    [0m get_file [ 40.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/26-dec-linkedin.ftd"
+[1;32mINFO    [0m get_file [ 40.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/github-integration.ftd"
+[1;32mINFO    [0m get_file [ 49.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/about-ftd.ftd"
+[1;32mINFO    [0m get_file [ 41.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/work/linkedin/discord-integration.ftd"
+[1;32mINFO    [0m get_file [ 32.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/toml.ftd"
+[1;32mINFO    [0m get_file [ 32.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/scripts/download-songs.sh"
+[1;32mINFO    [0m get_file [ 28.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/about.ftd"
+[1;32mINFO    [0m get_file [ 29.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/self-improvement.ftd"
+[1;32mINFO    [0m get_file [ 29.9µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/yuhoo.svg"
+[1;32mINFO    [0m get_file [ 24.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/command.sh"
+[1;32mINFO    [0m get_file [ 31.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/thoughts.ftd"
+[1;32mINFO    [0m get_file [ 33.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/wilderbit-admins.ftd"
+[1;32mINFO    [0m get_file [ 31.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/index.ftd"
+[1;32mINFO    [0m get_file [ 31.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/admin-fans.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/demo11/abrark-fans.ftd"
+[1;32mINFO    [0m get_file [ 28.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/oauth.ftd"
+[1;32mINFO    [0m get_file [ 27.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/index.ftd"
+[1;32mINFO    [0m get_file [ 32.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/rust/utils.ftd"
+[1;32mINFO    [0m get_file [ 33.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/fpm/index.ftd"
+[1;32mINFO    [0m get_file [ 31.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/jwt.ftd"
+[1;32mINFO    [0m get_file [ 31.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/dev/wilderbit.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/stories.ftd"
+[1;32mINFO    [0m get_file [ 26.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/listening.ftd"
+[1;32mINFO    [0m get_file [ 25.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/dhayan.ftd"
+[1;32mINFO    [0m get_file [ 25.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/index.ftd"
+[1;32mINFO    [0m get_file [ 26.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/be-responsible.ftd"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho/words.ftd"
+[1;32mINFO    [0m get_file [ 23.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/osho.ftd"
+[1;32mINFO    [0m get_file [ 24.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/cargo.ftd"
+[1;32mINFO    [0m get_file [ 22.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random-urls.ftd"
+[1;32mINFO    [0m get_file [ 23.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/things-i-do.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/articles.ftd"
+[1;32mINFO    [0m get_file [ 24.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd-discussion.ftd"
+[1;32mINFO    [0m get_file [ 30.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/network/internet.ftd"
+[1;32mINFO    [0m get_file [ 29.5µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/computer/regex/index.ftd"
+[1;32mINFO    [0m get_file [ 22.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/ftd.png"
+[1;32mINFO    [0m get_file [ 28.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/fifthtry-things.ftd"
+[1;32mINFO    [0m get_file [ 25.1µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/index.ftd"
+[1;32mINFO    [0m get_file [ 27.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/first.ftd"
+[1;32mINFO    [0m get_file [ 28.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tech/second.ftd"
+[1;32mINFO    [0m get_file [ 28.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/test/index.ftd"
+[1;32mINFO    [0m get_file [ 33.8µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/tmp/index.ftd"
+[1;32mINFO    [0m get_file [ 30.2µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/words.ftd"
+[1;32mINFO    [0m get_file [ 25.3µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/commands.ftd"
+[1;32mINFO    [0m get_file [ 26.4µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/FPM.ftd"
+[1;32mINFO    [0m get_file [ 25.7µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/quotes.ftd"
+[1;32mINFO    [0m get_file [ 23.6µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/read-concepts.ftd"
+[1;32mINFO    [0m get_file [ 20.0µs | 100.00% ]
+[1;32mINFO    [0m ┕━ ｉ [info]:  | package: "abrark.com" | doc_path: "/Users/wilderbit/github/abrark/random.ftd"
+GET /-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2 in 25.743708ms
+[1;32mINFO    [0m route [ 18.0ms | 0.22% / 100.00% ]
+[1;32mINFO    [0m ┝━ ｉ [info]:  | http.uri: "/-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2" | http.method: "GET"
+[1;32mINFO    [0m ┕━ serve [ 18.0ms | 0.52% / 99.78% ]
+[1;32mINFO    [0m    ┝━ read [ 6.68ms | 29.78% / 37.04% ]
+[1;32mINFO    [0m    │  ┝━ resolve_package [ 1.31ms | 7.25% ]
+[1;32mINFO    [0m    │  │  ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    │  ┕━ resolve_package [ 2.92µs | 0.02% ]
+[1;32mINFO    [0m    │     ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    ┕━ serve_file [ 11.2ms | 0.04% / 62.22% ]
+[1;32mINFO    [0m       ┕━ get_file_and_package_by_id [ 11.2ms | 0.07% / 62.18% ]
+[1;32mINFO    [0m          ┝━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          ┝━ get_file_path_and_resolve [ 11.1ms | 0.02% / 61.68% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          │  ┕━ get_file_and_resolve [ 11.1ms | 0.16% / 61.66% ]
+[1;32mINFO    [0m          │     ┝━ find_package_by_id [ 11.1ms | 61.40% / 61.41% ]
+[1;32mINFO    [0m          │     │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          │     │  ┕━ get_mountpoint_sanitized_path [ 1.79µs | 0.01% ]
+[1;32mINFO    [0m          │     │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          │     ┝━ resolve_package [ 7.62µs | 0.04% ]
+[1;32mINFO    [0m          │     │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/inter"
+[1;32mINFO    [0m          │     ┕━ resolve_by_id [ 8.71µs | 0.01% / 0.05% ]
+[1;32mINFO    [0m          │        ┕━ fs_fetch_by_id [ 6.79µs | 0.04% ]
+[1;32mINFO    [0m          ┝━ find_package_by_id [ 11.9µs | 0.06% / 0.07% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          │  ┕━ get_mountpoint_sanitized_path [ 1.83µs | 0.01% ]
+[1;32mINFO    [0m          │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-700-normal-latin.woff2"
+[1;32mINFO    [0m          ┕━ get_file [ 66.1µs | 0.37% ]
+[1;32mINFO    [0m             ┕━ ｉ [info]:  | package: "fifthtry.github.io/inter" | doc_path: "/Users/wilderbit/github/abrark/.packages/fifthtry.github.io/inter//static/Inter-700-normal-latin.woff2"
+GET /-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2 in 25.567833ms
+[1;32mINFO    [0m route [ 18.2ms | 0.40% / 100.00% ]
+[1;32mINFO    [0m ┝━ ｉ [info]:  | http.uri: "/-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2" | http.method: "GET"
+[1;32mINFO    [0m ┕━ serve [ 18.1ms | 0.96% / 99.60% ]
+[1;32mINFO    [0m    ┝━ read [ 6.70ms | 29.93% / 36.78% ]
+[1;32mINFO    [0m    │  ┝━ resolve_package [ 1.25ms | 6.84% ]
+[1;32mINFO    [0m    │  │  ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    │  ┕━ resolve_package [ 1.96µs | 0.01% ]
+[1;32mINFO    [0m    │     ┕━ ｉ [info]:  | package: "kameri-app.herokuapp.com"
+[1;32mINFO    [0m    ┕━ serve_file [ 11.3ms | 0.03% / 61.86% ]
+[1;32mINFO    [0m       ┕━ get_file_and_package_by_id [ 11.3ms | 0.06% / 61.83% ]
+[1;32mINFO    [0m          ┝━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          ┝━ get_file_path_and_resolve [ 11.2ms | 0.02% / 61.39% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          │  ┕━ get_file_and_resolve [ 11.2ms | 0.13% / 61.37% ]
+[1;32mINFO    [0m          │     ┝━ find_package_by_id [ 11.1ms | 61.17% / 61.18% ]
+[1;32mINFO    [0m          │     │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          │     │  ┕━ get_mountpoint_sanitized_path [ 1.33µs | 0.01% ]
+[1;32mINFO    [0m          │     │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          │     ┝━ resolve_package [ 6.17µs | 0.03% ]
+[1;32mINFO    [0m          │     │  ┕━ ｉ [info]:  | package: "fifthtry.github.io/inter"
+[1;32mINFO    [0m          │     ┕━ resolve_by_id [ 4.88µs | 0.01% / 0.03% ]
+[1;32mINFO    [0m          │        ┕━ fs_fetch_by_id [ 3.50µs | 0.02% ]
+[1;32mINFO    [0m          ┝━ find_package_by_id [ 10.1µs | 0.05% / 0.06% ]
+[1;32mINFO    [0m          │  ┝━ ｉ [info]:  | id: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          │  ┕━ get_mountpoint_sanitized_path [ 1.42µs | 0.01% ]
+[1;32mINFO    [0m          │     ┕━ ｉ [info]:  | path: "-/fifthtry.github.io/inter/static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m          ┕━ get_file [ 58.4µs | 0.32% ]
+[1;32mINFO    [0m             ┕━ ｉ [info]:  | package: "fifthtry.github.io/inter" | doc_path: "/Users/wilderbit/github/abrark/.packages/fifthtry.github.io/inter//static/Inter-400-normal-latin.woff2"
+[1;32mINFO    [0m ｉ [info]: SIGINT received; starting forced shutdown
+[1;32mINFO    [0m ｉ [info]: Accept thread stopped
+[1;32mINFO    [0m ｉ [info]: Force shutdown worker, closing 1 connections
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
+[1;32mINFO    [0m ｉ [info]: Force shutdown worker, closing 1 connections
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
+[1;32mINFO    [0m ｉ [info]: Shutting down idle worker
