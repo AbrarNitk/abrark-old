@@ -38,6 +38,17 @@
   - async observer using tracing library
 - problem in p1: stackoverflow problem
 
+-- ds.h2: 29 Dec Thu
+
+- I have taken second half off, So will work till 1 only
+- fpm performance and code refactor
+- Need to figure out why individual function is taking more time
+
+-- ds.h2: 28 Dec Wed
+
+- added tracing forest into fpm for logging
+- did many experiments for tracing in FPM
+
 
 -- ds.h2: 27 Dec Tue
 
