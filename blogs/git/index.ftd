@@ -1,0 +1,11 @@
+-- ds.page: `git`
+
+-- ds.h1: `git work tree`
+
+- git branch -a
+
+- git clone --bare git@github.com:AbrarNitk/git-worktree.nvim.git
+- git worktree add master
+- git worktree add readme
+- git worktree add foobarbaz
+
