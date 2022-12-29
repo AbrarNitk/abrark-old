@@ -1,0 +1,14 @@
+-- ds.page: Rust Books
+
+-- ds.h1: Rust For Rustaceans
+
+-- ds.h1: C1: Rust Programming Mindset
+
+
+-- ds.h1: Talking About Memory
+
+program have access to stack, a heap, registers, test segments, memory-mapped
+registers, memory-mapped files, and perhaps nonvolatile RAM. Which one you
+choose to you in a particular situation has implications for what you can store
+there.
+

@@ -9,3 +9,4 @@ tmp/test/*
 !tmp/test/index.ftd
 .env
 temp/
+/**/target/
