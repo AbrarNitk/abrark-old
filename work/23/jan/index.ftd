@@ -49,8 +49,14 @@
   - what to do in processor for 0.3
 
 - meeting with rithik
-  - status: pending
-  - time: 30 mins
+  - status: done
+  - time: 12:00 to 12:10
+  - meeting-points:
+  - rithik has to figured out how integrate VSCode in FPM
+  - shared some of the references with him
+  - vscode.dev, how github is doing, how stackblitz is doing
+  - https://microsoft.github.io/monaco-editor/
+  - https://github.com/microsoft/monaco-editor
 
 - meeting with wasif
   - status: pending
