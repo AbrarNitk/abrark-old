@@ -1,0 +1,53 @@
+-- ds.page: Vercel CLI
+
+Vercel gives a cli tool to manage and configure projects. Using command line
+user can interact with the Vercel platform using the terminal.
+
+- retrieve logs
+- manage certificates
+- replicate your deployment environment locally
+- manage dns records and many more
+
+-- ds.h1: Installing CLI
+
+-- ds.code: Installing CLI
+lang: sh
+
+# we can update vercel cli using the same the command
+npm i -g vercel
+# after installing check the version of the cli
+vercel --version
+
+
+-- ds.h1: Available Commands
+
+- alias
+- bisect
+- deploy
+- dev
+- build
+- certs
+- env
+- logs
+- [many](https://vercel.com/docs/cli)
+
+
+-- ds.h1: Deploying from CLI
+
+The `vercel` command is used to deploy Vercel Projects and can be used
+from either the root of the Vercel Project directory or by providing a path.
+
+-- ds.code:
+lang: sh
+
+vercel
+
+# or
+vercel [path-to-project]
+
+# when deploying stdout is always the Deplyment URL
+vercel > deployment-url.txt
+
+-- ds.h1: Deploying from local build(prebuilt)
+
+

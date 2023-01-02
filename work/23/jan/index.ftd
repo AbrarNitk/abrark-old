@@ -67,7 +67,8 @@
   - time: 30 mins
 
 - meeting with amitu
-  - status: pending
+  - time: 01:00 to
+  - status: in process
   - discussion-points:
   - any article for installer for windows, or other platforms
   - where to start and all
@@ -93,7 +94,6 @@
     - new folder or create a new package
     - we can fix all the ports
     -
-
 
 
 - meeting with ajit
