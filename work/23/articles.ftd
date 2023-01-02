@@ -1,0 +1,15 @@
+-- ds.page: Articles to Read
+
+
+-- ds.h1: 02 Dec
+
+- vercel cli deploy
+- status: pending
+  - https://vercel.com/docs/cli/deploy
+
+
+- wasm
+- https://snarky.ca/webassembly-and-its-platform-targets/
+  - status: pending
+- https://wasmer.io/posts/wasmer-takes-webassembly-libraries-manistream-with-wai
+  - status: pending

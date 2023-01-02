@@ -1,6 +1,33 @@
 -- ds.page: Work Daily Update Jan 2023
 
 
+-- ds.h1: 16th Demo Day Planning
+
+- demo day planning meeting
+  - status: done
+  - time: 11:00 to 12:00
+  - discussion-points:
+  - whatever we have, make it more solid
+  - 0.3 should be completed
+  - fpm performance
+  - 0.3 will take more of 2 days, processors are remaining
+  - project: create fpm installer
+  - if possible: brew install fpm, pip install fpm, apt-get install fpm
+  - from bowser download the installer and install the binary
+  - need to solve: fpm self update
+  - we can put fpm-controller for back now
+  - we have to focus on workshops now
+  - editor: content editor people, etc...
+  - editor: syntax highlighting for ftd etc...
+  - we can have ftd files depends on javascript
+  - we can take VSCode and integrate it with fpm editor
+  - educate people ftd
+
+- rithik will work on editor
+- abrark will be working on processor and then installer
+- wasif is working on importers
+
+
 -- ds.h1: 02 Mon
 
 - my tasks
@@ -10,21 +37,40 @@
   - explore vercel cli tool to deploy on vercel and write an article
     - link: https://vercel.com/docs/cli/deploy
 
+- fpm processors
+  - status: pending meeting with arpita
+  - different processors
+  - http, sitemap and all
+
+- meeting with arpita
+  - status: pending
+  - time: 30 mins
+  - discussion-points:
+  - what to do in processor for 0.3
 
 - meeting with rithik
   - status: pending
   - time: 30 mins
+
 - meeting with wasif
   - status: pending
   - time: 30 mins
+
 - meeting with amitu
+  - status: pending
+  - discussion-points:
+  - any article for installer for windows, or other platforms
+  - where to start and all
+  - brew installer, windows installer, yum linux installer, apt-get installer
+  - meeting-discussion:
+  - todo discussion
+
 - meeting with ajit
   - status: pending
   - time: 30 mins
   - discussion-point:
   - how can I help you? and what are you upto?
-- demo day planning meeting
-  - status: pending
-  - time: 11 to
-  - discussion-points:
 
+- 16th demo day planning meeting
+  - status: done
+  - time: 11 to 12
