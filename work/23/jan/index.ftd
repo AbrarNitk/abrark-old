@@ -73,7 +73,28 @@
   - where to start and all
   - brew installer, windows installer, yum linux installer, apt-get installer
   - meeting-discussion:
-  - todo discussion
+  - monaco is the right approach: create the html files
+  - create `.exe` file for windows
+  - have to run multiple servers
+  - or have to create multiple domains foo.local.com
+  - and then based on host reroute the requests
+  - editor also can have log viewer
+  - fpm launcher | installer
+  - fpm is equally git
+  - `fastn | fpm` desktop app
+  - launcher:
+  - all the port that starts with `:8000` api /whoami/, it will return the path and package name
+  - fpm desktop app is also running on fpm
+  - it will also install fpm-desktop app(ftd file and fpm binary) and run 5432 controller port
+  - only single instance will be run of fpm desktop
+  - launch the browser localhost:5432
+  - check how many processor are running
+  - create a new fpm server
+    - new folder or create a new package
+    - we can fix all the ports
+    -
+
+
 
 - meeting with ajit
   - status: pending
