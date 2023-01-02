@@ -42,11 +42,15 @@
   - different processors
   - http, sitemap and all
 
-- meeting with arpita
+- meeting with done
   - status: pending
-  - time: 30 mins
+  - time: 12:30 to 01:00
   - discussion-points:
   - what to do in processor for 0.3
+  - meeting-points:
+  - have to change in every processor, by passing ast::VariableValue, VariableKind
+  - arpita will give me doc.from_json function, which I have to call inside
+    from processor probably each processor.
 
 - meeting with rithik
   - status: done
