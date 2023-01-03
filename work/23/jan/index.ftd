@@ -50,13 +50,40 @@
   - explore vercel cli tool to deploy on vercel and write an article
     - link: https://vercel.com/docs/cli/deploy
 
+- meeting with rithik
+  - explore the monaco editor options
+  - we can now explore only with html
+  - later we will embed the javascript in ftd
+
 - meeting with wasif
-  - status: pending
+  - status: done 
   - time: 30 mins
+  - meetings-points:
+  - markdown has it won renderer
+  - renderer: https://github.com/rust-lang/mdBook/wiki/Third-party-plugins
+
+-- ds.code:
+lang: ftd
+
+\-- ds.page: H
+
+\-- ds.markdown:
+
+# Hey Wasif
+
+## How is it going
+
+- L1
+- L2
+- [H](/md/)
+
+
+-- ds.markdown:
 
 - meeting with arpita
-  - status: pending
+  - status: done
   - time: 30 mins
+  - discussed about new http processor error with toc item
 
 
 -- ds.h1: 02 Mon
@@ -136,3 +163,4 @@
 - 16th demo day planning meeting
   - status: done
   - time: 11 to 12
+  
