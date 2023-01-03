@@ -27,6 +27,37 @@
 - abrark will be working on processor and then installer
 - wasif is working on importers
 
+-- ds.h1: 03 Tue
+
+- fpm processors
+  - status: pending meeting with arpita
+  - different processors
+  - http, sitemap and all
+
+- create an small app in flask in python
+  - one todo app
+    - /todos/
+    - /add-todo/ -> redirected to /todos/
+  - redirect api
+  - form error handling
+  - return some json data
+  - docs: how to use this service
+
+- my tasks
+  - fpm meaningful logging
+  - fpm performance
+  - fpm code refactor accordingly
+  - explore vercel cli tool to deploy on vercel and write an article
+    - link: https://vercel.com/docs/cli/deploy
+
+- meeting with wasif
+  - status: pending
+  - time: 30 mins
+
+- meeting with arpita
+  - status: pending
+  - time: 30 mins
+
 
 -- ds.h1: 02 Mon
 
@@ -42,8 +73,8 @@
   - different processors
   - http, sitemap and all
 
-- meeting with done
-  - status: pending
+- meeting with arpita
+  - status: done
   - time: 12:30 to 01:00
   - discussion-points:
   - what to do in processor for 0.3

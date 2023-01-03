@@ -1,0 +1,35 @@
+-- import: fpm
+
+-- ds.page: How To Twitch
+
+
+-- ds.h1: How to Use Processors in FTD
+
+-- ds.markdown:
+
+- fpm as http server and runtime for ftd file
+- ftd: is programming language that interprets to JavaScript
+
+-- ds.h1: Processors
+
+- processor `http`: to call any http request from ftd file
+
+-- ds.code: How To `http` processor
+lang: ftd
+
+\-- string google-page-data:
+$processor$: http
+url: https://www.google.com
+
+
+-- record timer:
+string product:
+string init:
+
+-- timer timer-data:
+$processor$: http
+url: https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0
+
+
+-- ftd.text: $timer-data.product
+color: $fpm.color.main.background.base
