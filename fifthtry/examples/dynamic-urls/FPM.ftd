@@ -1,0 +1,11 @@
+-- import: fpm
+
+-- fpm.package: dynamic-urls
+download-base-url: dynamic-urls
+
+
+-- fpm.dynamic-urls:
+
+# Home
+  url: /<string:username>/section/<integer:age>/
+  document: fifthtry.ftd

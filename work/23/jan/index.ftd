@@ -27,7 +27,23 @@
 - abrark will be working on processor and then installer
 - wasif is working on importers
 
+-- ds.h1: 04 Wed
+
+- meeting with arpita and amitu
+  - status: done
+  - meeting-notes: nothing much discussed
+
+- dynamic-urls fixes
+  - status: in progress
+  - issue: there is some issue that dynamic urls are not working
+
+- processors
+  - have to integrate the remaining processors
+
+
 -- ds.h1: 03 Tue
+
+- fixed http-example for package endpoint
 
 - fpm processors
   - status: pending meeting with arpita
