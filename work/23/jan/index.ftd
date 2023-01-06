@@ -27,6 +27,18 @@
 - abrark will be working on processor and then installer
 - wasif is working on importers
 
+-- ds.h1: 05 Thu
+
+- dynamic-urls fixes
+  - status: done
+- sitemap error fixes
+  - status: done
+- http-examples fixes
+  - status: done
+- discussion with wasif
+  - status: done
+
+
 -- ds.h1: 04 Wed
 
 - meeting with arpita and amitu
