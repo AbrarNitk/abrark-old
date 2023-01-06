@@ -27,6 +27,27 @@
 - abrark will be working on processor and then installer
 - wasif is working on importers
 
+-- ds.h1: 06 Fri
+
+- ftd processors
+  - request-data
+  - toc
+  - full-sitemap
+  - sitemap
+  - etc..
+
+
+- meeting with wasif
+  - meeting-points:
+  - done: completed till the markdown parser
+  - pending: render ftd from markdown render
+  - pending: github discussion update
+  - pending: repo clean up
+  - pending: rust mdbook convert
+  - points:
+  - we will different issues, for image, list, and table, etc...
+  - for now we will only work for headings, para and summary to FPM.ftd file
+
 -- ds.h1: 05 Thu
 
 - dynamic-urls fixes
