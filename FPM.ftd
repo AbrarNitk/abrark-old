@@ -22,8 +22,7 @@ github-team: wilderbit/wilderbit-admins
 -- fpm.user-group: abrark-fans
 github-starred: AbrarNitk/abrark
 
-
--- fpm.sitemap:
+/-- fpm.sitemap:
 
 # Home: /
 nav-title: My Sweet Home
@@ -48,7 +47,7 @@ confidential: false
   readers: abrark-fans
 
 
--- fpm.app: Todos for Family
+/-- fpm.app: Todos for Family
 mount-point: /todos/
 package: kameri-app.herokuapp.com
 readers: abrark-fans
@@ -56,7 +55,7 @@ end-point: https://kameri-service.herokuapp.com
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
--- fpm.app: Todos for Me
+/-- fpm.app: Todos for Me
 mount-point: /me-todos/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
