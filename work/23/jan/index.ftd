@@ -21,8 +21,11 @@
 - meeting with wasif
 
 - demo day planning
-
-
+  - status: done
+  - points:
+  - majorly we discussed about to deliver ftd:0.3
+  - then we have to work on the performance of ftd and fpm
+  - then I will create a installer for fpm windows, mac and ubuntu
 
 -- ds.h1: 16th Demo Day Planning
 
