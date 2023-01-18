@@ -4,6 +4,22 @@
 -- ds.h1: 17th Demo Day Planning
 
 
+-- ds.h1: 18th Jan
+
+- ftd performance
+- target is less than 100ms for ftd.dev index.ftd page
+
+
+-- ds.h1: 17th Jan
+
+- fpm and ftd performance testing
+- ftd.dev and other static file testing
+
+
+-- ds.h1: 16th Jan
+
+- fpm and ftd performance testing
+
 -- ds.h1: 11th Wed
 
 - ftd processor
