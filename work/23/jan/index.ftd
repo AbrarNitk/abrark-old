@@ -4,6 +4,13 @@
 -- ds.h1: 17th Demo Day Planning
 
 
+-- ds.h1: 19th Jan
+
+- ftd performance
+- added parsed document cache in the fpm nd changes in ftd also
+- fpm logs like nginx logs
+
+
 -- ds.h1: 18th Jan
 
 - ftd performance
