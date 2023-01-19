@@ -39,3 +39,13 @@ subdirectories:
 To rename all files with the .bak extension to have a .backup extension:
 
 `$ find . -name "*.bak" | xargs rename 's/.bak/.backup/'`
+
+-- ds.h1: Remove Git Branch From Local
+
+I have to remove all the git branches which are merged on remote except main branch
+
+-- ds.code: git command to delete branches
+lang: sh
+
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs echo
