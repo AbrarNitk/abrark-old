@@ -33,4 +33,215 @@
 - we want to create an app store
 - remixing is the full startup
 - we can render the ftd componen in the Figma
- 
+
+
+
+-- ds.h1: Big Projects
+
+-- ds.h2: Currently We have
+
+- fpm: as cli
+  - fpm serve
+  - fpm build
+- ftd 0.3: 
+
+-- ds.h2: What all can be built
+
+-- ds.h3: Desktop app Installer
+
+- Platform dependent
+- this app will show all the running packages
+- will have a button to create a new packages
+- will have a button to clone an existing packages
+- will have an edit button on the package to edit it in editor
+
+-- ds.h3: hostn static
+
+- after fpm build, fpm generates the static files
+- fastn publish --static, will host the 
+- this will be competing with github pages
+- s3 can be used as storage and single nginx server can serve all of them
+
+
+-- ds.h3: hostn dedicated
+
+- this will be paid 10$ per person
+- anybody wants to use us, they can start using us as fly.io solution
+- we are like rds of amazon here
+- automatic logs, monitoring, alert and all
+- it is expensive
+
+
+-- ds.h3: hostn shared
+
+- create subdomain for every user
+- free for users
+- shared has some hard problems
+- single fpm server can serve multiple packages
+- so we have restrict user to consume ram and cpu
+
+
+-- ds.h3: try.fastn.io
+
+
+- no account
+- no installation
+- trying ftd and fpm
+- it is going to be ftd and fpm playground 
+- blocked on hostn shared project
+
+
+-- ds.h3: editor
+
+- it will embeded in fastn binary only
+- Editor URL: http://127.0.0.1:8000/-/editor/ 
+- dot as shortcut
+
+
+-- ds.h3: lsp(language server protocol)
+
+- ftd syntax highlighting
+
+
+-- ds.h3: clippy
+
+- find all sort of the errors in the program
+
+-- ds.h3: CR
+
+- just like github
+
+
+-- ds.h3: translation
+
+- translation is a ui project
+- translation dropdown to choose the language and which all languages are available for this
+- a document can be presented in the different and many languages
+- translation info: out of date, if out of the date, so show the changes till it has been changed
+- translation status: it helps translation team can see what is going on
+- translation status page will show the different language translation status, what is translated
+  or what is not
+
+
+-- ds.h3: versioning
+
+- package versioning
+
+
+-- ds.h3: ftd inspector
+
+- ftd browser inspector
+- locally rerender the page after modifying the ftd
+- for that we need the wasm support
+
+
+-- ds.h3: ftd designer
+
+- integrated with the Editor
+
+
+-- ds.h3: canvas
+
+-- ds.h3: renderer
+
+- Terminal renderer
+- Native renderer
+- PDF renderer
+- Figma renderer
+
+-- ds.h3: Importers
+
+- Docusourus
+- Markdown
+- Sphinx
+- etc...
+
+-- ds.h3: Google Sheet/Excel Addon
+
+- creating plugins in ftd and use them into google sheet and microsoft Excel
+
+
+
+
+-- ds.h1: Money Stuff
+
+- Money Stuff
+  - hostn(hosting peoples sites, selling domain)
+  - personal hostn
+  - mini github online collabrating
+  - paid templates Theme/App marketplace 
+  - translation marketplace
+- Training And Doc
+
+
+
+
+-- ds.h1: Who All Can Be Affected By Us
+
+
+-- ds.h2: Static Site Generator Users
+
+- https://jamstack.org/generators/
+- Anybody who is using 
+- Docusourus
+
+
+-- ds.h2: Web Services Companies
+
+- outsourcing
+
+
+-- ds.h2: Marketing (Wix Users)
+
+
+-- ds.h2: Designers
+
+-- ds.h2: Education and Teachers/Students
+
+-- ds.h2: Content Writer
+
+-- ds.h2: Web Publishers
+
+-- ds.h2: Groups
+
+- Can use whatsapp, telegram, discord, twitch, etc....
+
+
+-- ds.h2: Transaltion Use Case
+
+
+-- ds.h1: Goals
+
+- hello world+
+- Companies
+- Builders
+- Component Libraries
+- Stars
+- WSCs
+- Open Source Contributions
+- Active sites using ftd
+- Visits and page views
+- advocates
+
+
+
+
+-- ds.h1: What SSG Needs
+
+- fpm indexer 
+- themes
+- auth
+- Importers
+- common: docs and training for ftd
+- error handling
+
+
+-- ds.h1: WSCs
+
+- dynamic DOM
+- error handling
+- editor support
+- web components
+- target=web
+- hostn dedicated
+- formatter
