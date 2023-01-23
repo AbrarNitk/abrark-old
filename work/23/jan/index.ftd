@@ -4,14 +4,21 @@
 -- ds.h1: 23 Jan
 
 - hostn live
-  - [ ] take update from rithik
+  - [x] take update from rithik
+    - First level meeting with rithik is done
   - [ ] update ftd 0.2 to ftd 0.3
+  - [ ] test it locally, whether it is running or not with new ftd changes
   - [ ] check and test authentication
   - [ ] refactor codebase for controller python
   - [ ] deploy it on heroku
 
 
 - meeting with rithik
+  - fpm-controller-ui for ftd files and 
+  - controller-service for backend
+  - controller-docs for documentation
+  - api calling and instances
+
 - demoday meeting-notes
 
 

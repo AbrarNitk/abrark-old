@@ -7,9 +7,9 @@ download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 -- fpm.dependency: fifthtry.github.io/doc-site as ds
 mount-point: /ds/
 
--- fpm.dependency: fifthtry.github.io/resume
--- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
--- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
+/-- fpm.dependency: fifthtry.github.io/resume
+/-- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
+/-- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
 -- fpm.dependency: fifthtry.github.io/roboto-mono
 
 -- fpm.auto-import: abrark.com/assets

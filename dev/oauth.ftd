@@ -58,7 +58,7 @@ and set the access token to browser.
 
 -- ds.image:
 src: $assets.files.static.oauth.OAuth-2-Flow.png
-width: fill
+width: fill-container
 
 -- ds.h2: More OAuth 2.0 terminology
 

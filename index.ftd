@@ -1,49 +1,7 @@
-/-- import: abrark.com/assets
-
 -- import: fpm
+-- import: fpm/processors
 
 -- ds.page: About Me: Abrar Khan (`abrark`), naam to suna hoga!
-
--- record user-details:
-boolean is-login:
-$always-include$: true
-
--- user-details ud:
-$processor$: user-details
-is-login: false
-;; todo: is-logged-in
-;; todo rename mount-point to url
-
--- ftd.color white-color:
-dark: white
-light: white
-
--- ftd.column:
-background-color: $white-color
-
---- ftd.text: Login With GitHub
-if: not $ud.is-login
-link: /auth/login/?platform=github
-role: $fpm.type.heading-large
-
---- ftd.text: Logout
-if: $ud.is-login
-link: /auth/logout/
-role: $fpm.type.heading-large
-
---- ftd.text: Login With Discord
-if: not $ud.is-login
-link: /auth/login/?platform=discord
-role: $fpm.type.heading-large
-
-
---- ftd.text: Refresh Content
-/if: $ud.is-login
-link: /-/clear-cache/?package=main&all-dependencies=true
-role: $fpm.type.heading-large
-
-
--- ds.markdown:
 
 Nahin to abhi sun lijiye. Waise aayes kaise naam nahin suna tha, juthe!
 
@@ -57,6 +15,46 @@ I work for [FifthTry](https://www.fifthtry.com), where I am trying to change the
 way documentation is written and hopefully how the world learns.
 
 Demo with Ajit about GitHub Codespaces.
+
+
+-- record user-details:
+boolean is-login:
+
+-- user-details ud:
+$processor$: processors.user-details
+is-login: false
+;; todo: is-logged-in
+;; todo rename mount-point to url
+
+-- ftd.color white-color:
+dark: white
+light: white
+
+-- ftd.column:
+background.solid: $white-color
+
+-- ftd.text: Login With GitHub
+/if: not $ud.is-login
+link: /auth/login/?platform=github
+/role: $fpm.type.heading-large
+
+-- ftd.text: Logout
+/if: $ud.is-login
+link: /auth/logout/
+/role: $fpm.type.heading-large
+
+-- ftd.text: Login With Discord
+/if: not $ud.is-login
+link: /auth/login/?platform=discord
+/role: $fpm.type.heading-large
+
+
+-- ftd.text: Refresh Content
+/if: $ud.is-login
+link: /-/clear-cache/?package=main&all-dependencies=true
+/role: $fpm.type.heading-large
+
+-- end: ftd.column
 
 /-- ds.image:
 src: $assets.files.ftd.png
