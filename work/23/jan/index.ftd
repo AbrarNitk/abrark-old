@@ -1,7 +1,28 @@
 -- ds.page: Work Daily Update Jan 2023
 
 
--- ds.h1: 17th Demo Day Planning
+-- ds.h1: 23 Jan
+
+- hostn live
+  - [ ] take update from rithik
+  - [ ] update ftd 0.2 to ftd 0.3
+  - [ ] check and test authentication
+  - [ ] refactor codebase for controller python
+  - [ ] deploy it on heroku
+
+
+- meeting with rithik
+- demoday meeting-notes
+
+
+
+
+-- ds.h1: 17th Demo Day 
+
+- fpm sqlite processors and more processors imported to ftd 0.3
+- ftd performance testing
+- fpm parsed document cache
+- fpm logs and tracing
 
 
 -- ds.h1: 20th Friday
