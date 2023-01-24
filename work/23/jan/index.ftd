@@ -1,6 +1,24 @@
 -- ds.page: Work Daily Update Jan 2023
 
 
+-- ds.h1: 24 Jan
+
+
+- hostn live
+  - [x] take update from rithik
+    - First level meeting with rithik is done
+  - [ ] update ftd 0.2 to ftd 0.3
+      - status: in progress
+      - It is taking time because UI got break and it is looking completely different
+  - [ ] add postgresql database support
+  - [ ] local testing
+  - [ ] auth testing
+  - [ ] test it locally, whether it is running or not with new ftd changes
+  - [ ] check and test authentication
+  - [ ] refactor codebase for controller python
+  - [ ] deploy it on heroku
+
+
 -- ds.h1: 23 Jan
 
 - hostn live
