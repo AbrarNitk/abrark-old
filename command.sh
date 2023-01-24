@@ -106,3 +106,9 @@ function download_songs_temp() {
   # file '<file-path>'
 
 }
+
+
+
+function cmd() {
+    cd ~/github/$*
+}

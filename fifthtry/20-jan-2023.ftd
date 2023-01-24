@@ -58,7 +58,7 @@
 -- ds.h3: hostn static
 
 - after fpm build, fpm generates the static files
-- fastn publish --static, will host the 
+- fastn publish --static, will host the statci site 
 - this will be competing with github pages
 - s3 can be used as storage and single nginx server can serve all of them
 
@@ -78,7 +78,7 @@
 - free for users
 - shared has some hard problems
 - single fpm server can serve multiple packages
-- so we have restrict user to consume ram and cpu
+- so we have to restrict user to consume ram and cpu
 
 
 -- ds.h3: try.fastn.io
@@ -263,3 +263,4 @@
 - weekly meeting at wednesday
 - 45 days meeting by CEO
 - demo day every week
+

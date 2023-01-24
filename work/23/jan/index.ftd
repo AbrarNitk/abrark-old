@@ -3,8 +3,12 @@
 
 -- ds.h1: 24 Jan
 
+- add ftd attributes in interpreter
+- design system change: variable name changes
 
 - hostn live
+  - status: On Hold
+  - description: Have to add CSS attributes in ftd interpreter first
   - [x] take update from rithik
     - First level meeting with rithik is done
   - [ ] update ftd 0.2 to ftd 0.3
