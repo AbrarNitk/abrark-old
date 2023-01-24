@@ -1,0 +1,12 @@
+-- ds.page: FTD Interpreter
+
+-- ds.h1: Interpreter Steps to Generate HTML
+
+1. Parser(source: &str) -> Vec<Section>
+2. ToAST(sections) -> AST -> ParsedDocument
+3. Interpret(parsed_doc) -> Interpreter(It contains different states with last state of Done(Document))
+4. ExecuteDoc::from_interpreter(Document) -> RT
+5. NodeData::from_rt(executor) -> NodeData
+6. HtmlUI::from_node_data(NodeData) -> HtmlUI
+7. HtmlUI -> build.html -> replace markers with HtmlUI Data
+
