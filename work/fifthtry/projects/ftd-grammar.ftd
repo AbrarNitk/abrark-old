@@ -1,0 +1,54 @@
+
+-- ds.page: FTD Grammar Syntax
+
+-- ds.code:
+lang: ftd
+
+\-- (optional section-kind) section-name: optional caption-value
+(optional header-kind) header-name: optional header-value
+
+;; section-kind example:
+;; header-kind example:
+;; caption example:
+
+\-- (optional header-kind) section-name.header-name: ;; single
+;; new line is mandatory
+    <header-body>: multiline-value or another section as value
+    ;; it can be list of sections as well
+\-- end: section-name.header-name
+
+;; condition in Headers
+;; single line header
+;; header-name if {boolean condition}: value
+;; multiline header
+;; -- section.header-name:
+;; if: {boolean expression}
+
+
+\-- section-name.caption: ;; single line
+    ;; new line is mandatory
+    ;; multiline line
+    ;; or list of sections
+
+\-- end: section-name.caption ;; only in case of section value
+\-- section-name.body:
+    ;; new line is mandatory
+    ;; only multiline string or single line string, should not be a section again
+
+
+;; subsections of a section-name
+;; list of sections
+\-- (optional section-kind) nested-section-name: optional caption-value
+;; same as section definition
+\-- end: nested-section-name
+
+\-- end: section-name
+
+
+
+## Why FTD
+
+- Easy To Learn which includes non programmers also
+- Focus More On Data, Not UI Components
+- Server Side Rendering using FPM Web Server, which is written in Rust, amazingly fast.
+
