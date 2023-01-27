@@ -22,6 +22,18 @@ github-team: wilderbit/wilderbit-admins
 -- fpm.user-group: abrark-fans
 github-starred: AbrarNitk/abrark
 
+
+-- fpm.sitemap:
+
+# FifthTry: /work/fifthtry/
+
+## Projects: /work/fifthtry/projects/
+
+- Hostn: /work/hostn/
+document: /work/fifthtry/projects/hostn/index.ftd
+
+
+
 /-- fpm.sitemap:
 
 # Home: /

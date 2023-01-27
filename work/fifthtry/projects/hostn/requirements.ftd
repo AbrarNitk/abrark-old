@@ -1,0 +1,46 @@
+-- ds.page: `hostn` Requirements and Features
+
+-- ds.h1: Requirements Clarity
+
+- hostn.io: dynamic serve
+- not shared for now(try), only pricing service
+- static serving, not needing for now, because github is already there
+
+
+
+-- ds.h1: `hostn.io` Dynamic Service
+
+- deployment using fly
+  - input: package download-base-url and package-name
+  - subdomain or ip address for CNAME and domain mapping
+  - support for private github repos
+- multi package support
+- site support
+- team support
+- team settings
+- auth support
+- billing
+
+- logging
+- monitoring
+- site analytics
+- auto update using github action
+- buy domain and mapped it with package public ip(fly)
+
+
+-- ds.markdown:
+
+- hostn.io
+  - hostn static
+  - logging, monitoring, integrations, fpm sync
+  - Primary repo
+  - fpm-controller-ui -> hostn.lib
+  - move hostn-docs to hostn
+- fastn.io
+- importers
+
+
+-- ds.h1: `hostn.io` static service
+
+
+-- end: ds.page
