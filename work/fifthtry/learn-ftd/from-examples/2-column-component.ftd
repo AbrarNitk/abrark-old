@@ -1,0 +1,38 @@
+-- ftd.column:
+margin.px: 40
+border-style: solid
+border-width.px: 2
+padding.px: 5
+background.solid: red
+height.fixed.px: 800
+;; this height is not taking the height of 800 px
+
+-- ftd.text: Column 1 Text 1
+margin.px: 5
+padding.px: 5
+border-style: solid
+border-width.px: 2
+background.solid: green 
+
+-- ftd.text: Column 1 Text 2
+margin.px: 5
+padding.px: 5
+border-style: solid
+border-width.px: 2
+background.solid: pink
+
+-- end: ftd.column
+
+
+
+-- ftd.column:
+margin.px: 40
+border-style: solid
+border-width.px: 2
+padding.px: 5
+background.solid: yellow 
+
+-- ftd.text: Column 2 Text 1 
+-- ftd.text: Column 2 Text 2
+
+-- end: ftd.column

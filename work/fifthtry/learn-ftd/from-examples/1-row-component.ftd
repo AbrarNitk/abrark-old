@@ -1,0 +1,44 @@
+-- ftd.row:
+padding.px: 40
+margin.px: 40
+width.fixed.percent: 100
+height.fixed.px: 500
+;; doubt height is not taking the full height according to provided
+border-style: solid
+border-width.px: 2
+background.solid: red
+
+-- ftd.text: Hello World
+margin-right.px: 5
+padding-left.px: 5
+border-style: solid
+border-width.px: 2
+
+-- ftd.text: Hello World
+
+
+-- end: ftd.row
+
+
+-- ftd.row:
+padding.px: 40
+margin.px: 40
+
+
+-- ftd.text: New Row Hello World
+margin-right.px: 5
+padding-left.px: 5
+border-style: solid
+border-width.px: 2
+
+-- ftd.text: New Row Hello World
+
+
+-- end: ftd.row
+
+
+
+;; In ftd at top level there is a column
+;; And then according this example we are creating a row
+;; In column element stacked in top to down on the page
+;; In the row element sit adjacently left to right
