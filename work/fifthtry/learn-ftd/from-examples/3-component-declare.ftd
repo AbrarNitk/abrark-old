@@ -1,0 +1,31 @@
+-- component test:
+string which-test:
+
+-- ftd.column:
+margin.px: 10
+
+
+-- ftd.text: $test.which-test 
+margin-bottom.px: 10
+border-style: solid
+padding.px: 5
+border-width.px: 2
+background.solid: red
+
+-- ftd.text: Element 2
+border-style: solid
+padding.px: 5
+border-width.px: 2
+background.solid: red
+
+-- end: ftd.column
+
+-- end: test
+
+
+-- test:
+which-test: 5
+
+
+-- test:
+which-test: 10 
