@@ -1,0 +1,22 @@
+-- ds.h1: Plan
+
+
+- renams the projects and move the documents to existing projects
+  -  hostn will be primary repo for the hostn
+  - fpm-controller-ui -> hostn.lib
+  - move hostn-docs to hostn/docs
+- i have to hands on the ftd
+- create small and small pages in ftd only
+- convert existing code to the 0.3 and up the site
+- change db engine to postgres
+- deploy the existing code to heroku
+- listed down all the problems
+  - code refactor
+  - queue for creating and deleting apps
+  - permission checks
+  - logging improvements
+- stripe payment
+  - need to checkout the APIs and payment flow
+- billing monthly
+- email and notifications monthly
+
