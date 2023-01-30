@@ -2,6 +2,17 @@
 
 -- ds.h1: 30th Jan
 
+- fastn
+  - source code changes in fpm
+  - repo rename
+  - cli rename
+  - fpm rename in build action
+  - all the packages that are using fpm has to change with fastn
+  - FPM.ftd to FASTN.ftd in all the packages and in code base also
+  - check all the scritps/actions that are using fpm cli
+  - domain rename fpm.dev to fast.io
+  - need to publish the fastn crate on crates.io
+
 - demo day planning
   - time: 11:00 to 12:00
   - status: done
