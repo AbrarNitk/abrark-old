@@ -1,5 +1,20 @@
 -- ds.page: Work Daily Update Jan 2023
 
+-- ds.h1: 30th Jan
+
+
+- full-sitemap processor
+- R1 Plan for hostn
+  - Static Page(index.ftd)
+  - Deploy it on heroku with index page
+    - Hosting Provider for fastn packages
+  - Basic Plan for other releases
+  - Need to think about releases, how to deliver them
+- Meeting with Ganesh for fastn deployment
+- Learn ftd and build atleast two pages today
+  -  for this I can pick fastn pages
+
+
 
 -- ds.h1: 24 Jan
 

@@ -1,0 +1,74 @@
+-- ds.page: 5th Demo Day
+
+-- ds.h1: Planning 30th Jan
+
+
+- 0.3 Cleanups
+- owner: rihtik
+  - new colors and types vartiables(backward incompatible)
+  - full sitemap processor: abrar
+  - some font issue
+  - font weight in design system(we have to change in type.data)
+  - extra gap in headings: ganesh to give test case
+  - ftd.checkbox
+  - re-export
+  - background-image
+  - style
+
+
+- hostn
+- owner: abrark
+  - Hosting provider for fastn packages
+  - plan as product manager
+    - need to decide what is going on this release
+    - it shoulkd be feature wise and page wise
+    - focus on the current task
+
+
+
+- fastn
+- owner: ganesh
+  - ganesh has to design components in fpm as component library
+
+
+- fpm to fastn
+- owner: abrark
+  - rename repo, everything in source, gh action, install script, cli name change
+  - vercel package, documentation update
+  - fpm.ftd to fastn.ftd
+
+
+- hostn
+- owner: abrark
+  - minimum release
+  - coming soon page(index page)
+  - hostn static website and deploy it with fpm on heroku
+  - create package with fly
+  - view
+  - one click package create flow
+  - payment
+  - give me domain: abrar.com/amitu.com
+  - as lazy as possible, as many releases as possible
+
+
+- arpita
+  - dynamic dom, without events, with events(3-4 days)
+  - better docs/examples
+
+
+
+-- ds.h1: Week Goals
+
+- fast.io homepage ready
+- set-1 landing page ready
+- can we move fpm to fastn
+- 
+
+
+
+-- ds.h1: Demo 3rd Feb
+
+
+
+
+-- end: page

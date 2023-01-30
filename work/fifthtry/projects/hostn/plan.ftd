@@ -1,8 +1,9 @@
--- ds.h1: Plan
+-- ds.page: Hostn Planning
 
+-- ds.h1: Personal Plan
 
 - renams the projects and move the documents to existing projects
-  -  hostn will be primary repo for the hostn
+  - hostn will be primary repo for the hostn
   - fpm-controller-ui -> hostn.lib
   - move hostn-docs to hostn/docs
 - i have to hands on the ftd
@@ -20,3 +21,8 @@
 - billing monthly
 - email and notifications monthly
 
+
+-- ds.h1: Persentational Plan
+
+
+-- end: page
