@@ -2,8 +2,11 @@
 
 -- ds.h1: 30th Jan
 
-
+- demo day planning
+  - time: 11:00 to 12:00
+  - status: done
 - full-sitemap processor
+  - status: done
 - R1 Plan for hostn
   - Static Page(index.ftd)
   - Deploy it on heroku with index page
