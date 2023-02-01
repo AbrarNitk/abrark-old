@@ -1,5 +1,66 @@
 -- ds.page: Work Daily Update Jan 2023
 
+-- ds.h1: 31 Jan
+
+
+- fpm to fastn rename
+
+- `package-doc` <https://github.com/FifthTry/package-doc/pull/15> 1. deployed(<https://fifthtry.github.io/package-doc/>)
+- `code-block` <https://github.com/FifthTry/code-block/pull/6> 4. deployed(<https://fifthtry.github.io/code-block/>)
+- `app-switcher` <https://github.com/FifthTry/app-switcher/pull/6> 2. deployed(<https://fifthtry.github.io/app-switcher/>)
+- `button` <https://github.com/FifthTry/button/pull/6> 5. deployed(<https://fifthtry.github.io/button/>)
+- `header` <https://github.com/FifthTry/header/pull/43> 7. deployed(<https://fifthtry.github.io/header/>)
+- `doc-site` <https://github.com/FifthTry/doc-site/pull/57> 9. deployed(<https://fifthtry.github.io/doc-site/>)
+- `typography` <https://github.com/FifthTry/typography/pull/10> 3. deployed(<https://fifthtry.github.io/typography/>)
+- `octicon` <https://github.com/FifthTry/octicon/pull/8>
+- `roboto` <https://github.com/FifthTry/roboto/pull/4> 8. deployed(<https://fifthtry.github.io/roboto/>)
+- `product-switcher` <https://github.com/FifthTry/product-switcher/pull/17> 6. deployed(<https://fifthtry.github.io/product-switcher/>)
+- `inter` <https://github.com/FifthTry/inter/pull/4> 10. deployed(<https://fifthtry.github.io/inter/>)
+- `admonitions` <https://github.com/FifthTry/admonitions/pull/6> 11. deployed(https://fifthtry.github.io/admonitions/)
+- `bling` <https://github.com/FifthTry/bling/pull/21> 12. deployed(<https://fifthtry.github.io/bling/>)
+- `demo-day` <https://github.com/FifthTry/demo-day/pull/16> 13. deployed(<https://fifthtry.github.io/demo-day/>)
+    - rename `fpm-ui` to `fastn-ui` done
+- `fifthtry-brand-switcher` <https://github.com/FifthTry/fifthtry-brand-switcher/pull/8> 14. deployed(<https://fifthtry.github.io/fifthtry-brand-switcher/>)
+- `blog-components` <https://github.com/FifthTry/blog-components/pull/8> 15. deployed(<https://fifthtry.github.io/blog-components/>)
+- `common` <https://github.com/FifthTry/common/pull/3> 16. deployed(<https://fifthtry.github.io/common/>)
+- `form` <https://github.com/FifthTry/form/pull/1> 17. deployed(<https://fifthtry.github.io/form/>)
+- `event` <https://github.com/FifthTry/event/pull/3> 18. deployed(<https://fifthtry.github.io/event/>)
+- `octicon` <https://github.com/FifthTry/octicon/pull/8> 19. deployed(<https://fifthtry.github.io/octicon/>)
+- `dotcom` <https://github.com/FifthTry/dotcom/pull/122> 22. deployed(<https://www.fifthtry.com/>)
+- `roboto-mono` <https://github.com/FifthTry/roboto-mono/pull/4> 20. deployed(<https://fifthtry.github.io/roboto-mono/>)
+- `color-doc` <https://github.com/FifthTry/color-doc/pull/22> 21. deployed(<https://fifthtry.github.io/color-doc/>)
+- `ftd.dev` <https://github.com/ftd-lang/ftd.dev/pull/61> 23. deployed(<https://ftd.dev/>)
+- `fastn.io` <https://github.com/FifthTry/fastn.io/pull/3>
+
+
+
+- all packages has changed
+- merge fastn source code branch and build fastn
+- merge all the packages branch
+- start deploying packages
+- then deploy dotcom, doc-site, and fastn.io
+
+- fastn
+  - source code changes in fpm
+    - status: done
+  - repo rename
+    - status: pending
+  - cli rename
+    - status: done
+  - fpm rename in build action
+    - status: done
+  - install.sh
+    - status: done
+  - changes in dotcom and docsite and related packages
+    - status: in progress
+  - all the packages that are using fpm has to change with fastn
+  - FPM.ftd to FASTN.ftd in all the packages and in code base also
+  - check all the scritps/actions that are using fpm cli
+  - domain rename fpm.dev to fast.io
+  - need to publish the fastn crate on crates.io
+
+
+
 -- ds.h1: 30th Jan
 
 - fastn
