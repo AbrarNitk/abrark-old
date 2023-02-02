@@ -1,3 +1,17 @@
 -- ds.page: Work Daily Update Jan 2023
 
+-- ds.h1: 2 Feb
 
+- fpm.dev to fastn.io
+  - code changes in fpm.dev repository
+  - repo rename
+  - mapping with fastn.io domain
+
+- hostn static page
+  - create a home page of the hostn
+  - deploy it with heroku
+  - map the domain with hostn.io
+
+
+
+-- end: ds.page
