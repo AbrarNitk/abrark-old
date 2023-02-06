@@ -1,0 +1,51 @@
+-- ds.page: 6th Feb Monday Demo Planning
+
+-- ds.h1: AbrarK
+
+- working on hostn
+  - only landing page is there
+- static hosting
+  - need file system
+- shared hosting
+  - one ip can serve multiple packages
+- dedicated hosting
+  - one ip for every packages
+  - written in django
+  - it should be in Rust also
+  - what if hostn itself written in rust also with fastn
+  - how do we edit the file, how do we update the file and all, it can done using hostn only
+- try.ftd.io
+  - without event installing the fastn in the local system
+- depend on the file hosting service like s3
+- io continuation pattern
+  - makes us ready for shared and static hosting
+  - fastn shared way
+- look at their code and design the best practice and guideline
+
+-- ds.h1: Arpita
+
+- Working on Dynamic DOM
+  - It needs more work
+  - If working dedicatidly, by friday it will be completed
+  - we don't need dynamic dom for now, according to comp priority
+- We are making learning content that ftd is becoming easy for them to pick
+- Documenation is upto date 
+- Maybe working on marketing + dom(60-40)
+- Focus on the external side
+
+
+-- dsl.h1: Ganesh
+
+- fastn.io home page today only
+- issue in the menu
+- mobile menu is ready now...
+- newly fastn design has to be deployed
+- 
+
+-- ds.h1: Rithik
+
+- 0.3 related tasks
+- figma json exporter
+
+
+-- end: ds.page

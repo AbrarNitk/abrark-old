@@ -24,5 +24,78 @@
 
 -- ds.h1: Persentational Plan
 
+-- ds.h1: Shared Hosting
+
+-- ds.h2: Why
+
+In case of shared hosting what we can do is, we can implement the basic system
+without pricing and make them available to everyone for try purpose.
+
+- Because we need try.hostn.io asap.
+- We want people to come and try it out
+- So putting pricing at first and asking for the credit card will be an overhead to user
+
+
+-- ds.h1: Static Hosting
+
+We can omit this for because we are managing the repositories on GitHub
+and gh pages giving the full functionality for this feature, so we can implement
+this later.
+
+-- ds.h2: Why Not Now
+
+- Because GitHub is already providing the functionality, so for we can omit this approach.
+- After managed hosting with pricing we can built it after that.
+
+
+-- ds.h1: Managed Hosting
+
+In managed hosting we will earn the money that is for sure, but for now we can give
+priority to Shared hosting, whre poeple can try us freely and they see success in us
+they can move to managed hosting.
+
+-- ds.h2: Why
+
+- We will earn money from it.
+
+
+-- ds.h2: Why Not Now
+
+- Because we want people to try us out with free version. So, Ideally
+we should first build the free version of it with shared hosting.
+
+
+-- ds.h1: Help From Colleagues
+
+-- ds.h1: Amitu
+
+- Need help to decide the approach
+- Need help to decide the engineering design
+- Need help in code review
+
+
+-- ds.h1: Arpita
+
+- Need help to decide the approach
+- Need help in building pages in ftd
+
+-- ds.h1: Ajit
+
+- Need help on creating content for the users
+- Need help in marketing the hostn.io also
+
+
+-- ds.h1: Ganesh and Team
+
+- Need their help in learning ftd and building pages
+
+
+-- ds.h1: First Plan
+
+
+- provide shared hosting
+- without pricing
+- 
 
 -- end: page
+
