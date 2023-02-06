@@ -1,12 +1,11 @@
 -- ds.page: Work Daily Update Jan 2023
 
 
--- ds.h1: Application
+-- ds.h1: Application for hostn
 
 - they also have db and docker stuff
 - for docker we can do it fly
-- we should have also sentry
-- 
+- we should have also sentry 
 
 
 
@@ -14,6 +13,10 @@
 
 - hostn meeting with amitu
 - demo day planning
+- hostn static system design
+- reading about s3
+- amazon account creation and permission
+- 
 
 
 -- ds.h1: 5th Feb
