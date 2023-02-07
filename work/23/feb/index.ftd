@@ -1,6 +1,15 @@
 -- ds.page: Work Daily Update Jan 2023
 
 
+-- ds.h1: Tue 7th Feb
+
+- read about s3 functionality
+- read about different algos for s3 uploading and downloading
+- create the main in rust for hostn-service
+- read about how to handle the wildcard sub domains on a server
+- make live hostn service on heroku or fly
+
+
 -- ds.h1: Application for hostn
 
 - they also have db and docker stuff
