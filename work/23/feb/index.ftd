@@ -8,6 +8,8 @@
 - create the main in rust for hostn-service
 - read about how to handle the wildcard sub domains on a server
 - make live hostn service on heroku or fly
+- aws access for s3 and resources
+- learn about s3 commands and aws account IAM and all
 
 
 -- ds.h1: Application for hostn
