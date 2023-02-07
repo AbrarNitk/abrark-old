@@ -11,6 +11,64 @@
 - aws access for s3 and resources
 - learn about s3 commands and aws account IAM and all
 
+-- ds.h2: fastn static deploy
+
+-- ds.h3: build command changes
+
+- separate the css and js files
+- keep them separate files and use them as external links
+
+
+-- ds.h3: cli changes
+
+- command fastn static init
+  - this command will send the package name to server
+  - serve will respond with keys
+  - save keys to ~/.hostn/config.json into client local machine
+  - [{package-name: "full name of the package", key: "server provided key"}]
+
+
+- command fastn static status
+  - send all the keys and package name to server
+  - server will send back with all the information like domain name, last deployed and all
+  - with all the deployed packages
+  
+
+- command fastn static deploy
+  - capture the build output
+  - provide it to the tejar
+  - tejar will give you output with different files
+  - send it to the server
+
+- tejar
+  - have to work on this algorithm
+  - this should be very straight forward
+  - can be built independently and used as dependency
+  - Input: It will take list of files
+  - Output: list.json and files.tejar
+  - list.json will be containing all the files
+  - [{file-name: <>, file-size: byte size, file-start-from: start position in the files.tejar}]
+  - files.tejar: it will somply store the all the file content like byte array
+
+
+-- ds.h3: server changes(hostn-service)
+
+- use actix as http server
+- use separate module for the deploy static
+- integration with s3 bucket
+- deploy command api
+  - upload the file on the s3
+  - read the file from the s3 by passing the bytes and file path
+- assign/init command api
+- status command api
+- create a bucket on s3
+- create an account on s3
+- deploy hostn service on the heroku
+- handle the wild card domains
+  - when this request comes need to get the specific package config file from s3
+    and start serving the files
+  - there can be two types of files, normal file and static file
+
 
 -- ds.h1: Application for hostn
 
