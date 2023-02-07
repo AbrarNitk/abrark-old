@@ -1,8 +1,8 @@
 -- import: ds
--- import: fpm
+-- import: fastn
 
 
--- fpm.toc-item list empty-toc:
+-- fastn.toc-item list empty-toc:
 
 -- ds.page:
 toc: $empty-toc
@@ -38,19 +38,19 @@ spacing: 15
 background-image: $image
 border-radius: 4
 border-width: 1
-border-color: $fpm.color.main.text
+border-color: $fastn.color.main.text
 margin-bottom: 50
 
 --- ftd.text: $title
 anchor: parent
 top: 5
 left: 0
-background-color: $fpm.color.main.background.base
+background-color: $fastn.color.main.background.base
 padding-horizontal: 20
 padding-vertical: 5
 min-width: 200
-color: $fpm.color.main.text
-role: $fpm.type.heading-large
+color: $fastn.color.main.text
+role: $fastn.type.heading-large
 
 --- ftd.row:
 anchor: parent
@@ -64,23 +64,23 @@ id: link-row
 if: $live_preview is not null
 text-align: center
 link: $live_preview
-color: $fpm.color.main.text
-background-color: $fpm.color.main.background.base
+color: $fastn.color.main.text
+background-color: $fastn.color.main.background.base
 border-radius: 20
 padding-vertical: 5
 padding-horizontal: 20
 margin-right: 5
-role: $fpm.type.label-big
+role: $fastn.type.label-big
 
 --- ftd.text: Create
 text-align: center
 link: $link
-color: $fpm.color.main.text
-background-color: $fpm.color.main.background.base
+color: $fastn.color.main.text
+background-color: $fastn.color.main.background.base
 border-radius: 20
 padding-vertical: 5
 padding-horizontal: 20
-role: $fpm.type.label-big
+role: $fastn.type.label-big
 
 
 
@@ -131,8 +131,8 @@ optional string link:
 --- ftd.text: $title
 if: $link is not null
 link: $link
-color: $fpm.color.main.text
-role: $fpm.type.label-big
+color: $fastn.color.main.text
+role: $fastn.type.label-big
 
 --- ftd.image:
 if: $link is not null
@@ -143,8 +143,8 @@ width: 16
 
 --- ftd.text: $title
 if: $link is null
-color: $fpm.color.main.text
-role: $fpm.type.label-small
+color: $fastn.color.main.text
+role: $fastn.type.label-small
 
 
 

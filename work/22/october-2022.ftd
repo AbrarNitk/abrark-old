@@ -10,12 +10,12 @@
 
 -- ds.h1: Important Tasks
 
--- ds.h2: FPM Controller
+-- ds.h2: FASTN Controller
 
-- FPM Controller: https://github.com/FifthTry/fpm-controller/discussions/15
+- FASTN Controller: https://github.com/FifthTry/fastn-controller/discussions/15
   - Working with: Rithik and Arpita
   - Arpita did the design for basic
-  - docker push fpm image on github action
+  - docker push fastn image on github action
   - documentation how does it do for fly.io
 
 - [ ] Event Page on discord and linkedin
@@ -25,13 +25,13 @@
 - [x] benchmarking ftd functions
   - Status: pending
 
-- fpm controller
+- fastn controller
   - database support
   - docker support
 
-- fpm auth
+- fastn auth
  - Status: Wasif is working on that
- - Integration with fpm
+ - Integration with fastn
  - https://discord.com/channels/793929082483769345/1026089953878360065
 
 
@@ -55,8 +55,8 @@ Date: 21 October
 
 ### Today's Tasks
 
-- [ ] mount-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/550
+- [ ] mount-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/550
   - Status: In Progress
   - Update: Update Discussion
 
@@ -79,7 +79,7 @@ Date: 21 October
 
 ### Wasif Update
 
-- Integrate fpm with controller auth
+- Integrate fastn with controller auth
 - abrark.com with auth demo
 - create a different auth mod
 - instead of API, call direct function from mod
@@ -90,7 +90,7 @@ Date: 21 October
 
 - Movie Share/File Share
 - mount-point/end-point (ten services are running)
-- Abrar Next: fpm-wasm
+- Abrar Next: fastn-wasm
 - postgres + file storage while creating a package
 - putting files with encoding
 - Online folder will be managed by us
@@ -99,14 +99,14 @@ Date: 21 October
 - endpoint is good, preferred is wasm
 - Target For Abrar is is to complete endpoint and mountpoint asap.
 - Wasm experiment on the upcoming weekend.
-- Blocker maybe, if event is ready so need to deploy fpm.dev, doc-site, presentation.
+- Blocker maybe, if event is ready so need to deploy fastn.dev, doc-site, presentation.
 - Arpita Next: performance
 - Observer review
 - Arpita:
   - Before wasm we should solve the ftd
   - We should solve the performance
   - We should think according to market side, not research purpose
-  - We should optimise fpm and ftd before using wasm
+  - We should optimise fastn and ftd before using wasm
 
 
 
@@ -115,8 +115,8 @@ Date: 21 October
 ### Today's Tasks
 
 
-- [ ] mount-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/550
+- [ ] mount-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/550
   - Status: In Progress
   - Update: Update Discussion
 
@@ -154,7 +154,7 @@ Date: 21 October
 ### Wasif
 
 - Code is working with GitHub OAuth
-- Task: fpm deploy with fpm-auth feature
+- Task: fastn deploy with fastn-auth feature
 
 
 -- ds.h2: 27th October
@@ -166,13 +166,13 @@ Date: 21 October
   - Reviewed it: https://github.com/FifthTry/movie-db/pull/32#pullrequestreview-1158001184
 - [x] Doc for Dynamic Urls
   - PR Merged
-  - https://github.com/ftd-lang/fpm/pull/582
+  - https://github.com/ftd-lang/fastn/pull/582
 
 - [ ] Rithik fly deployment testing and docs review
   - Status: Pending
 
-- [ ] mount-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/550
+- [ ] mount-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/550
   - Status: In Progress
   - Update: Update Discussion
 
@@ -180,7 +180,7 @@ Date: 21 October
 - [ ] Dynamic Urls in foreign package
   - Status: Pending
   - Description: Pehle mount-point khatam karna padega
-  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fastn/discussions/569
 
 - [ ] Work One hour on FTD with/without Arpita
   - [ ] Indentation support in ftd
@@ -195,7 +195,7 @@ Date: 21 October
 ### Update: Rithik
 
 - Documentation needs be merged
-- fpm-controller repos needs to run and tested by me
+- fastn-controller repos needs to run and tested by me
 
 
 ### Update: Aditi and Aviral
@@ -214,13 +214,13 @@ Date: 21 October
 
 - [x] Dynamic Urls in current package
   - Status: In Progress
-  - https://github.com/ftd-lang/fpm/discussions/569
-  - https://github.com/ftd-lang/fpm/discussions/311
-  - [x] Define dynamic-urls type in fpm.ftd
+  - https://github.com/ftd-lang/fastn/discussions/569
+  - https://github.com/ftd-lang/fastn/discussions/311
+  - [x] Define dynamic-urls type in fastn.ftd
   - [x] Define types in rust
   - [x] Write parser for dynamic urls
   - [x] Store them in package with sitemap
-  - [x] fpm.sitemap should not contain path params but fpm.dynamic-urls should contain path-params
+  - [x] fastn.sitemap should not contain path params but fastn.dynamic-urls should contain path-params
   - [x] request urls matching logic with dynamic urls
 
 
@@ -252,11 +252,11 @@ Date: 21 October
 
 - [ ] Dynamic Urls in current package
   - Status: In Progress
-  - https://github.com/ftd-lang/fpm/discussions/569
-  - https://github.com/ftd-lang/fpm/discussions/311
+  - https://github.com/ftd-lang/fastn/discussions/569
+  - https://github.com/ftd-lang/fastn/discussions/311
 
 - [ ] Dynamic Urls in foreign package
-  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fastn/discussions/569
 
 - [x] Work One hour on FTD with/without Arpita
   - Desc: start looking at the code
@@ -266,7 +266,7 @@ Date: 21 October
 
 ### Rithik Update
 
-- Working on fpm-controller
+- Working on fastn-controller
 - add secrets.json in settings.py in
 - documentation about how did you deploy on fly.io
 
@@ -309,12 +309,12 @@ Date: 21 October
   - tracker-id (substitute for auth) (django and rust)
   - endpoint send cookie
   - sha(package-name) use only 6 digits _a bnake karke a send karenge
-  - fpm controller
+  - fastn controller
   - forget fly, only heroku
 
 - Arpita
   - http processor mein cookies pass karni padengi
-  - fpm mein sari cookies send to browser
+  - fastn mein sari cookies send to browser
 
 
 ### Schedule and Work
@@ -334,7 +334,7 @@ Date: 21 October
 
 - Task t1: Dynamic Sitemap(for packages)
   - dynamic sitemap for dependency packages as well
-  - https://github.com/ftd-lang/fpm/discussions/311
+  - https://github.com/ftd-lang/fastn/discussions/311
   - status: in progress(will continue to tomorrow)
 
 
@@ -344,7 +344,7 @@ Date: 21 October
 - Interview with Aniket 11:00 to 12:00
 - Meditation 12:20 to 12:35
 - Discussion with Arpita about mount point and dynamic urls
-  - https://github.com/ftd-lang/fpm/discussions/569
+  - https://github.com/ftd-lang/fastn/discussions/569
 
 
 -- ds.h2: 18th October
@@ -353,7 +353,7 @@ Date: 21 October
 
 - Dynamic Sitemap(for packages)
   - dynamic sitemap for dependency packages as well
-  - https://github.com/ftd-lang/fpm/discussions/311
+  - https://github.com/ftd-lang/fastn/discussions/311
   - status: in progress(will continue to tomorrow)
 
 
@@ -361,19 +361,19 @@ Date: 21 October
 
 - Dynamic Sitemap(skip true)
   - skip true for dynamic urls
-  - https://github.com/ftd-lang/fpm/discussions/311
+  - https://github.com/ftd-lang/fastn/discussions/311
   - status: merged
 
 - named url parameter support in request-data
-  - https://github.com/ftd-lang/fpm/discussions/551
-  - docs: https://github.com/ftd-lang/fpm.dev/pull/89
+  - https://github.com/ftd-lang/fastn/discussions/551
+  - docs: https://github.com/ftd-lang/fastn.dev/pull/89
   - status: merged
 
 ### Work TODOs
 
 - Task 1: named url parameter request data
 - Task 2: skip header
-- Dynamic Sitemap: https://github.com/ftd-lang/fpm/discussions/311
+- Dynamic Sitemap: https://github.com/ftd-lang/fastn/discussions/311
 - one hour ftd parser
 - Merge Rithik's PR for sitemap icon
 
@@ -394,8 +394,8 @@ Date: 21 October
 
 ### Current Task
 
-- https://github.com/ftd-lang/fpm/discussions/526
- - https://github.com/ftd-lang/fpm/discussions/551
+- https://github.com/ftd-lang/fastn/discussions/526
+ - https://github.com/ftd-lang/fastn/discussions/551
 - Deploy abrark on heroku
 
 ### TODOs
@@ -416,21 +416,21 @@ Date: 21 October
 - Pr Merged: https://github.com/FifthTry/kameri-app/pull/1
 - Working on Current Task: 03:40 to 16:40
 - Meeting with Arpita: Time: 16:40 to 18:30
-  - FPM Controller on fly.io
-  - fpm-controller/discussion/15(documentation is upto Arpita)
-  - docker images with fpm inside, which will curl
+  - FASTN Controller on fly.io
+  - fastn-controller/discussion/15(documentation is upto Arpita)
+  - docker images with fastn inside, which will curl
 - Meeting with (Arpita/Rithik)
   - Icon in sitemap
   - Create Discussion pending on Rithik
 - Working on Current Task: 06:30 to 9:00
-- Meeting with Arpita on fpm-controller till 9:00 to 11:30
+- Meeting with Arpita on fastn-controller till 9:00 to 11:30
 
 
 -- ds.h2: 16th October
 
 ### Task
 
-- https://github.com/ftd-lang/fpm/discussions/551
+- https://github.com/ftd-lang/fastn/discussions/551
 - Time: 11:00 Am to till night
 
 
@@ -438,7 +438,7 @@ Date: 21 October
 
 ## Tasks
 
-- https://github.com/ftd-lang/fpm/discussions/311
+- https://github.com/ftd-lang/fastn/discussions/311
   - Status: Task is done, documentation is pending
   - Time: 11:30 AM till night
 
@@ -463,12 +463,12 @@ Date: 21 October
   - List of all the authors of the blog post
   - etc...
 
-- We want to improve fpm db
-- fpm as web framework: Improve karte hai, and then hosting karte hai
-- fpm apps, Not now
+- We want to improve fastn db
+- fastn as web framework: Improve karte hai, and then hosting karte hai
+- fastn apps, Not now
 - Deployment issue resolve
-- fpm hosting
-  - fpm controller
+- fastn hosting
+  - fastn controller
   - Instead of fly service
   - Self Service
 
@@ -482,9 +482,9 @@ Date: 21 October
 
 #### Amitu
 
-- fpm web framework
-- fpm auth
-- fpm controller
+- fastn web framework
+- fastn auth
+- fastn controller
 - can we host it for you other than self hosting
 
 #### Hrithik
@@ -504,7 +504,7 @@ Date: 21 October
 
 ## Tasks
 
-- https://github.com/ftd-lang/fpm/discussions/311
+- https://github.com/ftd-lang/fastn/discussions/311
   - Status: In progress
   - Time: 11:30 AM till night
 
@@ -558,7 +558,7 @@ Date: 21 October
 
 ## Today's Work Schedule
 
-- https://github.com/ftd-lang/fpm/discussions/311
+- https://github.com/ftd-lang/fastn/discussions/311
   - Status: In progress
   - Time: 9 AM to 6 PM
 
@@ -595,7 +595,7 @@ Date: 21 October
 
 ## Work
 
-- https://github.com/ftd-lang/fpm/discussions/311
+- https://github.com/ftd-lang/fastn/discussions/311
   - Status: In progress
   - Time: till 6PM
   - Meeting with Shobhit and Arpita for around 1:30hrs till 5:30
@@ -630,7 +630,7 @@ Date: 21 October
 ## Work
 
 - https://www.youtube.com/watch?v=SdpCVTk84DM
-- https://github.com/ftd-lang/fpm/discussions/311
+- https://github.com/ftd-lang/fastn/discussions/311
 
 ## Demo at 11 AM
 
@@ -650,8 +650,8 @@ About new syntax in ftd `end` and all.
 
 ### Abrar
 
-- About `kameri-app` fpm aap ui is written in ftd and backend is written django.
-- kameri should be used as dependency as fpm package
+- About `kameri-app` fastn aap ui is written in ftd and backend is written django.
+- kameri should be used as dependency as fastn package
 - Apps like This will be used as wasm app
 - id an app need machine and database service, ...
 - Custom Urls mapping in sitemap
@@ -681,7 +681,7 @@ About new syntax in ftd `end` and all.
 
 ## Work
 
-- https://github.com/ftd-lang/fpm/discussions/526
+- https://github.com/ftd-lang/fastn/discussions/526
 
 ## Discussion with Amitu
 
@@ -695,14 +695,14 @@ About new syntax in ftd `end` and all.
 ## Work
 
 - Need to handle errors in ftd
-- Working On https://github.com/ftd-lang/fpm/discussions/526
+- Working On https://github.com/ftd-lang/fastn/discussions/526
 
 TODO: Need to ask from Arpita, how to invoke function on-click event
 For example how to clear error field when user click in input box
 
 ## Today's todo
-- FPM Heroku Template: TODO: On push event it should call clear API
-- FPM Heroku rename APP name
+- FASTN Heroku Template: TODO: On push event it should call clear API
+- FASTN Heroku rename APP name
 
 ## For Interview
 
@@ -723,9 +723,9 @@ For example how to clear error field when user click in input box
   - Netflix apps talk to only servers directly
   - Netflix apps talk to abrark.com and then talk to netflix server
   - `abrark.com` becomes proxy server
-  - fpm has todo app, music app, youtube integrate, and using abrark.com/spotify
+  - fastn has todo app, music app, youtube integrate, and using abrark.com/spotify
   - How to solve, auth is provided by abrark.com
-  - fpm implementation of Auth protocol
+  - fastn implementation of Auth protocol
   - Personalised tracking using authentication
   - Request goes to amitu.com from abrark.com with unique id, and amitu.com will verify and set a token
   - Netflix cookie will be stored at abrark.com
@@ -755,7 +755,7 @@ For example how to clear error field when user click in input box
 
 -- ds.h3: My Tasks
 
-- Working On https://github.com/ftd-lang/fpm/discussions/526
+- Working On https://github.com/ftd-lang/fastn/discussions/526
 
 -- ds.h3: Aditi Update
 

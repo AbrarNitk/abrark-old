@@ -1,19 +1,19 @@
--- ds.page: FPM Development
+-- ds.page: FASTN Development
 
 -- ds.h1: Ideas
 
-- How to Update Content On Heroku Using fpm cli
-  - Like `fpm refresh heroku`
+- How to Update Content On Heroku Using fastn cli
+  - Like `fastn refresh heroku`
 
 -- ds.h1: Auth Implementation
 
 ## Current Implementation:
 
 - User has to choose one platform like github or discord to login
-- fpm will redirect than that user to chosen platform to login
-- Than after successful login with chosen platform, platform will redirect to fpm
+- fastn will redirect than that user to chosen platform to login
+- Than after successful login with chosen platform, platform will redirect to fastn
   with some shared token
-- Than fpm set's the cookie-token which is fetched from the chosen platform
+- Than fastn set's the cookie-token which is fetched from the chosen platform
 
 This is how we are setting cookie.
 
@@ -23,9 +23,9 @@ lang: text
 http header: cookie: access_token=<github-shared access token>;
 
 
--- ds.h1: Multi platform Authentication on fpm
+-- ds.h1: Multi platform Authentication on fastn
 
-On fpm, user can choose one authentication provider to login on one app and
+On fastn, user can choose one authentication provider to login on one app and
 another authentication provider on another application.
 
 Let's take an example, On `todo` application user can choose google provider
@@ -40,7 +40,7 @@ providers and have to logged in again on different browser.
 
 - Note Points:
   - How app will identify which auth provider to use.
-  - fpm can show all the already logged-in platforms and user just can check it.
+  - fastn can show all the already logged-in platforms and user just can check it.
 
 
 ## How to store session
@@ -48,7 +48,7 @@ providers and have to logged in again on different browser.
 ### Without DB
 
 - data will be stored in cookie only
-- fpm instance will not use any db storage.
+- fastn instance will not use any db storage.
 - Pros:
   - no db call to check authentication
 - Cons:
@@ -70,7 +70,7 @@ providers and have to logged in again on different browser.
 ## Discussion With Amitu
 
 - We don't want to use db for authentication
-- auth supports in fpm
+- auth supports in fastn
 - We can use multiple providers
   - facebook, apple, google, discord, google-docs, add them to google docs to
   access the page
@@ -101,7 +101,7 @@ tid: hash(package_name) + git
   - Workshop guys need that
   - Single Plan Just choose it
 
-- fpm sync chalana
+- fastn sync chalana
   - chal rha hai ki nhi chal rhai hai
   - adv: we don't have dep on git
   - problem: sync requires local stage (.workspace)

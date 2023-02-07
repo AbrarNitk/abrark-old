@@ -4,7 +4,7 @@
 
 
 
-FPM build with remote feature
+FASTN build with remote feature
 
 `cargo install --path=. --features remote`
 

@@ -1,12 +1,12 @@
 -- ds.page: `document` in Sitemap
 
 
-Discussion: https://github.com/ftd-lang/fpm/discussions/465
+Discussion: https://github.com/ftd-lang/fastn/discussions/465
 
 -- ftd.code:
 lang: ftd
 
-\-- fpm.sitemap:
+\-- fastn.sitemap:
 
 # Home: /
 

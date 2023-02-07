@@ -1,11 +1,11 @@
--- ds.page: FPM Controller to Rust
+-- ds.page: FASTN Controller to Rust
 
 
 # Random thoughts
 
 - Deploy abrark.com on fly.io
 - Deploy kameri on heroku
-- Remove README1.md from fpm Heroku Template
+- Remove README1.md from fastn Heroku Template
 
 # Discussion with Wasif(Amitu, Shobhit)
 
@@ -21,7 +21,7 @@
 
 ## Scenarios
 
-- Self Hosting `fpm`
+- Self Hosting `fastn`
   - GitHub and GitLab have apps template to deploy
 - Hosted by fifthtry
 
@@ -35,5 +35,5 @@
   - Is that possible not to use database?
   - storage will be only in the cookie
   - It seems it is possible, using only cookies we can provide auth
-- I can create a new git branch in fpm with integrated new fpm-auth (crate)
+- I can create a new git branch in fastn with integrated new fastn-auth (crate)
 - Get some oauth working

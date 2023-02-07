@@ -6,10 +6,10 @@
 -- ds.code:
 lang: py
 
-\-- fpm.package: abrark.com
+\-- fastn.package: abrark.com
 
 
-\-- fpm.dependency: fifthtry.github.io/kameri-app
+\-- fastn.dependency: fifthtry.github.io/kameri-app
 mount-point: todos
 end-point: http://kameri-service.heroku-apps.com/
 
@@ -33,9 +33,9 @@ http://abrark.com/todos/
 ## Arpita and Amitu
 - Time 11:00 to 12:45
 - Options: ftd, wasm, django
-- `fpm controller`: Rust + wasm
+- `fastn controller`: Rust + wasm
   - We have expertise in Rust
-  - First App for fpm
+  - First App for fastn
   - Minuses
     - Can not access direct database, need postgrest
     - Call the fly APIs
@@ -47,9 +47,9 @@ http://abrark.com/todos/
 - Service high level design
 - We have to explore fly.io APIs
 - IP are fixed cost, one or 2 dollar per month
-- How much RAMs and CPU fpm chal pata hai
+- How much RAMs and CPU fastn chal pata hai
 - docker application layer cpu and ram allocation
-- how to put cpu and ram limit on fpm
+- how to put cpu and ram limit on fastn
 
 Part 1: Design, Package to Machine
 Part 2: Research Exercise on part 1: How to scale it

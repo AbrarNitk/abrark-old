@@ -12,9 +12,9 @@
 # Rithik
 
 Goal: Deploy fifthtry.com on Heroku with Stripe/Payment
-Next: fpm-sync
+Next: fastn-sync
 
-- Start doing documentation of fpm-controller
+- Start doing documentation of fastn-controller
   - Payment Django Models and APIs, Stripe, fly's apis
 
 - [ ] Stripe Payment

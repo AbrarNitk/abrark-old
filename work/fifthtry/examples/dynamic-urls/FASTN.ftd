@@ -1,10 +1,10 @@
--- import: fpm
+-- import: fastn
 
--- fpm.package: dynamic-urls
+-- fastn.package: dynamic-urls
 download-base-url: dynamic-urls
 
 
--- fpm.dynamic-urls:
+-- fastn.dynamic-urls:
 
 # Home
   url: /<string:username>/section/<integer:age>/

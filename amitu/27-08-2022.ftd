@@ -1,15 +1,15 @@
 -- ds.page: Hosting
 
-- I need to understand fpm-controller
+- I need to understand fastn-controller
 - Need to learn Docker, Nginx and K8s
 
 
-fpm in heroku.
+fastn in heroku.
 
 - Application deployment
  - Auto Machine Spawning, Auto Machine Kill if no use cases.
  - Different k8s cluster on single machine with different packages.
- - fpm sync, fpm deploy
+ - fastn sync, fastn deploy
 
 # Durability
 
@@ -55,7 +55,7 @@ Launch Strategy
 
 - ftd with Django, Spring Boot, Node Js Integrations
 
-- FPM Hosting: How to use fpm with all hosting providers like AWS, GCP
+- FASTN Hosting: How to use fastn with all hosting providers like AWS, GCP
 
 
-sudo vim /etc/systemd/system/fpm-app.service
+sudo vim /etc/systemd/system/fastn-app.service

@@ -5,7 +5,7 @@
 dotcom/events/dd/2022/11.ftd
 
 - Demo Day on 18th November, what are we going to show
-- cargo like features in fpm dependencies
+- cargo like features in fastn dependencies
 - subscription wasm app
   - How could we update the dialog content?
   - We may want to change the subscription content globally

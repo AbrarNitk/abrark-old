@@ -4,24 +4,24 @@
 
 - [x] endpoint should be delivered
 - [x] mount-point should be delivered
-- [ ] Django Tutorial: https://github.com/ftd-lang/fpm/discussions/526
+- [ ] Django Tutorial: https://github.com/ftd-lang/fastn/discussions/526
 - [ ] ftd should be delivered
 
-- [ ] fpm-controller should be delivered
-  - [x] deploy fpm package
+- [ ] fastn-controller should be delivered
+  - [x] deploy fastn package
   - [x] pricing page
 
 - [ ] Move FifthTry.com to heroku
-  - Deploy dotcom on heroku and used controller fpm-app in it.
-  - fpm-controller on Heroku, Hosting on fly.io via fifthtry.com
-  - fpm apps documentation
+  - Deploy dotcom on heroku and used controller fastn-app in it.
+  - fastn-controller on Heroku, Hosting on fly.io via fifthtry.com
+  - fastn apps documentation
 
-- fpm auth test pages with different authorization providers and with different
-  apis, whatever we are building. These pages should ideally be in fpm.dev.
+- fastn auth test pages with different authorization providers and with different
+  apis, whatever we are building. These pages should ideally be in fastn.dev.
 
-- How to handle logs with FPM apps and show their logs to their sites
+- How to handle logs with FASTN apps and show their logs to their sites
 - Site Logs and Site Analytics like google analytics, Monitoring
-  - Big question is that how fpm is going to handle all these things
+  - Big question is that how fastn is going to handle all these things
 
 
 
@@ -31,26 +31,26 @@
   - [ ] build fully polished application that we can show to investors
   - wasm ka infra thik karna hai.
   - requirement: http request will go to wasm, instead of endpoint.
-  - fpm auth with wasif
+  - fastn auth with wasif
   - wasm
     - have to run an application this weekend
-    - fpm ka http web framework likhna padega
+    - fastn ka http web framework likhna padega
     - existing code: wasm mein app likhna, req le rhai response send karna hai
-    - How to call the wasm code from rust fpm
+    - How to call the wasm code from rust fastn
     - two wasm apps and one endpoint app
-    - how to deploy payment on fifthtry? fpm controller
+    - how to deploy payment on fifthtry? fastn controller
     - wams-code: take the ownership of the code from Shobhit
       - wasm ka jo already likha hua uska chala hai
       - wasm-related: at server run time: single engine global, module should be only at once
       - handle_wasm chala lo, just fixed and all
       - learn Wasm, experiment ka readme padhlo
-      - see the support of wasm, current fpm ka code
+      - see the support of wasm, current fastn ka code
       - end to end support without using wit-x
     - with-Amitu: daily one hour a call for experiment
 
 - [ ] Deploy fifthtry on heroku
-- [x] mount-point, multi-mount point and endpoint, fpm-apps
-- [x] auth should be integrated with fpm
+- [x] mount-point, multi-mount point and endpoint, fastn-apps
+- [x] auth should be integrated with fastn
 - [x] Payment and Subscription
 - [ ] next ftd rewrite: peace time
 
@@ -78,8 +78,8 @@
 
 - [ ] Payment: Deploy Payment with FifthTry On Heroku
 - [ ] Wasif Auth Integration PR review and testing
-- [x] End to End FPM and Doc Site Support
-  - .icon support in fpm.package
+- [x] End to End FASTN and Doc Site Support
+  - .icon support in fastn.package
 
 
 -- ds.h1: Daily Updates
@@ -90,12 +90,12 @@
 - [x] Wasif Telegram PR merging
   - Status: Pending
   - Wasif should next pick the discord integration
-- [x] Rithik Models PR merging for FPM controller Service
+- [x] Rithik Models PR merging for FASTN controller Service
   - Status: Pending
 - [ ] I have to explore more about the wastime with rust host and guest
 - [ ] Documentation for how to GitHub identities and GitHub OAuth Apps
   - I have to provide an example to the Wasif how should we write the documents
-- [ ] Redeploy dotcom and abrark with new fpm binary
+- [ ] Redeploy dotcom and abrark with new fastn binary
 - [ ] Today for learning flex-box
   - https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 
@@ -106,7 +106,7 @@
 - Meeting with Wasif
   - Agenda: Telegram Integration
 - Meeting with Rithik
-  - Agenda FPM Controller
+  - Agenda FASTN Controller
 
 ### One On One with Amitu
   - Success is hard, same as company building is hard
@@ -179,7 +179,7 @@
   - layout-stuff
     - flexbox
     - autolayout figma
-- Rithik: FPM Controller
+- Rithik: FASTN Controller
   - login pages
   - Show it working with dotcom also
   - Do db only backend without integration
@@ -198,7 +198,7 @@
 - [ ] Discussion with Wasif
   - Have to merge his PR and test it
   - Have to create a document for different identities
-  - fpm.dev docs
+  - fastn.dev docs
 
 
 
@@ -210,7 +210,7 @@
 - [ ] Bury Support status
 - [ ] Wasif Update on OAuth with Telegram
   - [x] telegram: figured out all the resources APIs of and OAuth Flow of the app
-  - https://github.com/ftd-lang/fpm/discussions/648
+  - https://github.com/ftd-lang/fastn/discussions/648
   - [ ] discord: figured out all the resources APIs of and OAuth Flow of the app
 - [x] Rithik Update on Payment
   - Discussed APIs with him
@@ -232,7 +232,7 @@
 - We will convert each auth providers code like github, telegram, etc.., into
   WASM
 
-## Discussion About FPM Controller
+## Discussion About FASTN Controller
 
 - Design different pages
   - Sites, Access, Billing, Settings, etc...
@@ -249,7 +249,7 @@
 
 ## Tasks
 
-- [x] Fixed fpm Apps
+- [x] Fixed fastn Apps
 - [x] Fixed redirect uri in case of image
 - [x] Test and merge wasif branch for auth
 - [x] End to End App support with DocSite
@@ -257,16 +257,16 @@
   - [x] Create an OAuth App
   - [x] Deploy Using Template
   - [x] Test Login and Logout functions
-  - [x] fpm controller as an app with dotcom
+  - [x] fastn controller as an app with dotcom
   - [ ] Need to create an OAuth GitHub app using fifthtry account
       - Need permission to create App
   - [ ] Update credentials on Heroku client_id and client secrets
   - [ ] fifthtry-team can only host the machines on fly.io
-  - [ ] Auth document structure in fpm.dev and handle it to wasif.
-  - [ ] Need to create groups in dotcom using `fpm.user-group`
+  - [ ] Auth document structure in fastn.dev and handle it to wasif.
+  - [ ] Need to create groups in dotcom using `fastn.user-group`
   - [ ] Domain Mapping to fifthtry.com
-  - [ ] abrark: fpm build pack created by Shobhit, need to test.
-  - [ ] need fpm dev environment, because now it is serving fifthtry.com
+  - [ ] abrark: fastn build pack created by Shobhit, need to test.
+  - [ ] need fastn dev environment, because now it is serving fifthtry.com
       - later
   - [ ] Don't have sentry integration
       - later
@@ -281,7 +281,7 @@
     false means page will be loaded
 - [ ] Wasm Subscription App
     - Abrar: Learn Supabase
-- [ ] Small changes in the existing code of end-point and fpm.apps, sitemap, etc
+- [ ] Small changes in the existing code of end-point and fastn.apps, sitemap, etc
 
 ### Discussion With Amitu
 
@@ -295,8 +295,8 @@
 ## Tasks
 
 - Merge Wasif branches related to auth and test them.
-  - https://github.com/ftd-lang/fpm/pull/628
-  - Testing pages in fpm.dev repo, for different OAuth providers and for
+  - https://github.com/ftd-lang/fastn/pull/628
+  - Testing pages in fastn.dev repo, for different OAuth providers and for
     different resources
   - Add Telegram OAuth
   - Add Google OAuth
@@ -311,19 +311,19 @@
   week demo
   - I have to explore stripe for payment APIs
   - I have to explore fly.io for deployment APIs
-  - How to deploy fpm-controller on fifthtry.com
+  - How to deploy fastn-controller on fifthtry.com
 - Connect with Wasif and let's discuss, how to build the google OAuth
 
 
 -- ds.h2: 12th and 13th Nov
 
 - How OAuth works, Write an article about it.
-  - Article on how to use GitHub OAuth with fpm and use access controlled
+  - Article on how to use GitHub OAuth with fastn and use access controlled
   pages and apps.
-- how will we implement auth in fpm
-- fpm db or not?? [Check](/dev/fpm/)
-- fpm controller payment system design
-- fpm code refactor
+- how will we implement auth in fastn
+- fastn db or not?? [Check](/dev/fastn/)
+- fastn controller payment system design
+- fastn code refactor
   - Have to optimize the can_read implementation, currently it is checking in
   sitemap and apps in separate chunk of code. Can combine their logic together.
   - have to fix endpoint and mount-point small issues, some renames and all.
@@ -335,9 +335,9 @@
 - [x] Payment update from Rithik
   - Stripe Payment is working as demo
   - Docs pending and PR review pending
-- [x] fpm-apps processor
+- [x] fastn-apps processor
 - [x] readers and writers support in apps
-- [ ] pass identity to endpoint service X-FPM-USER-ID
+- [ ] pass identity to endpoint service X-FASTN-USER-ID
 - [ ] django service pass API key and change kameri code according to it
 - [ ] remove mount point and end point from dependency
 - [ ] demo
@@ -346,8 +346,8 @@
 
 ### Tasks
 
-- [x] Auth Integration with fpm and code refactor
-  - https://github.com/ftd-lang/fpm/pull/589/files
+- [x] Auth Integration with fastn and code refactor
+  - https://github.com/ftd-lang/fastn/pull/589/files
 - [x] User Details Processor
 
 -- ds.h2: 9th Nov
@@ -356,7 +356,7 @@
 
 - Today: Auth Integration
   - Discussion: auth
-  - Wasif PR review and integrate it with fpm
+  - Wasif PR review and integrate it with fastn
   - login page should work
   - readers and writers should be worked on abrark.com
 
@@ -380,18 +380,18 @@
 
 -- ds.h2: 8 Nov
 
-- [ ] multi mount-point fpm apps
-  - Discussion: https://github.com/ftd-lang/fpm/discussions/599
+- [ ] multi mount-point fastn apps
+  - Discussion: https://github.com/ftd-lang/fastn/discussions/599
   - Discussion: /multi-mount-point/
   - terms: mount-point, url, end-point, app-name
-  - fpm-user-id header to different microservices
+  - fastn-user-id header to different microservices
   - readers writers groups in apps
   - package mein icon
 
 - Auth integration with Wasif
-  - Need to create one fpm package with auth groups pages
+  - Need to create one fastn package with auth groups pages
     - Possibly provide a button to deploy on Heroku
-    - So create a package from fpm-template
+    - So create a package from fastn-template
     - Status: Done
 
 - Payment Discussion with Amitu
@@ -400,7 +400,7 @@
   - And create a small system design for Rithik
   - Status: Done, system design is pending
 
-- movie-db is breaking with latest fpm
+- movie-db is breaking with latest fastn
   - deploy movie-db on heroku and add another app
   - movie-db: fixed
   - Status: Done, working with abrark
@@ -408,7 +408,7 @@
 -- ds.h2: 7 Nov
 
 - [ ] multi mount-point
-  - Discussion: https://github.com/ftd-lang/fpm/discussions/599
+  - Discussion: https://github.com/ftd-lang/fastn/discussions/599
   - Discussion: /multi-mount-point/
 
 
@@ -423,7 +423,7 @@
   - [x] auth integration with wasif
 
   - [ ] found error in dynamic-urls, getting failed
-    /-- fpm.dynamic-urls:
+    /-- fastn.dynamic-urls:
     ;; error while calling /-/kameri-app/api/update-todo/
     /- Add Todo
       url: /add-todo/<string:name>
@@ -449,7 +449,7 @@
 - wasm k konse features hai, jo users use mein aayenge
   - company definition dictionary
   - App to auto generate the code, just replace the configuration
-  - Api documentation fpm package
+  - Api documentation fastn package
   - Run a new server on a click, with the provided configuration
 - supertokens Passwordless
 - docs.dyte.io/api/
@@ -464,11 +464,11 @@
     - http://127.0.0.1:8000/-/kameri-app/add-todo/abrark/
     - Here `abrark` is dynamic parameter
   - [x] http-processor call with package-name /-/kameri-app/api/todos/
-    - In this case we need to fetch the end-point with package-name from FPM.ftd
+    - In this case we need to fetch the end-point with package-name from FASTN.ftd
     - It will be either in the dependency or current package
     - url: `/-/kameri-app/api/todos/` this is working in kameri service
   - [x] proxy or button api call with package-name /-/kameri-app/api/add-todo/
-    - In this case we need to fetch the end-point with package-name from FPM.ftd
+    - In this case we need to fetch the end-point with package-name from FASTN.ftd
     - It will be either in the dependency or current package
   - [x] kameri-app should also work with abrark.com
   - [ ] redirect to package, send package after adding the todos pass redirect header
@@ -481,15 +481,15 @@
 
 
   - [ ] found error in dynamic-urls, getting failed
-    /-- fpm.dynamic-urls:
+    /-- fastn.dynamic-urls:
     ;; error while calling /-/kameri-app/api/update-todo/
     /- Add Todo
       url: /add-todo/<string:name>
       document: add-todo.ftd
 
 
-- [x] end-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/462
+- [x] end-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/462
   - Status: In Progress
 
 
@@ -500,15 +500,15 @@
 - [x] kameri-app package name change and test, it is not working with abrark.com
   - kameri-app.herokuapp.com package name and dependency name is same for now
   - dependency name should be `kameri-app.herokuapp.com` because it has to download
-    the FPM.ftd file, and package name should be same as well.
+    the FASTN.ftd file, and package name should be same as well.
 
 
-- [x] mount-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/550
+- [x] mount-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/550
   - Status: Work is done, merging is remaining
 
-- [ ] end-point support in `-- fpm.dependency`
-  - https://github.com/ftd-lang/fpm/discussions/462
+- [ ] end-point support in `-- fastn.dependency`
+  - https://github.com/ftd-lang/fastn/discussions/462
   - Status: In Progress
 
 - [x] kameri-app fixed on heroku

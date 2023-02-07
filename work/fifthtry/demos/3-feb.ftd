@@ -28,21 +28,21 @@
 
 - fastn
 - owner: ganesh
-  - ganesh has to design components in fpm as component library
+  - ganesh has to design components in fastn as component library
 
 
-- fpm to fastn
+- fastn to fastn
 - owner: abrark
   - rename repo, everything in source, gh action, install script, cli name change
   - vercel package, documentation update
-  - fpm.ftd to fastn.ftd
+  - fastn.ftd to fastn.ftd
 
 
 - hostn
 - owner: abrark
   - minimum release
   - coming soon page(index page)
-  - hostn static website and deploy it with fpm on heroku
+  - hostn static website and deploy it with fastn on heroku
   - create package with fly
   - view
   - one click package create flow
@@ -61,7 +61,7 @@
 
 - fast.io homepage ready
 - set-1 landing page ready
-- can we move fpm to fastn
+- can we move fastn to fastn
 
 
 

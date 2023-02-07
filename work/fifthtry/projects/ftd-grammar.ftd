@@ -50,5 +50,5 @@ lang: ftd
 
 - Easy To Learn which includes non programmers also
 - Focus More On Data, Not UI Components
-- Server Side Rendering using FPM Web Server, which is written in Rust, amazingly fast.
+- Server Side Rendering using FASTN Web Server, which is written in Rust, amazingly fast.
 

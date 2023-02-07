@@ -1,4 +1,4 @@
--- import: fpm
+-- import: fastn
 -- import: abrark.com/assets
 
 -- main_row:
@@ -6,7 +6,7 @@
 -- ftd.row main_row:
 width: fill
 height: fill
-background-color: $fpm.color.main.background.base
+background-color: $fastn.color.main.background.base
 
 --- left_column:
 
@@ -17,15 +17,15 @@ background-color: $fpm.color.main.background.base
 -- ftd.column left_column:
 width: percent 25
 height: fill
-background-color: $fpm.color.main.custom.ten
+background-color: $fastn.color.main.custom.ten
 padding-top: 140
 ftd.image-src profile_image: $assets.files.static.images.profile-new.jpg
 section list sections: $sections
 spacing: 1
 
 --- ftd.text: Home
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
+role: $fastn.type.heading-medium
+color: $fastn.color.main.text-strong
 width: fill
 text-align: center
 
@@ -47,8 +47,8 @@ string title:
 width: fill
 
 --- ftd.text: $title
-role: $fpm.type.heading-medium
-color: $fpm.color.main.text-strong
+role: $fastn.type.heading-medium
+color: $fastn.color.main.text-strong
 width: fill
 text-align: center
 
@@ -56,7 +56,7 @@ text-align: center
 -- ftd.column right_column:
 height: fill
 width: percent 75
-background-color: $fpm.color.main.text-strong
+background-color: $fastn.color.main.text-strong
 
 
 

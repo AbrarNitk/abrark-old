@@ -21,14 +21,14 @@ jobs:
           name: SSR_BUILD
           path: CNAME
       - uses: FranzDiebold/github-env-vars-action@v2
-      - name: Install fpm
-        id: install_fpm
+      - name: Install fastn
+        id: install_fastn
         continue-on-error: false
-        run: sh -c "$(curl -fsSL https://raw.githubusercontent.com/FifthTry/fpm/main/install-fpm.sh)"
-      - name: Build the pages with fpm
+        run: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ftd-lang/fastn/main/install.sh)"
+      - name: Build the pages with fastn
         id: build
         continue-on-error: false
-        run: fpm build
+        run: fastn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}

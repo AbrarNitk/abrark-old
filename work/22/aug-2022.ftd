@@ -6,7 +6,7 @@
 - breakfast done
 - English reading done
 
-- [fpm --package-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+- [fastn --package-url CLI argument](https://github.com/FifthTry/fastn/discussions/457)
 - Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/
 - Read: What are we launching https://github.com/orgs/FifthTry/discussions/75
 - Read: discussion on nested section https://github.com/FifthTry/ftd/discussions/381
@@ -20,7 +20,7 @@
   - Status: Done:
   - https://discord.com/channels/793929082483769345/1011598189264117774
 
-- Repeat: How to do remote testing of fpm auth, documentation.
+- Repeat: How to do remote testing of fastn auth, documentation.
 - Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
 - Repeat: [Learn Docker](/docker/)
 
@@ -43,7 +43,7 @@ Features
 Auth
 Mailing list: Subscriber
 Analytics: like Page View: Integrate with doc-site, how to handle unknown url's,
-give django to fpm ui
+give django to fastn ui
 
 External packages:
 package: called analytics and added it to amitu.com, api[get, post] or ui.
@@ -59,8 +59,8 @@ package: called analytics and added it to amitu.com, api[get, post] or ui.
   - https://discord.com/channels/793929082483769345/1011598189264117774
   - Working on it.
 
-- Repeat: How to do remote testing of fpm auth, documentation.
-- FPM/FTD Feature testing discussion understanding.
+- Repeat: How to do remote testing of fastn auth, documentation.
+- FASTN/FTD Feature testing discussion understanding.
   - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
 - Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
 - Repeat: Gathering of Docker/Kubernetes Learning Resources
@@ -76,8 +76,8 @@ package: called analytics and added it to amitu.com, api[get, post] or ui.
 - Limit the authentication on abrark.com, remove auth from home page, do it asap.
 - Configurable markdown colors in ftd.
   - https://discord.com/channels/793929082483769345/1011598189264117774
-- How to do remote testing of fpm auth, documentation.
-- FPM/FTD Feature testing discussion understanding.
+- How to do remote testing of fastn auth, documentation.
+- FASTN/FTD Feature testing discussion understanding.
   - https://fifthtry.slack.com/archives/C01HXT0RAFJ/p1661324894572519
 - Demo Video with Arpita, Aviral, Priyanka Ganesh. All three: cli, cookie: sid identities
 - Gathering of Docker/Kubernetes Learning Resources
@@ -88,7 +88,7 @@ TODO: Remove actix-web and use of hyper
 
 -- ds.h1: 23 Aug 2022
 
-fpm auth integration
+fastn auth integration
 markdown styling
 
 
@@ -99,7 +99,7 @@ processor, document-id related stuff
 
 -- ds.h1: Tasks
 
--- ds.h2: fpm auth
+-- ds.h2: fastn auth
 
 -- ds.h2: TODO
 
@@ -107,21 +107,21 @@ processor, document-id related stuff
 - Handle image referer - Discussion raised
 
 
--- ds.h1: `fpm auth` 17 Aug 2022
+-- ds.h1: `fastn auth` 17 Aug 2022
 
 - Config::can_read implementation - Done
     - Code - Done
     - Testing - Done
 
 How did I tested it
-`fpm serve --identities 'email: abrark.asahi@gmail.com'` and created one user
+`fastn serve --identities 'email: abrark.asahi@gmail.com'` and created one user
 group for readers, `/` is working and `/resume/` is also working.
 
 
 -- ds.h1: 19 Aug 2022
 
 TODO:
-fpm-auth: Remote Identites and API Integration
+fastn-auth: Remote Identites and API Integration
 Movie DB APP
 `term` feature video: https://www.youtube.com/watch?v=sjVJD3W8WyA
 `function` feature video: from youtube

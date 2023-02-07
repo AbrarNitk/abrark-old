@@ -1,6 +1,6 @@
 -- ds.h1: 2023 Goals
 
-- fpm performance
-- fpm apps
-- fpm auth
+- fastn performance
+- fastn apps
+- fastn auth
 - wasm learning

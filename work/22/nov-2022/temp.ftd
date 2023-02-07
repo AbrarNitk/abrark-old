@@ -2,13 +2,13 @@
 
 - Writing actix files
 - How websocket works, http 2 and http 1
-- Design of fpm from Amitu: fpm code refactor
+- Design of fastn from Amitu: fastn code refactor
 - Stripe Payment meeting with Amitu
 - How to implement Future on a struct on .await calling poll
 - codec is a http parser, mp3 codec
 - subscription
 
-- Wasm and fpm-controller
+- Wasm and fastn-controller
 - Techie and writers 1000 domains
 - medium people: more than 30 or 50 article and people they are using their own domain or not
 - Are we ready technically: asap

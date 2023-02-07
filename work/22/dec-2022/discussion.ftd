@@ -2,7 +2,7 @@
 
 -- ds.h1: Discussion with Amitu and Arpita
 
-- Agenda: How should we plan next FTD/FPM/WASM
+- Agenda: How should we plan next FTD/FASTN/WASM
 - Time: 7th December ~11:30 AM
 - Where we can go for the teaching and marketing FTD
   - Colleges
@@ -15,25 +15,25 @@
 - We can plan for lang only for now, till Feb and stop the wasm experiments actively
 - Wasm will be be on our roadmap but er are going to pick it again after FEB
 - Consolidate what we have for now
-  - FTD is not properly integrated with FPM
-  - We can look at that FPM performance for now
+  - FTD is not properly integrated with FASTN
+  - We can look at that FASTN performance for now
   - Wasm: We know that it is do able
   - There is a lot of things about the wasm, that we can do about it
   - WASM: Differ till the Feb end
   - We should more focus on FTD and performance
   - I will be continue to spend sometime on Wasm
   - We will not be able to creating the awesome thing in Wasm
-  - I would to like take, image performance in FPM [TODO]
-  - FPM has to use new version of 0.3 [TODO]
+  - I would to like take, image performance in FASTN [TODO]
+  - FASTN has to use new version of 0.3 [TODO]
   - First all the import/processors/foreign-variables are working
-  - Firstly integrating the ftd to FPM and then performance
+  - Firstly integrating the ftd to FASTN and then performance
   - a python script for converting the old ftd[0.2] to new ftd[0.3] python script
   - Learn a language in just 10 minutes
 
 - Summary of the Discussion
   - AbrarK: Stop actively doing wasm experiments
-  - First integrate the FTD into FPM
+  - First integrate the FTD into FASTN
     - imports, processors and foreign variables
-    - Improve FPM performance, Images are taking so much of the time
+    - Improve FASTN performance, Images are taking so much of the time
   - Possibly a python script that will automatically convert old ftd(0.2) to 0.3
   - How can we plan that, we can write "Learn FTD language in just 10 minutes"

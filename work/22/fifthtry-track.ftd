@@ -12,19 +12,19 @@
   - Take Arpita with you as well
 - Next: ftd interpreter
 
-- fpm framework
+- fastn framework
   - endpoint and wasm(drop)
   - auth app
-- fpm Apps
+- fastn Apps
   - Auth
-    - only fpm mein daal sakte
+    - only fastn mein daal sakte
     - kitna time lagta hai uske hisab see dekhte hai rust mein karna hai ya nhi
   - Kameri App, Movie-db as demo
 
 -- ds.h1: Arpita Track
 
 - ftd interpreter
- - Change all the existing fpm packages(fpm.dev, ftd.dev, fifthtry.github.io/*)
+ - Change all the existing fastn packages(fastn.dev, ftd.dev, fifthtry.github.io/*)
  - Abrar: 20%
    - will help to write indentation support, test cases
    - functions, events, processor, etc...
@@ -37,9 +37,9 @@
      - Use criterion rust for benchmarking
    - Figured out the complexities of the program(parser, interpreter, executor)
 
-- fpm controller
+- fastn controller
   - Rithik
-  - fpm hosting
+  - fastn hosting
   - fly.io, flycli
 - Next Feature: Payment(Razorpay, stripe)
 

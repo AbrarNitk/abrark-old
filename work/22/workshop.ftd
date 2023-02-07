@@ -10,7 +10,7 @@ time: 1:00 to 13:45
 - Work Code Wise
   - mount-point and end-point
   - tutorial: success data, form-handling, redirect, kameri django service docs
-  - powered on heroku, fpm binary will have kameri heroku
+  - powered on heroku, fastn binary will have kameri heroku
 
 - Deployment
 

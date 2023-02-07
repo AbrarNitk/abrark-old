@@ -1,29 +1,29 @@
--- import: fpm
+-- import: fastn
 
--- fpm.package: abrark.com
+-- fastn.package: abrark.com
 zip: github.com/abrarnitk/abrark/archive/refs/heads/main.zip
 download-base-url: https://raw.githubusercontent.com/AbrarNitk/abrark/main/
 
--- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fastn.dependency: fifthtry.github.io/doc-site as ds
 mount-point: /ds/
 
-/-- fpm.dependency: fifthtry.github.io/resume
-/-- fpm.dependency: fifthtry.github.io/Giggle-Presentation-Theme
-/-- fpm.dependency: fifthtry.github.io/resume-caffeine/FPM/config
--- fpm.dependency: fifthtry.github.io/roboto-mono
+/-- fastn.dependency: fifthtry.github.io/resume
+/-- fastn.dependency: fifthtry.github.io/Giggle-Presentation-Theme
+/-- fastn.dependency: fifthtry.github.io/resume-caffeine/FASTN/config
+-- fastn.dependency: fifthtry.github.io/roboto-mono
 
--- fpm.auto-import: abrark.com/assets
--- fpm.auto-import: ds
--- fpm.auto-import: fifthtry.github.io/roboto-mono as mono
+-- fastn.auto-import: abrark.com/assets
+-- fastn.auto-import: ds
+-- fastn.auto-import: fifthtry.github.io/roboto-mono as mono
 
--- fpm.user-group: wilderbit-admins
+-- fastn.user-group: wilderbit-admins
 github-team: wilderbit/wilderbit-admins
 
--- fpm.user-group: abrark-fans
+-- fastn.user-group: abrark-fans
 github-starred: AbrarNitk/abrark
 
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 # FifthTry: /work/fifthtry/
 
@@ -34,7 +34,7 @@ document: /work/fifthtry/projects/hostn/index.ftd
 
 
 
-/-- fpm.sitemap:
+/-- fastn.sitemap:
 
 # Home: /
 nav-title: My Sweet Home
@@ -59,7 +59,7 @@ confidential: false
   readers: abrark-fans
 
 
-/-- fpm.app: Todos for Family
+/-- fastn.app: Todos for Family
 mount-point: /todos/
 package: kameri-app.herokuapp.com
 readers: abrark-fans
@@ -67,15 +67,15 @@ end-point: https://kameri-service.herokuapp.com
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
-/-- fpm.app: Todos for Me
+/-- fastn.app: Todos for Me
 mount-point: /me-todos/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
-readers: fpm-fans
+readers: fastn-fans
 /config: db_url=$ENV.DB_URL
 /config: name=Upadhyay Khanadan
 
-/-- fpm.user-group: ftd-fans
+/-- fastn.user-group: ftd-fans
 github-starred: ftd-lang/ftd
 
 
@@ -95,7 +95,7 @@ readers: ftd-fans
   document: /dev/jwt.ftd
 
 
-/-- fpm.sitemap:
+/-- fastn.sitemap:
 
 # Home
 skip: true
@@ -116,7 +116,7 @@ document: fifthtry.ftd
     document: fifthtry-things.ftd
 
 
-/-- fpm.dynamic-urls:
+/-- fastn.dynamic-urls:
 
 # Dynamic Urls Section
 
@@ -131,12 +131,12 @@ document: fifthtry.ftd
   readers: readers/person
   writers: writers/person
 
-/-- fpm.dependency: kameri-app.herokuapp.com
+/-- fastn.dependency: kameri-app.herokuapp.com
 endpoint: https://kameri-service.herokuapp.com
 endpoint: http://127.0.0.1:8001
 mount-point: /todos/
 
-/-- fpm.user-group: writers
+/-- fastn.user-group: writers
 email: abrark.asahi@gmail.com
 github: AbrarNitk
 
@@ -144,14 +144,14 @@ github: AbrarNitk
 ;; /-/kameri-app.herokuapp.com/api/add-todo/
 ;; package-name should be different
 
-/-- fpm.app: Todos for Family
+/-- fastn.app: Todos for Family
 mount-point: /tod123/
 package: kameri-app.herokuapp.com
 end-point: https://kameri-service.herokuapp.com
 config: db_url=$ENV.DB_URL
 config: name=Upadhyay Khanadan
 
-/-- fpm.app: Movies
+/-- fastn.app: Movies
 mount-point: /movies/
 package: movie-db
 end-point: http://127.0.0.1:8001

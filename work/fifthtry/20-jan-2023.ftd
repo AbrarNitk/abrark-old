@@ -40,9 +40,9 @@
 
 -- ds.h2: Currently We have
 
-- fpm: as cli
-  - fpm serve
-  - fpm build
+- fastn: as cli
+  - fastn serve
+  - fastn build
 - ftd 0.3: 
 
 -- ds.h2: What all can be built
@@ -57,7 +57,7 @@
 
 -- ds.h3: hostn static
 
-- after fpm build, fpm generates the static files
+- after fastn build, fastn generates the static files
 - fastn publish --static, will host the statci site 
 - this will be competing with github pages
 - s3 can be used as storage and single nginx server can serve all of them
@@ -77,7 +77,7 @@
 - create subdomain for every user
 - free for users
 - shared has some hard problems
-- single fpm server can serve multiple packages
+- single fastn server can serve multiple packages
 - so we have to restrict user to consume ram and cpu
 
 
@@ -86,8 +86,8 @@
 
 - no account
 - no installation
-- trying ftd and fpm
-- it is going to be ftd and fpm playground 
+- trying ftd and fastn
+- it is going to be ftd and fastn playground 
 - blocked on hostn shared project
 
 
@@ -227,7 +227,7 @@
 
 -- ds.h1: What SSG Needs
 
-- fpm indexer 
+- fastn indexer 
 - themes
 - auth
 - Importers
@@ -251,15 +251,15 @@
 
 - hostn.io
   - hostn static
-  - logging, monitoring, integrations, fpm sync
+  - logging, monitoring, integrations, fastn sync
   - Primary repo
-  - fpm-controller-ui -> hostn.lib
+  - fastn-controller-ui -> hostn.lib
   - move hostn-docs to hostn
 - fastn.io
 - importers
 
 - auth
-- fpm indexer
+- fastn indexer
 
 
 

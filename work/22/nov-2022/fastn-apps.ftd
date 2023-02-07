@@ -1,33 +1,33 @@
--- ds.page: FPM Apps
+-- ds.page: FASTN Apps
 
-FPM Apps: https://github.com/FifthTry/business/discussions/categories/fpm-app-ideas
+FASTN Apps: https://github.com/FifthTry/business/discussions/categories/fastn-app-ideas
 Discussions:
-  - App Support: https://github.com/ftd-lang/fpm/discussions/599
-  - Auth: https://github.com/ftd-lang/fpm/discussions/585
-  - FPM Apps Auth: https://github.com/ftd-lang/fpm/discussions/621
+  - App Support: https://github.com/ftd-lang/fastn/discussions/599
+  - Auth: https://github.com/ftd-lang/fastn/discussions/585
+  - FASTN Apps Auth: https://github.com/ftd-lang/fastn/discussions/621
 
 
-As we can install multiple fpm applications in a fpm package.
-While installing application, we can also use a fpm dependency with different
+As we can install multiple fastn applications in a fastn package.
+While installing application, we can also use a fastn dependency with different
 mount-point. Meaning that, same dependency can be used in multiple applications
 but with different mount-point.
 
-Discussion: https://github.com/ftd-lang/fpm/discussions/599
+Discussion: https://github.com/ftd-lang/fastn/discussions/599
 
 -- ds.code:
 lang: ftd
 
-\-- import: fpm
-\-- fpm.package: abrark.com
+\-- import: fastn
+\-- fastn.package: abrark.com
 
-\-- fpm.app: Todos for Family
+\-- fastn.app: Todos for Family
 mount-point: /family-todos/
 package: fifthtry.github.io/kameri
 end-point: <>
 config: db_url=$ENV.DB_URL
 config: name=Upadhyay Khanadan
 
-\-- fpm.app: Word DB
+\-- fastn.app: Word DB
 mount-point: /word-db/
 package: fifthtry.github.io/kameri
 end-point: <>
@@ -37,21 +37,21 @@ config: name=WordDB: Database Of Words
 
 -- ds.h1: Tasks
 
-- [ ] package icon and fpm.package
+- [ ] package icon and fastn.package
 - [ ] WASM Subscription App running on AbrarK
-- [ ] Identity support in fpm apps
-- [ ] writers support in fpm apps
-- [ ] readers support in fpm
+- [ ] Identity support in fastn apps
+- [ ] writers support in fastn apps
+- [ ] readers support in fastn
 - [ ] remove endpoint and mount-point from dependency
 
 
 - [ ] Need to handle
-  - [x] request url prefix may be start with fpm-app url.
+  - [x] request url prefix may be start with fastn-app url.
   - [x] Have to refactor the redirect logic
   - [x] pass package config and app config to endpoint
   - [x] If it starts, than that package sitemap is going to use to serve the ftd document
   - [x] Similar thing is going to happen with endpoint, if url did not match with
-    package sitemap, so send request to endpoint, if endpoint exists in the `-- fpm.app`.
+    package sitemap, so send request to endpoint, if endpoint exists in the `-- fastn.app`.
   - [x] pass package config and app config to http processor
   - [x] readers in apps
   - [ ] writers in apps
@@ -59,24 +59,24 @@ config: name=WordDB: Database Of Words
   - [ ] add an optional icon in package
 
 
-- [x] create one type in fpm.ftd of type `fpm.app`
-- [x] parse that to fpm package and sitemap
+- [x] create one type in fastn.ftd of type `fastn.app`
+- [x] parse that to fastn package and sitemap
 - [x] Need to implement multi mount-point
 
 -- ds.h1: Subscription App
 
 - [ ] Create a new repository for this application
-- [ ] This application will be used in fpm.app
+- [ ] This application will be used in fastn.app
 
 
 
-## `fpm-apps` Processor
+## `fastn-apps` Processor
 
 -- ds.code:
 lang: ftd
 
-\-- fpm.app-ui list apps:
-$processor$: fpm-apps
+\-- fastn.app-ui list apps:
+$processor$: fastn-apps
 
 
 -- record app-ui:
@@ -87,12 +87,12 @@ string url:
 /-- app-ui list apps:
 
 
-\-- fpm.app-ui list all-app:
-$processor$: fpm-apps
+\-- fastn.app-ui list all-app:
+$processor$: fastn-apps
 
 
 \-- ftd.column print-app:
-fpm.app-ui app:
+fastn.app-ui app:
 
 \--- ftd.text: $app.name
 

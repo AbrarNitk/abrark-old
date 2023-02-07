@@ -1,6 +1,6 @@
--- ds.page: Wasif fpm-auth
+-- ds.page: Wasif fastn-auth
 
-Auth Tracker: https://github.com/ftd-lang/fpm/discussions/585
+Auth Tracker: https://github.com/ftd-lang/fastn/discussions/585
 
 All auth providers: https://github.com/bk-rs/oauth2-rs/tree/main/providers
 

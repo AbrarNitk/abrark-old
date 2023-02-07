@@ -15,15 +15,15 @@
 
 In this place you will find stuff I find interesting and have learnt recently.
 
--- ds.h1: FPM.ftd has support for sitemap
+-- ds.h1: FASTN.ftd has support for sitemap
 
 It's pretty cool, in a very short succinct way you can create the sitemap for a
 site. It looks something like this:
 
--- ds.code: sitemap lives in FPM.ftd
+-- ds.code: sitemap lives in FASTN.ftd
 lang: ftd
 
-\-- fpm.sitemap:
+\-- fastn.sitemap:
 
 # Home: /
 

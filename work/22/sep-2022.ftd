@@ -6,7 +6,7 @@
 
 -- ds.h1: Month Tasks
 
-- How to automate testing of fpm APIs
+- How to automate testing of fastn APIs
 
 -- ds.h1: Daily Update
 
@@ -26,7 +26,7 @@
 - Color Scheme theme
 - Images and Gifs in the title
 - Footer will also be controlled by sitemap
-- We can use it with FPM or FTD
+- We can use it with FASTN or FTD
 
 
 ### Rithik
@@ -37,7 +37,7 @@
 -- ft.markdown:
 id: input1
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 # input ;; id of the markdown component
 
@@ -51,7 +51,7 @@ id: input1
 
 ```
 
-\-- fpm.toc-item list ph:
+\-- fastn.toc-item list ph:
 $processor$: page-headings
 ```
 
@@ -123,7 +123,7 @@ $processor$: page-headings
 
 - Heading completed,
 - Headings are flat now, It has to be tree based.
-- Discussion: https://github.com/ftd-lang/fpm/discussions/484
+- Discussion: https://github.com/ftd-lang/fastn/discussions/484
 
 
 ### Aviral
@@ -142,13 +142,13 @@ $processor$: page-headings
 
 - request-data processor
   - Status: Done
-  - https://github.com/FifthTry/fpm/discussions/516
+  - https://github.com/FifthTry/fastn/discussions/516
 
-- fpm GitHub issue resolved section while passing them processor
+- fastn GitHub issue resolved section while passing them processor
   - Status: In progress
 
-- Run fpm with redirected page to /movie/?id=5
-- Next: https://github.com/FifthTry/fpm/discussions/526
+- Run fastn with redirected page to /movie/?id=5
+- Next: https://github.com/FifthTry/fastn/discussions/526
 
 -- ds.h2: 22 Sept 2022
 
@@ -168,8 +168,8 @@ $processor$: page-headings
 
 ## Rithik: Page Headings
 
-- Discussion: https://github.com/FifthTry/fpm/discussions/484
-- PR should get closed fpm:487
+- Discussion: https://github.com/FifthTry/fastn/discussions/484
+- PR should get closed fastn:487
 
 
 ## Discussion
@@ -182,7 +182,7 @@ This discussion is about discord channels and rooms
 
 ## Issue
 
-- FPM fpm.dev::Development is giving 404
+- FASTN fastn.dev::Development is giving 404
 
 
 -- ds.h2: 21 Sept 2022
@@ -196,33 +196,33 @@ This discussion is about discord channels and rooms
 - How do we know,
 -
 
-## Deploy fpm with another microservice on Heroku with Proxy Endpoint
+## Deploy fastn with another microservice on Heroku with Proxy Endpoint
 -
 
 -- ds.h2: 20 Sept 2022
 
-## FPM Proxy endpoint
+## FASTN Proxy endpoint
 Status: In progress
-- https://github.com/FifthTry/fpm/discussions/462
+- https://github.com/FifthTry/fastn/discussions/462
 - I will try to complete ot end of the day
 - My target will be deliver it with django microservice(movie-db app)
-- FPM on Heroku with proxy endpoint support, demo with movie db app
+- FASTN on Heroku with proxy endpoint support, demo with movie db app
 
 
 ## FTD final syntax: Have to reread it
 - https://github.com/FifthTry/ftd/discussions/429
 
 ## Dump JSON
-- https://github.com/FifthTry/fpm/discussions/312
+- https://github.com/FifthTry/fastn/discussions/312
 
 -- ds.h2: 19 Sept 2022
 
-## FPM Proxy endpoint
+## FASTN Proxy endpoint
 Status: In progress
-- https://github.com/FifthTry/fpm/discussions/462
+- https://github.com/FifthTry/fastn/discussions/462
 - I will try to complete ot end of the day
 - My target will be deliver it with django microservice(movie-db app)
-- FPM on Heroku with proxy endpoint support, demo with movie db app
+- FASTN on Heroku with proxy endpoint support, demo with movie db app
 
 ## Discussion with Aditi
 
@@ -274,15 +274,15 @@ Status: In progress
 
 -- ds.h2: Heroku CLI documents
 
--- ds.h2: FPM proxy Endpoint implementation
+-- ds.h2: FASTN proxy Endpoint implementation
 
 -- ds.h2: We have to give demo about including another package documents.
 
-https://github.com/FifthTry/fpm/discussions/462
+https://github.com/FifthTry/fastn/discussions/462
 
--- ds.h2: todo Update fpm-heroku docs according to new yml actions
+-- ds.h2: todo Update fastn-heroku docs according to new yml actions
 
-## FPM package authentication
+## FASTN package authentication
 
 - using key or reader writer groups
 
@@ -292,7 +292,7 @@ https://github.com/FifthTry/fpm/discussions/462
 ### Blog post
 -  doc-site: https://github.com/fifthtry/doc-site
 - How can we show summary of the page on the blog, on the home page or landing page.
-- Author page: We can do query: All the posts written by Arpita, fetch the data dynamically(fpm can call the API)
+- Author page: We can do query: All the posts written by Arpita, fetch the data dynamically(fastn can call the API)
 - How many people will use it? budget problem?
 - We have do iOS rendering, Figma, ???
 - Companies are taking baby towards machine learning, Microsoft, Google, etc..
@@ -305,23 +305,23 @@ https://github.com/FifthTry/fpm/discussions/462
 
 -- ds.h1: 15 Sept 2022
 
-### fpm proxy: Endpoint support
+### fastn proxy: Endpoint support
 status: I have to complete it today
 Integrate it with movie-db app
-https://github.com/FifthTry/fpm/discussions/462
+https://github.com/FifthTry/fastn/discussions/462
 
 ### Tutorial for Heroku
 
-https://github.com/FifthTry/fpm/discussions/480
+https://github.com/FifthTry/fastn/discussions/480
 
 
 -- ds.h1: 13th Sep 2022
 
 ## Work
 
-### fpm Proxy
+### fastn Proxy
 
-- https://github.com/FifthTry/fpm/discussions/462
+- https://github.com/FifthTry/fastn/discussions/462
 - proxy with actix
 - proxy with hyper
 
@@ -338,8 +338,8 @@ https://github.com/FifthTry/fpm/discussions/480
 ### Auth Video
 - Delivery: blogs, video
 
-### fpm on Heroku
-- Create a repo, single file and fpm repo and deploy it on heroku
+### fastn on Heroku
+- Create a repo, single file and fastn repo and deploy it on heroku
 - Clear cache: workflow file
 - Endpoint will be extra
 - Article: https://medium.com/ki-labs-engineering/deploying-a-native-go-binary-on-heroku-6d4c955819d8
@@ -388,15 +388,15 @@ https://github.com/FifthTry/fpm/discussions/480
 
 ## Work
 
-### fpm Proxy
+### fastn Proxy
 
-- https://github.com/FifthTry/fpm/discussions/462
+- https://github.com/FifthTry/fastn/discussions/462
 - proxy with actix
 - proxy with hyper
 
 ### Update from Rithik
 
-- deploy fpm binary on heroku
+- deploy fastn binary on heroku
 
 ### Movie DB APP
 
@@ -407,9 +407,9 @@ https://github.com/FifthTry/fpm/discussions/480
 
 ### Clear Cache PR Fixes
 Status: Done
-- https://github.com/FifthTry/fpm/discussions/475
+- https://github.com/FifthTry/fastn/discussions/475
 
-### Discussion with team on fpm auth
+### Discussion with team on fastn auth
 
 
 
@@ -428,7 +428,7 @@ Status: In Progress
 - UI is 90% done: Only Home Page UI is remaining
 - Change URL: add_movie: `_` to `-`
 - Add movie redirect: Home or Movie Page
-- Django API documentation: https://github.com/FifthTry/fpm.dev/pull/79/files#diff-cf67e6a1129660ecc38b7df89ebab76a1765b8a8514fa0076d9ebb4c7b35d280
+- Django API documentation: https://github.com/FifthTry/fastn.dev/pull/79/files#diff-cf67e6a1129660ecc38b7df89ebab76a1765b8a8514fa0076d9ebb4c7b35d280
 
 - Error Message:
     Status: Pending
@@ -441,7 +441,7 @@ Status: In Progress
 - get-movie API call on Review Page: either or http processor?, proxy call. Need clarity from Arpita
 
 - On Click Movie Added Show Successful: On API Response
-- API is not getting called, We have to call it using fpm proxy: Abrar
+- API is not getting called, We have to call it using fastn proxy: Abrar
 - API Integration is Pending
 
 -- ds.h2: Discussion With Arpita, Chota-Amitu, Rithik
@@ -454,9 +454,9 @@ Status: In Progress
 
 -- ds.h2: Work
 
-- Endpoint Support: Proxy method in fpm with actix-web and hyper
+- Endpoint Support: Proxy method in fastn with actix-web and hyper
   - Status: In Progress
-  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Discussion: https://github.com/FifthTry/fastn/discussions/462
   - Plan:
     - Create basic implementation of hyper server with proxy api
     - Explore hyper: https://hyper.rs/
@@ -464,11 +464,11 @@ Status: In Progress
     - Actix Web Proxy Implementation
     - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
-- FPM Heroku Deployment
-  - Rithik will work on deploying fpm on heroku
+- FASTN Heroku Deployment
+  - Rithik will work on deploying fastn on heroku
   - Discussion:
-    - https://github.com/FifthTry/fpm/discussions/480
-    - https://github.com/FifthTry/fpm/discussions/457
+    - https://github.com/FifthTry/fastn/discussions/480
+    - https://github.com/FifthTry/fastn/discussions/457
 
 
 -- ds.h1: 7 Sep 2022
@@ -477,10 +477,10 @@ Status: In Progress
 
 -- ds.h3: With Rithik and Amitu
 
-- Rithik will work on deploying fpm on heroku
+- Rithik will work on deploying fastn on heroku
 - Discussion:
-  - https://github.com/FifthTry/fpm/discussions/480
-  - https://github.com/FifthTry/fpm/discussions/457
+  - https://github.com/FifthTry/fastn/discussions/480
+  - https://github.com/FifthTry/fastn/discussions/457
   - TODO: I have to help him in deploying binary on heroku
 
 -- ds.h3: With Arpita
@@ -491,8 +491,8 @@ Status: In Progress
 
 -- ds.h3: With Amitu and Shobhit About wasm stuff
 
-- https://github.com/FifthTry/fpm/discussions/468
-- https://github.com/FifthTry/fpm/discussions/477
+- https://github.com/FifthTry/fastn/discussions/468
+- https://github.com/FifthTry/fastn/discussions/477
 - Shobhit has to create a prototype with wasmtime
   - Supabase: postgres endpoint
   - Choose Assembly Script or Rust
@@ -510,13 +510,13 @@ Status: In Progress
     - Security: Done
     - Parallel Read and Writes: Done
   - Discussion Update: Done
-    - https://github.com/FifthTry/fpm/discussions/475
+    - https://github.com/FifthTry/fastn/discussions/475
   - Documentation: Done
   - cargo crate async-lock = "2.5.0": Done
 
-- Proxy method in fpm with actix-web and hyper
+- Proxy method in fastn with actix-web and hyper
   - Status: In Progress
-  - Discussion: https://github.com/FifthTry/fpm/discussions/462
+  - Discussion: https://github.com/FifthTry/fastn/discussions/462
   - Plan:
     - Create basic implementation of hyper server with proxy api
     - Explore hyper: https://hyper.rs/
@@ -532,9 +532,9 @@ Status: In Progress
  - I have to read this.
 
 - wasmtime POC
-  - https://github.com/FifthTry/fpm/discussions/468
+  - https://github.com/FifthTry/fastn/discussions/468
   - https://www.assemblyscript.org/introduction.html
-  - https://github.com/FifthTry/fpm/discussions/477
+  - https://github.com/FifthTry/fastn/discussions/477
 
 - FifthTry Auth Login should work fine
   - Docs + Understanding
@@ -549,7 +549,7 @@ Status: In Progress
 -- ds.h2: Learning
 
 - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-- Terms in FPM: https://www.youtube.com/watch?v=sjVJD3W8WyA
+- Terms in FASTN: https://www.youtube.com/watch?v=sjVJD3W8WyA
 - https://jvns.ca/blog/2022/09/06/send-network-packets-python-tun-tap/
 - https://linux.die.net/man/8/pppd
 
@@ -559,30 +559,30 @@ Status: In Progress
 
 Discussion With Amitu and Shobhit
 
-- Endpoint FPM URL proxy method
+- Endpoint FASTN URL proxy method
 - Django APP should be deployed
-- wasmtime as part of fpm, create non trivial application
+- wasmtime as part of fastn, create non trivial application
 - Abrar has to understand code Django, Auth Code, etc...
 
 -- ds.h2: Work
 
 - Clear Cache
   - Discussion Update: Done
-    - https://github.com/FifthTry/fpm/discussions/475
+    - https://github.com/FifthTry/fastn/discussions/475
   - Code and Testing: In progress
   - Documentation:
 
 - Connect with Aviral and Aditi for movie-db app
   - Status: Pending
 
-- TODO: https://github.com/FifthTry/fpm/discussions/457
+- TODO: https://github.com/FifthTry/fastn/discussions/457
   - https://discord.com/channels/793929082483769345/1013678563641262150
 
-- proxy method in fpm with actix
+- proxy method in fastn with actix
   - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 - wasmtime POC
-  - https://github.com/FifthTry/fpm/discussions/468
+  - https://github.com/FifthTry/fastn/discussions/468
   - Shobhit will work on it.
 
 - Clear Cache
@@ -620,7 +620,7 @@ If Possible:
 
 - Interpreter: Code understanding from Arpita
 
-- proxy method in fpm with actix
+- proxy method in fastn with actix
   - https://towardsdev.com/an-http-reverse-proxy-in-rust-with-the-actix-web-framework-a8c8d3979b3c
 
 - wasm POC
@@ -630,8 +630,8 @@ If Possible:
 
 -- ds.h1: 2 Sep 2022 Friday
 
-- [fpm clear cache]
-  - New discussion in fpm about clear cache api
+- [fastn clear cache]
+  - New discussion in fastn about clear cache api
   - Status: In Progress
 
 - Markdown color CSS fixes
@@ -655,10 +655,10 @@ If Possible:
 - FTD in terminal https://discord.com/channels/793929082483769345/1004332187996405770/1014752000480657448
 - Developer's Roadmap: https://github.com/kamranahmedse/developer-roadmap
 
-- [fpm --download-base-url CLI argument](https://github.com/FifthTry/fpm/discussions/457)
+- [fastn --download-base-url CLI argument](https://github.com/FifthTry/fastn/discussions/457)
   - Status: Done
 
-- [fpm clear cache]
+- [fastn clear cache]
   - Status: In Progress
 
 - Read: https://blog.jonudell.net/2022/08/27/github-for-english-teachers/

@@ -1,6 +1,6 @@
 -- ds.page: `mount-point` in Dependency
 
-Discussion: https://github.com/ftd-lang/fpm/discussions/550
+Discussion: https://github.com/ftd-lang/fastn/discussions/550
 
 Let's say if we have packages `abrark.com` and `fifthtry.github.io/todos`.
 `abrark.com` uses `fifthtry.github.io/todos`.
@@ -8,13 +8,13 @@ Let's say if we have packages `abrark.com` and `fifthtry.github.io/todos`.
 -- ftd.code: With mount-point
 land: ftd
 
--- fpm.package: abrark.com
+-- fastn.package: abrark.com
 
--- fpm.dependency: fifthtry.github.io/todos
+-- fastn.dependency: fifthtry.github.io/todos
 end-point: https://abrark-todos.herokuapps.com
 mount-point: /todos/
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 # Home:
 - Study: /study/
@@ -26,12 +26,12 @@ mount-point: /todos/
 -- ftd.code: Without mount-point
 land: ftd
 
--- fpm.package: abrark.com
+-- fastn.package: abrark.com
 
--- fpm.dependency: fifthtry.github.io/todos
+-- fastn.dependency: fifthtry.github.io/todos
 end-point: https://abrark-todos.herokuapps.com
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 # Home:
 - Study: /study/
@@ -40,10 +40,10 @@ end-point: https://abrark-todos.herokuapps.com
 
 
 
--- ftd.code: FPM.ftd
+-- ftd.code: FASTN.ftd
 land: ftd
 
--- fpm.package: fifthtry.github.io/todos
+-- fastn.package: fifthtry.github.io/todos
 needs-end-point: true
 
 ;; Apis will be
@@ -51,7 +51,7 @@ needs-end-point: true
 ;; /api/update-todo/
 ;; /api/todos/
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 # Todos: /
 - Add Todo: /add-todo/

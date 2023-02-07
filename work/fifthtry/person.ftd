@@ -1,4 +1,4 @@
--- import: fpm
+-- import: fastn
 
 -- ds.page: Person Test
 
@@ -11,7 +11,7 @@ $processor$: request-data
 
 
 -- ftd.text: $p.username
-color: $fpm.color.main.text
+color: $fastn.color.main.text
 
 -- ftd.integer: $p.age
-color: $fpm.color.main.text
+color: $fastn.color.main.text

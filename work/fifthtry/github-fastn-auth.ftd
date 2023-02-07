@@ -1,4 +1,4 @@
--- ds.page: FPM Auth with GitHub OAuth Protocol
+-- ds.page: FASTN Auth with GitHub OAuth Protocol
 
 -- ds.h1: How Common Auth System Works
 
@@ -30,11 +30,11 @@ has permission to access this page or not.
 - Need one table to maintain all the roles.
 
 
--- ds.h1: FPM with GitHub OAuth
+-- ds.h1: FASTN with GitHub OAuth
 
--- ds.h2: What is FPM?
+-- ds.h2: What is FASTN?
 
-FPM is a webserver which interpret FTD files into html, or you can say it as who
+FASTN is a webserver which interpret FTD files into html, or you can say it as who
 serves the FTD files.
 
 -- ds.h2: Why GitHub OAuth
@@ -57,21 +57,21 @@ By creating an OAuth App you has to ask scopes from user, which resources you
 want to access using his token.
 
 - Create an OAuth Application
-- Get the client id and secret key set them into the fpm
+- Get the client id and secret key set them into the fastn
 
 
--- ds.h2: Create the User Groups in FPM
+-- ds.h2: Create the User Groups in FASTN
 
 -- ftd.code: User Group
 lang: ftd
 
-\-- fpm.user-group: admin
+\-- fastn.user-group: admin
 github-team: admin
 
 
 -- ds.h2: Set User Group to A Route
 
--- fpm.sitemap:
+-- fastn.sitemap:
 
 - /admin/
   reader: admin

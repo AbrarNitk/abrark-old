@@ -1,13 +1,13 @@
 -- ds.page: Dynamic Parameters in Sitemap
 
 
-- Discussion: https://github.com/ftd-lang/fpm/discussions/311
+- Discussion: https://github.com/ftd-lang/fastn/discussions/311
 
 
--- ds.code: FPM.ftd
+-- ds.code: FASTN.ftd
 lang: ftd
 
-\-- fpm.dynamic-urls:
+\-- fastn.dynamic-urls:
 
 # Home
 url: /<string:username>/section/<integer:age>/
@@ -41,7 +41,7 @@ $processor$: request-data
 
 
 \-- ftd.text: $p.username
-color: $fpm.color.main.text
+color: $fastn.color.main.text
 
 \-- ftd.integer: $p.age
-color: $fpm.color.main.text
+color: $fastn.color.main.text

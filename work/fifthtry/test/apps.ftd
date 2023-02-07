@@ -1,8 +1,8 @@
--- import: fpm
+-- import: fastn
 
 -- ds.page: Apps
 
--- fpm.app-ui apps:
+-- fastn.app-ui apps:
 $always-include$: true
-$processor$: fpm-apps
+$processor$: fastn-apps
 

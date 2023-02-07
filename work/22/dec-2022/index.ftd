@@ -21,7 +21,7 @@
 -- ds.h3: Responsibilities for This Demo
 
 - async observer (main responsibility)
-- fpm to fastn
+- fastn to fastn
 - hostn deployment track with rithik
 - github auth docs with wasif
 - marketing meeting with amitu and ajit
@@ -41,13 +41,13 @@
 -- ds.h2: 29 Dec Thu
 
 - I have taken second half off, So will work till 1 only
-- fpm performance and code refactor
+- fastn performance and code refactor
 - Need to figure out why individual function is taking more time
 
 -- ds.h2: 28 Dec Wed
 
-- added tracing forest into fpm for logging
-- did many experiments for tracing in FPM
+- added tracing forest into fastn for logging
+- did many experiments for tracing in FASTN
 
 
 -- ds.h2: 27 Dec Tue
@@ -57,8 +57,8 @@
   - status: in progress
   - notes: have to complete this today
   - meeting-ganesh: done
-  - all the packages has to be changed, replace fpm with fastn
-  - FPM to fastn everywhere
+  - all the packages has to be changed, replace fastn with fastn
+  - FASTN to fastn everywhere
   - meeting-arpita: done
   - woff file is getting failed
   - she wrote a blog about the rust, i have to explore it
@@ -85,18 +85,18 @@
   - hostn and request-data processor
   - discussion-points:
   - are you able to pass user-id to endpoint?
-  - did you create a hostn repo and used fpm.app: controller
+  - did you create a hostn repo and used fastn.app: controller
   - what is the update on request-data processor for body
   - meeting-notes:
   - add the user-id in the Rust app, and pass the header accordingly
-  - X-FPM-USER-ID: get_from_cookie(req, github-username)
-  - PR reviewed: https://github.com/ftd-lang/fpm/pull/680/
+  - X-FASTN-USER-ID: get_from_cookie(req, github-username)
+  - PR reviewed: https://github.com/ftd-lang/fastn/pull/680/
   - query next should be handled for all the providers, need to connect with wasif for this
 
 -- ds.code:
 lang: ftd
 
-\-- fpm.app: Controller
+\-- fastn.app: Controller
 mount-point: /hosting/
 user-id: github-username or <platform-id>
 endpoint: <>
@@ -148,10 +148,10 @@ config: $ENV.DBURL
 - plan for fastn
   - status: discussion done
   - source code change
-  - github repo rename fpm.dev and fpm to fastn.io and fastn
-  - rename fpm to fastn for cli
-  - check all the scripts and github actions that are using fpm as cli
-  - change the domain fpm.dev to fastn.io
+  - github repo rename fastn.dev and fastn to fastn.io and fastn
+  - rename fastn to fastn for cli
+  - check all the scripts and github actions that are using fastn as cli
+  - change the domain fastn.dev to fastn.io
   - todo: more points to gather
   - inform on channel(team, social media) about the update
   - note:
@@ -160,7 +160,7 @@ config: $ENV.DBURL
 - explore observer and tracing
   - how to use tracing subscribers
   - how can we use async LocalKey for storing the data in the observer
-  - creates experiments in fpm with tracing and opentelemetry
+  - creates experiments in fastn with tracing and opentelemetry
 
 - meeting with arpita on different points
   - time: 30 mins
@@ -179,7 +179,7 @@ config: $ENV.DBURL
   - do you any problem in the problem statement about request-data and hostn
   using controller as an app?
   - doubts and clarity:
-  - user-id in `fpm.app`, it is configuration part
+  - user-id in `fastn.app`, it is configuration part
   - create one hostn repo and used controller an as app in it.
   - request-data processor, priority goes to url query params -> dynamic -> body
 
@@ -257,11 +257,11 @@ config: $ENV.DBURL
 
 - Note down all the points from all the demos and add them into /m/
   - List down all the features that we did the the demos
-  - fpm-auth, fpm-apps, fpm-sitemap, fpm-dependencies, fpm-package
-  - fpm-auth is better than others
-  - fpm-sitemap is comparable with Django
+  - fastn-auth, fastn-apps, fastn-sitemap, fastn-dependencies, fastn-package
+  - fastn-auth is better than others
+  - fastn-sitemap is comparable with Django
 
-- Move fpm.dev fastn
+- Move fastn.dev fastn
   - After ftd 0.3
 
 
@@ -269,7 +269,7 @@ config: $ENV.DBURL
 
 ## Today TODOs
 
-- FPM TOC Error in business repo
+- FASTN TOC Error in business repo
 - New styles in FTD
 - GitHub OAuth Documents
 - Market talking points with Amitu
@@ -302,7 +302,7 @@ I started late today: around 11:30, not feeling well.
   - status: Done
   - time: 12:00 to 12:30
   - Discussion:
-    - He is done with passing X-FPM-USER-ID
+    - He is done with passing X-FASTN-USER-ID
     - If user is not available, so create new user in Django
     - Deploy on Fly for now and map to hostn.com
     - Status: should be completed by EOD
@@ -331,7 +331,7 @@ I started late today: around 11:30, not feeling well.
 
 - Meeting With Rithik
   - Status: Done
-  - Need to give him clarity about passing GitHub User ID to FPM APP Service.
+  - Need to give him clarity about passing GitHub User ID to FASTN APP Service.
 
 - Meeting With Wasif
   - Status: pending
@@ -387,7 +387,7 @@ I started late today: around 11:30, not feeling well.
 
 
 ## Less priority today
-- fpm-auth docs, how to use and how did built it
+- fastn-auth docs, how to use and how did built it
 - 0.3 Integration with Arpita
 
 ## For Marketing Purpose
@@ -409,7 +409,7 @@ I started late today: around 11:30, not feeling well.
 - Pass the service api key, hopping already done, by passing from the env variables
 - Ask Amitu to provide the OAuth app credentials
 
-- [ ] Take download from Arpita, how to integrate FTD into FPM
+- [ ] Take download from Arpita, how to integrate FTD into FASTN
   - Time:
   - Status: Pending
   - Agenda: How can I work with import, processors and foreign variables
@@ -422,8 +422,8 @@ I started late today: around 11:30, not feeling well.
 - [x] Meeting with Rithik
   - Time: 12:15 to 12:40
   - Status: Pending
-  - Agenda: About FPM Controller Hosting Part
-  - Discussion: FPM proxy request is not going to fly.io, there is some issue
+  - Agenda: About FASTN Controller Hosting Part
+  - Discussion: FASTN proxy request is not going to fly.io, there is some issue
   for passing the
   - On Local host it os working fine
 
@@ -439,8 +439,8 @@ I started late today: around 11:30, not feeling well.
 - Video of how did I build wasm experiments
 
 - Need to think about it
-  - FPM Apps documentation
-  - How to provide the package name while using the FPM apps
+  - FASTN Apps documentation
+  - How to provide the package name while using the FASTN apps
 
 
 -- ds.h3: Meeting with Rithik
@@ -455,8 +455,8 @@ I started late today: around 11:30, not feeling well.
 
 - Fifthtry and Abrark deployment
   - Status: In Done
-  - Build new FPM binary
-  - Change the FPM Auth Configuration callback url
+  - Build new FASTN binary
+  - Change the FASTN Auth Configuration callback url
   - /auth/github/callback/
   - Time: 10:00 to 1:00
 
@@ -464,13 +464,13 @@ I started late today: around 11:30, not feeling well.
   - Passing the request and returning response
 - Wasif Telegram PR merging
   - Review and merge the PR
-- Rithik FPM Controller PR merging
+- Rithik FASTN Controller PR merging
   - Review and merge the PR
   - Take update from Rithik
 - Weekly Demo Day Planning at 11
-- Documentation for How to use GitHub OAuth with FPM
-  - Need to write a document in fpm.dev repository
-- FPM static image performance
+- Documentation for How to use GitHub OAuth with FASTN
+  - Need to write a document in fastn.dev repository
+- FASTN static image performance
 
 -- ds.h3: Demo Day Planning
 
@@ -478,14 +478,14 @@ I started late today: around 11:30, not feeling well.
 - Time: 11 to 11:40
 - Discord Support
   - Owner: Wasif
-- FPM Controller
+- FASTN Controller
   - Owner: Rithik
   - How do we invite team mate
-  - X-FPM-USER-ID support in FPM
+  - X-FASTN-USER-ID support in FASTN
   - service-api-key support
   - Need Fly support back
   - Run it on FifthTry
-- WASM support in FPM
+- WASM support in FASTN
   - Owner: Abrar
   - Subscription APP
 
@@ -499,7 +499,7 @@ I started late today: around 11:30, not feeling well.
   - For GitHub user team and access, a person has to add the github name the
   github team and controller service as well.
   - He is going to merge his own PRs
-  - Run controller service as fpm app
+  - Run controller service as fastn app
   - use fly.io on controller service
 
 -- ds.h3: Meeting With Wasif
@@ -515,19 +515,19 @@ I started late today: around 11:30, not feeling well.
 ## My Tasks
 
 - Wasm Experiments
-- Update latest FTD in FPM
-- Deploy AbrarK with latest FPM on Heroku
-- Deploy FifthTry with Latest FPM on Heroku
+- Update latest FTD in FASTN
+- Deploy AbrarK with latest FASTN on Heroku
+- Deploy FifthTry with Latest FASTN on Heroku
 - Help Rithik to run controller-service with dotcom
   - possibly deploy on heroku with GitHub Team access
 
 ## Topic: Rithik's Update
-- Agenda: Update for FPM-Controller Service
+- Agenda: Update for FASTN-Controller Service
 - Status: Done
 - Time: 12:00 to 12:30
 
 ### Details and Meeting Notes
-- I have to update latest ftd in fpm
+- I have to update latest ftd in fastn
 - He almost completed all the APIs
 - We will do the Mac Setup Together
 - Amitu's Feedback
@@ -554,7 +554,7 @@ I started late today: around 11:30, not feeling well.
   - Problem with that is user has to use two login button ftd one and telegram
   widget one
 - Today he is going to complete telegram-family api and show the demo
-- I have to do some refactoration for FPM Auth and cookies
+- I have to do some refactoration for FASTN Auth and cookies
 
 
 -- ds.h2: 1 Thursday

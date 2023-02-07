@@ -36,9 +36,9 @@
 
 -- ds.h1: 2 Feb
 
-- fpm.dev to fastn.io
+- fastn.dev to fastn.io
   - status: done
-  - code changes in fpm.dev repository
+  - code changes in fastn.dev repository
   - repo rename
   - mapping with fastn.io domain
 

@@ -1,7 +1,7 @@
 -- ds.page: Jan Goals
 
 - processors
-- fpm performance
+- fastn performance
 - hackernews remaining articles
 - tmux setup
 - nvim editor setup and commands

@@ -1,0 +1,14 @@
+-- ds.h1: FASTN
+
+- I need proper FASTN docs now
+  - FASTN Auth
+  - FASTN Apps
+  - FASTN Sitemap
+  - FASTN WASM Apps
+  - FASTN Logs
+  - FASTN Events
+  - Sidecar pattern for logs
+  - FTD Integration
+  - R2D2 for events and Observer(Observer in async domain)
+  - Docs and rewrite the code
+

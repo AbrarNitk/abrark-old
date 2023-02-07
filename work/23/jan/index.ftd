@@ -3,7 +3,7 @@
 -- ds.h1: 31 Jan
 
 - hostn static page live 
-- fpm to fastn rename
+- fastn to fastn rename
 
 - `package-doc` <https://github.com/FifthTry/package-doc/pull/15> 1. deployed(<https://fifthtry.github.io/package-doc/>)
 - `code-block` <https://github.com/FifthTry/code-block/pull/6> 4. deployed(<https://fifthtry.github.io/code-block/>)
@@ -19,7 +19,7 @@
 - `admonitions` <https://github.com/FifthTry/admonitions/pull/6> 11. deployed(https://fifthtry.github.io/admonitions/)
 - `bling` <https://github.com/FifthTry/bling/pull/21> 12. deployed(<https://fifthtry.github.io/bling/>)
 - `demo-day` <https://github.com/FifthTry/demo-day/pull/16> 13. deployed(<https://fifthtry.github.io/demo-day/>)
-    - rename `fpm-ui` to `fastn-ui` done
+    - rename `fastn-ui` to `fastn-ui` done
 - `fifthtry-brand-switcher` <https://github.com/FifthTry/fifthtry-brand-switcher/pull/8> 14. deployed(<https://fifthtry.github.io/fifthtry-brand-switcher/>)
 - `blog-components` <https://github.com/FifthTry/blog-components/pull/8> 15. deployed(<https://fifthtry.github.io/blog-components/>)
 - `common` <https://github.com/FifthTry/common/pull/3> 16. deployed(<https://fifthtry.github.io/common/>)
@@ -41,22 +41,22 @@
 - then deploy dotcom, doc-site, and fastn.io
 
 - fastn
-  - source code changes in fpm
+  - source code changes in fastn
     - status: done
   - repo rename
     - status: pending
   - cli rename
     - status: done
-  - fpm rename in build action
+  - fastn rename in build action
     - status: done
   - install.sh
     - status: done
   - changes in dotcom and docsite and related packages
     - status: in progress
-  - all the packages that are using fpm has to change with fastn
-  - FPM.ftd to FASTN.ftd in all the packages and in code base also
-  - check all the scritps/actions that are using fpm cli
-  - domain rename fpm.dev to fast.io
+  - all the packages that are using fastn has to change with fastn
+  - FASTN.ftd to FASTN.ftd in all the packages and in code base also
+  - check all the scritps/actions that are using fastn cli
+  - domain rename fastn.dev to fast.io
   - need to publish the fastn crate on crates.io
 
 
@@ -64,14 +64,14 @@
 -- ds.h1: 30th Jan
 
 - fastn
-  - source code changes in fpm
+  - source code changes in fastn
   - repo rename
   - cli rename
-  - fpm rename in build action
-  - all the packages that are using fpm has to change with fastn
-  - FPM.ftd to FASTN.ftd in all the packages and in code base also
-  - check all the scritps/actions that are using fpm cli
-  - domain rename fpm.dev to fast.io
+  - fastn rename in build action
+  - all the packages that are using fastn has to change with fastn
+  - FASTN.ftd to FASTN.ftd in all the packages and in code base also
+  - check all the scritps/actions that are using fastn cli
+  - domain rename fastn.dev to fast.io
   - need to publish the fastn crate on crates.io
 
 - demo day planning
@@ -129,7 +129,7 @@
 
 
 - meeting with rithik
-  - fpm-controller-ui for ftd files and 
+  - fastn-controller-ui for ftd files and 
   - controller-service for backend
   - controller-docs for documentation
   - api calling and instances
@@ -141,10 +141,10 @@
 
 -- ds.h1: 17th Demo Day 
 
-- fpm sqlite processors and more processors imported to ftd 0.3
+- fastn sqlite processors and more processors imported to ftd 0.3
 - ftd performance testing
-- fpm parsed document cache
-- fpm logs and tracing
+- fastn parsed document cache
+- fastn logs and tracing
 
 
 -- ds.h1: 20th Friday
@@ -155,8 +155,8 @@
 -- ds.h1: 19th Jan
 
 - ftd performance
-- added parsed document cache in the fpm nd changes in ftd also
-- fpm logs like nginx logs
+- added parsed document cache in the fastn nd changes in ftd also
+- fastn logs like nginx logs
 
 
 -- ds.h1: 18th Jan
@@ -167,13 +167,13 @@
 
 -- ds.h1: 17th Jan
 
-- fpm and ftd performance testing
+- fastn and ftd performance testing
 - ftd.dev and other static file testing
 
 
 -- ds.h1: 16th Jan
 
-- fpm and ftd performance testing
+- fastn and ftd performance testing
 
 -- ds.h1: 11th Wed
 
@@ -209,8 +209,8 @@
   - status: done
   - points:
   - majorly we discussed about to deliver ftd:0.3
-  - then we have to work on the performance of ftd and fpm
-  - then I will create a installer for fpm windows, mac and ubuntu
+  - then we have to work on the performance of ftd and fastn
+  - then I will create a installer for fastn windows, mac and ubuntu
 
 -- ds.h1: 16th Demo Day Planning
 
@@ -220,18 +220,18 @@
   - discussion-points:
   - whatever we have, make it more solid
   - 0.3 should be completed
-  - fpm performance
+  - fastn performance
   - 0.3 will take more of 2 days, processors are remaining
-  - project: create fpm installer
-  - if possible: brew install fpm, pip install fpm, apt-get install fpm
+  - project: create fastn installer
+  - if possible: brew install fastn, pip install fastn, apt-get install fastn
   - from bowser download the installer and install the binary
-  - need to solve: fpm self update
-  - we can put fpm-controller for back now
+  - need to solve: fastn self update
+  - we can put fastn-controller for back now
   - we have to focus on workshops now
   - editor: content editor people, etc...
   - editor: syntax highlighting for ftd etc...
   - we can have ftd files depends on javascript
-  - we can take VSCode and integrate it with fpm editor
+  - we can take VSCode and integrate it with fastn editor
   - educate people ftd
 
 - rithik will work on editor
@@ -275,7 +275,7 @@
   - pending: rust mdbook convert
   - points:
   - we will different issues, for image, list, and table, etc...
-  - for now we will only work for headings, para and summary to FPM.ftd file
+  - for now we will only work for headings, para and summary to FASTN.ftd file
 
 -- ds.h1: 05 Thu
 
@@ -307,7 +307,7 @@
 
 - fixed http-example for package endpoint
 
-- fpm processors
+- fastn processors
   - status: pending meeting with arpita
   - different processors
   - http, sitemap and all
@@ -322,9 +322,9 @@
   - docs: how to use this service
 
 - my tasks
-  - fpm meaningful logging
-  - fpm performance
-  - fpm code refactor accordingly
+  - fastn meaningful logging
+  - fastn performance
+  - fastn code refactor accordingly
   - explore vercel cli tool to deploy on vercel and write an article
     - link: https://vercel.com/docs/cli/deploy
 
@@ -367,13 +367,13 @@ lang: ftd
 -- ds.h1: 02 Mon
 
 - my tasks
-  - fpm meaningful logging
-  - fpm performance
-  - fpm code refactor accordingly
+  - fastn meaningful logging
+  - fastn performance
+  - fastn code refactor accordingly
   - explore vercel cli tool to deploy on vercel and write an article
     - link: https://vercel.com/docs/cli/deploy
 
-- fpm processors
+- fastn processors
   - status: pending meeting with arpita
   - different processors
   - http, sitemap and all
@@ -392,7 +392,7 @@ lang: ftd
   - status: done
   - time: 12:00 to 12:10
   - meeting-points:
-  - rithik has to figured out how integrate VSCode in FPM
+  - rithik has to figured out how integrate VSCode in FASTN
   - shared some of the references with him
   - vscode.dev, how github is doing, how stackblitz is doing
   - https://microsoft.github.io/monaco-editor/
@@ -416,17 +416,17 @@ lang: ftd
   - or have to create multiple domains foo.local.com
   - and then based on host reroute the requests
   - editor also can have log viewer
-  - fpm launcher | installer
-  - fpm is equally git
-  - `fastn | fpm` desktop app
+  - fastn launcher | installer
+  - fastn is equally git
+  - `fastn | fastn` desktop app
   - launcher:
   - all the port that starts with `:8000` api /whoami/, it will return the path and package name
-  - fpm desktop app is also running on fpm
-  - it will also install fpm-desktop app(ftd file and fpm binary) and run 5432 controller port
-  - only single instance will be run of fpm desktop
+  - fastn desktop app is also running on fastn
+  - it will also install fastn-desktop app(ftd file and fastn binary) and run 5432 controller port
+  - only single instance will be run of fastn desktop
   - launch the browser localhost:5432
   - check how many processor are running
-  - create a new fpm server
+  - create a new fastn server
     - new folder or create a new package
     - we can fix all the ports
     - tauri powered app, it is an electron alternativs

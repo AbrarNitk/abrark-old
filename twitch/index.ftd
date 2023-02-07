@@ -1,4 +1,4 @@
--- import: fpm
+-- import: fastn
 
 -- ds.page: How To Twitch
 
@@ -7,7 +7,7 @@
 
 -- ds.markdown:
 
-- fpm as http server and runtime for ftd file
+- fastn as http server and runtime for ftd file
 - ftd: is programming language that interprets to JavaScript
 
 -- ds.h1: Processors
@@ -32,7 +32,7 @@ url: https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&o
 
 
 -- ftd.text: $timer-data.product
-color: $fpm.color.main.background.base
+color: $fastn.color.main.background.base
 
 
 

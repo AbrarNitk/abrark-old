@@ -12,7 +12,7 @@
 lang: ftd
 
 
-\-- fpm.sitemap:
+\-- fastn.sitemap:
 
 # Section: /
 ## Subsection: /subsection/
@@ -30,11 +30,11 @@ lang: ftd
 -- ftd.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/todos
+\-- fastn.dependency: fifthtry.github.io/todos
 mount-point: /todos/
 
 
-\-- fpm.sitemap:
+\-- fastn.sitemap:
 
 # Section: /
 ## Subsection: /subsection/
@@ -103,7 +103,7 @@ Three cases are going to happen in case of mount-point
 
 http processor: Direct call to service
 
-In this case it will directly call the service. Request will not be served by fpm.
+In this case it will directly call the service. Request will not be served by fastn.
 
 -- ftd.code:
 lang: ftd
@@ -118,7 +118,7 @@ url: http://127.0.0.1:8001/api/todos/
 
 http processor: Call with package-name
 
-In that case it will figure out the `endpoint` in FPM.ftd by using package name
+In that case it will figure out the `endpoint` in FASTN.ftd by using package name
 `fifthtry.github.io/todos`, and it will call the `endpoint/api/todos/`.
 
 
@@ -135,7 +135,7 @@ url: /-/fifthtry.github.io/todos/api/todos/
 
 http processor: Call with mount-point
 
-In that case it will figure out the `endpoint` in FPM.ftd by using mount-point
+In that case it will figure out the `endpoint` in FASTN.ftd by using mount-point
 prefix of the url `/todos/api/todos/`, and it will call the `endpoint/api/todos/`.
 
 Not possible: Rejected
