@@ -4,7 +4,8 @@
 
 - reading news
 - hostn static reader
-
+- using hyper for reader hsr
+- need to understand the streaming in rust
 
 -- ds.h1: Tue 7th Feb
 
