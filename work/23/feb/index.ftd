@@ -1,6 +1,39 @@
 -- ds.page: Work Daily Update Jan 2023
 
--- ds.h1:
+-- ds.h1: 13th Feb
+
+- today work:
+- tejar library changes
+- hsr deployment
+
+- demo day planning
+  - fifthtry home page changes
+  - it will contain fastn, hostn, and about FTD links and summary of the page
+  - figma json to FTD
+  - growisto-course
+  - fastn semantic versioning
+  - background-repeat
+  - scale
+  - background-image
+  - image crop
+  - text-style
+  - rotate
+  - shadow
+  - background-gradient
+  - fastn don't use continue on fail or --ignore
+  - list style
+  - 
+- abrark: hsr and hsw
+  - tejar checksum and error changes
+  - hsr invalidate cache
+  - hsr: deploy & test with domains
+  - publish-static: writer
+  - publish-static: cli integration
+  - publish-static: github action
+
+
+
+-- ds.h1: 8th Feb
 
 - reading news
 - hostn static reader
