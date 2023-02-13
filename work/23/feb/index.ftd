@@ -34,8 +34,8 @@
 
 
 - abrark: hsr and hsw
-  - tejar checksum and error changes
-  - hsr invalidate cache
+  - done: tejar checksum and error changes
+  - done: hsr invalidate cache
   - hsr: deploy & test with domains
   - publish-static: writer
   - publish-static: cli integration
