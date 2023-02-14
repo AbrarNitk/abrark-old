@@ -1,5 +1,47 @@
 -- ds.page: Hostn Planning
 
+
+-- ds.h1: Hostn Static
+
+-- ds.h2: Reader Service
+
+- deployed on fly
+- tejar
+  - todo: compression logic
+- todo: host can domain or sub-domain, and on client machine it can contain
+  port also: get-package-name from host
+- s3 integration for reading files
+  - hsr service will conatin the aws keys
+  - min-io rs integration
+
+-- ds.h2: Writer Service
+
+
+-- ds.h3: hsw
+
+- http Service
+- publish-static api
+- login api
+- s3 integration
+- fly api integration for sub-domain and certificate registration
+- depoy this service to heroku or Fly.io
+
+
+-- ds.h3: fastn changes
+
+- fastn hostn-login
+  - an api call
+  - keep local credentials per package
+- fastn publish-static
+  - get all the files from build
+  - pass them to tejar
+  - upload them to hsw
+  - an api call api.hostn.com/publish-static/?package-name=<p>
+
+
+-- ds.h1: Old Content
+
+
 -- ds.h1: Personal Plan
 
 - renams the projects and move the documents to existing projects
@@ -95,7 +137,6 @@ we should first build the free version of it with shared hosting.
 
 - provide shared hosting
 - without pricing
-- 
 
--- end: page
+-- end: ds.page
 
