@@ -17,7 +17,7 @@
 -- ds.h2: Writer Service
 
 
--- ds.h3: hsw
+-- ds.h3: fastn-cw
 
 - http Service
 - publish-static api
@@ -29,7 +29,7 @@
 
 -- ds.h3: fastn changes
 
-- fastn hostn-login
+- fastn login
   - an api call
   - keep local credentials per package
 - fastn publish-static
@@ -37,6 +37,14 @@
   - pass them to tejar
   - upload them to hsw
   - an api call api.hostn.com/publish-static/?package-name=<p>
+
+
+-- ds.h1:
+
+- hsr: static-hosting
+  - can be used for non fastn static sites
+  - privacy.json to add privacy/access control to any static site
+- fastn-cw: 
 
 
 -- ds.h1: Old Content
