@@ -1,0 +1,14 @@
+-- ds.page: Monday Planning
+
+
+- abrark
+- generate the key by providing the package-name
+- publish-static writer 
+- fastn-cw: limits
+- fastn-static: cli integration
+- hsr: logging, tracing, sentry, alerting
+- concurrent uploads
+- fastn-cw github action
+
+
+-- end: ds.page
