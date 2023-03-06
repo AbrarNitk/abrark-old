@@ -8,7 +8,7 @@
 - deployed on fly
 - tejar
   - todo: compression logic
-- todo: host can domain or sub-domain, and on client machine it can contain
+- todo: host can contain domain or sub-domain, and on client machine it can contain
   port also: get-package-name from host
 - s3 integration for reading files
   - hsr service will conatin the aws keys

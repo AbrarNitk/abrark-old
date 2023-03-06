@@ -1,0 +1,19 @@
+-- ds.page: March Work Updates
+
+-- ds.h1: 6 Mar 2023
+
+-- ds.h2: HSR
+
+- Domain Cache Changes
+  - Domain Cache<Domain, Option<CWID, ts>>
+  - If resolving any domain does not found as domain.txt in bucket file
+    mark this cache as not found and put an entry that domain not found.
+  - Another is we have to udpate this cache according to updated-package
+    files, we are downloading a files updated-packages.txt files 
+    every minute and this file contain an entry domain|cwid|ts 
+    update the domain cache according to the entries found in this file.
+
+- List Cache
+  - TODO:
+
+-- end: ds.page
